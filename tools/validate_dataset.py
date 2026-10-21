@@ -10,7 +10,7 @@ missing = []
 invalid = []
 case_count = 0
 seen_ids = set()
-manifests = sorted((ROOT / "datasets").glob("*.manifest.json"))
+manifests = sorted((ROOT / "datasets").rglob("*.manifest.json"))
 for manifest_path in manifests:
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     source_path = manifest_path.with_name(manifest_path.name.replace(".manifest.json", ".cpp"))

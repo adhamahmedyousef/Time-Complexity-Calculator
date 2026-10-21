@@ -1,0 +1,446 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "g8_stlSortScan_10",
+   "symbol": "g8_stlSortScan_10",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "sort"
+   ]
+  },
+  {
+   "id": "g8_stlReverse_10",
+   "symbol": "g8_stlReverse_10",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "reverse"
+   ]
+  },
+  {
+   "id": "g8_stlSortOnly_10",
+   "symbol": "g8_stlSortOnly_10",
+   "time": "O(n log n)",
+   "space": "Unknown",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "sort"
+   ]
+  },
+  {
+   "id": "g8_stlAccumulate_10",
+   "symbol": "g8_stlAccumulate_10",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "accumulate"
+   ]
+  },
+  {
+   "id": "g8_stlMinElement_10",
+   "symbol": "g8_stlMinElement_10",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "min_element"
+   ]
+  },
+  {
+   "id": "g8_stlMaxElement_10",
+   "symbol": "g8_stlMaxElement_10",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "max_element"
+   ]
+  },
+  {
+   "id": "g8_stlCount_10",
+   "symbol": "g8_stlCount_10",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "count"
+   ]
+  },
+  {
+   "id": "g8_stlFind_10",
+   "symbol": "g8_stlFind_10",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "find"
+   ]
+  },
+  {
+   "id": "g8_stlSortScan_11",
+   "symbol": "g8_stlSortScan_11",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "sort"
+   ]
+  },
+  {
+   "id": "g8_stlReverse_11",
+   "symbol": "g8_stlReverse_11",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "reverse"
+   ]
+  },
+  {
+   "id": "g8_stlSortOnly_11",
+   "symbol": "g8_stlSortOnly_11",
+   "time": "O(n log n)",
+   "space": "Unknown",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "sort"
+   ]
+  },
+  {
+   "id": "g8_stlAccumulate_11",
+   "symbol": "g8_stlAccumulate_11",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "accumulate"
+   ]
+  },
+  {
+   "id": "g8_stlMinElement_11",
+   "symbol": "g8_stlMinElement_11",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "min_element"
+   ]
+  },
+  {
+   "id": "g8_stlMaxElement_11",
+   "symbol": "g8_stlMaxElement_11",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "max_element"
+   ]
+  },
+  {
+   "id": "g8_stlCount_11",
+   "symbol": "g8_stlCount_11",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "count"
+   ]
+  },
+  {
+   "id": "g8_stlFind_11",
+   "symbol": "g8_stlFind_11",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "find"
+   ]
+  },
+  {
+   "id": "g8_stlSortScan_12",
+   "symbol": "g8_stlSortScan_12",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "sort"
+   ]
+  },
+  {
+   "id": "g8_stlReverse_12",
+   "symbol": "g8_stlReverse_12",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "reverse"
+   ]
+  },
+  {
+   "id": "g8_stlSortOnly_12",
+   "symbol": "g8_stlSortOnly_12",
+   "time": "O(n log n)",
+   "space": "Unknown",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "sort"
+   ]
+  },
+  {
+   "id": "g8_stlAccumulate_12",
+   "symbol": "g8_stlAccumulate_12",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "accumulate"
+   ]
+  },
+  {
+   "id": "g8_stlMinElement_12",
+   "symbol": "g8_stlMinElement_12",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "min_element"
+   ]
+  },
+  {
+   "id": "g8_stlMaxElement_12",
+   "symbol": "g8_stlMaxElement_12",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "max_element"
+   ]
+  },
+  {
+   "id": "g8_stlCount_12",
+   "symbol": "g8_stlCount_12",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "count"
+   ]
+  },
+  {
+   "id": "g8_stlFind_12",
+   "symbol": "g8_stlFind_12",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "find"
+   ]
+  },
+  {
+   "id": "g8_stlSortScan_13",
+   "symbol": "g8_stlSortScan_13",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "sort"
+   ]
+  },
+  {
+   "id": "g8_stlReverse_13",
+   "symbol": "g8_stlReverse_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "reverse"
+   ]
+  },
+  {
+   "id": "g8_stlSortOnly_13",
+   "symbol": "g8_stlSortOnly_13",
+   "time": "O(n log n)",
+   "space": "Unknown",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "sort"
+   ]
+  },
+  {
+   "id": "g8_stlAccumulate_13",
+   "symbol": "g8_stlAccumulate_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "accumulate"
+   ]
+  },
+  {
+   "id": "g8_stlMinElement_13",
+   "symbol": "g8_stlMinElement_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "min_element"
+   ]
+  },
+  {
+   "id": "g8_stlMaxElement_13",
+   "symbol": "g8_stlMaxElement_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "max_element"
+   ]
+  },
+  {
+   "id": "g8_stlCount_13",
+   "symbol": "g8_stlCount_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "count"
+   ]
+  },
+  {
+   "id": "g8_stlFind_13",
+   "symbol": "g8_stlFind_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "find"
+   ]
+  },
+  {
+   "id": "g8_stlSortScan_14",
+   "symbol": "g8_stlSortScan_14",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "sort"
+   ]
+  },
+  {
+   "id": "g8_stlReverse_14",
+   "symbol": "g8_stlReverse_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "reverse"
+   ]
+  },
+  {
+   "id": "g8_stlSortOnly_14",
+   "symbol": "g8_stlSortOnly_14",
+   "time": "O(n log n)",
+   "space": "Unknown",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "sort"
+   ]
+  },
+  {
+   "id": "g8_stlAccumulate_14",
+   "symbol": "g8_stlAccumulate_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "accumulate"
+   ]
+  },
+  {
+   "id": "g8_stlMinElement_14",
+   "symbol": "g8_stlMinElement_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "min_element"
+   ]
+  },
+  {
+   "id": "g8_stlMaxElement_14",
+   "symbol": "g8_stlMaxElement_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "max_element"
+   ]
+  },
+  {
+   "id": "g8_stlCount_14",
+   "symbol": "g8_stlCount_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "count"
+   ]
+  },
+  {
+   "id": "g8_stlFind_14",
+   "symbol": "g8_stlFind_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "find"
+   ]
+  }
+ ]
+}

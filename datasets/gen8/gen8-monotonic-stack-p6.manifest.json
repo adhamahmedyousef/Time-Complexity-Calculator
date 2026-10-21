@@ -1,0 +1,456 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "g8_nextGreater_25",
+   "symbol": "g8_nextGreater_25",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic-stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_prevGreater_25",
+   "symbol": "g8_prevGreater_25",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic-stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_stackDrain_25",
+   "symbol": "g8_stackDrain_25",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_queueDrain_25",
+   "symbol": "g8_queueDrain_25",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "queue",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_pqueueDrain_25",
+   "symbol": "g8_pqueueDrain_25",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "priority-queue",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_dequePop_25",
+   "symbol": "g8_dequePop_25",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "deque",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_stackWipe_25",
+   "symbol": "g8_stackWipe_25",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "g8_monoVec_25",
+   "symbol": "g8_monoVec_25",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "vector",
+    "monotonic-stack"
+   ]
+  },
+  {
+   "id": "g8_nextGreater_26",
+   "symbol": "g8_nextGreater_26",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic-stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_prevGreater_26",
+   "symbol": "g8_prevGreater_26",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic-stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_stackDrain_26",
+   "symbol": "g8_stackDrain_26",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_queueDrain_26",
+   "symbol": "g8_queueDrain_26",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "queue",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_pqueueDrain_26",
+   "symbol": "g8_pqueueDrain_26",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "priority-queue",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_dequePop_26",
+   "symbol": "g8_dequePop_26",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "deque",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_stackWipe_26",
+   "symbol": "g8_stackWipe_26",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "g8_monoVec_26",
+   "symbol": "g8_monoVec_26",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "vector",
+    "monotonic-stack"
+   ]
+  },
+  {
+   "id": "g8_nextGreater_27",
+   "symbol": "g8_nextGreater_27",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic-stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_prevGreater_27",
+   "symbol": "g8_prevGreater_27",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic-stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_stackDrain_27",
+   "symbol": "g8_stackDrain_27",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_queueDrain_27",
+   "symbol": "g8_queueDrain_27",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "queue",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_pqueueDrain_27",
+   "symbol": "g8_pqueueDrain_27",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "priority-queue",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_dequePop_27",
+   "symbol": "g8_dequePop_27",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "deque",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_stackWipe_27",
+   "symbol": "g8_stackWipe_27",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "g8_monoVec_27",
+   "symbol": "g8_monoVec_27",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "vector",
+    "monotonic-stack"
+   ]
+  },
+  {
+   "id": "g8_nextGreater_28",
+   "symbol": "g8_nextGreater_28",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic-stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_prevGreater_28",
+   "symbol": "g8_prevGreater_28",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic-stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_stackDrain_28",
+   "symbol": "g8_stackDrain_28",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_queueDrain_28",
+   "symbol": "g8_queueDrain_28",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "queue",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_pqueueDrain_28",
+   "symbol": "g8_pqueueDrain_28",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "priority-queue",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_dequePop_28",
+   "symbol": "g8_dequePop_28",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "deque",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_stackWipe_28",
+   "symbol": "g8_stackWipe_28",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "g8_monoVec_28",
+   "symbol": "g8_monoVec_28",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "vector",
+    "monotonic-stack"
+   ]
+  },
+  {
+   "id": "g8_nextGreater_29",
+   "symbol": "g8_nextGreater_29",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic-stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_prevGreater_29",
+   "symbol": "g8_prevGreater_29",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic-stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_stackDrain_29",
+   "symbol": "g8_stackDrain_29",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_queueDrain_29",
+   "symbol": "g8_queueDrain_29",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "queue",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_pqueueDrain_29",
+   "symbol": "g8_pqueueDrain_29",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "priority-queue",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_dequePop_29",
+   "symbol": "g8_dequePop_29",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "deque",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_stackWipe_29",
+   "symbol": "g8_stackWipe_29",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "g8_monoVec_29",
+   "symbol": "g8_monoVec_29",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "vector",
+    "monotonic-stack"
+   ]
+  }
+ ]
+}

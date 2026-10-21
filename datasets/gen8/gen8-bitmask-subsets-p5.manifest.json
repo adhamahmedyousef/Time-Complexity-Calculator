@@ -1,0 +1,446 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "g8_maskIter_20",
+   "symbol": "g8_maskIter_20",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential"
+   ]
+  },
+  {
+   "id": "g8_maskCount_20",
+   "symbol": "g8_maskCount_20",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential"
+   ]
+  },
+  {
+   "id": "g8_maskScanBits_20",
+   "symbol": "g8_maskScanBits_20",
+   "time": "O(n 2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential"
+   ]
+  },
+  {
+   "id": "g8_bitIterate_20",
+   "symbol": "g8_bitIterate_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitwise",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_allSubmasks_20",
+   "symbol": "g8_allSubmasks_20",
+   "time": "O(3^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "submasks"
+   ]
+  },
+  {
+   "id": "g8_maskVectorAlloc_20",
+   "symbol": "g8_maskVectorAlloc_20",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential-space"
+   ]
+  },
+  {
+   "id": "g8_clearLowBit_20",
+   "symbol": "g8_clearLowBit_20",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits",
+    "halving"
+   ]
+  },
+  {
+   "id": "g8_singleMaskSweep_20",
+   "symbol": "g8_singleMaskSweep_20",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential"
+   ]
+  },
+  {
+   "id": "g8_maskIter_21",
+   "symbol": "g8_maskIter_21",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential"
+   ]
+  },
+  {
+   "id": "g8_maskCount_21",
+   "symbol": "g8_maskCount_21",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential"
+   ]
+  },
+  {
+   "id": "g8_maskScanBits_21",
+   "symbol": "g8_maskScanBits_21",
+   "time": "O(n 2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential"
+   ]
+  },
+  {
+   "id": "g8_bitIterate_21",
+   "symbol": "g8_bitIterate_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitwise",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_allSubmasks_21",
+   "symbol": "g8_allSubmasks_21",
+   "time": "O(3^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "submasks"
+   ]
+  },
+  {
+   "id": "g8_maskVectorAlloc_21",
+   "symbol": "g8_maskVectorAlloc_21",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential-space"
+   ]
+  },
+  {
+   "id": "g8_clearLowBit_21",
+   "symbol": "g8_clearLowBit_21",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits",
+    "halving"
+   ]
+  },
+  {
+   "id": "g8_singleMaskSweep_21",
+   "symbol": "g8_singleMaskSweep_21",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential"
+   ]
+  },
+  {
+   "id": "g8_maskIter_22",
+   "symbol": "g8_maskIter_22",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential"
+   ]
+  },
+  {
+   "id": "g8_maskCount_22",
+   "symbol": "g8_maskCount_22",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential"
+   ]
+  },
+  {
+   "id": "g8_maskScanBits_22",
+   "symbol": "g8_maskScanBits_22",
+   "time": "O(n 2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential"
+   ]
+  },
+  {
+   "id": "g8_bitIterate_22",
+   "symbol": "g8_bitIterate_22",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitwise",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_allSubmasks_22",
+   "symbol": "g8_allSubmasks_22",
+   "time": "O(3^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "submasks"
+   ]
+  },
+  {
+   "id": "g8_maskVectorAlloc_22",
+   "symbol": "g8_maskVectorAlloc_22",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential-space"
+   ]
+  },
+  {
+   "id": "g8_clearLowBit_22",
+   "symbol": "g8_clearLowBit_22",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits",
+    "halving"
+   ]
+  },
+  {
+   "id": "g8_singleMaskSweep_22",
+   "symbol": "g8_singleMaskSweep_22",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential"
+   ]
+  },
+  {
+   "id": "g8_maskIter_23",
+   "symbol": "g8_maskIter_23",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential"
+   ]
+  },
+  {
+   "id": "g8_maskCount_23",
+   "symbol": "g8_maskCount_23",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential"
+   ]
+  },
+  {
+   "id": "g8_maskScanBits_23",
+   "symbol": "g8_maskScanBits_23",
+   "time": "O(n 2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential"
+   ]
+  },
+  {
+   "id": "g8_bitIterate_23",
+   "symbol": "g8_bitIterate_23",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitwise",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_allSubmasks_23",
+   "symbol": "g8_allSubmasks_23",
+   "time": "O(3^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "submasks"
+   ]
+  },
+  {
+   "id": "g8_maskVectorAlloc_23",
+   "symbol": "g8_maskVectorAlloc_23",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential-space"
+   ]
+  },
+  {
+   "id": "g8_clearLowBit_23",
+   "symbol": "g8_clearLowBit_23",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits",
+    "halving"
+   ]
+  },
+  {
+   "id": "g8_singleMaskSweep_23",
+   "symbol": "g8_singleMaskSweep_23",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential"
+   ]
+  },
+  {
+   "id": "g8_maskIter_24",
+   "symbol": "g8_maskIter_24",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential"
+   ]
+  },
+  {
+   "id": "g8_maskCount_24",
+   "symbol": "g8_maskCount_24",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential"
+   ]
+  },
+  {
+   "id": "g8_maskScanBits_24",
+   "symbol": "g8_maskScanBits_24",
+   "time": "O(n 2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential"
+   ]
+  },
+  {
+   "id": "g8_bitIterate_24",
+   "symbol": "g8_bitIterate_24",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitwise",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_allSubmasks_24",
+   "symbol": "g8_allSubmasks_24",
+   "time": "O(3^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "submasks"
+   ]
+  },
+  {
+   "id": "g8_maskVectorAlloc_24",
+   "symbol": "g8_maskVectorAlloc_24",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential-space"
+   ]
+  },
+  {
+   "id": "g8_clearLowBit_24",
+   "symbol": "g8_clearLowBit_24",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits",
+    "halving"
+   ]
+  },
+  {
+   "id": "g8_singleMaskSweep_24",
+   "symbol": "g8_singleMaskSweep_24",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bitmask",
+    "exponential"
+   ]
+  }
+ ]
+}

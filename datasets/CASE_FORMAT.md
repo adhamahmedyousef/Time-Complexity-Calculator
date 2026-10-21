@@ -9,7 +9,7 @@ datasets/cpp-<family>.manifest.json
 
 Every function in the C++ file has exactly one manifest entry. Use original code you wrote, or code with an explicit compatible license and source record; do not paste judge submissions.
 
-For the 10,000-case program, submit batches by algorithm family (50–200 cases per pair). Keep reviewed base cases separate from generated syntax variants. A variant improves robustness, but does not count as a new algorithm family.
+For the 10,000-case program, submit batches by algorithm family (50-200 cases per pair). Keep reviewed base cases separate from generated syntax variants. A variant improves robustness, but does not count as a new algorithm family.
 
 ## Manifest template
 

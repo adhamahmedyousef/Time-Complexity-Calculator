@@ -1,8 +1,8 @@
 # Project-X analyzer performance comparison (BEFORE vs AFTER)
 
-- BEFORE run: round7-before3 (best-of-3 merge: round7-before1, round7-before2, round7-before3) — 2026-10-18T21:35:30.609Z → 2026-10-18T21:39:04.629Z — dist `C:\Users\j\OneDrive\Desktop\Project-X\benchmarks\baseline-snapshot\analyzer\dist\index.js`
-- AFTER run: round7-after3 (best-of-3 merge: round7-after1, round7-after2, round7-after3) — 2026-10-18T21:36:17.436Z → 2026-10-18T21:39:46.283Z — dist `C:\Users\j\OneDrive\Desktop\Project-X\analyzer\dist\index.js`
-- Workload file: `C:\Users\j\OneDrive\Desktop\Project-X\benchmarks\workloads\workloads.json` (seed 20261017) — identical for both runs
+- BEFORE run: round7-before3 (best-of-3 merge: round7-before1, round7-before2, round7-before3) - 2026-10-18T21:35:30.609Z → 2026-10-18T21:39:04.629Z - dist `C:\Users\j\OneDrive\Desktop\Project-X\benchmarks\baseline-snapshot\analyzer\dist\index.js`
+- AFTER run: round7-after3 (best-of-3 merge: round7-after1, round7-after2, round7-after3) - 2026-10-18T21:36:17.436Z → 2026-10-18T21:39:46.283Z - dist `C:\Users\j\OneDrive\Desktop\Project-X\analyzer\dist\index.js`
+- Workload file: `C:\Users\j\OneDrive\Desktop\Project-X\benchmarks\workloads\workloads.json` (seed 20261017) - identical for both runs
 - Node v24.12.0, platform win32, clang `C:\Program Files\LLVM\bin\clang++.exe`
 - Cold sample = fresh Clang parse (AST cache cleared); warm sample = cached-AST re-analysis.
 

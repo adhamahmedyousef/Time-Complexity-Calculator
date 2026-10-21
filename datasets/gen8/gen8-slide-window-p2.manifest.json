@@ -1,0 +1,446 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "g8_slideSum_5",
+   "symbol": "g8_slideSum_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "amortized",
+    "sliding-window"
+   ]
+  },
+  {
+   "id": "g8_slideDiff_5",
+   "symbol": "g8_slideDiff_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "amortized",
+    "sliding-window"
+   ]
+  },
+  {
+   "id": "g8_slideCount_5",
+   "symbol": "g8_slideCount_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "amortized",
+    "sliding-window"
+   ]
+  },
+  {
+   "id": "g8_slideFixed_5",
+   "symbol": "g8_slideFixed_5",
+   "time": "O(n + k)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "fixed-window"
+   ]
+  },
+  {
+   "id": "g8_slideTwoPtr_5",
+   "symbol": "g8_slideTwoPtr_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_slidePrefix_5",
+   "symbol": "g8_slidePrefix_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_slideNonneg_5",
+   "symbol": "g8_slideNonneg_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_slideSubstr_5",
+   "symbol": "g8_slideSubstr_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_slideSum_6",
+   "symbol": "g8_slideSum_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "amortized",
+    "sliding-window"
+   ]
+  },
+  {
+   "id": "g8_slideDiff_6",
+   "symbol": "g8_slideDiff_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "amortized",
+    "sliding-window"
+   ]
+  },
+  {
+   "id": "g8_slideCount_6",
+   "symbol": "g8_slideCount_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "amortized",
+    "sliding-window"
+   ]
+  },
+  {
+   "id": "g8_slideFixed_6",
+   "symbol": "g8_slideFixed_6",
+   "time": "O(n + k)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "fixed-window"
+   ]
+  },
+  {
+   "id": "g8_slideTwoPtr_6",
+   "symbol": "g8_slideTwoPtr_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_slidePrefix_6",
+   "symbol": "g8_slidePrefix_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_slideNonneg_6",
+   "symbol": "g8_slideNonneg_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_slideSubstr_6",
+   "symbol": "g8_slideSubstr_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_slideSum_7",
+   "symbol": "g8_slideSum_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "amortized",
+    "sliding-window"
+   ]
+  },
+  {
+   "id": "g8_slideDiff_7",
+   "symbol": "g8_slideDiff_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "amortized",
+    "sliding-window"
+   ]
+  },
+  {
+   "id": "g8_slideCount_7",
+   "symbol": "g8_slideCount_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "amortized",
+    "sliding-window"
+   ]
+  },
+  {
+   "id": "g8_slideFixed_7",
+   "symbol": "g8_slideFixed_7",
+   "time": "O(n + k)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "fixed-window"
+   ]
+  },
+  {
+   "id": "g8_slideTwoPtr_7",
+   "symbol": "g8_slideTwoPtr_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_slidePrefix_7",
+   "symbol": "g8_slidePrefix_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_slideNonneg_7",
+   "symbol": "g8_slideNonneg_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_slideSubstr_7",
+   "symbol": "g8_slideSubstr_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_slideSum_8",
+   "symbol": "g8_slideSum_8",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "amortized",
+    "sliding-window"
+   ]
+  },
+  {
+   "id": "g8_slideDiff_8",
+   "symbol": "g8_slideDiff_8",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "amortized",
+    "sliding-window"
+   ]
+  },
+  {
+   "id": "g8_slideCount_8",
+   "symbol": "g8_slideCount_8",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "amortized",
+    "sliding-window"
+   ]
+  },
+  {
+   "id": "g8_slideFixed_8",
+   "symbol": "g8_slideFixed_8",
+   "time": "O(n + k)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "fixed-window"
+   ]
+  },
+  {
+   "id": "g8_slideTwoPtr_8",
+   "symbol": "g8_slideTwoPtr_8",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_slidePrefix_8",
+   "symbol": "g8_slidePrefix_8",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_slideNonneg_8",
+   "symbol": "g8_slideNonneg_8",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_slideSubstr_8",
+   "symbol": "g8_slideSubstr_8",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_slideSum_9",
+   "symbol": "g8_slideSum_9",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "amortized",
+    "sliding-window"
+   ]
+  },
+  {
+   "id": "g8_slideDiff_9",
+   "symbol": "g8_slideDiff_9",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "amortized",
+    "sliding-window"
+   ]
+  },
+  {
+   "id": "g8_slideCount_9",
+   "symbol": "g8_slideCount_9",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "amortized",
+    "sliding-window"
+   ]
+  },
+  {
+   "id": "g8_slideFixed_9",
+   "symbol": "g8_slideFixed_9",
+   "time": "O(n + k)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "fixed-window"
+   ]
+  },
+  {
+   "id": "g8_slideTwoPtr_9",
+   "symbol": "g8_slideTwoPtr_9",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_slidePrefix_9",
+   "symbol": "g8_slidePrefix_9",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_slideNonneg_9",
+   "symbol": "g8_slideNonneg_9",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_slideSubstr_9",
+   "symbol": "g8_slideSubstr_9",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  }
+ ]
+}

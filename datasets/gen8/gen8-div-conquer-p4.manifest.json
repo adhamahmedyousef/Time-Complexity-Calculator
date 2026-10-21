@@ -1,0 +1,446 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "g8_mergeSortVec_15",
+   "symbol": "g8_mergeSortVec_15",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_mergeSortInplace_15",
+   "symbol": "g8_mergeSortInplace_15",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_mergeSortDeque_15",
+   "symbol": "g8_mergeSortDeque_15",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_splitLinear_15",
+   "symbol": "g8_splitLinear_15",
+   "time": "O(n log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_splitConst_15",
+   "symbol": "g8_splitConst_15",
+   "time": "O(n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_halvingTail_15",
+   "symbol": "g8_halvingTail_15",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "logarithmic"
+   ]
+  },
+  {
+   "id": "g8_halvingTail3_15",
+   "symbol": "g8_halvingTail3_15",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "logarithmic"
+   ]
+  },
+  {
+   "id": "g8_midSearch_15",
+   "symbol": "g8_midSearch_15",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "g8_mergeSortVec_16",
+   "symbol": "g8_mergeSortVec_16",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_mergeSortInplace_16",
+   "symbol": "g8_mergeSortInplace_16",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_mergeSortDeque_16",
+   "symbol": "g8_mergeSortDeque_16",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_splitLinear_16",
+   "symbol": "g8_splitLinear_16",
+   "time": "O(n log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_splitConst_16",
+   "symbol": "g8_splitConst_16",
+   "time": "O(n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_halvingTail_16",
+   "symbol": "g8_halvingTail_16",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "logarithmic"
+   ]
+  },
+  {
+   "id": "g8_halvingTail3_16",
+   "symbol": "g8_halvingTail3_16",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "logarithmic"
+   ]
+  },
+  {
+   "id": "g8_midSearch_16",
+   "symbol": "g8_midSearch_16",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "g8_mergeSortVec_17",
+   "symbol": "g8_mergeSortVec_17",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_mergeSortInplace_17",
+   "symbol": "g8_mergeSortInplace_17",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_mergeSortDeque_17",
+   "symbol": "g8_mergeSortDeque_17",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_splitLinear_17",
+   "symbol": "g8_splitLinear_17",
+   "time": "O(n log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_splitConst_17",
+   "symbol": "g8_splitConst_17",
+   "time": "O(n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_halvingTail_17",
+   "symbol": "g8_halvingTail_17",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "logarithmic"
+   ]
+  },
+  {
+   "id": "g8_halvingTail3_17",
+   "symbol": "g8_halvingTail3_17",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "logarithmic"
+   ]
+  },
+  {
+   "id": "g8_midSearch_17",
+   "symbol": "g8_midSearch_17",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "g8_mergeSortVec_18",
+   "symbol": "g8_mergeSortVec_18",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_mergeSortInplace_18",
+   "symbol": "g8_mergeSortInplace_18",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_mergeSortDeque_18",
+   "symbol": "g8_mergeSortDeque_18",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_splitLinear_18",
+   "symbol": "g8_splitLinear_18",
+   "time": "O(n log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_splitConst_18",
+   "symbol": "g8_splitConst_18",
+   "time": "O(n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_halvingTail_18",
+   "symbol": "g8_halvingTail_18",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "logarithmic"
+   ]
+  },
+  {
+   "id": "g8_halvingTail3_18",
+   "symbol": "g8_halvingTail3_18",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "logarithmic"
+   ]
+  },
+  {
+   "id": "g8_midSearch_18",
+   "symbol": "g8_midSearch_18",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "g8_mergeSortVec_19",
+   "symbol": "g8_mergeSortVec_19",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_mergeSortInplace_19",
+   "symbol": "g8_mergeSortInplace_19",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_mergeSortDeque_19",
+   "symbol": "g8_mergeSortDeque_19",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_splitLinear_19",
+   "symbol": "g8_splitLinear_19",
+   "time": "O(n log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_splitConst_19",
+   "symbol": "g8_splitConst_19",
+   "time": "O(n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "divide-and-conquer"
+   ]
+  },
+  {
+   "id": "g8_halvingTail_19",
+   "symbol": "g8_halvingTail_19",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "logarithmic"
+   ]
+  },
+  {
+   "id": "g8_halvingTail3_19",
+   "symbol": "g8_halvingTail3_19",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "logarithmic"
+   ]
+  },
+  {
+   "id": "g8_midSearch_19",
+   "symbol": "g8_midSearch_19",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "binary-search"
+   ]
+  }
+ ]
+}

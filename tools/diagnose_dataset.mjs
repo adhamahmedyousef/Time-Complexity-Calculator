@@ -7,7 +7,7 @@
  * work targets the largest real-world coverage loss first.
  */
 import { readdirSync, readFileSync, writeFileSync } from "node:fs";
-import { dirname, join, resolve } from "node:path";
+import { basename, dirname, join, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -29,13 +29,24 @@ const holdoutManifests = new Set(readFileSync(join(datasetsDir, "holdout-manifes
   .split(/\r?\n/)
   .map((line) => line.trim())
   .filter((line) => line && !line.startsWith("#")));
-const manifestFilter = devOnly ? ((name) => !holdoutManifests.has(name))
-  : holdoutOnly ? ((name) => holdoutManifests.has(name))
-  : ((name) => true);
-const manifests = readdirSync(datasetsDir)
-  .filter((name) => name.endsWith(".manifest.json"))
+function findManifests(dir) {
+  const entries = readdirSync(dir, { withFileTypes: true });
+  const files = [];
+  for (const entry of entries) {
+    const fullPath = join(dir, entry.name);
+    if (entry.isDirectory()) {
+      files.push(...findManifests(fullPath));
+    } else if (entry.isFile() && entry.name.endsWith(".manifest.json")) {
+      files.push(fullPath);
+    }
+  }
+  return files;
+}
+
+const allManifestPaths = findManifests(datasetsDir).sort();
+const manifests = allManifestPaths
   .filter(manifestFilter)
-  .filter((name) => !requestedPrefix || name.startsWith(requestedPrefix))
+  .filter((path) => !requestedPrefix || basename(path).startsWith(requestedPrefix))
   .sort();
 
 /** Collapses a proof sentence into a stable bucket key. */
@@ -105,9 +116,10 @@ function complexityEquivalent(left, right) {
 
 const bump = (map, key) => map.set(key, (map.get(key) ?? 0) + 1);
 
-for (const manifestName of manifests) {
-  const manifest = JSON.parse(readFileSync(join(datasetsDir, manifestName), "utf8"));
-  const source = readFileSync(join(datasetsDir, manifestName.replace(".manifest.json", ".cpp")), "utf8");
+for (const manifestPath of manifests) {
+  const manifestName = basename(manifestPath);
+  const manifest = JSON.parse(readFileSync(manifestPath, "utf8"));
+  const source = readFileSync(manifestPath.replace(/\.manifest\.json$/, ".cpp"), "utf8");
   const results = analyseCppFunctionsInDocument(source, manifest.cases.map((testCase) => testCase.symbol));
   const manifestStats = { name: manifestName, cases: 0, abstained: 0, wrong: 0 };
   for (const testCase of manifest.cases) {

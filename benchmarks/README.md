@@ -59,11 +59,11 @@ the simulator instance n = 10 (documented limitation).
 | AFTER (final, round-6 engine) | 8,186 | **6,695** | **87.8%** | 88.7% | 923 | **573** | `results/after-official-summary.txt` |
 | (interim round-5 AFTER, superseded) | 8,186 | 6,687 | 87.6% | 88.7% | 923 | 581 | `results/after-official-summary-round5.txt` |
 
-Deltas (final vs baseline): exact **+12**, profile **+12** (87.6% → 87.8%), precision **+0.2 pt**, evidence-compatible 0, coverage −14 (deliberate sound abstentions), confident mismatches **−14**. The final-engine census diff against the baseline census is **15 changed cases, all soundness-class** (12 over→cov, 1 wrong→cov, 1 sp→cov, 1 wrong→sp) with sp/cf bucket totals identical to baseline — `results/census-diff-round6.log`; baseline census `results/census-baseline.json`, final census `$TEMP/opencode/failures3.json`, round-5 census preserved as `results/census-round5-state.json` (diff tool: `.scratch/census-diff.mjs`).
+Deltas (final vs baseline): exact **+12**, profile **+12** (87.6% → 87.8%), precision **+0.2 pt**, evidence-compatible 0, coverage −14 (deliberate sound abstentions), confident mismatches **−14**. The final-engine census diff against the baseline census is **15 changed cases, all soundness-class** (12 over→cov, 1 wrong→cov, 1 sp→cov, 1 wrong→sp) with sp/cf bucket totals identical to baseline - `results/census-diff-round6.log`; baseline census `results/census-baseline.json`, final census `$TEMP/opencode/failures3.json`, round-5 census preserved as `results/census-round5-state.json` (diff tool: `.scratch/census-diff.mjs`).
 
 ### Harness perf (111 cases / 7 scenarios; contention-robust best-of-3)
 
-Overall (final, round-6 engine vs baseline): cold median **124.8 ms → 126.3 ms (AFTER 1.2% slower)**, warm median 8.72 ms → 9.02 ms (−3.4%), matched 93/93 in both dists, 0 errors. The machine was shared with other processes (Chrome ~99% CPU was observed), so the protocol ran 3 alternating pairs (B A B A B A) and keeps the **best (minimum) sample per case** — a contention-robust estimator of uncontended latency (`.scratch/perf-merge.mjs`; single-pair legs drifted up to ±30% per scenario and are not used). The residual ≈1–3% cold / ≈3–4% warm overhead is the positive cost of the soundness machinery, uniform across scenarios. Full table: `results/comparison.md` (+ `comparison.csv`); raw runs `results/perf-before{1,2,3}.json`, `results/perf-after{1,2,3}.json` and logs `results/perf-*-run.log`.
+Overall (final, round-6 engine vs baseline): cold median **124.8 ms → 126.3 ms (AFTER 1.2% slower)**, warm median 8.72 ms → 9.02 ms (−3.4%), matched 93/93 in both dists, 0 errors. The machine was shared with other processes (Chrome ~99% CPU was observed), so the protocol ran 3 alternating pairs (B A B A B A) and keeps the **best (minimum) sample per case** - a contention-robust estimator of uncontended latency (`.scratch/perf-merge.mjs`; single-pair legs drifted up to ±30% per scenario and are not used). The residual ≈1-3% cold / ≈3-4% warm overhead is the positive cost of the soundness machinery, uniform across scenarios. Full table: `results/comparison.md` (+ `comparison.csv`); raw runs `results/perf-before{1,2,3}.json`, `results/perf-after{1,2,3}.json` and logs `results/perf-*-run.log`.
 
 ### Randomized soundness campaign
 
@@ -77,9 +77,9 @@ All pre-fix violations were one class (BUG-011, multi-write counters); artifacts
 ### Verification (AFTER state)
 
 - `npm test`: **6,893 tests, 0 failures** (includes the 21-test soundness battery; the corpus lock gained `cf-batch-01`).
-- Corpus lock: **6,490 locked cases / 92 manifests, 6,582/6,582 pass** (regenerated in round 6 when `cf-batch-01` — back to matching its label after the space-convention revert — rejoined).
+- Corpus lock: **6,490 locked cases / 92 manifests, 6,582/6,582 pass** (regenerated in round 6 when `cf-batch-01` - back to matching its label after the space-convention revert - rejoined).
 - Probe suites (`.scratch/edge-probe.mjs`, `space-probe.mjs`, `bug-probe.mjs`, `review-probe.mjs`, `grid-cases.mjs`, `regression-sources.mjs`) and the round-6 `.scratch/convention-check.mjs` (input-space label split, 16 cases): all pinned behaviors verified.
-- Final census diff vs baseline: **15 changed cases, all soundness-class** — `results/census-diff-round6.log`.
+- Final census diff vs baseline: **15 changed cases, all soundness-class** - `results/census-diff-round6.log`.
 
 ## Results (2026-10-18/19 round-7 run)
 
@@ -119,7 +119,7 @@ Round-7 (merged `results/perf-round7-before.json` / `perf-round7-after.json`,
 table `results/comparison-round7.md` + `.csv`): overall cold median **141.2 →
 140.6 ms (AFTER 0.4% faster)**, warm **9.02 → 8.94 ms (0.9% faster)**, 93/93
 matched both dists, 0 errors. Absolute medians are ≈13% above the round-6
-session (same snapshot dist, different machine conditions) — only within-session
+session (same snapshot dist, different machine conditions) - only within-session
 ratios are comparable. Per scenario (positive = AFTER faster): typical-selection
 −2.2%/−2.1%, boundary-one-liners +1.1%/−0.3%, previously-failing −0.5%/+0.7%,
 adversarial-shapes −3.0%/−15.4%, invalid-inputs +1.3%/−5.6%, large-document
@@ -148,9 +148,9 @@ non-zero if every case abstains.
 ### Verification (round-7 AFTER state)
 
 - `npm test`: **6,907 tests, 0 failures** (34-test soundness battery incl. BUG-012…019).
-- Corpus lock: unchanged since 2026-10-17 — **zero drift** through every round-7 engine change.
+- Corpus lock: unchanged since 2026-10-17 - **zero drift** through every round-7 engine change.
 - Round-7 dual probes (`.scratch/round7-dual-probe{,2,3}.mjs`): each fix's before→after verified against the frozen snapshot dist.
-- `py tools/validate_dataset.py`: OK — 9,194 reviewed cases / 1,106 manifests.
+- `py tools/validate_dataset.py`: OK - 9,194 reviewed cases / 1,106 manifests.
 
 ## Progression Across Expansion Rounds (Baseline through Round 12 Production Ready)
 
@@ -169,7 +169,7 @@ Windows (win32), PowerShell; Node (see result JSONs for exact version); Clang
 
 ## Notes / limitations
 
-- `maxRSS` is per-child-process peak and includes Node baseline (~60–80 MB); it
+- `maxRSS` is per-child-process peak and includes Node baseline (~60-80 MB); it
   measures scenario-level memory, not per-case deltas.
 - p95/p99: p95 is reported; p99 is not, because cold-sample counts per scenario
   are too small for a stable p99.

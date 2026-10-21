@@ -1,0 +1,451 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "g8_gcd_35",
+   "symbol": "g8_gcd_35",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "euclid",
+    "gcd"
+   ]
+  },
+  {
+   "id": "g8_lcm_35",
+   "symbol": "g8_lcm_35",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "lcm"
+   ]
+  },
+  {
+   "id": "g8_trialPrime_35",
+   "symbol": "g8_trialPrime_35",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "prime",
+    "trial-division"
+   ]
+  },
+  {
+   "id": "g8_factorCount_35",
+   "symbol": "g8_factorCount_35",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "factors",
+    "sqrt"
+   ]
+  },
+  {
+   "id": "g8_modPow_35",
+   "symbol": "g8_modPow_35",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "modpow",
+    "exponentiation"
+   ]
+  },
+  {
+   "id": "g8_sumDigits_35",
+   "symbol": "g8_sumDigits_35",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits",
+    "logarithmic"
+   ]
+  },
+  {
+   "id": "g8_binaryLen_35",
+   "symbol": "g8_binaryLen_35",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits",
+    "shift"
+   ]
+  },
+  {
+   "id": "g8_trialOdd_35",
+   "symbol": "g8_trialOdd_35",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "prime",
+    "trial-division"
+   ]
+  },
+  {
+   "id": "g8_gcd_36",
+   "symbol": "g8_gcd_36",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "euclid",
+    "gcd"
+   ]
+  },
+  {
+   "id": "g8_lcm_36",
+   "symbol": "g8_lcm_36",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "lcm"
+   ]
+  },
+  {
+   "id": "g8_trialPrime_36",
+   "symbol": "g8_trialPrime_36",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "prime",
+    "trial-division"
+   ]
+  },
+  {
+   "id": "g8_factorCount_36",
+   "symbol": "g8_factorCount_36",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "factors",
+    "sqrt"
+   ]
+  },
+  {
+   "id": "g8_modPow_36",
+   "symbol": "g8_modPow_36",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "modpow",
+    "exponentiation"
+   ]
+  },
+  {
+   "id": "g8_sumDigits_36",
+   "symbol": "g8_sumDigits_36",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits",
+    "logarithmic"
+   ]
+  },
+  {
+   "id": "g8_binaryLen_36",
+   "symbol": "g8_binaryLen_36",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits",
+    "shift"
+   ]
+  },
+  {
+   "id": "g8_trialOdd_36",
+   "symbol": "g8_trialOdd_36",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "prime",
+    "trial-division"
+   ]
+  },
+  {
+   "id": "g8_gcd_37",
+   "symbol": "g8_gcd_37",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "euclid",
+    "gcd"
+   ]
+  },
+  {
+   "id": "g8_lcm_37",
+   "symbol": "g8_lcm_37",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "lcm"
+   ]
+  },
+  {
+   "id": "g8_trialPrime_37",
+   "symbol": "g8_trialPrime_37",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "prime",
+    "trial-division"
+   ]
+  },
+  {
+   "id": "g8_factorCount_37",
+   "symbol": "g8_factorCount_37",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "factors",
+    "sqrt"
+   ]
+  },
+  {
+   "id": "g8_modPow_37",
+   "symbol": "g8_modPow_37",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "modpow",
+    "exponentiation"
+   ]
+  },
+  {
+   "id": "g8_sumDigits_37",
+   "symbol": "g8_sumDigits_37",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits",
+    "logarithmic"
+   ]
+  },
+  {
+   "id": "g8_binaryLen_37",
+   "symbol": "g8_binaryLen_37",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits",
+    "shift"
+   ]
+  },
+  {
+   "id": "g8_trialOdd_37",
+   "symbol": "g8_trialOdd_37",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "prime",
+    "trial-division"
+   ]
+  },
+  {
+   "id": "g8_gcd_38",
+   "symbol": "g8_gcd_38",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "euclid",
+    "gcd"
+   ]
+  },
+  {
+   "id": "g8_lcm_38",
+   "symbol": "g8_lcm_38",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "lcm"
+   ]
+  },
+  {
+   "id": "g8_trialPrime_38",
+   "symbol": "g8_trialPrime_38",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "prime",
+    "trial-division"
+   ]
+  },
+  {
+   "id": "g8_factorCount_38",
+   "symbol": "g8_factorCount_38",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "factors",
+    "sqrt"
+   ]
+  },
+  {
+   "id": "g8_modPow_38",
+   "symbol": "g8_modPow_38",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "modpow",
+    "exponentiation"
+   ]
+  },
+  {
+   "id": "g8_sumDigits_38",
+   "symbol": "g8_sumDigits_38",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits",
+    "logarithmic"
+   ]
+  },
+  {
+   "id": "g8_binaryLen_38",
+   "symbol": "g8_binaryLen_38",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits",
+    "shift"
+   ]
+  },
+  {
+   "id": "g8_trialOdd_38",
+   "symbol": "g8_trialOdd_38",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "prime",
+    "trial-division"
+   ]
+  },
+  {
+   "id": "g8_gcd_39",
+   "symbol": "g8_gcd_39",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "euclid",
+    "gcd"
+   ]
+  },
+  {
+   "id": "g8_lcm_39",
+   "symbol": "g8_lcm_39",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "lcm"
+   ]
+  },
+  {
+   "id": "g8_trialPrime_39",
+   "symbol": "g8_trialPrime_39",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "prime",
+    "trial-division"
+   ]
+  },
+  {
+   "id": "g8_factorCount_39",
+   "symbol": "g8_factorCount_39",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "factors",
+    "sqrt"
+   ]
+  },
+  {
+   "id": "g8_modPow_39",
+   "symbol": "g8_modPow_39",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "modpow",
+    "exponentiation"
+   ]
+  },
+  {
+   "id": "g8_sumDigits_39",
+   "symbol": "g8_sumDigits_39",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits",
+    "logarithmic"
+   ]
+  },
+  {
+   "id": "g8_binaryLen_39",
+   "symbol": "g8_binaryLen_39",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits",
+    "shift"
+   ]
+  },
+  {
+   "id": "g8_trialOdd_39",
+   "symbol": "g8_trialOdd_39",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "prime",
+    "trial-division"
+   ]
+  }
+ ]
+}

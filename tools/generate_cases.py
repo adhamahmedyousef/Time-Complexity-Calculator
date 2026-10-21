@@ -11,7 +11,7 @@ Integrity contract:
   - Variants rename accumulators and adjust constants/directions; the
     asymptotic structure of a combo is fixed by its axes.
   - Whenever the engine disagrees with a label, that disagreement is a bug
-    to investigate in the engine (or a wrong rule here) — never a reason to
+    to investigate in the engine (or a wrong rule here) - never a reason to
     copy engine output into a label.
 
 Generated families join the development set; the holdout stays untouched.
@@ -91,7 +91,7 @@ def mul(a, b):
 
 def add(a, b):
     """Sequential composition: the sum, canonicalized (dominated terms kept
-    only when incomparable — sums of independent dimensions)."""
+    only when incomparable - sums of independent dimensions)."""
     if a == b:
         return a
     pair = tuple(sorted([a, b]))

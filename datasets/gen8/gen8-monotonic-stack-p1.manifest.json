@@ -1,0 +1,456 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "g8_nextGreater_0",
+   "symbol": "g8_nextGreater_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic-stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_prevGreater_0",
+   "symbol": "g8_prevGreater_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic-stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_stackDrain_0",
+   "symbol": "g8_stackDrain_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_queueDrain_0",
+   "symbol": "g8_queueDrain_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "queue",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_pqueueDrain_0",
+   "symbol": "g8_pqueueDrain_0",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "priority-queue",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_dequePop_0",
+   "symbol": "g8_dequePop_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "deque",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_stackWipe_0",
+   "symbol": "g8_stackWipe_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "g8_monoVec_0",
+   "symbol": "g8_monoVec_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "vector",
+    "monotonic-stack"
+   ]
+  },
+  {
+   "id": "g8_nextGreater_1",
+   "symbol": "g8_nextGreater_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic-stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_prevGreater_1",
+   "symbol": "g8_prevGreater_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic-stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_stackDrain_1",
+   "symbol": "g8_stackDrain_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_queueDrain_1",
+   "symbol": "g8_queueDrain_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "queue",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_pqueueDrain_1",
+   "symbol": "g8_pqueueDrain_1",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "priority-queue",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_dequePop_1",
+   "symbol": "g8_dequePop_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "deque",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_stackWipe_1",
+   "symbol": "g8_stackWipe_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "g8_monoVec_1",
+   "symbol": "g8_monoVec_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "vector",
+    "monotonic-stack"
+   ]
+  },
+  {
+   "id": "g8_nextGreater_2",
+   "symbol": "g8_nextGreater_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic-stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_prevGreater_2",
+   "symbol": "g8_prevGreater_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic-stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_stackDrain_2",
+   "symbol": "g8_stackDrain_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_queueDrain_2",
+   "symbol": "g8_queueDrain_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "queue",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_pqueueDrain_2",
+   "symbol": "g8_pqueueDrain_2",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "priority-queue",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_dequePop_2",
+   "symbol": "g8_dequePop_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "deque",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_stackWipe_2",
+   "symbol": "g8_stackWipe_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "g8_monoVec_2",
+   "symbol": "g8_monoVec_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "vector",
+    "monotonic-stack"
+   ]
+  },
+  {
+   "id": "g8_nextGreater_3",
+   "symbol": "g8_nextGreater_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic-stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_prevGreater_3",
+   "symbol": "g8_prevGreater_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic-stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_stackDrain_3",
+   "symbol": "g8_stackDrain_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_queueDrain_3",
+   "symbol": "g8_queueDrain_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "queue",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_pqueueDrain_3",
+   "symbol": "g8_pqueueDrain_3",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "priority-queue",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_dequePop_3",
+   "symbol": "g8_dequePop_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "deque",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_stackWipe_3",
+   "symbol": "g8_stackWipe_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "g8_monoVec_3",
+   "symbol": "g8_monoVec_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "vector",
+    "monotonic-stack"
+   ]
+  },
+  {
+   "id": "g8_nextGreater_4",
+   "symbol": "g8_nextGreater_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic-stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_prevGreater_4",
+   "symbol": "g8_prevGreater_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic-stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "g8_stackDrain_4",
+   "symbol": "g8_stackDrain_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_queueDrain_4",
+   "symbol": "g8_queueDrain_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "queue",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_pqueueDrain_4",
+   "symbol": "g8_pqueueDrain_4",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "priority-queue",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_dequePop_4",
+   "symbol": "g8_dequePop_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "deque",
+    "fill-then-drain"
+   ]
+  },
+  {
+   "id": "g8_stackWipe_4",
+   "symbol": "g8_stackWipe_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "g8_monoVec_4",
+   "symbol": "g8_monoVec_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "vector",
+    "monotonic-stack"
+   ]
+  }
+ ]
+}

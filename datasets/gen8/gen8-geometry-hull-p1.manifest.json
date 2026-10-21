@@ -1,0 +1,446 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "g8_crossProduct_0",
+   "symbol": "g8_crossProduct_0",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "cross-product"
+   ]
+  },
+  {
+   "id": "g8_polygonPerimeter_0",
+   "symbol": "g8_polygonPerimeter_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_pointSort_0",
+   "symbol": "g8_pointSort_0",
+   "time": "O(n log n)",
+   "space": "Unknown",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "sorting"
+   ]
+  },
+  {
+   "id": "g8_pointScan_0",
+   "symbol": "g8_pointScan_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "linear-scan"
+   ]
+  },
+  {
+   "id": "g8_manhattanDist_0",
+   "symbol": "g8_manhattanDist_0",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "constant"
+   ]
+  },
+  {
+   "id": "g8_polygonArea2D_0",
+   "symbol": "g8_polygonArea2D_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "shoelace"
+   ]
+  },
+  {
+   "id": "g8_lineSweepEvents_0",
+   "symbol": "g8_lineSweepEvents_0",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sweep-line",
+    "sort"
+   ]
+  },
+  {
+   "id": "g8_collinearCheck_0",
+   "symbol": "g8_collinearCheck_0",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "constant"
+   ]
+  },
+  {
+   "id": "g8_crossProduct_1",
+   "symbol": "g8_crossProduct_1",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "cross-product"
+   ]
+  },
+  {
+   "id": "g8_polygonPerimeter_1",
+   "symbol": "g8_polygonPerimeter_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_pointSort_1",
+   "symbol": "g8_pointSort_1",
+   "time": "O(n log n)",
+   "space": "Unknown",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "sorting"
+   ]
+  },
+  {
+   "id": "g8_pointScan_1",
+   "symbol": "g8_pointScan_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "linear-scan"
+   ]
+  },
+  {
+   "id": "g8_manhattanDist_1",
+   "symbol": "g8_manhattanDist_1",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "constant"
+   ]
+  },
+  {
+   "id": "g8_polygonArea2D_1",
+   "symbol": "g8_polygonArea2D_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "shoelace"
+   ]
+  },
+  {
+   "id": "g8_lineSweepEvents_1",
+   "symbol": "g8_lineSweepEvents_1",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sweep-line",
+    "sort"
+   ]
+  },
+  {
+   "id": "g8_collinearCheck_1",
+   "symbol": "g8_collinearCheck_1",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "constant"
+   ]
+  },
+  {
+   "id": "g8_crossProduct_2",
+   "symbol": "g8_crossProduct_2",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "cross-product"
+   ]
+  },
+  {
+   "id": "g8_polygonPerimeter_2",
+   "symbol": "g8_polygonPerimeter_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_pointSort_2",
+   "symbol": "g8_pointSort_2",
+   "time": "O(n log n)",
+   "space": "Unknown",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "sorting"
+   ]
+  },
+  {
+   "id": "g8_pointScan_2",
+   "symbol": "g8_pointScan_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "linear-scan"
+   ]
+  },
+  {
+   "id": "g8_manhattanDist_2",
+   "symbol": "g8_manhattanDist_2",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "constant"
+   ]
+  },
+  {
+   "id": "g8_polygonArea2D_2",
+   "symbol": "g8_polygonArea2D_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "shoelace"
+   ]
+  },
+  {
+   "id": "g8_lineSweepEvents_2",
+   "symbol": "g8_lineSweepEvents_2",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sweep-line",
+    "sort"
+   ]
+  },
+  {
+   "id": "g8_collinearCheck_2",
+   "symbol": "g8_collinearCheck_2",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "constant"
+   ]
+  },
+  {
+   "id": "g8_crossProduct_3",
+   "symbol": "g8_crossProduct_3",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "cross-product"
+   ]
+  },
+  {
+   "id": "g8_polygonPerimeter_3",
+   "symbol": "g8_polygonPerimeter_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_pointSort_3",
+   "symbol": "g8_pointSort_3",
+   "time": "O(n log n)",
+   "space": "Unknown",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "sorting"
+   ]
+  },
+  {
+   "id": "g8_pointScan_3",
+   "symbol": "g8_pointScan_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "linear-scan"
+   ]
+  },
+  {
+   "id": "g8_manhattanDist_3",
+   "symbol": "g8_manhattanDist_3",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "constant"
+   ]
+  },
+  {
+   "id": "g8_polygonArea2D_3",
+   "symbol": "g8_polygonArea2D_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "shoelace"
+   ]
+  },
+  {
+   "id": "g8_lineSweepEvents_3",
+   "symbol": "g8_lineSweepEvents_3",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sweep-line",
+    "sort"
+   ]
+  },
+  {
+   "id": "g8_collinearCheck_3",
+   "symbol": "g8_collinearCheck_3",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "constant"
+   ]
+  },
+  {
+   "id": "g8_crossProduct_4",
+   "symbol": "g8_crossProduct_4",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "cross-product"
+   ]
+  },
+  {
+   "id": "g8_polygonPerimeter_4",
+   "symbol": "g8_polygonPerimeter_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_pointSort_4",
+   "symbol": "g8_pointSort_4",
+   "time": "O(n log n)",
+   "space": "Unknown",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "sorting"
+   ]
+  },
+  {
+   "id": "g8_pointScan_4",
+   "symbol": "g8_pointScan_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "linear-scan"
+   ]
+  },
+  {
+   "id": "g8_manhattanDist_4",
+   "symbol": "g8_manhattanDist_4",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "constant"
+   ]
+  },
+  {
+   "id": "g8_polygonArea2D_4",
+   "symbol": "g8_polygonArea2D_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "shoelace"
+   ]
+  },
+  {
+   "id": "g8_lineSweepEvents_4",
+   "symbol": "g8_lineSweepEvents_4",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sweep-line",
+    "sort"
+   ]
+  },
+  {
+   "id": "g8_collinearCheck_4",
+   "symbol": "g8_collinearCheck_4",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "constant"
+   ]
+  }
+ ]
+}

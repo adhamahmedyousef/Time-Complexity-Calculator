@@ -1,9 +1,14 @@
 {
   "name": "project-x-extension",
-  "displayName": "Time Complexity Calculator",
+  "displayName": "Time Complexity Calculator by VoidHub",
   "version": "1.0.0",
-  "description": "Offline C++ Time & Space Complexity Static Analyzer with first-principles proofs",
-  "publisher": "adhamahmedyousef",
+  "description": "Offline C++ Time & Space Complexity Static Analyzer with first-principles proofs - By VoidHub",
+  "publisher": "VoidHub",
+  "author": {
+    "name": "VoidHub",
+    "url": "https://voidhub.co"
+  },
+  "homepage": "https://voidhub.co",
   "license": "MIT",
   "engines": { "vscode": "^1.85.0" },
   "categories": ["Programming Languages", "Education", "Linters"],
@@ -25,6 +30,11 @@
         "command": "projectX.calculateFunctionComplexity",
         "title": "Calculate Function Complexity",
         "category": "Complexity"
+      },
+      {
+        "command": "projectX.openVoidHub",
+        "title": "Visit VoidHub (voidhub.co)",
+        "category": "VoidHub"
       }
     ],
     "keybindings": [

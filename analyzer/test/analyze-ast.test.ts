@@ -47,7 +47,7 @@ test("two independent logarithmic loops are O(log^2 n)", () => {
   inner.inner![1].inner = [ref("j")];
   assert.equal(analyseFunctionAst(fn([loop("*=", [inner])])).worstCaseTime, "O(log^2 n)");
 });
-test("a linear loop inside halving while is O(n) — geometric series collapse", () => {
+test("a linear loop inside halving while is O(n) - geometric series collapse", () => {
   const inner = loopWithCondition("++", { kind: "BinaryOperator", opcode: "<", inner: [ref("j"), ref("n")] });
   inner.inner![1].inner = [ref("j")];
   const outer: ClangNode = { kind: "WhileStmt", inner: [

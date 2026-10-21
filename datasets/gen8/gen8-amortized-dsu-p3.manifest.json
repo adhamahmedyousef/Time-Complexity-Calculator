@@ -1,0 +1,446 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "g8_dsuInit_10",
+   "symbol": "g8_dsuInit_10",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "initialization"
+   ]
+  },
+  {
+   "id": "g8_dsuRankInit_10",
+   "symbol": "g8_dsuRankInit_10",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "rank"
+   ]
+  },
+  {
+   "id": "g8_dsuFindLoop_10",
+   "symbol": "g8_dsuFindLoop_10",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "find-worst-case"
+   ]
+  },
+  {
+   "id": "g8_dsuCountRoots_10",
+   "symbol": "g8_dsuCountRoots_10",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "linear-scan"
+   ]
+  },
+  {
+   "id": "g8_dsuCompSizes_10",
+   "symbol": "g8_dsuCompSizes_10",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "components"
+   ]
+  },
+  {
+   "id": "g8_dsuEdgeIteration_10",
+   "symbol": "g8_dsuEdgeIteration_10",
+   "time": "O(m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "edges"
+   ]
+  },
+  {
+   "id": "g8_dsuSequentialPass_10",
+   "symbol": "g8_dsuSequentialPass_10",
+   "time": "O(n + m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "sequential"
+   ]
+  },
+  {
+   "id": "g8_dsuRankMerge_10",
+   "symbol": "g8_dsuRankMerge_10",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "union-rank"
+   ]
+  },
+  {
+   "id": "g8_dsuInit_11",
+   "symbol": "g8_dsuInit_11",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "initialization"
+   ]
+  },
+  {
+   "id": "g8_dsuRankInit_11",
+   "symbol": "g8_dsuRankInit_11",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "rank"
+   ]
+  },
+  {
+   "id": "g8_dsuFindLoop_11",
+   "symbol": "g8_dsuFindLoop_11",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "find-worst-case"
+   ]
+  },
+  {
+   "id": "g8_dsuCountRoots_11",
+   "symbol": "g8_dsuCountRoots_11",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "linear-scan"
+   ]
+  },
+  {
+   "id": "g8_dsuCompSizes_11",
+   "symbol": "g8_dsuCompSizes_11",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "components"
+   ]
+  },
+  {
+   "id": "g8_dsuEdgeIteration_11",
+   "symbol": "g8_dsuEdgeIteration_11",
+   "time": "O(m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "edges"
+   ]
+  },
+  {
+   "id": "g8_dsuSequentialPass_11",
+   "symbol": "g8_dsuSequentialPass_11",
+   "time": "O(n + m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "sequential"
+   ]
+  },
+  {
+   "id": "g8_dsuRankMerge_11",
+   "symbol": "g8_dsuRankMerge_11",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "union-rank"
+   ]
+  },
+  {
+   "id": "g8_dsuInit_12",
+   "symbol": "g8_dsuInit_12",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "initialization"
+   ]
+  },
+  {
+   "id": "g8_dsuRankInit_12",
+   "symbol": "g8_dsuRankInit_12",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "rank"
+   ]
+  },
+  {
+   "id": "g8_dsuFindLoop_12",
+   "symbol": "g8_dsuFindLoop_12",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "find-worst-case"
+   ]
+  },
+  {
+   "id": "g8_dsuCountRoots_12",
+   "symbol": "g8_dsuCountRoots_12",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "linear-scan"
+   ]
+  },
+  {
+   "id": "g8_dsuCompSizes_12",
+   "symbol": "g8_dsuCompSizes_12",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "components"
+   ]
+  },
+  {
+   "id": "g8_dsuEdgeIteration_12",
+   "symbol": "g8_dsuEdgeIteration_12",
+   "time": "O(m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "edges"
+   ]
+  },
+  {
+   "id": "g8_dsuSequentialPass_12",
+   "symbol": "g8_dsuSequentialPass_12",
+   "time": "O(n + m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "sequential"
+   ]
+  },
+  {
+   "id": "g8_dsuRankMerge_12",
+   "symbol": "g8_dsuRankMerge_12",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "union-rank"
+   ]
+  },
+  {
+   "id": "g8_dsuInit_13",
+   "symbol": "g8_dsuInit_13",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "initialization"
+   ]
+  },
+  {
+   "id": "g8_dsuRankInit_13",
+   "symbol": "g8_dsuRankInit_13",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "rank"
+   ]
+  },
+  {
+   "id": "g8_dsuFindLoop_13",
+   "symbol": "g8_dsuFindLoop_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "find-worst-case"
+   ]
+  },
+  {
+   "id": "g8_dsuCountRoots_13",
+   "symbol": "g8_dsuCountRoots_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "linear-scan"
+   ]
+  },
+  {
+   "id": "g8_dsuCompSizes_13",
+   "symbol": "g8_dsuCompSizes_13",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "components"
+   ]
+  },
+  {
+   "id": "g8_dsuEdgeIteration_13",
+   "symbol": "g8_dsuEdgeIteration_13",
+   "time": "O(m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "edges"
+   ]
+  },
+  {
+   "id": "g8_dsuSequentialPass_13",
+   "symbol": "g8_dsuSequentialPass_13",
+   "time": "O(n + m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "sequential"
+   ]
+  },
+  {
+   "id": "g8_dsuRankMerge_13",
+   "symbol": "g8_dsuRankMerge_13",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "union-rank"
+   ]
+  },
+  {
+   "id": "g8_dsuInit_14",
+   "symbol": "g8_dsuInit_14",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "initialization"
+   ]
+  },
+  {
+   "id": "g8_dsuRankInit_14",
+   "symbol": "g8_dsuRankInit_14",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "rank"
+   ]
+  },
+  {
+   "id": "g8_dsuFindLoop_14",
+   "symbol": "g8_dsuFindLoop_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "find-worst-case"
+   ]
+  },
+  {
+   "id": "g8_dsuCountRoots_14",
+   "symbol": "g8_dsuCountRoots_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "linear-scan"
+   ]
+  },
+  {
+   "id": "g8_dsuCompSizes_14",
+   "symbol": "g8_dsuCompSizes_14",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "components"
+   ]
+  },
+  {
+   "id": "g8_dsuEdgeIteration_14",
+   "symbol": "g8_dsuEdgeIteration_14",
+   "time": "O(m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "edges"
+   ]
+  },
+  {
+   "id": "g8_dsuSequentialPass_14",
+   "symbol": "g8_dsuSequentialPass_14",
+   "time": "O(n + m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "sequential"
+   ]
+  },
+  {
+   "id": "g8_dsuRankMerge_14",
+   "symbol": "g8_dsuRankMerge_14",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "union-rank"
+   ]
+  }
+ ]
+}

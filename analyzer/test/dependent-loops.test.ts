@@ -5,7 +5,7 @@ import { analyseCppSelection } from "../src/index.js";
 
 /**
  * Dependent-loop symbolic summation suite. Each case derives its total from
- * the loop structure (harmonic family, power sums, repeated reduction) —
+ * the loop structure (harmonic family, power sums, repeated reduction) -
  * never from the loop's spelling.
  */
 const clangPath = process.env.PROJECT_X_CLANG ?? "C:\\Program Files\\LLVM\\bin\\clang++.exe";

@@ -40,7 +40,7 @@ test("metamorphic: renamed variables keep the harmonic class", run, () => {
     for (long long step = 1; step <= size; ++step)
       for (long long pos = step; pos <= size; pos += step) ++hits;
     return hits; }`);
-  // The renamed parameter produces a renamed dimension — the class is
+  // The renamed parameter produces a renamed dimension - the class is
   // what matters, not the spelling.
   assert.ok(/log /.test(r.worstCaseTime) && /size/.test(r.worstCaseTime),
     "expected <dim> log <dim> with the renamed dimension, got " + r.worstCaseTime);

@@ -6,7 +6,7 @@
  * calculated only among asserted results; coverage reports proof reach.
  */
 import { readdirSync, readFileSync } from "node:fs";
-import { dirname, join, resolve } from "node:path";
+import { basename, dirname, join, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -49,21 +49,39 @@ try {
   process.exit();
 }
 
-const selectedManifests = readdirSync(datasetsDir)
-  .filter((name) => name.endsWith(".manifest.json"))
-  .filter((name) => !requestedManifest || name === requestedManifest)
-  .filter((name) => !requestedPrefix || name.startsWith(requestedPrefix))
-  .sort();
+function findManifests(dir) {
+  const entries = readdirSync(dir, { withFileTypes: true });
+  const files = [];
+  for (const entry of entries) {
+    const fullPath = join(dir, entry.name);
+    if (entry.isDirectory()) {
+      files.push(...findManifests(fullPath));
+    } else if (entry.isFile() && entry.name.endsWith(".manifest.json")) {
+      files.push(fullPath);
+    }
+  }
+  return files;
+}
+
+const allManifestPaths = findManifests(datasetsDir).sort();
+const selectedManifestPaths = allManifestPaths
+  .filter((fullPath) => {
+    const name = basename(fullPath);
+    if (requestedManifest && name !== requestedManifest && !fullPath.endsWith(requestedManifest)) return false;
+    if (requestedPrefix && !name.startsWith(requestedPrefix)) return false;
+    return true;
+  });
+
 // The locked family-split holdout (tools/holdout_split.py) is excluded from
 // development iterations via --dev and measured in isolation via --holdout.
 const holdoutManifests = new Set(readFileSync(join(datasetsDir, "holdout-manifests.txt"), "utf8")
   .split(/\r?\n/)
   .map((line) => line.trim())
   .filter((line) => line && !line.startsWith("#")));
-const manifestFilter = devOnly ? ((name) => !holdoutManifests.has(name))
-  : holdoutOnly ? ((name) => holdoutManifests.has(name))
-  : ((name) => true);
-const manifests = shard ? selectedManifests.filter(manifestFilter).filter((_, index) => index % shard.total === shard.index) : selectedManifests.filter(manifestFilter);
+const manifestFilter = devOnly ? ((fullPath) => !holdoutManifests.has(basename(fullPath)))
+  : holdoutOnly ? ((fullPath) => holdoutManifests.has(basename(fullPath)))
+  : ((fullPath) => true);
+const manifests = shard ? selectedManifestPaths.filter(manifestFilter).filter((_, index) => index % shard.total === shard.index) : selectedManifestPaths.filter(manifestFilter);
 if (manifests.length === 0) {
   console.error(requestedManifest
     ? `No manifest named ${requestedManifest} was found in datasets/.`
@@ -144,9 +162,8 @@ function sameComplexity(left, right) {
   return normalizedBigO(left) === normalizedBigO(right);
 }
 
-for (const manifestName of manifests) {
-  const manifestPath = join(datasetsDir, manifestName);
-  const sourcePath = join(datasetsDir, manifestName.replace(".manifest.json", ".cpp"));
+for (const manifestPath of manifests) {
+  const sourcePath = manifestPath.replace(/\.manifest\.json$/, ".cpp");
   const manifest = JSON.parse(readFileSync(manifestPath, "utf8"));
   const source = readFileSync(sourcePath, "utf8");
   const results = analyseCppFunctionsInDocument(source, manifest.cases.map((testCase) => testCase.symbol));

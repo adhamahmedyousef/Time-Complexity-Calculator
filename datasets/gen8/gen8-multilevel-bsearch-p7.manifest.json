@@ -1,0 +1,446 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "g8_qBsearch_30",
+   "symbol": "g8_qBsearch_30",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "g8_qLowerBound_30",
+   "symbol": "g8_qLowerBound_30",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "lower-bound"
+   ]
+  },
+  {
+   "id": "g8_qUpperBound_30",
+   "symbol": "g8_qUpperBound_30",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "upper-bound"
+   ]
+  },
+  {
+   "id": "g8_nBsearch_30",
+   "symbol": "g8_nBsearch_30",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "g8_bsearchBitwiseQuery_30",
+   "symbol": "g8_bsearchBitwiseQuery_30",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "shift"
+   ]
+  },
+  {
+   "id": "g8_bsearchSqrtQuery_30",
+   "symbol": "g8_bsearchSqrtQuery_30",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "sqrt-search"
+   ]
+  },
+  {
+   "id": "g8_qCountSearch_30",
+   "symbol": "g8_qCountSearch_30",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "count"
+   ]
+  },
+  {
+   "id": "g8_nBinarySteps_30",
+   "symbol": "g8_nBinarySteps_30",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "halving"
+   ]
+  },
+  {
+   "id": "g8_qBsearch_31",
+   "symbol": "g8_qBsearch_31",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "g8_qLowerBound_31",
+   "symbol": "g8_qLowerBound_31",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "lower-bound"
+   ]
+  },
+  {
+   "id": "g8_qUpperBound_31",
+   "symbol": "g8_qUpperBound_31",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "upper-bound"
+   ]
+  },
+  {
+   "id": "g8_nBsearch_31",
+   "symbol": "g8_nBsearch_31",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "g8_bsearchBitwiseQuery_31",
+   "symbol": "g8_bsearchBitwiseQuery_31",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "shift"
+   ]
+  },
+  {
+   "id": "g8_bsearchSqrtQuery_31",
+   "symbol": "g8_bsearchSqrtQuery_31",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "sqrt-search"
+   ]
+  },
+  {
+   "id": "g8_qCountSearch_31",
+   "symbol": "g8_qCountSearch_31",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "count"
+   ]
+  },
+  {
+   "id": "g8_nBinarySteps_31",
+   "symbol": "g8_nBinarySteps_31",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "halving"
+   ]
+  },
+  {
+   "id": "g8_qBsearch_32",
+   "symbol": "g8_qBsearch_32",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "g8_qLowerBound_32",
+   "symbol": "g8_qLowerBound_32",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "lower-bound"
+   ]
+  },
+  {
+   "id": "g8_qUpperBound_32",
+   "symbol": "g8_qUpperBound_32",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "upper-bound"
+   ]
+  },
+  {
+   "id": "g8_nBsearch_32",
+   "symbol": "g8_nBsearch_32",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "g8_bsearchBitwiseQuery_32",
+   "symbol": "g8_bsearchBitwiseQuery_32",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "shift"
+   ]
+  },
+  {
+   "id": "g8_bsearchSqrtQuery_32",
+   "symbol": "g8_bsearchSqrtQuery_32",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "sqrt-search"
+   ]
+  },
+  {
+   "id": "g8_qCountSearch_32",
+   "symbol": "g8_qCountSearch_32",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "count"
+   ]
+  },
+  {
+   "id": "g8_nBinarySteps_32",
+   "symbol": "g8_nBinarySteps_32",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "halving"
+   ]
+  },
+  {
+   "id": "g8_qBsearch_33",
+   "symbol": "g8_qBsearch_33",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "g8_qLowerBound_33",
+   "symbol": "g8_qLowerBound_33",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "lower-bound"
+   ]
+  },
+  {
+   "id": "g8_qUpperBound_33",
+   "symbol": "g8_qUpperBound_33",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "upper-bound"
+   ]
+  },
+  {
+   "id": "g8_nBsearch_33",
+   "symbol": "g8_nBsearch_33",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "g8_bsearchBitwiseQuery_33",
+   "symbol": "g8_bsearchBitwiseQuery_33",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "shift"
+   ]
+  },
+  {
+   "id": "g8_bsearchSqrtQuery_33",
+   "symbol": "g8_bsearchSqrtQuery_33",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "sqrt-search"
+   ]
+  },
+  {
+   "id": "g8_qCountSearch_33",
+   "symbol": "g8_qCountSearch_33",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "count"
+   ]
+  },
+  {
+   "id": "g8_nBinarySteps_33",
+   "symbol": "g8_nBinarySteps_33",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "halving"
+   ]
+  },
+  {
+   "id": "g8_qBsearch_34",
+   "symbol": "g8_qBsearch_34",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "g8_qLowerBound_34",
+   "symbol": "g8_qLowerBound_34",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "lower-bound"
+   ]
+  },
+  {
+   "id": "g8_qUpperBound_34",
+   "symbol": "g8_qUpperBound_34",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "upper-bound"
+   ]
+  },
+  {
+   "id": "g8_nBsearch_34",
+   "symbol": "g8_nBsearch_34",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "g8_bsearchBitwiseQuery_34",
+   "symbol": "g8_bsearchBitwiseQuery_34",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "shift"
+   ]
+  },
+  {
+   "id": "g8_bsearchSqrtQuery_34",
+   "symbol": "g8_bsearchSqrtQuery_34",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "sqrt-search"
+   ]
+  },
+  {
+   "id": "g8_qCountSearch_34",
+   "symbol": "g8_qCountSearch_34",
+   "time": "O(m log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "queries",
+    "count"
+   ]
+  },
+  {
+   "id": "g8_nBinarySteps_34",
+   "symbol": "g8_nBinarySteps_34",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "halving"
+   ]
+  }
+ ]
+}

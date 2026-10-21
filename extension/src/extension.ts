@@ -193,7 +193,7 @@ function resultDetailsHtml(result: AnalysisResult, minimumConfidence: number): s
     .mem-value { font-size:13px; color:#e0e0e0; margin:2px 0 0; white-space:nowrap; }
   </style></head><body><div class="analysis-card" id="card">
     <div class="card-header" id="toggle" role="button" aria-expanded="false" tabindex="0">
-      <div class="card-summary"><p class="row">Worst case <span class="value">${withheld ? "—" : mathHtml(result.worstCaseTime)}</span></p><p class="row">Space <span class="value">${withheld ? "—" : mathHtml(result.auxiliarySpace)}</span></p></div>
+      <div class="card-summary"><p class="row">Worst case <span class="value">${withheld ? " - " : mathHtml(result.worstCaseTime)}</span></p><p class="row">Space <span class="value">${withheld ? " - " : mathHtml(result.auxiliarySpace)}</span></p></div>
       <span class="chevron" id="chevron" aria-hidden="true">▾</span>
     </div>
     <div class="card-details" id="details" hidden><p class="section-label">${withheld ? `confidence ${score}% (minimum ${minimumConfidence}%)` : "reason"}</p><ul class="reason-text">${proof}</ul>${!withheld ? memoryGrid : ""}</div>
@@ -400,17 +400,38 @@ class ComplexityCodeLensProvider implements vscode.CodeLensProvider {
 }
 
 export function activate(context: vscode.ExtensionContext): void {
+  context.subscriptions.push(vscode.commands.registerCommand("projectX.openVoidHub", () => {
+    void vscode.env.openExternal(vscode.Uri.parse("https://voidhub.co"));
+  }));
+
+  const voidHubStatus = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
+  voidHubStatus.text = "$(watch) Complexity (By VoidHub)";
+  voidHubStatus.tooltip = "Time Complexity Calculator - Click to visit VoidHub (https://voidhub.co)";
+  voidHubStatus.command = "projectX.openVoidHub";
+  voidHubStatus.show();
+  context.subscriptions.push(voidHubStatus);
+
   const showResultNotification = (result: AnalysisResult, minimumConfidence: number): void => {
     const message = resultNotificationText(result, minimumConfidence);
     const withheld = result.confidence === "unknown" || confidencePercent(result) < minimumConfidence;
     const notification = withheld
-      ? vscode.window.showWarningMessage(message, "Details")
-      : vscode.window.showInformationMessage(message, "Details");
+      ? vscode.window.showWarningMessage(message, "Details", "VoidHub.co")
+      : vscode.window.showInformationMessage(message, "Details", "VoidHub.co");
     void notification.then((action) => {
+      if (action === "VoidHub.co") {
+        void vscode.env.openExternal(vscode.Uri.parse("https://voidhub.co"));
+        return;
+      }
       if (action !== "Details") return;
-      const details = vscode.window.showInformationMessage(resultDetailsNotificationText(result, minimumConfidence), "Open explanation");
+      const details = vscode.window.showInformationMessage(resultDetailsNotificationText(result, minimumConfidence), "Open explanation", "VoidHub.co");
       void details.then((detailAction) => {
-        if (detailAction === "Open explanation") void vscode.window.showInformationMessage(fullExplanationNotificationText(result, minimumConfidence));
+        if (detailAction === "VoidHub.co") {
+          void vscode.env.openExternal(vscode.Uri.parse("https://voidhub.co"));
+        } else if (detailAction === "Open explanation") {
+          void vscode.window.showInformationMessage(fullExplanationNotificationText(result, minimumConfidence), "Visit VoidHub.co").then((expAction) => {
+            if (expAction === "Visit VoidHub.co") void vscode.env.openExternal(vscode.Uri.parse("https://voidhub.co"));
+          });
+        }
       });
     });
   };

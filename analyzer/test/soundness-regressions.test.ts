@@ -60,7 +60,7 @@ test("BUG-008: a negative compound stride is not a two-endpoint unit advance", {
   assert.equal(result.worstCaseTime, "Unknown", result.proof.join(" "));
 });
 
-// Round-6 convention reversal (census reconciliation — see Deep.md): the
+// Round-6 convention reversal (census reconciliation - see Deep.md): the
 // reviewed corpus labels are split on whether a container materialized from
 // the input stream counts as auxiliary storage (near-identical programs carry
 // `O(n)` and `O(1)` space labels). The majority side, and the 2D-grid family
@@ -147,7 +147,7 @@ test("BUG-010: a cast-wrapped long long accumulator does not seed its own bound"
   assert.equal(result.worstCaseTime, "O(n)", result.proof.join(" "));
   // Space flipped O(1) -> O(n) in the round-6 convention reversal (materialized
   // input containers are charged; see the space-convention tests above). The
-  // BUG-010 pin is the time bound — the accumulator no longer seeds `O(sum)`.
+  // BUG-010 pin is the time bound - the accumulator no longer seeds `O(sum)`.
   assert.equal(result.auxiliarySpace, "O(n)");
 });
 
@@ -184,7 +184,7 @@ test("BUG-011: a single-write counter keeps its charged trip count", { skip: !ex
 test("BUG-019: control-flow body-visit seeding bounds insertion sort quadratically", { skip: !existsSync(clangPath) }, () => {
   process.env.PROJECT_X_CLANG = clangPath;
   // Before the fix the inner shifting loop contributed no work state, so the
-  // outer loop was published as O(n) — a silent under-claim.
+  // outer loop was published as O(n) - a silent under-claim.
   const result = analyseCppSelection(`int f(vector<int>& a) {
     int n = a.size();
     for (int i = 1; i < n; ++i) {

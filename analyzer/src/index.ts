@@ -156,11 +156,11 @@ function translationUnitConstants(ast: ClangNode): Set<string> {
   // The set holds BOTH constant names and their declaration ids. Consumers
   // resolve a DeclRefExpr by id when Clang provides one, so a parameter that
   // shadows a global constant (`const int N = 5; int f(int N)`) is not
-  // mistaken for the constant — name-only matching would cost the shadowed
+  // mistaken for the constant - name-only matching would cost the shadowed
   // loop as O(1).
   const constants = new Set<string>();
   for (const node of ast.inner ?? []) {
-    // Enum constants: `enum { SIZE = 100 }` — the EnumConstantDecl is a
+    // Enum constants: `enum { SIZE = 100 }` - the EnumConstantDecl is a
     // compile-time constant usable as a loop bound.
     if (node.kind === "EnumDecl") {
       for (const constant of node.inner ?? []) {
@@ -718,8 +718,8 @@ export function analyseCppSelection(source: string, documentSource = source): An
     // The synthetic prelude instantiates body-carrying STL declarations
     // (unique, three-argument sort, remove, ...). Their bodies are one-line
     // stubs, and resolving them as local summaries would cost a real
-    // sort/unique pass as O(1). Only functions defined in user source —
-    // i.e. past the prelude prefix shared by every input shape here — may
+    // sort/unique pass as O(1). Only functions defined in user source -
+    // i.e. past the prelude prefix shared by every input shape here - may
     // supply same-file call costs.
     const preludeEnd = standardPrelude.length + 1;
     const sameFileFunctions = findFunctionDeclarations(ast)

@@ -6,7 +6,7 @@ text = io.open(path, encoding="utf-8").read()
 old = """  for (const node of ast.inner ?? []) {
     if (node.kind !== "VarDecl" || !node.name) continue;"""
 new = """  for (const node of ast.inner ?? []) {
-    // Enum constants: `enum { SIZE = 100 }` — the EnumConstantDecl is a
+    // Enum constants: `enum { SIZE = 100 }` - the EnumConstantDecl is a
     // compile-time constant usable as a loop bound.
     if (node.kind === "EnumDecl") {
       for (const constant of node.inner ?? []) {
@@ -27,7 +27,7 @@ old2 = """  const binding = nodesOfKind(body, "VarDecl").find((node) => {
   });"""
 new2 = """  const binding = nodesOfKind(body, "VarDecl").find((node) => {
     // The initializer must be a DIRECT DeclRefExpr to a function (after cast
-    // unwrapping) — a CallExpr initializer (`auto it = unique(...)`) is a
+    // unwrapping) - a CallExpr initializer (`auto it = unique(...)`) is a
     // computed result, not an alias.
     let initializer = node.inner?.at(-1);
     while (initializer && ["ImplicitCastExpr", "ParenExpr"].includes(initializer.kind ?? "")) initializer = initializer.inner?.[0];
@@ -37,7 +37,7 @@ new2 = """  const binding = nodesOfKind(body, "VarDecl").find((node) => {
 assert old2 in text2, "alias anchor"
 text2 = text2.replace(old2, new2, 1)
 
-# Fix 3: IfStmt condition cost — calls in the condition count toward the branch.
+# Fix 3: IfStmt condition cost - calls in the condition count toward the branch.
 old3 = """    const value = branchMaximum(thenWork.value, elseWork.value);
     if (!value) return undefined;
     return {

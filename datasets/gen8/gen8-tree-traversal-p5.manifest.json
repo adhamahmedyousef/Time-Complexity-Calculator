@@ -1,0 +1,446 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "g8_treePreorder_20",
+   "symbol": "g8_treePreorder_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "linear",
+    "traversal"
+   ]
+  },
+  {
+   "id": "g8_vectorRange_20",
+   "symbol": "g8_vectorRange_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "range-for",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_treeSubtreeSum_20",
+   "symbol": "g8_treeSubtreeSum_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_treeMaxDegree_20",
+   "symbol": "g8_treeMaxDegree_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "linear-scan"
+   ]
+  },
+  {
+   "id": "g8_treeInitParent_20",
+   "symbol": "g8_treeInitParent_20",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "initialization"
+   ]
+  },
+  {
+   "id": "g8_treeLeafCount_20",
+   "symbol": "g8_treeLeafCount_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_treeDepthArray_20",
+   "symbol": "g8_treeDepthArray_20",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_treeEdgeCount_20",
+   "symbol": "g8_treeEdgeCount_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_treePreorder_21",
+   "symbol": "g8_treePreorder_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "linear",
+    "traversal"
+   ]
+  },
+  {
+   "id": "g8_vectorRange_21",
+   "symbol": "g8_vectorRange_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "range-for",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_treeSubtreeSum_21",
+   "symbol": "g8_treeSubtreeSum_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_treeMaxDegree_21",
+   "symbol": "g8_treeMaxDegree_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "linear-scan"
+   ]
+  },
+  {
+   "id": "g8_treeInitParent_21",
+   "symbol": "g8_treeInitParent_21",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "initialization"
+   ]
+  },
+  {
+   "id": "g8_treeLeafCount_21",
+   "symbol": "g8_treeLeafCount_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_treeDepthArray_21",
+   "symbol": "g8_treeDepthArray_21",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_treeEdgeCount_21",
+   "symbol": "g8_treeEdgeCount_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_treePreorder_22",
+   "symbol": "g8_treePreorder_22",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "linear",
+    "traversal"
+   ]
+  },
+  {
+   "id": "g8_vectorRange_22",
+   "symbol": "g8_vectorRange_22",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "range-for",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_treeSubtreeSum_22",
+   "symbol": "g8_treeSubtreeSum_22",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_treeMaxDegree_22",
+   "symbol": "g8_treeMaxDegree_22",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "linear-scan"
+   ]
+  },
+  {
+   "id": "g8_treeInitParent_22",
+   "symbol": "g8_treeInitParent_22",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "initialization"
+   ]
+  },
+  {
+   "id": "g8_treeLeafCount_22",
+   "symbol": "g8_treeLeafCount_22",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_treeDepthArray_22",
+   "symbol": "g8_treeDepthArray_22",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_treeEdgeCount_22",
+   "symbol": "g8_treeEdgeCount_22",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_treePreorder_23",
+   "symbol": "g8_treePreorder_23",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "linear",
+    "traversal"
+   ]
+  },
+  {
+   "id": "g8_vectorRange_23",
+   "symbol": "g8_vectorRange_23",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "range-for",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_treeSubtreeSum_23",
+   "symbol": "g8_treeSubtreeSum_23",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_treeMaxDegree_23",
+   "symbol": "g8_treeMaxDegree_23",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "linear-scan"
+   ]
+  },
+  {
+   "id": "g8_treeInitParent_23",
+   "symbol": "g8_treeInitParent_23",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "initialization"
+   ]
+  },
+  {
+   "id": "g8_treeLeafCount_23",
+   "symbol": "g8_treeLeafCount_23",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_treeDepthArray_23",
+   "symbol": "g8_treeDepthArray_23",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_treeEdgeCount_23",
+   "symbol": "g8_treeEdgeCount_23",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_treePreorder_24",
+   "symbol": "g8_treePreorder_24",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "linear",
+    "traversal"
+   ]
+  },
+  {
+   "id": "g8_vectorRange_24",
+   "symbol": "g8_vectorRange_24",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "range-for",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_treeSubtreeSum_24",
+   "symbol": "g8_treeSubtreeSum_24",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_treeMaxDegree_24",
+   "symbol": "g8_treeMaxDegree_24",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "linear-scan"
+   ]
+  },
+  {
+   "id": "g8_treeInitParent_24",
+   "symbol": "g8_treeInitParent_24",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "initialization"
+   ]
+  },
+  {
+   "id": "g8_treeLeafCount_24",
+   "symbol": "g8_treeLeafCount_24",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_treeDepthArray_24",
+   "symbol": "g8_treeDepthArray_24",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_treeEdgeCount_24",
+   "symbol": "g8_treeEdgeCount_24",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "tree",
+    "linear"
+   ]
+  }
+ ]
+}

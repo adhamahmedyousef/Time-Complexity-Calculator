@@ -1,0 +1,446 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "g8_harmonicSum_10",
+   "symbol": "g8_harmonicSum_10",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_harmonicCount_10",
+   "symbol": "g8_harmonicCount_10",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "counting"
+   ]
+  },
+  {
+   "id": "g8_harmonicDivisors_10",
+   "symbol": "g8_harmonicDivisors_10",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "sieve"
+   ]
+  },
+  {
+   "id": "g8_harmonicAlloc_10",
+   "symbol": "g8_harmonicAlloc_10",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "table"
+   ]
+  },
+  {
+   "id": "g8_harmonicOdd_10",
+   "symbol": "g8_harmonicOdd_10",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "stride"
+   ]
+  },
+  {
+   "id": "g8_harmonicHalf_10",
+   "symbol": "g8_harmonicHalf_10",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "bound"
+   ]
+  },
+  {
+   "id": "g8_harmonicPairs_10",
+   "symbol": "g8_harmonicPairs_10",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_harmonicFilter_10",
+   "symbol": "g8_harmonicFilter_10",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "filter"
+   ]
+  },
+  {
+   "id": "g8_harmonicSum_11",
+   "symbol": "g8_harmonicSum_11",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_harmonicCount_11",
+   "symbol": "g8_harmonicCount_11",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "counting"
+   ]
+  },
+  {
+   "id": "g8_harmonicDivisors_11",
+   "symbol": "g8_harmonicDivisors_11",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "sieve"
+   ]
+  },
+  {
+   "id": "g8_harmonicAlloc_11",
+   "symbol": "g8_harmonicAlloc_11",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "table"
+   ]
+  },
+  {
+   "id": "g8_harmonicOdd_11",
+   "symbol": "g8_harmonicOdd_11",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "stride"
+   ]
+  },
+  {
+   "id": "g8_harmonicHalf_11",
+   "symbol": "g8_harmonicHalf_11",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "bound"
+   ]
+  },
+  {
+   "id": "g8_harmonicPairs_11",
+   "symbol": "g8_harmonicPairs_11",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_harmonicFilter_11",
+   "symbol": "g8_harmonicFilter_11",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "filter"
+   ]
+  },
+  {
+   "id": "g8_harmonicSum_12",
+   "symbol": "g8_harmonicSum_12",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_harmonicCount_12",
+   "symbol": "g8_harmonicCount_12",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "counting"
+   ]
+  },
+  {
+   "id": "g8_harmonicDivisors_12",
+   "symbol": "g8_harmonicDivisors_12",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "sieve"
+   ]
+  },
+  {
+   "id": "g8_harmonicAlloc_12",
+   "symbol": "g8_harmonicAlloc_12",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "table"
+   ]
+  },
+  {
+   "id": "g8_harmonicOdd_12",
+   "symbol": "g8_harmonicOdd_12",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "stride"
+   ]
+  },
+  {
+   "id": "g8_harmonicHalf_12",
+   "symbol": "g8_harmonicHalf_12",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "bound"
+   ]
+  },
+  {
+   "id": "g8_harmonicPairs_12",
+   "symbol": "g8_harmonicPairs_12",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_harmonicFilter_12",
+   "symbol": "g8_harmonicFilter_12",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "filter"
+   ]
+  },
+  {
+   "id": "g8_harmonicSum_13",
+   "symbol": "g8_harmonicSum_13",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_harmonicCount_13",
+   "symbol": "g8_harmonicCount_13",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "counting"
+   ]
+  },
+  {
+   "id": "g8_harmonicDivisors_13",
+   "symbol": "g8_harmonicDivisors_13",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "sieve"
+   ]
+  },
+  {
+   "id": "g8_harmonicAlloc_13",
+   "symbol": "g8_harmonicAlloc_13",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "table"
+   ]
+  },
+  {
+   "id": "g8_harmonicOdd_13",
+   "symbol": "g8_harmonicOdd_13",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "stride"
+   ]
+  },
+  {
+   "id": "g8_harmonicHalf_13",
+   "symbol": "g8_harmonicHalf_13",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "bound"
+   ]
+  },
+  {
+   "id": "g8_harmonicPairs_13",
+   "symbol": "g8_harmonicPairs_13",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_harmonicFilter_13",
+   "symbol": "g8_harmonicFilter_13",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "filter"
+   ]
+  },
+  {
+   "id": "g8_harmonicSum_14",
+   "symbol": "g8_harmonicSum_14",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_harmonicCount_14",
+   "symbol": "g8_harmonicCount_14",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "counting"
+   ]
+  },
+  {
+   "id": "g8_harmonicDivisors_14",
+   "symbol": "g8_harmonicDivisors_14",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "sieve"
+   ]
+  },
+  {
+   "id": "g8_harmonicAlloc_14",
+   "symbol": "g8_harmonicAlloc_14",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "table"
+   ]
+  },
+  {
+   "id": "g8_harmonicOdd_14",
+   "symbol": "g8_harmonicOdd_14",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "stride"
+   ]
+  },
+  {
+   "id": "g8_harmonicHalf_14",
+   "symbol": "g8_harmonicHalf_14",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "bound"
+   ]
+  },
+  {
+   "id": "g8_harmonicPairs_14",
+   "symbol": "g8_harmonicPairs_14",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_harmonicFilter_14",
+   "symbol": "g8_harmonicFilter_14",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "harmonic",
+    "filter"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,446 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "g8_crossProduct_25",
+   "symbol": "g8_crossProduct_25",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "cross-product"
+   ]
+  },
+  {
+   "id": "g8_polygonPerimeter_25",
+   "symbol": "g8_polygonPerimeter_25",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_pointSort_25",
+   "symbol": "g8_pointSort_25",
+   "time": "O(n log n)",
+   "space": "Unknown",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "sorting"
+   ]
+  },
+  {
+   "id": "g8_pointScan_25",
+   "symbol": "g8_pointScan_25",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "linear-scan"
+   ]
+  },
+  {
+   "id": "g8_manhattanDist_25",
+   "symbol": "g8_manhattanDist_25",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "constant"
+   ]
+  },
+  {
+   "id": "g8_polygonArea2D_25",
+   "symbol": "g8_polygonArea2D_25",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "shoelace"
+   ]
+  },
+  {
+   "id": "g8_lineSweepEvents_25",
+   "symbol": "g8_lineSweepEvents_25",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sweep-line",
+    "sort"
+   ]
+  },
+  {
+   "id": "g8_collinearCheck_25",
+   "symbol": "g8_collinearCheck_25",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "constant"
+   ]
+  },
+  {
+   "id": "g8_crossProduct_26",
+   "symbol": "g8_crossProduct_26",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "cross-product"
+   ]
+  },
+  {
+   "id": "g8_polygonPerimeter_26",
+   "symbol": "g8_polygonPerimeter_26",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_pointSort_26",
+   "symbol": "g8_pointSort_26",
+   "time": "O(n log n)",
+   "space": "Unknown",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "sorting"
+   ]
+  },
+  {
+   "id": "g8_pointScan_26",
+   "symbol": "g8_pointScan_26",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "linear-scan"
+   ]
+  },
+  {
+   "id": "g8_manhattanDist_26",
+   "symbol": "g8_manhattanDist_26",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "constant"
+   ]
+  },
+  {
+   "id": "g8_polygonArea2D_26",
+   "symbol": "g8_polygonArea2D_26",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "shoelace"
+   ]
+  },
+  {
+   "id": "g8_lineSweepEvents_26",
+   "symbol": "g8_lineSweepEvents_26",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sweep-line",
+    "sort"
+   ]
+  },
+  {
+   "id": "g8_collinearCheck_26",
+   "symbol": "g8_collinearCheck_26",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "constant"
+   ]
+  },
+  {
+   "id": "g8_crossProduct_27",
+   "symbol": "g8_crossProduct_27",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "cross-product"
+   ]
+  },
+  {
+   "id": "g8_polygonPerimeter_27",
+   "symbol": "g8_polygonPerimeter_27",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_pointSort_27",
+   "symbol": "g8_pointSort_27",
+   "time": "O(n log n)",
+   "space": "Unknown",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "sorting"
+   ]
+  },
+  {
+   "id": "g8_pointScan_27",
+   "symbol": "g8_pointScan_27",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "linear-scan"
+   ]
+  },
+  {
+   "id": "g8_manhattanDist_27",
+   "symbol": "g8_manhattanDist_27",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "constant"
+   ]
+  },
+  {
+   "id": "g8_polygonArea2D_27",
+   "symbol": "g8_polygonArea2D_27",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "shoelace"
+   ]
+  },
+  {
+   "id": "g8_lineSweepEvents_27",
+   "symbol": "g8_lineSweepEvents_27",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sweep-line",
+    "sort"
+   ]
+  },
+  {
+   "id": "g8_collinearCheck_27",
+   "symbol": "g8_collinearCheck_27",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "constant"
+   ]
+  },
+  {
+   "id": "g8_crossProduct_28",
+   "symbol": "g8_crossProduct_28",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "cross-product"
+   ]
+  },
+  {
+   "id": "g8_polygonPerimeter_28",
+   "symbol": "g8_polygonPerimeter_28",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_pointSort_28",
+   "symbol": "g8_pointSort_28",
+   "time": "O(n log n)",
+   "space": "Unknown",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "sorting"
+   ]
+  },
+  {
+   "id": "g8_pointScan_28",
+   "symbol": "g8_pointScan_28",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "linear-scan"
+   ]
+  },
+  {
+   "id": "g8_manhattanDist_28",
+   "symbol": "g8_manhattanDist_28",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "constant"
+   ]
+  },
+  {
+   "id": "g8_polygonArea2D_28",
+   "symbol": "g8_polygonArea2D_28",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "shoelace"
+   ]
+  },
+  {
+   "id": "g8_lineSweepEvents_28",
+   "symbol": "g8_lineSweepEvents_28",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sweep-line",
+    "sort"
+   ]
+  },
+  {
+   "id": "g8_collinearCheck_28",
+   "symbol": "g8_collinearCheck_28",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "constant"
+   ]
+  },
+  {
+   "id": "g8_crossProduct_29",
+   "symbol": "g8_crossProduct_29",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "cross-product"
+   ]
+  },
+  {
+   "id": "g8_polygonPerimeter_29",
+   "symbol": "g8_polygonPerimeter_29",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_pointSort_29",
+   "symbol": "g8_pointSort_29",
+   "time": "O(n log n)",
+   "space": "Unknown",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "sorting"
+   ]
+  },
+  {
+   "id": "g8_pointScan_29",
+   "symbol": "g8_pointScan_29",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "linear-scan"
+   ]
+  },
+  {
+   "id": "g8_manhattanDist_29",
+   "symbol": "g8_manhattanDist_29",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "constant"
+   ]
+  },
+  {
+   "id": "g8_polygonArea2D_29",
+   "symbol": "g8_polygonArea2D_29",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "shoelace"
+   ]
+  },
+  {
+   "id": "g8_lineSweepEvents_29",
+   "symbol": "g8_lineSweepEvents_29",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sweep-line",
+    "sort"
+   ]
+  },
+  {
+   "id": "g8_collinearCheck_29",
+   "symbol": "g8_collinearCheck_29",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "geometry",
+    "constant"
+   ]
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 /**
- * AUTO-GENERATED regression lock over the reviewed corpus — DO NOT EDIT.
+ * AUTO-GENERATED regression lock over the reviewed corpus - DO NOT EDIT.
  * 6490 locked cases across 92 manifests.
  * Regenerate after intentional engine changes:
  *   node tools/generate_corpus_tests.mjs

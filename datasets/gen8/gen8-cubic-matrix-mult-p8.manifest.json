@@ -1,0 +1,451 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "g8_matMul_35",
+   "symbol": "g8_matMul_35",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix",
+    "cubic"
+   ]
+  },
+  {
+   "id": "g8_cubicLoop_35",
+   "symbol": "g8_cubicLoop_35",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "cubic"
+   ]
+  },
+  {
+   "id": "g8_cubicTriangular_35",
+   "symbol": "g8_cubicTriangular_35",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "cubic"
+   ]
+  },
+  {
+   "id": "g8_cubicAlloc_35",
+   "symbol": "g8_cubicAlloc_35",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "cubic",
+    "matrix"
+   ]
+  },
+  {
+   "id": "g8_cubicRect_35",
+   "symbol": "g8_cubicRect_35",
+   "time": "O(n m p)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "cubic-rectangular"
+   ]
+  },
+  {
+   "id": "g8_cubicSum_35",
+   "symbol": "g8_cubicSum_35",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "cubic",
+    "sum"
+   ]
+  },
+  {
+   "id": "g8_cubicBreak_35",
+   "symbol": "g8_cubicBreak_35",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "cubic",
+    "break"
+   ]
+  },
+  {
+   "id": "g8_cubicZero_35",
+   "symbol": "g8_cubicZero_35",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "cubic",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_matMul_36",
+   "symbol": "g8_matMul_36",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix",
+    "cubic"
+   ]
+  },
+  {
+   "id": "g8_cubicLoop_36",
+   "symbol": "g8_cubicLoop_36",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "cubic"
+   ]
+  },
+  {
+   "id": "g8_cubicTriangular_36",
+   "symbol": "g8_cubicTriangular_36",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "cubic"
+   ]
+  },
+  {
+   "id": "g8_cubicAlloc_36",
+   "symbol": "g8_cubicAlloc_36",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "cubic",
+    "matrix"
+   ]
+  },
+  {
+   "id": "g8_cubicRect_36",
+   "symbol": "g8_cubicRect_36",
+   "time": "O(n m p)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "cubic-rectangular"
+   ]
+  },
+  {
+   "id": "g8_cubicSum_36",
+   "symbol": "g8_cubicSum_36",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "cubic",
+    "sum"
+   ]
+  },
+  {
+   "id": "g8_cubicBreak_36",
+   "symbol": "g8_cubicBreak_36",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "cubic",
+    "break"
+   ]
+  },
+  {
+   "id": "g8_cubicZero_36",
+   "symbol": "g8_cubicZero_36",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "cubic",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_matMul_37",
+   "symbol": "g8_matMul_37",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix",
+    "cubic"
+   ]
+  },
+  {
+   "id": "g8_cubicLoop_37",
+   "symbol": "g8_cubicLoop_37",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "cubic"
+   ]
+  },
+  {
+   "id": "g8_cubicTriangular_37",
+   "symbol": "g8_cubicTriangular_37",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "cubic"
+   ]
+  },
+  {
+   "id": "g8_cubicAlloc_37",
+   "symbol": "g8_cubicAlloc_37",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "cubic",
+    "matrix"
+   ]
+  },
+  {
+   "id": "g8_cubicRect_37",
+   "symbol": "g8_cubicRect_37",
+   "time": "O(n m p)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "cubic-rectangular"
+   ]
+  },
+  {
+   "id": "g8_cubicSum_37",
+   "symbol": "g8_cubicSum_37",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "cubic",
+    "sum"
+   ]
+  },
+  {
+   "id": "g8_cubicBreak_37",
+   "symbol": "g8_cubicBreak_37",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "cubic",
+    "break"
+   ]
+  },
+  {
+   "id": "g8_cubicZero_37",
+   "symbol": "g8_cubicZero_37",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "cubic",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_matMul_38",
+   "symbol": "g8_matMul_38",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix",
+    "cubic"
+   ]
+  },
+  {
+   "id": "g8_cubicLoop_38",
+   "symbol": "g8_cubicLoop_38",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "cubic"
+   ]
+  },
+  {
+   "id": "g8_cubicTriangular_38",
+   "symbol": "g8_cubicTriangular_38",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "cubic"
+   ]
+  },
+  {
+   "id": "g8_cubicAlloc_38",
+   "symbol": "g8_cubicAlloc_38",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "cubic",
+    "matrix"
+   ]
+  },
+  {
+   "id": "g8_cubicRect_38",
+   "symbol": "g8_cubicRect_38",
+   "time": "O(n m p)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "cubic-rectangular"
+   ]
+  },
+  {
+   "id": "g8_cubicSum_38",
+   "symbol": "g8_cubicSum_38",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "cubic",
+    "sum"
+   ]
+  },
+  {
+   "id": "g8_cubicBreak_38",
+   "symbol": "g8_cubicBreak_38",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "cubic",
+    "break"
+   ]
+  },
+  {
+   "id": "g8_cubicZero_38",
+   "symbol": "g8_cubicZero_38",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "cubic",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_matMul_39",
+   "symbol": "g8_matMul_39",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix",
+    "cubic"
+   ]
+  },
+  {
+   "id": "g8_cubicLoop_39",
+   "symbol": "g8_cubicLoop_39",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "cubic"
+   ]
+  },
+  {
+   "id": "g8_cubicTriangular_39",
+   "symbol": "g8_cubicTriangular_39",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "cubic"
+   ]
+  },
+  {
+   "id": "g8_cubicAlloc_39",
+   "symbol": "g8_cubicAlloc_39",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "cubic",
+    "matrix"
+   ]
+  },
+  {
+   "id": "g8_cubicRect_39",
+   "symbol": "g8_cubicRect_39",
+   "time": "O(n m p)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "nested",
+    "cubic-rectangular"
+   ]
+  },
+  {
+   "id": "g8_cubicSum_39",
+   "symbol": "g8_cubicSum_39",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "cubic",
+    "sum"
+   ]
+  },
+  {
+   "id": "g8_cubicBreak_39",
+   "symbol": "g8_cubicBreak_39",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "cubic",
+    "break"
+   ]
+  },
+  {
+   "id": "g8_cubicZero_39",
+   "symbol": "g8_cubicZero_39",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "cubic",
+    "nested"
+   ]
+  }
+ ]
+}

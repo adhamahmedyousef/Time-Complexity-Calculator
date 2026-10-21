@@ -1,0 +1,446 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "g8_isPalindrome_30",
+   "symbol": "g8_isPalindrome_30",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "g8_charFreq_30",
+   "symbol": "g8_charFreq_30",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "frequency"
+   ]
+  },
+  {
+   "id": "g8_countVowels_30",
+   "symbol": "g8_countVowels_30",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "scan"
+   ]
+  },
+  {
+   "id": "g8_reverseString_30",
+   "symbol": "g8_reverseString_30",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "reverse"
+   ]
+  },
+  {
+   "id": "g8_prefixMatch_30",
+   "symbol": "g8_prefixMatch_30",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "matching"
+   ]
+  },
+  {
+   "id": "g8_toUpper_30",
+   "symbol": "g8_toUpper_30",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "in-place"
+   ]
+  },
+  {
+   "id": "g8_strDiff_30",
+   "symbol": "g8_strDiff_30",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "hamming"
+   ]
+  },
+  {
+   "id": "g8_runLengthCount_30",
+   "symbol": "g8_runLengthCount_30",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "run-length"
+   ]
+  },
+  {
+   "id": "g8_isPalindrome_31",
+   "symbol": "g8_isPalindrome_31",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "g8_charFreq_31",
+   "symbol": "g8_charFreq_31",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "frequency"
+   ]
+  },
+  {
+   "id": "g8_countVowels_31",
+   "symbol": "g8_countVowels_31",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "scan"
+   ]
+  },
+  {
+   "id": "g8_reverseString_31",
+   "symbol": "g8_reverseString_31",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "reverse"
+   ]
+  },
+  {
+   "id": "g8_prefixMatch_31",
+   "symbol": "g8_prefixMatch_31",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "matching"
+   ]
+  },
+  {
+   "id": "g8_toUpper_31",
+   "symbol": "g8_toUpper_31",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "in-place"
+   ]
+  },
+  {
+   "id": "g8_strDiff_31",
+   "symbol": "g8_strDiff_31",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "hamming"
+   ]
+  },
+  {
+   "id": "g8_runLengthCount_31",
+   "symbol": "g8_runLengthCount_31",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "run-length"
+   ]
+  },
+  {
+   "id": "g8_isPalindrome_32",
+   "symbol": "g8_isPalindrome_32",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "g8_charFreq_32",
+   "symbol": "g8_charFreq_32",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "frequency"
+   ]
+  },
+  {
+   "id": "g8_countVowels_32",
+   "symbol": "g8_countVowels_32",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "scan"
+   ]
+  },
+  {
+   "id": "g8_reverseString_32",
+   "symbol": "g8_reverseString_32",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "reverse"
+   ]
+  },
+  {
+   "id": "g8_prefixMatch_32",
+   "symbol": "g8_prefixMatch_32",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "matching"
+   ]
+  },
+  {
+   "id": "g8_toUpper_32",
+   "symbol": "g8_toUpper_32",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "in-place"
+   ]
+  },
+  {
+   "id": "g8_strDiff_32",
+   "symbol": "g8_strDiff_32",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "hamming"
+   ]
+  },
+  {
+   "id": "g8_runLengthCount_32",
+   "symbol": "g8_runLengthCount_32",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "run-length"
+   ]
+  },
+  {
+   "id": "g8_isPalindrome_33",
+   "symbol": "g8_isPalindrome_33",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "g8_charFreq_33",
+   "symbol": "g8_charFreq_33",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "frequency"
+   ]
+  },
+  {
+   "id": "g8_countVowels_33",
+   "symbol": "g8_countVowels_33",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "scan"
+   ]
+  },
+  {
+   "id": "g8_reverseString_33",
+   "symbol": "g8_reverseString_33",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "reverse"
+   ]
+  },
+  {
+   "id": "g8_prefixMatch_33",
+   "symbol": "g8_prefixMatch_33",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "matching"
+   ]
+  },
+  {
+   "id": "g8_toUpper_33",
+   "symbol": "g8_toUpper_33",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "in-place"
+   ]
+  },
+  {
+   "id": "g8_strDiff_33",
+   "symbol": "g8_strDiff_33",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "hamming"
+   ]
+  },
+  {
+   "id": "g8_runLengthCount_33",
+   "symbol": "g8_runLengthCount_33",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "run-length"
+   ]
+  },
+  {
+   "id": "g8_isPalindrome_34",
+   "symbol": "g8_isPalindrome_34",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "g8_charFreq_34",
+   "symbol": "g8_charFreq_34",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "frequency"
+   ]
+  },
+  {
+   "id": "g8_countVowels_34",
+   "symbol": "g8_countVowels_34",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "scan"
+   ]
+  },
+  {
+   "id": "g8_reverseString_34",
+   "symbol": "g8_reverseString_34",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "reverse"
+   ]
+  },
+  {
+   "id": "g8_prefixMatch_34",
+   "symbol": "g8_prefixMatch_34",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "matching"
+   ]
+  },
+  {
+   "id": "g8_toUpper_34",
+   "symbol": "g8_toUpper_34",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "in-place"
+   ]
+  },
+  {
+   "id": "g8_strDiff_34",
+   "symbol": "g8_strDiff_34",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "hamming"
+   ]
+  },
+  {
+   "id": "g8_runLengthCount_34",
+   "symbol": "g8_runLengthCount_34",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string",
+    "run-length"
+   ]
+  }
+ ]
+}

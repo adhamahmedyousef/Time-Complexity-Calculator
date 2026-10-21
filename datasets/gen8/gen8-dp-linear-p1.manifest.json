@@ -1,0 +1,446 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "g8_dpFib_0",
+   "symbol": "g8_dpFib_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_dpClimb_0",
+   "symbol": "g8_dpClimb_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_dpRolling_0",
+   "symbol": "g8_dpRolling_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "constant-space"
+   ]
+  },
+  {
+   "id": "g8_dpPrefix_0",
+   "symbol": "g8_dpPrefix_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix-sum",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_dpSuffix_0",
+   "symbol": "g8_dpSuffix_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "suffix-sum",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_dpHouseRobber_0",
+   "symbol": "g8_dpHouseRobber_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "constant-space"
+   ]
+  },
+  {
+   "id": "g8_dpMaxSub_0",
+   "symbol": "g8_dpMaxSub_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "kadane",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_dpCoin_0",
+   "symbol": "g8_dpCoin_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_dpFib_1",
+   "symbol": "g8_dpFib_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_dpClimb_1",
+   "symbol": "g8_dpClimb_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_dpRolling_1",
+   "symbol": "g8_dpRolling_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "constant-space"
+   ]
+  },
+  {
+   "id": "g8_dpPrefix_1",
+   "symbol": "g8_dpPrefix_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix-sum",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_dpSuffix_1",
+   "symbol": "g8_dpSuffix_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "suffix-sum",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_dpHouseRobber_1",
+   "symbol": "g8_dpHouseRobber_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "constant-space"
+   ]
+  },
+  {
+   "id": "g8_dpMaxSub_1",
+   "symbol": "g8_dpMaxSub_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "kadane",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_dpCoin_1",
+   "symbol": "g8_dpCoin_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_dpFib_2",
+   "symbol": "g8_dpFib_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_dpClimb_2",
+   "symbol": "g8_dpClimb_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_dpRolling_2",
+   "symbol": "g8_dpRolling_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "constant-space"
+   ]
+  },
+  {
+   "id": "g8_dpPrefix_2",
+   "symbol": "g8_dpPrefix_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix-sum",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_dpSuffix_2",
+   "symbol": "g8_dpSuffix_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "suffix-sum",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_dpHouseRobber_2",
+   "symbol": "g8_dpHouseRobber_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "constant-space"
+   ]
+  },
+  {
+   "id": "g8_dpMaxSub_2",
+   "symbol": "g8_dpMaxSub_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "kadane",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_dpCoin_2",
+   "symbol": "g8_dpCoin_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_dpFib_3",
+   "symbol": "g8_dpFib_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_dpClimb_3",
+   "symbol": "g8_dpClimb_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_dpRolling_3",
+   "symbol": "g8_dpRolling_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "constant-space"
+   ]
+  },
+  {
+   "id": "g8_dpPrefix_3",
+   "symbol": "g8_dpPrefix_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix-sum",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_dpSuffix_3",
+   "symbol": "g8_dpSuffix_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "suffix-sum",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_dpHouseRobber_3",
+   "symbol": "g8_dpHouseRobber_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "constant-space"
+   ]
+  },
+  {
+   "id": "g8_dpMaxSub_3",
+   "symbol": "g8_dpMaxSub_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "kadane",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_dpCoin_3",
+   "symbol": "g8_dpCoin_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_dpFib_4",
+   "symbol": "g8_dpFib_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_dpClimb_4",
+   "symbol": "g8_dpClimb_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "linear"
+   ]
+  },
+  {
+   "id": "g8_dpRolling_4",
+   "symbol": "g8_dpRolling_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "constant-space"
+   ]
+  },
+  {
+   "id": "g8_dpPrefix_4",
+   "symbol": "g8_dpPrefix_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix-sum",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_dpSuffix_4",
+   "symbol": "g8_dpSuffix_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "suffix-sum",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_dpHouseRobber_4",
+   "symbol": "g8_dpHouseRobber_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "constant-space"
+   ]
+  },
+  {
+   "id": "g8_dpMaxSub_4",
+   "symbol": "g8_dpMaxSub_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "kadane",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_dpCoin_4",
+   "symbol": "g8_dpCoin_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "linear"
+   ]
+  }
+ ]
+}

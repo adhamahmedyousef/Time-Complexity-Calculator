@@ -380,7 +380,7 @@
   {
    "id": "invalid-inputs",
    "kind": "selection",
-   "description": "Malformed and degenerate inputs — required to fail gracefully, never crash",
+   "description": "Malformed and degenerate inputs - required to fail gracefully, never crash",
    "coldRepeats": 3,
    "warmRepeats": 3,
    "cases": [

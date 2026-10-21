@@ -52,8 +52,8 @@ function callCalleeName(call: ClangNode): string | undefined {
  * canonical binary interval build: a `l == r` leaf guard writing into the
  * typed storage, a `(l + r) / 2` midpoint, and two self-calls covering
  * `[l, m]` and `[m + 1, r]`, with no plain loops. Every one of the 2n - 1
- * tree nodes is written once, so the build is bounded by `O(n log n)` — the
- * published, sound, conservative estimate for preprocessing — with the typed
+ * tree nodes is written once, so the build is bounded by `O(n log n)` - the
+ * published, sound, conservative estimate for preprocessing - with the typed
  * table's `O(n)` storage.
  */
 export function segmentTreeConstructorSummary(functionDecl: ClangNode, methods: readonly ClangNode[], _constantSymbols?: ReadonlySet<string>): LocalSummaryValue | undefined {
@@ -117,7 +117,7 @@ export function segmentTreeConstructorSummary(functionDecl: ClangNode, methods: 
   // The reported build span must be derived from the input container's
   // element count: the record must initialize a member (scalar or typed
   // table) from a container size clause, and the build invocation must
-  // actually reference that member or call the container's size directly —
+  // actually reference that member or call the container's size directly -
   // otherwise the span could be constant and no container-n bound is proven.
   const constructorParameters = (functionDecl.inner ?? []).filter((node) => node.kind === "ParmVarDecl")
     .filter((node) => /\b(?:vector|deque|string|array)\s*</.test(node.type?.desugaredQualType ?? node.type?.qualType ?? ""));
@@ -285,8 +285,8 @@ function findBodyUpdate(loop: ClangNode): ClangNode | undefined {
     if (comparison === ">" || comparison === ">=") return !movesUp;
     return true;
   };
-  // The update drives the loop when it assigns the condition variable, or —
-  // Euclid's `a %= b` — reduces another variable by the condition variable
+  // The update drives the loop when it assigns the condition variable, or -
+  // Euclid's `a %= b` - reduces another variable by the condition variable
   // itself. Accumulators (`s += i`, `bits |= n`) read the condition variable
   // without driving the loop; adopting one as the update would charge the
   // accumulator's own bound as the trip count.
@@ -303,7 +303,7 @@ function findBodyUpdate(loop: ClangNode): ClangNode | undefined {
   // unconditional evaluation spine: reaching the statement always evaluates
   // it, so it runs once per iteration even inside a larger expression such as
   // `s += i++`. Steps guarded by a conditional operator, short-circuit
-  // evaluation, or an inner control-flow statement are excluded — those can
+  // evaluation, or an inner control-flow statement are excluded - those can
   // be skipped, and skipping the only progress update means the loop need not
   // terminate.
   const embeddedUnitStep = (statement: ClangNode): ClangNode | undefined => {
@@ -551,7 +551,7 @@ function loopBound(loop: ClangNode, bounds: SymbolicBounds, constantSymbols?: Re
   // update. Prefer it over incidental `--` operations in the loop body.
   const update = postfixCounter ?? updateOf(loop);
   // Conjunction decomposition: `for (; fast < n && a[fast] <= a[slow]; ++fast)`
-  // — the direct child is a conjunction, not a comparison. Find the nested
+  // - the direct child is a conjunction, not a comparison. Find the nested
   // comparison that references the update target as the effective condition.
   if (!condition && update) {
     const updateTarget = loopIndex(update);
@@ -601,7 +601,7 @@ function loopBound(loop: ClangNode, bounds: SymbolicBounds, constantSymbols?: Re
   // Conjunction of two cursors: `while (l < n && r < m)` where every body
   // path advances at least one cursor by a unit step. Each cursor stays
   // within its own comparison bound, so the trip count is bounded by the
-  // SUM of the two limits — the structural merge idiom.
+  // SUM of the two limits - the structural merge idiom.
   if (loop.kind === "WhileStmt") {
     const top = loop.inner?.[0];
     if (top?.kind === "BinaryOperator" && top.opcode === "&&" && (top.inner?.length ?? 0) === 2) {
@@ -754,7 +754,7 @@ function loopBound(loop: ClangNode, bounds: SymbolicBounds, constantSymbols?: Re
   if (loop.kind === "WhileStmt" && update.kind === "CompoundAssignOperator" && update.opcode === "%=") return { value: "O(log n)", update, condition, bound: limit };
   if (squareBound(condition) && isSingleSymbolicInput(limitNode, bounds, constantSymbols) && update.kind === "UnaryOperator" && ["++", "--"].includes(update.opcode ?? "")) return { value: "O(sqrt n)", update, condition, bound: limit };
   if (update.kind === "UnaryOperator" && ["++", "--"].includes(update.opcode ?? "")) {
-    // Quotient limit: `for (j = 1; j <= n / i; ++j)` — the limit itself is a
+    // Quotient limit: `for (j = 1; j <= n / i; ++j)` - the limit itself is a
     // rational term of an enclosing index (a negative exponent). The trip IS
     // the limit; the compositional layer sums it over the outer loop.
     const limitTerms = parseBound(limit);
@@ -772,7 +772,7 @@ function loopBound(loop: ClangNode, bounds: SymbolicBounds, constantSymbols?: Re
     return { value: limit, update, condition, bound: limit };
   }
   if (update.kind === "CompoundAssignOperator" && ["+=", "-="].includes(update.opcode ?? "")) {
-    // Harmonic stride: `for (j = i; j <= n; j += i)` — the step is an
+    // Harmonic stride: `for (j = i; j <= n; j += i)` - the step is an
     // enclosing loop's index, so the trip count is limit/stride, a rational
     // term (n * i^-1) rather than a constant. The plain `limit` value stays
     // as the sound upper bound; the compositional layer sums the series.
@@ -814,7 +814,7 @@ function loopBound(loop: ClangNode, bounds: SymbolicBounds, constantSymbols?: Re
   }
   if (update.kind === "CompoundAssignOperator" && ["*=", "/="].includes(update.opcode ?? "")) {
     // Multiplicative trip = log_c(U / L): when the START value scales with
-    // an enclosing iterator (j = i), the count is log(n/i), not log(n) —
+    // an enclosing iterator (j = i), the count is log(n/i), not log(n) -
     // and summing log(n/i) over the additive outer loop is Theta(n).
     const headerInits = (loop.inner ?? []).flatMap((part) => part.kind === "DeclStmt" ? part.inner ?? [] : [])
       .filter((declaration) => declaration.kind === "VarDecl" && declarationKey(declaration) === index);
@@ -1350,7 +1350,7 @@ function competitiveProgrammingPatternResult(functionDecl: ClangNode, body: Clan
         worstCaseTime: "O(n^3)", auxiliarySpace: "O(1)", confidence: "estimated", confidencePercent: 93,
         proof: [
           "Detected three linearly bounded passes over the same scalar dimension.",
-          "The innermost body performs a matrix-style relaxation, the structural invariant of Floyd–Warshall/all-pairs relaxation.",
+          "The innermost body performs a matrix-style relaxation, the structural invariant of Floyd-Warshall/all-pairs relaxation.",
           "Three complete passes give O(n³); the computation updates the supplied matrix in place."
         ]
       };
@@ -1374,7 +1374,7 @@ function competitiveProgrammingPatternResult(functionDecl: ClangNode, body: Clan
         worstCaseTime: "O(n m)", auxiliarySpace: "O(n)", confidence: "estimated", confidencePercent: 91,
         proof: [
           "Detected an n-bounded sequence of complete edge-container passes.",
-          "Each edge pass contains a distance-style relaxation, the structural invariant of Bellman–Ford.",
+          "Each edge pass contains a distance-style relaxation, the structural invariant of Bellman-Ford.",
           "At most n passes over m edges give O(n m); the distance state is linear."
         ]
       };
@@ -1700,7 +1700,7 @@ function graphTraversalResult(functionDecl: ClangNode, body: ClangNode): Analysi
   if (hasDeque && names("push_front") && names("push_back") && names("pop_front") && names("front")) {
     return {
       worstCaseTime: linearGraph, auxiliarySpace: vertexSpace, confidence: "estimated", confidencePercent: 91,
-      proof: ["Detected an adjacency-list relaxation traversal with a deque using both front and back insertion.", "This is the 0–1 BFS worklist structure; each vertex/edge transition is processed a bounded number of times."]
+      proof: ["Detected an adjacency-list relaxation traversal with a deque using both front and back insertion.", "This is the 0-1 BFS worklist structure; each vertex/edge transition is processed a bounded number of times."]
     };
   }
   const recursiveCall = functionDecl.name && directCalls(body).some((call) => references(call, functionDecl.name!));
@@ -2511,7 +2511,7 @@ function forwardedFunctionAliasResult(body: ClangNode, localCosts?: LocalFunctio
   if (!localCosts || localCosts.size === 0) return undefined;
   const binding = nodesOfKind(body, "VarDecl").find((node) => {
     // The initializer must be a DIRECT DeclRefExpr to a function (after cast
-    // unwrapping) — a CallExpr initializer (`auto it = unique(...)`) is a
+    // unwrapping) - a CallExpr initializer (`auto it = unique(...)`) is a
     // computed result, not an alias.
     let initializer = node.inner?.at(-1);
     while (initializer && ["ImplicitCastExpr", "ParenExpr"].includes(initializer.kind ?? "")) initializer = initializer.inner?.[0];
@@ -2926,7 +2926,7 @@ function binaryTreeRecursion(functionDecl: ClangNode, body: ClangNode): Analysis
 }
 
 /**
- * Solves the restricted Akra–Bazzi form ΣT(n / bᵢ) + O(n^q).  This is kept
+ * Solves the restricted Akra-Bazzi form ΣT(n / bᵢ) + O(n^q).  This is kept
  * deliberately structural: every recursive argument must visibly divide the
  * same symbolic input by a positive numeric constant.  Different ratios are
  * handled here; equal-ratio cases keep the stronger exact rules below.
@@ -3571,7 +3571,7 @@ function pathSensitiveStatement(
     // A failed parse (Clang RecoveryExpr, e.g. a call to an undeclared
     // function) could be any amount of work on every evaluation of this
     // decision, so the branch abstains instead of silently treating it as
-    // constant time — the same policy as assignment statements with
+    // constant time - the same policy as assignment statements with
     // unresolved calls.
     const conditionCalls = condition ? directCalls(condition) : [];
     const conditionHasRecovery = condition ? nodesOfKind(condition, "RecoveryExpr").length > 0 : false;
@@ -3756,7 +3756,7 @@ function compositionalLoopCost(
   {
     const bodyStatements: ClangNode[] = body ? (body.kind === "CompoundStmt" ? (body.inner ?? []) : [body]) : [];
     // The cursor loop may be a while OR a for with an empty header init
-    // (`for (; fast < n && ...; ++fast)`) — the cursor itself is declared
+    // (`for (; fast < n && ...; ++fast)`) - the cursor itself is declared
     // outside the outer loop either way.
     const innerWhile = bodyStatements.find((statement) => statement.kind === "WhileStmt"
       || (statement.kind === "ForStmt" && !(statement.inner ?? []).some((part) => part.kind === "DeclStmt")));
@@ -3813,7 +3813,7 @@ function compositionalLoopCost(
                 value,
                 proof: [
                   "Monotone amortized progress: the cursor advanced by the inner while is never reset, so its total movement across ALL outer iterations is bounded by " + cursorBound + ".",
-                  "Outer iterations (" + own.value + ") plus total cursor movement (" + cursorBound + ") compose to " + value + " — the nest is linear, not quadratic."
+                  "Outer iterations (" + own.value + ") plus total cursor movement (" + cursorBound + ") compose to " + value + " - the nest is linear, not quadratic."
                 ],
                 index,
                 condition: own.condition,
@@ -3877,7 +3877,7 @@ function compositionalLoopCost(
       return {
         value,
         proof: [
-          "Amortized geometric inner: the loop starts at the enclosing iterator, so sum log(n/i) over the outer index is Theta(n) — the inner contributes only its body cost per outer iteration."
+          "Amortized geometric inner: the loop starts at the enclosing iterator, so sum log(n/i) over the outer index is Theta(n) - the inner contributes only its body cost per outer iteration."
         ],
         index,
         condition: own.condition,
@@ -4172,7 +4172,7 @@ function pathSensitiveControlFlowResult(functionDecl: ClangNode, body: ClangNode
  * Storage of a braced initializer-list constructed container. `vector<int> v
  * = {1, 2, 3}` passes a std::initializer_list materialization whose element
  * count is a compile-time constant of the source text, so the container's own
- * storage is constant — provided no element copy carries input-sized storage
+ * storage is constant - provided no element copy carries input-sized storage
  * of its own (a copied string or nested container would).
  */
 function initializerListAllocation(argument: ClangNode | undefined): Complexity | undefined {

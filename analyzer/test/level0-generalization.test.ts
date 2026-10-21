@@ -31,7 +31,7 @@ test("standard scalar stream I/O does not hide a resolved helper's complexity", 
   assert.equal(result.worstCaseTime, "O(n)", result.proof.join(" "));
   // Round-6 convention reversal (census reconciliation, see Deep.md): a
   // container materialized from the input stream is charged to auxiliary
-  // space — the corpus labels are split on this, and the majority side (plus
+  // space - the corpus labels are split on this, and the majority side (plus
   // the 2D-grid family) charges the input instance.
   assert.equal(result.auxiliarySpace, "O(n)");
 });

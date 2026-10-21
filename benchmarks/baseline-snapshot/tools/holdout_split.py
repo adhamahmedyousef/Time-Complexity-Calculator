@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generates datasets/holdout-manifests.txt — the locked family-split holdout.
+Generates datasets/holdout-manifests.txt - the locked family-split holdout.
 
 Rule (deterministic, documented):
   1. Whole families below are locked. They were chosen to span distinct

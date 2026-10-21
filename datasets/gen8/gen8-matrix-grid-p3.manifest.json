@@ -1,0 +1,446 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "g8_matrixFill_10",
+   "symbol": "g8_matrixFill_10",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "grid",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_matrixAlloc_10",
+   "symbol": "g8_matrixAlloc_10",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "grid",
+    "dynamic-programming"
+   ]
+  },
+  {
+   "id": "g8_matrixPrefix2D_10",
+   "symbol": "g8_matrixPrefix2D_10",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "prefix-2d",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_matrixTriangular_10",
+   "symbol": "g8_matrixTriangular_10",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "triangular",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_matrixSquare_10",
+   "symbol": "g8_matrixSquare_10",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "quadratic",
+    "grid"
+   ]
+  },
+  {
+   "id": "g8_matrixSquareAlloc_10",
+   "symbol": "g8_matrixSquareAlloc_10",
+   "time": "O(n^2)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "quadratic",
+    "matrix"
+   ]
+  },
+  {
+   "id": "g8_matrixBorder_10",
+   "symbol": "g8_matrixBorder_10",
+   "time": "O(n + m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sequential",
+    "grid"
+   ]
+  },
+  {
+   "id": "g8_matrixDiagonal_10",
+   "symbol": "g8_matrixDiagonal_10",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "linear",
+    "diagonal"
+   ]
+  },
+  {
+   "id": "g8_matrixFill_11",
+   "symbol": "g8_matrixFill_11",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "grid",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_matrixAlloc_11",
+   "symbol": "g8_matrixAlloc_11",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "grid",
+    "dynamic-programming"
+   ]
+  },
+  {
+   "id": "g8_matrixPrefix2D_11",
+   "symbol": "g8_matrixPrefix2D_11",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "prefix-2d",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_matrixTriangular_11",
+   "symbol": "g8_matrixTriangular_11",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "triangular",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_matrixSquare_11",
+   "symbol": "g8_matrixSquare_11",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "quadratic",
+    "grid"
+   ]
+  },
+  {
+   "id": "g8_matrixSquareAlloc_11",
+   "symbol": "g8_matrixSquareAlloc_11",
+   "time": "O(n^2)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "quadratic",
+    "matrix"
+   ]
+  },
+  {
+   "id": "g8_matrixBorder_11",
+   "symbol": "g8_matrixBorder_11",
+   "time": "O(n + m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sequential",
+    "grid"
+   ]
+  },
+  {
+   "id": "g8_matrixDiagonal_11",
+   "symbol": "g8_matrixDiagonal_11",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "linear",
+    "diagonal"
+   ]
+  },
+  {
+   "id": "g8_matrixFill_12",
+   "symbol": "g8_matrixFill_12",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "grid",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_matrixAlloc_12",
+   "symbol": "g8_matrixAlloc_12",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "grid",
+    "dynamic-programming"
+   ]
+  },
+  {
+   "id": "g8_matrixPrefix2D_12",
+   "symbol": "g8_matrixPrefix2D_12",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "prefix-2d",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_matrixTriangular_12",
+   "symbol": "g8_matrixTriangular_12",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "triangular",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_matrixSquare_12",
+   "symbol": "g8_matrixSquare_12",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "quadratic",
+    "grid"
+   ]
+  },
+  {
+   "id": "g8_matrixSquareAlloc_12",
+   "symbol": "g8_matrixSquareAlloc_12",
+   "time": "O(n^2)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "quadratic",
+    "matrix"
+   ]
+  },
+  {
+   "id": "g8_matrixBorder_12",
+   "symbol": "g8_matrixBorder_12",
+   "time": "O(n + m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sequential",
+    "grid"
+   ]
+  },
+  {
+   "id": "g8_matrixDiagonal_12",
+   "symbol": "g8_matrixDiagonal_12",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "linear",
+    "diagonal"
+   ]
+  },
+  {
+   "id": "g8_matrixFill_13",
+   "symbol": "g8_matrixFill_13",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "grid",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_matrixAlloc_13",
+   "symbol": "g8_matrixAlloc_13",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "grid",
+    "dynamic-programming"
+   ]
+  },
+  {
+   "id": "g8_matrixPrefix2D_13",
+   "symbol": "g8_matrixPrefix2D_13",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "prefix-2d",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_matrixTriangular_13",
+   "symbol": "g8_matrixTriangular_13",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "triangular",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_matrixSquare_13",
+   "symbol": "g8_matrixSquare_13",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "quadratic",
+    "grid"
+   ]
+  },
+  {
+   "id": "g8_matrixSquareAlloc_13",
+   "symbol": "g8_matrixSquareAlloc_13",
+   "time": "O(n^2)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "quadratic",
+    "matrix"
+   ]
+  },
+  {
+   "id": "g8_matrixBorder_13",
+   "symbol": "g8_matrixBorder_13",
+   "time": "O(n + m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sequential",
+    "grid"
+   ]
+  },
+  {
+   "id": "g8_matrixDiagonal_13",
+   "symbol": "g8_matrixDiagonal_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "linear",
+    "diagonal"
+   ]
+  },
+  {
+   "id": "g8_matrixFill_14",
+   "symbol": "g8_matrixFill_14",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "grid",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_matrixAlloc_14",
+   "symbol": "g8_matrixAlloc_14",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "grid",
+    "dynamic-programming"
+   ]
+  },
+  {
+   "id": "g8_matrixPrefix2D_14",
+   "symbol": "g8_matrixPrefix2D_14",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "prefix-2d",
+    "dp"
+   ]
+  },
+  {
+   "id": "g8_matrixTriangular_14",
+   "symbol": "g8_matrixTriangular_14",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "triangular",
+    "nested"
+   ]
+  },
+  {
+   "id": "g8_matrixSquare_14",
+   "symbol": "g8_matrixSquare_14",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "quadratic",
+    "grid"
+   ]
+  },
+  {
+   "id": "g8_matrixSquareAlloc_14",
+   "symbol": "g8_matrixSquareAlloc_14",
+   "time": "O(n^2)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "quadratic",
+    "matrix"
+   ]
+  },
+  {
+   "id": "g8_matrixBorder_14",
+   "symbol": "g8_matrixBorder_14",
+   "time": "O(n + m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sequential",
+    "grid"
+   ]
+  },
+  {
+   "id": "g8_matrixDiagonal_14",
+   "symbol": "g8_matrixDiagonal_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "linear",
+    "diagonal"
+   ]
+  }
+ ]
+}

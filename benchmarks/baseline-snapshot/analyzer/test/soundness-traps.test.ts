@@ -6,7 +6,7 @@ import { analyseCppSelection } from "../src/index.js";
 /**
  * Soundness trap suite: near-miss shapes where a pattern-matching engine
  * would overclaim or undercount. Every test pins either the correct bound or
- * an honest abstention — an engine that "memorizes" fails this suite.
+ * an honest abstention - an engine that "memorizes" fails this suite.
  */
 const clangPath = process.env.PROJECT_X_CLANG ?? "C:\\Program Files\\LLVM\\bin\\clang++.exe";
 const run = process.env.PROJECT_X_CLANG ? {} : { skip: true };
@@ -190,7 +190,7 @@ test("tight: push_back loop grows space linearly", run, () => {
   assert.equal(r.auxiliarySpace, "O(n)", r.proof.join(" "));
 });
 
-test("tight: a break only shortens the loop — upper bound stands", run, () => {
+test("tight: a break only shortens the loop - upper bound stands", run, () => {
   const r = analyse(`long long f(const vector<int>& a) {
     long long s = 0;
     for (int x : a) { if (x < 0) break; s += x; }
