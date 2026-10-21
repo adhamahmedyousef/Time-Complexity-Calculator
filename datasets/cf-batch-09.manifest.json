@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "cf-batch-09",
+      "symbol": "f",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "dp",
+        "two-arrays",
+        "alternating"
+      ],
+      "inputSymbols": [
+        "n",
+        "k"
+      ],
+      "proof": "Each position has three memo states and constant transition work.",
+      "assumptions": "n is the column count.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

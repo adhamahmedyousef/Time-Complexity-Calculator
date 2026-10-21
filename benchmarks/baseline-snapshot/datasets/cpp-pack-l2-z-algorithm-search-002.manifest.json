@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-strings-advanced",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-z-algorithm-search-002",
+      "symbol": "pack_l2_zAlgorithmSearch",
+      "time": "O(n + m)",
+      "space": "O(n + m)",
+      "confidence": "estimated",
+      "tags": [
+        "strings",
+        "z-function",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "text",
+        "pattern"
+      ],
+      "proof": "One linear preprocessing pass over the concatenated string.",
+      "assumptions": "Separator prevents cross-match contamination.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-z-algorithm-search"
+    }
+  ]
+}

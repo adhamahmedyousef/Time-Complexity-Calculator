@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l1-mixed-level1",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l1-sliding-window-plus-prefix-03",
+      "symbol": "pack_l1_slidingWindowPrefixHybrid",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "sliding-window",
+        "prefix-sum",
+        "level-1"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "A bounded window is maintained while prefix information tracks the current range state.",
+      "assumptions": "Window is expanded and contracted monotonically.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l1-sliding-window-plus-prefix"
+    }
+  ]
+}

@@ -1,0 +1,512 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "fibonacciIterativeTable_0",
+   "symbol": "fibonacciIterativeTable_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "climbingStairsRollingDP_0",
+   "symbol": "climbingStairsRollingDP_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "tribonacciIterativeDP_0",
+   "symbol": "tribonacciIterativeDP_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "prefixSumArrayQueries_0",
+   "symbol": "prefixSumArrayQueries_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "prefix-sums"
+   ]
+  },
+  {
+   "id": "runningDifferenceDP_0",
+   "symbol": "runningDifferenceDP_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "linearAccumulateDP_0",
+   "symbol": "linearAccumulateDP_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "linearMinTracking_0",
+   "symbol": "linearMinTracking_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "linearMaxTracking_0",
+   "symbol": "linearMaxTracking_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "fibonacciIterativeTable_1",
+   "symbol": "fibonacciIterativeTable_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "climbingStairsRollingDP_1",
+   "symbol": "climbingStairsRollingDP_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "tribonacciIterativeDP_1",
+   "symbol": "tribonacciIterativeDP_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "prefixSumArrayQueries_1",
+   "symbol": "prefixSumArrayQueries_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "prefix-sums"
+   ]
+  },
+  {
+   "id": "runningDifferenceDP_1",
+   "symbol": "runningDifferenceDP_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "linearAccumulateDP_1",
+   "symbol": "linearAccumulateDP_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "linearMinTracking_1",
+   "symbol": "linearMinTracking_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "linearMaxTracking_1",
+   "symbol": "linearMaxTracking_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "fibonacciIterativeTable_2",
+   "symbol": "fibonacciIterativeTable_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "climbingStairsRollingDP_2",
+   "symbol": "climbingStairsRollingDP_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "tribonacciIterativeDP_2",
+   "symbol": "tribonacciIterativeDP_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "prefixSumArrayQueries_2",
+   "symbol": "prefixSumArrayQueries_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "prefix-sums"
+   ]
+  },
+  {
+   "id": "runningDifferenceDP_2",
+   "symbol": "runningDifferenceDP_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "linearAccumulateDP_2",
+   "symbol": "linearAccumulateDP_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "linearMinTracking_2",
+   "symbol": "linearMinTracking_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "linearMaxTracking_2",
+   "symbol": "linearMaxTracking_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "fibonacciIterativeTable_3",
+   "symbol": "fibonacciIterativeTable_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "climbingStairsRollingDP_3",
+   "symbol": "climbingStairsRollingDP_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "tribonacciIterativeDP_3",
+   "symbol": "tribonacciIterativeDP_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "prefixSumArrayQueries_3",
+   "symbol": "prefixSumArrayQueries_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "prefix-sums"
+   ]
+  },
+  {
+   "id": "runningDifferenceDP_3",
+   "symbol": "runningDifferenceDP_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "linearAccumulateDP_3",
+   "symbol": "linearAccumulateDP_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "linearMinTracking_3",
+   "symbol": "linearMinTracking_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "linearMaxTracking_3",
+   "symbol": "linearMaxTracking_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "fibonacciIterativeTable_4",
+   "symbol": "fibonacciIterativeTable_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "climbingStairsRollingDP_4",
+   "symbol": "climbingStairsRollingDP_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "tribonacciIterativeDP_4",
+   "symbol": "tribonacciIterativeDP_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "prefixSumArrayQueries_4",
+   "symbol": "prefixSumArrayQueries_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "prefix-sums"
+   ]
+  },
+  {
+   "id": "runningDifferenceDP_4",
+   "symbol": "runningDifferenceDP_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "linearAccumulateDP_4",
+   "symbol": "linearAccumulateDP_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "linearMinTracking_4",
+   "symbol": "linearMinTracking_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "linearMaxTracking_4",
+   "symbol": "linearMaxTracking_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "fibonacciIterativeTable_5",
+   "symbol": "fibonacciIterativeTable_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "climbingStairsRollingDP_5",
+   "symbol": "climbingStairsRollingDP_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "tribonacciIterativeDP_5",
+   "symbol": "tribonacciIterativeDP_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "prefixSumArrayQueries_5",
+   "symbol": "prefixSumArrayQueries_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "prefix-sums"
+   ]
+  },
+  {
+   "id": "runningDifferenceDP_5",
+   "symbol": "runningDifferenceDP_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "linearAccumulateDP_5",
+   "symbol": "linearAccumulateDP_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "linearMinTracking_5",
+   "symbol": "linearMinTracking_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "linearMaxTracking_5",
+   "symbol": "linearMaxTracking_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "fibonacciIterativeTable_6",
+   "symbol": "fibonacciIterativeTable_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "climbingStairsRollingDP_6",
+   "symbol": "climbingStairsRollingDP_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-helper-lazyseg-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_lazySegmentRange_lz1",
+      "time": "O((n + q) log n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "segment-tree",
+        "lazy",
+        "range-update"
+      ],
+      "algorithmFamily": "segment-tree-lazy",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n",
+        "q",
+        "a",
+        "ops"
+      ],
+      "proof": "Lazy tags postpone uniform range updates and each operation visits logarithmically many nodes.",
+      "assumptions": "Updates are range additions.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-helper-lazyseg-01"
+    }
+  ]
+}

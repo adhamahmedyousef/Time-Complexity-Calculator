@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "cf-batch-14",
+      "symbol": "solve",
+      "time": "O(n + m)",
+      "space": "O(n + m)",
+      "confidence": "exact",
+      "tags": [
+        "merge",
+        "two-pointers"
+      ],
+      "inputSymbols": [
+        "n",
+        "m",
+        "k",
+        "q"
+      ],
+      "proof": "A single merge pass advances two pointers and appends each element once.",
+      "assumptions": "Both inputs are already sorted.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

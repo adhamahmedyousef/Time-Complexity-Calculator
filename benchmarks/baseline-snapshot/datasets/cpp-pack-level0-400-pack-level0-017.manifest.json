@@ -1,0 +1,30 @@
+{
+ "version": 2,
+ "language": "cpp",
+ "family": "pack-level0-400-pack-level0-017",
+ "reviewedBy": "imported-pack-representative",
+ "cases": [
+  {
+   "id": "pack-level0-400-pack-level0-017",
+   "symbol": "pack_level0_400_pack_main",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "adjudicated",
+    "complexity",
+    "constant"
+   ],
+   "inputSymbols": [
+    "n"
+   ],
+   "proof": "Reads one integer and does fixed arithmetic.",
+   "assumptions": "Primitive operations are constant time.",
+   "origin": {
+    "kind": "derived",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": "pack-level0-400-pack-complexity_basics-base"
+  }
+ ]
+}

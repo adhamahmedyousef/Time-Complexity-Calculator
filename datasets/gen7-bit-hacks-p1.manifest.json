@@ -1,0 +1,506 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "bitIsPowerOfTwo_0",
+   "symbol": "bitIsPowerOfTwo_0",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitClearLowest_0",
+   "symbol": "bitClearLowest_0",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitIsolateLowest_0",
+   "symbol": "bitIsolateLowest_0",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitCountTrailingZeroes_0",
+   "symbol": "bitCountTrailingZeroes_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitSingleNumberXor_0",
+   "symbol": "bitSingleNumberXor_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitSubsetMaskScan_0",
+   "symbol": "bitSubsetMaskScan_0",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitGrayCodeVec_0",
+   "symbol": "bitGrayCodeVec_0",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitCountOddBits_0",
+   "symbol": "bitCountOddBits_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitIsPowerOfTwo_1",
+   "symbol": "bitIsPowerOfTwo_1",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitClearLowest_1",
+   "symbol": "bitClearLowest_1",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitIsolateLowest_1",
+   "symbol": "bitIsolateLowest_1",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitCountTrailingZeroes_1",
+   "symbol": "bitCountTrailingZeroes_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitSingleNumberXor_1",
+   "symbol": "bitSingleNumberXor_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitSubsetMaskScan_1",
+   "symbol": "bitSubsetMaskScan_1",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitGrayCodeVec_1",
+   "symbol": "bitGrayCodeVec_1",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitCountOddBits_1",
+   "symbol": "bitCountOddBits_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitIsPowerOfTwo_2",
+   "symbol": "bitIsPowerOfTwo_2",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitClearLowest_2",
+   "symbol": "bitClearLowest_2",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitIsolateLowest_2",
+   "symbol": "bitIsolateLowest_2",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitCountTrailingZeroes_2",
+   "symbol": "bitCountTrailingZeroes_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitSingleNumberXor_2",
+   "symbol": "bitSingleNumberXor_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitSubsetMaskScan_2",
+   "symbol": "bitSubsetMaskScan_2",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitGrayCodeVec_2",
+   "symbol": "bitGrayCodeVec_2",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitCountOddBits_2",
+   "symbol": "bitCountOddBits_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitIsPowerOfTwo_3",
+   "symbol": "bitIsPowerOfTwo_3",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitClearLowest_3",
+   "symbol": "bitClearLowest_3",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitIsolateLowest_3",
+   "symbol": "bitIsolateLowest_3",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitCountTrailingZeroes_3",
+   "symbol": "bitCountTrailingZeroes_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitSingleNumberXor_3",
+   "symbol": "bitSingleNumberXor_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitSubsetMaskScan_3",
+   "symbol": "bitSubsetMaskScan_3",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitGrayCodeVec_3",
+   "symbol": "bitGrayCodeVec_3",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitCountOddBits_3",
+   "symbol": "bitCountOddBits_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitIsPowerOfTwo_4",
+   "symbol": "bitIsPowerOfTwo_4",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitClearLowest_4",
+   "symbol": "bitClearLowest_4",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitIsolateLowest_4",
+   "symbol": "bitIsolateLowest_4",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitCountTrailingZeroes_4",
+   "symbol": "bitCountTrailingZeroes_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitSingleNumberXor_4",
+   "symbol": "bitSingleNumberXor_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitSubsetMaskScan_4",
+   "symbol": "bitSubsetMaskScan_4",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitGrayCodeVec_4",
+   "symbol": "bitGrayCodeVec_4",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitCountOddBits_4",
+   "symbol": "bitCountOddBits_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitIsPowerOfTwo_5",
+   "symbol": "bitIsPowerOfTwo_5",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitClearLowest_5",
+   "symbol": "bitClearLowest_5",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitIsolateLowest_5",
+   "symbol": "bitIsolateLowest_5",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitCountTrailingZeroes_5",
+   "symbol": "bitCountTrailingZeroes_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitSingleNumberXor_5",
+   "symbol": "bitSingleNumberXor_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitSubsetMaskScan_5",
+   "symbol": "bitSubsetMaskScan_5",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitGrayCodeVec_5",
+   "symbol": "bitGrayCodeVec_5",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitCountOddBits_5",
+   "symbol": "bitCountOddBits_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitIsPowerOfTwo_6",
+   "symbol": "bitIsPowerOfTwo_6",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "bitClearLowest_6",
+   "symbol": "bitClearLowest_6",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  }
+ ]
+}

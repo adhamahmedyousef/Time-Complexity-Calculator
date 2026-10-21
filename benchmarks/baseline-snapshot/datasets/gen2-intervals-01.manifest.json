@@ -1,0 +1,66 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen2-intervals-01-mergeIv_0",
+   "symbol": "mergeIv_0",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "intervals"
+   ]
+  },
+  {
+   "id": "gen2-intervals-01-mergeIv_1",
+   "symbol": "mergeIv_1",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "intervals"
+   ]
+  },
+  {
+   "id": "gen2-intervals-01-mergeIv_2",
+   "symbol": "mergeIv_2",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "intervals"
+   ]
+  },
+  {
+   "id": "gen2-intervals-01-mergeIv_3",
+   "symbol": "mergeIv_3",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "intervals"
+   ]
+  },
+  {
+   "id": "gen2-intervals-01-mergeIv_4",
+   "symbol": "mergeIv_4",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "intervals"
+   ]
+  },
+  {
+   "id": "gen2-intervals-01-mergeIv_5",
+   "symbol": "mergeIv_5",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "intervals"
+   ]
+  }
+ ]
+}

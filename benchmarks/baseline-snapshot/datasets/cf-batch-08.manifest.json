@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "cf-batch-08",
+      "symbol": "f",
+      "time": "O(M)",
+      "space": "O(M)",
+      "confidence": "exact",
+      "tags": [
+        "dp",
+        "frequency",
+        "delete-and-earn"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "The recursion walks value coordinates up to the maximum observed value.",
+      "assumptions": "M is the maximum value seen in the input.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

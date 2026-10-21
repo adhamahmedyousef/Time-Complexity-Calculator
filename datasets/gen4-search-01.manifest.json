@@ -1,0 +1,606 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen4-search-01-bsearchFirstOccur_0",
+   "symbol": "bsearchFirstOccur_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchLastOccur_0",
+   "symbol": "bsearchLastOccur_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-findPeakElementIter_0",
+   "symbol": "findPeakElementIter_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchFirstOccur_1",
+   "symbol": "bsearchFirstOccur_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchLastOccur_1",
+   "symbol": "bsearchLastOccur_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-findPeakElementIter_1",
+   "symbol": "findPeakElementIter_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchFirstOccur_2",
+   "symbol": "bsearchFirstOccur_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchLastOccur_2",
+   "symbol": "bsearchLastOccur_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-findPeakElementIter_2",
+   "symbol": "findPeakElementIter_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchFirstOccur_3",
+   "symbol": "bsearchFirstOccur_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchLastOccur_3",
+   "symbol": "bsearchLastOccur_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-findPeakElementIter_3",
+   "symbol": "findPeakElementIter_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchFirstOccur_4",
+   "symbol": "bsearchFirstOccur_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchLastOccur_4",
+   "symbol": "bsearchLastOccur_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-findPeakElementIter_4",
+   "symbol": "findPeakElementIter_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchFirstOccur_5",
+   "symbol": "bsearchFirstOccur_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchLastOccur_5",
+   "symbol": "bsearchLastOccur_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-findPeakElementIter_5",
+   "symbol": "findPeakElementIter_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchFirstOccur_6",
+   "symbol": "bsearchFirstOccur_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchLastOccur_6",
+   "symbol": "bsearchLastOccur_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-findPeakElementIter_6",
+   "symbol": "findPeakElementIter_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchFirstOccur_7",
+   "symbol": "bsearchFirstOccur_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchLastOccur_7",
+   "symbol": "bsearchLastOccur_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-findPeakElementIter_7",
+   "symbol": "findPeakElementIter_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchFirstOccur_8",
+   "symbol": "bsearchFirstOccur_8",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchLastOccur_8",
+   "symbol": "bsearchLastOccur_8",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-findPeakElementIter_8",
+   "symbol": "findPeakElementIter_8",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchFirstOccur_9",
+   "symbol": "bsearchFirstOccur_9",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchLastOccur_9",
+   "symbol": "bsearchLastOccur_9",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-findPeakElementIter_9",
+   "symbol": "findPeakElementIter_9",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchFirstOccur_10",
+   "symbol": "bsearchFirstOccur_10",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchLastOccur_10",
+   "symbol": "bsearchLastOccur_10",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-findPeakElementIter_10",
+   "symbol": "findPeakElementIter_10",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchFirstOccur_11",
+   "symbol": "bsearchFirstOccur_11",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchLastOccur_11",
+   "symbol": "bsearchLastOccur_11",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-findPeakElementIter_11",
+   "symbol": "findPeakElementIter_11",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchFirstOccur_12",
+   "symbol": "bsearchFirstOccur_12",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchLastOccur_12",
+   "symbol": "bsearchLastOccur_12",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-findPeakElementIter_12",
+   "symbol": "findPeakElementIter_12",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchFirstOccur_13",
+   "symbol": "bsearchFirstOccur_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchLastOccur_13",
+   "symbol": "bsearchLastOccur_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-findPeakElementIter_13",
+   "symbol": "findPeakElementIter_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchFirstOccur_14",
+   "symbol": "bsearchFirstOccur_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchLastOccur_14",
+   "symbol": "bsearchLastOccur_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-findPeakElementIter_14",
+   "symbol": "findPeakElementIter_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchFirstOccur_15",
+   "symbol": "bsearchFirstOccur_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchLastOccur_15",
+   "symbol": "bsearchLastOccur_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-findPeakElementIter_15",
+   "symbol": "findPeakElementIter_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchFirstOccur_16",
+   "symbol": "bsearchFirstOccur_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchLastOccur_16",
+   "symbol": "bsearchLastOccur_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-findPeakElementIter_16",
+   "symbol": "findPeakElementIter_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchFirstOccur_17",
+   "symbol": "bsearchFirstOccur_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchLastOccur_17",
+   "symbol": "bsearchLastOccur_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-findPeakElementIter_17",
+   "symbol": "findPeakElementIter_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchFirstOccur_18",
+   "symbol": "bsearchFirstOccur_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchLastOccur_18",
+   "symbol": "bsearchLastOccur_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-findPeakElementIter_18",
+   "symbol": "findPeakElementIter_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchFirstOccur_19",
+   "symbol": "bsearchFirstOccur_19",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-bsearchLastOccur_19",
+   "symbol": "bsearchLastOccur_19",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-search-01-findPeakElementIter_19",
+   "symbol": "findPeakElementIter_19",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  }
+ ]
+}

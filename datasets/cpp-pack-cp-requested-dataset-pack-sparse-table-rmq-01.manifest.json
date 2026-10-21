@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-fenwick-sparse-table",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-sparse-table-rmq-01",
+      "symbol": "pack_cp_requested_dataset_pack_sparseTableRMQ_1",
+      "time": "O(n log n + q)",
+      "space": "O(n log n)",
+      "confidence": "estimated",
+      "tags": [
+        "sparse-table",
+        "rmq",
+        "range-query"
+      ],
+      "inputSymbols": [
+        "a",
+        "queries"
+      ],
+      "proof": "Precompute on power-of-two lengths and answer each query in O(1).",
+      "assumptions": "Queries are immutable after preprocessing.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-sparse-table-rmq-01"
+    }
+  ]
+}

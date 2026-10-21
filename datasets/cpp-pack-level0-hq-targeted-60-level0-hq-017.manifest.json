@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-hq-targeted-60-level0-hq-017",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-hq-targeted-60-level0-hq-017",
+      "symbol": "pack_level0_hq_targeted_60_solve",
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "estimated",
+      "tags": [
+        "simulation",
+        "helper"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "A helper computes a bounded summary before simulation.",
+      "assumptions": "Primitive operations are constant time.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-hq-targeted-60-simulation-base"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "cf-batch-16",
+      "symbol": "solve",
+      "time": "O(t n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "constructive",
+        "xor"
+      ],
+      "inputSymbols": [
+        "t",
+        "n"
+      ],
+      "proof": "The function reads t independent cases; each construction and print touches n positions, so total work is O(t n).",
+      "assumptions": "n is the permutation/sequence length.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

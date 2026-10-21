@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-graph-dfs-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_dfsTraversal_df1",
+      "time": "O(V + E)",
+      "space": "O(V)",
+      "confidence": "exact",
+      "tags": [
+        "graphs",
+        "dfs"
+      ],
+      "algorithmFamily": "dfs",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "V",
+        "E",
+        "adj"
+      ],
+      "proof": "Recursive DFS visits each vertex once and scans each outgoing edge once.",
+      "assumptions": "Graph is finite and adjacency lists are explicit.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-graph-dfs-01"
+    }
+  ]
+}

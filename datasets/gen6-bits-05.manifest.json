@@ -1,0 +1,1006 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen6-bits-05-popcount32Loop_36",
+   "symbol": "popcount32Loop_36",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-countTrailingZeroes_36",
+   "symbol": "countTrailingZeroes_36",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-highestSetBitPos_36",
+   "symbol": "highestSetBitPos_36",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-singleNumberXor_36",
+   "symbol": "singleNumberXor_36",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-countOddBits_36",
+   "symbol": "countOddBits_36",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-subsetMaskScan_36",
+   "symbol": "subsetMaskScan_36",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-grayCodeVec_36",
+   "symbol": "grayCodeVec_36",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-isPowerOfTwo_37",
+   "symbol": "isPowerOfTwo_37",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-clearLowestSetBit_37",
+   "symbol": "clearLowestSetBit_37",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-isolateLowestSetBit_37",
+   "symbol": "isolateLowestSetBit_37",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-reverseBits32_37",
+   "symbol": "reverseBits32_37",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-popcount32Loop_37",
+   "symbol": "popcount32Loop_37",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-countTrailingZeroes_37",
+   "symbol": "countTrailingZeroes_37",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-highestSetBitPos_37",
+   "symbol": "highestSetBitPos_37",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-singleNumberXor_37",
+   "symbol": "singleNumberXor_37",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-countOddBits_37",
+   "symbol": "countOddBits_37",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-subsetMaskScan_37",
+   "symbol": "subsetMaskScan_37",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-grayCodeVec_37",
+   "symbol": "grayCodeVec_37",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-isPowerOfTwo_38",
+   "symbol": "isPowerOfTwo_38",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-clearLowestSetBit_38",
+   "symbol": "clearLowestSetBit_38",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-isolateLowestSetBit_38",
+   "symbol": "isolateLowestSetBit_38",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-reverseBits32_38",
+   "symbol": "reverseBits32_38",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-popcount32Loop_38",
+   "symbol": "popcount32Loop_38",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-countTrailingZeroes_38",
+   "symbol": "countTrailingZeroes_38",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-highestSetBitPos_38",
+   "symbol": "highestSetBitPos_38",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-singleNumberXor_38",
+   "symbol": "singleNumberXor_38",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-countOddBits_38",
+   "symbol": "countOddBits_38",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-subsetMaskScan_38",
+   "symbol": "subsetMaskScan_38",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-grayCodeVec_38",
+   "symbol": "grayCodeVec_38",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-isPowerOfTwo_39",
+   "symbol": "isPowerOfTwo_39",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-clearLowestSetBit_39",
+   "symbol": "clearLowestSetBit_39",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-isolateLowestSetBit_39",
+   "symbol": "isolateLowestSetBit_39",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-reverseBits32_39",
+   "symbol": "reverseBits32_39",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-popcount32Loop_39",
+   "symbol": "popcount32Loop_39",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-countTrailingZeroes_39",
+   "symbol": "countTrailingZeroes_39",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-highestSetBitPos_39",
+   "symbol": "highestSetBitPos_39",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-singleNumberXor_39",
+   "symbol": "singleNumberXor_39",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-countOddBits_39",
+   "symbol": "countOddBits_39",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-subsetMaskScan_39",
+   "symbol": "subsetMaskScan_39",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-grayCodeVec_39",
+   "symbol": "grayCodeVec_39",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-isPowerOfTwo_40",
+   "symbol": "isPowerOfTwo_40",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-clearLowestSetBit_40",
+   "symbol": "clearLowestSetBit_40",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-isolateLowestSetBit_40",
+   "symbol": "isolateLowestSetBit_40",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-reverseBits32_40",
+   "symbol": "reverseBits32_40",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-popcount32Loop_40",
+   "symbol": "popcount32Loop_40",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-countTrailingZeroes_40",
+   "symbol": "countTrailingZeroes_40",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-highestSetBitPos_40",
+   "symbol": "highestSetBitPos_40",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-singleNumberXor_40",
+   "symbol": "singleNumberXor_40",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-countOddBits_40",
+   "symbol": "countOddBits_40",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-subsetMaskScan_40",
+   "symbol": "subsetMaskScan_40",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-grayCodeVec_40",
+   "symbol": "grayCodeVec_40",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-isPowerOfTwo_41",
+   "symbol": "isPowerOfTwo_41",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-clearLowestSetBit_41",
+   "symbol": "clearLowestSetBit_41",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-isolateLowestSetBit_41",
+   "symbol": "isolateLowestSetBit_41",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-reverseBits32_41",
+   "symbol": "reverseBits32_41",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-popcount32Loop_41",
+   "symbol": "popcount32Loop_41",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-countTrailingZeroes_41",
+   "symbol": "countTrailingZeroes_41",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-highestSetBitPos_41",
+   "symbol": "highestSetBitPos_41",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-singleNumberXor_41",
+   "symbol": "singleNumberXor_41",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-countOddBits_41",
+   "symbol": "countOddBits_41",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-subsetMaskScan_41",
+   "symbol": "subsetMaskScan_41",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-grayCodeVec_41",
+   "symbol": "grayCodeVec_41",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-isPowerOfTwo_42",
+   "symbol": "isPowerOfTwo_42",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-clearLowestSetBit_42",
+   "symbol": "clearLowestSetBit_42",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-isolateLowestSetBit_42",
+   "symbol": "isolateLowestSetBit_42",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-reverseBits32_42",
+   "symbol": "reverseBits32_42",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-popcount32Loop_42",
+   "symbol": "popcount32Loop_42",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-countTrailingZeroes_42",
+   "symbol": "countTrailingZeroes_42",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-highestSetBitPos_42",
+   "symbol": "highestSetBitPos_42",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-singleNumberXor_42",
+   "symbol": "singleNumberXor_42",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-countOddBits_42",
+   "symbol": "countOddBits_42",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-subsetMaskScan_42",
+   "symbol": "subsetMaskScan_42",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-grayCodeVec_42",
+   "symbol": "grayCodeVec_42",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-isPowerOfTwo_43",
+   "symbol": "isPowerOfTwo_43",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-clearLowestSetBit_43",
+   "symbol": "clearLowestSetBit_43",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-isolateLowestSetBit_43",
+   "symbol": "isolateLowestSetBit_43",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-reverseBits32_43",
+   "symbol": "reverseBits32_43",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-popcount32Loop_43",
+   "symbol": "popcount32Loop_43",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-countTrailingZeroes_43",
+   "symbol": "countTrailingZeroes_43",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-highestSetBitPos_43",
+   "symbol": "highestSetBitPos_43",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-singleNumberXor_43",
+   "symbol": "singleNumberXor_43",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-countOddBits_43",
+   "symbol": "countOddBits_43",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-subsetMaskScan_43",
+   "symbol": "subsetMaskScan_43",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-grayCodeVec_43",
+   "symbol": "grayCodeVec_43",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-isPowerOfTwo_44",
+   "symbol": "isPowerOfTwo_44",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-clearLowestSetBit_44",
+   "symbol": "clearLowestSetBit_44",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-isolateLowestSetBit_44",
+   "symbol": "isolateLowestSetBit_44",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-reverseBits32_44",
+   "symbol": "reverseBits32_44",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-popcount32Loop_44",
+   "symbol": "popcount32Loop_44",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-countTrailingZeroes_44",
+   "symbol": "countTrailingZeroes_44",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-highestSetBitPos_44",
+   "symbol": "highestSetBitPos_44",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-singleNumberXor_44",
+   "symbol": "singleNumberXor_44",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-countOddBits_44",
+   "symbol": "countOddBits_44",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-subsetMaskScan_44",
+   "symbol": "subsetMaskScan_44",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-grayCodeVec_44",
+   "symbol": "grayCodeVec_44",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-isPowerOfTwo_45",
+   "symbol": "isPowerOfTwo_45",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-clearLowestSetBit_45",
+   "symbol": "clearLowestSetBit_45",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-isolateLowestSetBit_45",
+   "symbol": "isolateLowestSetBit_45",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-reverseBits32_45",
+   "symbol": "reverseBits32_45",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen6-bits-05-popcount32Loop_45",
+   "symbol": "popcount32Loop_45",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  }
+ ]
+}

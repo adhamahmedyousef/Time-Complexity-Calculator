@@ -1,0 +1,1023 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen6-math-03-isPrimeTrial_33",
+   "symbol": "isPrimeTrial_33",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sumOfDivisorsSqrt_33",
+   "symbol": "sumOfDivisorsSqrt_33",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-countCoprimesTrial_33",
+   "symbol": "countCoprimesTrial_33",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sievePrimeCount_33",
+   "symbol": "sievePrimeCount_33",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen6-math-03-powerExpMod_34",
+   "symbol": "powerExpMod_34",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-fastMulMod_34",
+   "symbol": "fastMulMod_34",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-isPrimeTrial_34",
+   "symbol": "isPrimeTrial_34",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sumOfDivisorsSqrt_34",
+   "symbol": "sumOfDivisorsSqrt_34",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-countCoprimesTrial_34",
+   "symbol": "countCoprimesTrial_34",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sievePrimeCount_34",
+   "symbol": "sievePrimeCount_34",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen6-math-03-powerExpMod_35",
+   "symbol": "powerExpMod_35",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-fastMulMod_35",
+   "symbol": "fastMulMod_35",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-isPrimeTrial_35",
+   "symbol": "isPrimeTrial_35",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sumOfDivisorsSqrt_35",
+   "symbol": "sumOfDivisorsSqrt_35",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-countCoprimesTrial_35",
+   "symbol": "countCoprimesTrial_35",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sievePrimeCount_35",
+   "symbol": "sievePrimeCount_35",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen6-math-03-powerExpMod_36",
+   "symbol": "powerExpMod_36",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-fastMulMod_36",
+   "symbol": "fastMulMod_36",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-isPrimeTrial_36",
+   "symbol": "isPrimeTrial_36",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sumOfDivisorsSqrt_36",
+   "symbol": "sumOfDivisorsSqrt_36",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-countCoprimesTrial_36",
+   "symbol": "countCoprimesTrial_36",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sievePrimeCount_36",
+   "symbol": "sievePrimeCount_36",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen6-math-03-powerExpMod_37",
+   "symbol": "powerExpMod_37",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-fastMulMod_37",
+   "symbol": "fastMulMod_37",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-isPrimeTrial_37",
+   "symbol": "isPrimeTrial_37",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sumOfDivisorsSqrt_37",
+   "symbol": "sumOfDivisorsSqrt_37",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-countCoprimesTrial_37",
+   "symbol": "countCoprimesTrial_37",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sievePrimeCount_37",
+   "symbol": "sievePrimeCount_37",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen6-math-03-powerExpMod_38",
+   "symbol": "powerExpMod_38",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-fastMulMod_38",
+   "symbol": "fastMulMod_38",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-isPrimeTrial_38",
+   "symbol": "isPrimeTrial_38",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sumOfDivisorsSqrt_38",
+   "symbol": "sumOfDivisorsSqrt_38",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-countCoprimesTrial_38",
+   "symbol": "countCoprimesTrial_38",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sievePrimeCount_38",
+   "symbol": "sievePrimeCount_38",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen6-math-03-powerExpMod_39",
+   "symbol": "powerExpMod_39",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-fastMulMod_39",
+   "symbol": "fastMulMod_39",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-isPrimeTrial_39",
+   "symbol": "isPrimeTrial_39",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sumOfDivisorsSqrt_39",
+   "symbol": "sumOfDivisorsSqrt_39",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-countCoprimesTrial_39",
+   "symbol": "countCoprimesTrial_39",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sievePrimeCount_39",
+   "symbol": "sievePrimeCount_39",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen6-math-03-powerExpMod_40",
+   "symbol": "powerExpMod_40",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-fastMulMod_40",
+   "symbol": "fastMulMod_40",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-isPrimeTrial_40",
+   "symbol": "isPrimeTrial_40",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sumOfDivisorsSqrt_40",
+   "symbol": "sumOfDivisorsSqrt_40",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-countCoprimesTrial_40",
+   "symbol": "countCoprimesTrial_40",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sievePrimeCount_40",
+   "symbol": "sievePrimeCount_40",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen6-math-03-powerExpMod_41",
+   "symbol": "powerExpMod_41",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-fastMulMod_41",
+   "symbol": "fastMulMod_41",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-isPrimeTrial_41",
+   "symbol": "isPrimeTrial_41",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sumOfDivisorsSqrt_41",
+   "symbol": "sumOfDivisorsSqrt_41",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-countCoprimesTrial_41",
+   "symbol": "countCoprimesTrial_41",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sievePrimeCount_41",
+   "symbol": "sievePrimeCount_41",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen6-math-03-powerExpMod_42",
+   "symbol": "powerExpMod_42",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-fastMulMod_42",
+   "symbol": "fastMulMod_42",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-isPrimeTrial_42",
+   "symbol": "isPrimeTrial_42",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sumOfDivisorsSqrt_42",
+   "symbol": "sumOfDivisorsSqrt_42",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-countCoprimesTrial_42",
+   "symbol": "countCoprimesTrial_42",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sievePrimeCount_42",
+   "symbol": "sievePrimeCount_42",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen6-math-03-powerExpMod_43",
+   "symbol": "powerExpMod_43",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-fastMulMod_43",
+   "symbol": "fastMulMod_43",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-isPrimeTrial_43",
+   "symbol": "isPrimeTrial_43",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sumOfDivisorsSqrt_43",
+   "symbol": "sumOfDivisorsSqrt_43",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-countCoprimesTrial_43",
+   "symbol": "countCoprimesTrial_43",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sievePrimeCount_43",
+   "symbol": "sievePrimeCount_43",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen6-math-03-powerExpMod_44",
+   "symbol": "powerExpMod_44",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-fastMulMod_44",
+   "symbol": "fastMulMod_44",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-isPrimeTrial_44",
+   "symbol": "isPrimeTrial_44",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sumOfDivisorsSqrt_44",
+   "symbol": "sumOfDivisorsSqrt_44",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-countCoprimesTrial_44",
+   "symbol": "countCoprimesTrial_44",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sievePrimeCount_44",
+   "symbol": "sievePrimeCount_44",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen6-math-03-powerExpMod_45",
+   "symbol": "powerExpMod_45",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-fastMulMod_45",
+   "symbol": "fastMulMod_45",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-isPrimeTrial_45",
+   "symbol": "isPrimeTrial_45",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sumOfDivisorsSqrt_45",
+   "symbol": "sumOfDivisorsSqrt_45",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-countCoprimesTrial_45",
+   "symbol": "countCoprimesTrial_45",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sievePrimeCount_45",
+   "symbol": "sievePrimeCount_45",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen6-math-03-powerExpMod_46",
+   "symbol": "powerExpMod_46",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-fastMulMod_46",
+   "symbol": "fastMulMod_46",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-isPrimeTrial_46",
+   "symbol": "isPrimeTrial_46",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sumOfDivisorsSqrt_46",
+   "symbol": "sumOfDivisorsSqrt_46",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-countCoprimesTrial_46",
+   "symbol": "countCoprimesTrial_46",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sievePrimeCount_46",
+   "symbol": "sievePrimeCount_46",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen6-math-03-powerExpMod_47",
+   "symbol": "powerExpMod_47",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-fastMulMod_47",
+   "symbol": "fastMulMod_47",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-isPrimeTrial_47",
+   "symbol": "isPrimeTrial_47",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sumOfDivisorsSqrt_47",
+   "symbol": "sumOfDivisorsSqrt_47",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-countCoprimesTrial_47",
+   "symbol": "countCoprimesTrial_47",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sievePrimeCount_47",
+   "symbol": "sievePrimeCount_47",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen6-math-03-powerExpMod_48",
+   "symbol": "powerExpMod_48",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-fastMulMod_48",
+   "symbol": "fastMulMod_48",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-isPrimeTrial_48",
+   "symbol": "isPrimeTrial_48",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sumOfDivisorsSqrt_48",
+   "symbol": "sumOfDivisorsSqrt_48",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-countCoprimesTrial_48",
+   "symbol": "countCoprimesTrial_48",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sievePrimeCount_48",
+   "symbol": "sievePrimeCount_48",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen6-math-03-powerExpMod_49",
+   "symbol": "powerExpMod_49",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-fastMulMod_49",
+   "symbol": "fastMulMod_49",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-isPrimeTrial_49",
+   "symbol": "isPrimeTrial_49",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sumOfDivisorsSqrt_49",
+   "symbol": "sumOfDivisorsSqrt_49",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-countCoprimesTrial_49",
+   "symbol": "countCoprimesTrial_49",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-03-sievePrimeCount_49",
+   "symbol": "sievePrimeCount_49",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-dp-patterns",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-dp-unknown-mutual-recursion-01",
+      "symbol": "pack_cp_requested_dataset_pack_dpUnknownMutualRecursion_1",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "dp",
+        "adversarial",
+        "unknown"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "The recursion cycle is mutually recursive and not memoized, so the analyzer must abstain.",
+      "assumptions": "No proven memoization or bounded recursion depth is present.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-dp-unknown-mutual-recursion-01"
+    }
+  ]
+}

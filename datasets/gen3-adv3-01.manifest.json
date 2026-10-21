@@ -1,0 +1,486 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen3-adv3-01-collatzSteps_0",
+   "symbol": "collatzSteps_0",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-dataDependentWalk_0",
+   "symbol": "dataDependentWalk_0",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-pointerChase_0",
+   "symbol": "pointerChase_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-randomishWhile_0",
+   "symbol": "randomishWhile_0",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-externalScan_0",
+   "symbol": "externalScan_0",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-mutualRecursion_0",
+   "symbol": "mutualRecursion_0",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-collatzSteps_1",
+   "symbol": "collatzSteps_1",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-dataDependentWalk_1",
+   "symbol": "dataDependentWalk_1",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-pointerChase_1",
+   "symbol": "pointerChase_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-randomishWhile_1",
+   "symbol": "randomishWhile_1",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-externalScan_1",
+   "symbol": "externalScan_1",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-mutualRecursion_1",
+   "symbol": "mutualRecursion_1",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-collatzSteps_2",
+   "symbol": "collatzSteps_2",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-dataDependentWalk_2",
+   "symbol": "dataDependentWalk_2",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-pointerChase_2",
+   "symbol": "pointerChase_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-randomishWhile_2",
+   "symbol": "randomishWhile_2",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-externalScan_2",
+   "symbol": "externalScan_2",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-mutualRecursion_2",
+   "symbol": "mutualRecursion_2",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-collatzSteps_3",
+   "symbol": "collatzSteps_3",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-dataDependentWalk_3",
+   "symbol": "dataDependentWalk_3",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-pointerChase_3",
+   "symbol": "pointerChase_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-randomishWhile_3",
+   "symbol": "randomishWhile_3",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-externalScan_3",
+   "symbol": "externalScan_3",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-mutualRecursion_3",
+   "symbol": "mutualRecursion_3",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-collatzSteps_4",
+   "symbol": "collatzSteps_4",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-dataDependentWalk_4",
+   "symbol": "dataDependentWalk_4",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-pointerChase_4",
+   "symbol": "pointerChase_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-randomishWhile_4",
+   "symbol": "randomishWhile_4",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-externalScan_4",
+   "symbol": "externalScan_4",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-mutualRecursion_4",
+   "symbol": "mutualRecursion_4",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-collatzSteps_5",
+   "symbol": "collatzSteps_5",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-dataDependentWalk_5",
+   "symbol": "dataDependentWalk_5",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-pointerChase_5",
+   "symbol": "pointerChase_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-randomishWhile_5",
+   "symbol": "randomishWhile_5",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-externalScan_5",
+   "symbol": "externalScan_5",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-mutualRecursion_5",
+   "symbol": "mutualRecursion_5",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-collatzSteps_6",
+   "symbol": "collatzSteps_6",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-dataDependentWalk_6",
+   "symbol": "dataDependentWalk_6",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-pointerChase_6",
+   "symbol": "pointerChase_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-randomishWhile_6",
+   "symbol": "randomishWhile_6",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-externalScan_6",
+   "symbol": "externalScan_6",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-mutualRecursion_6",
+   "symbol": "mutualRecursion_6",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-collatzSteps_7",
+   "symbol": "collatzSteps_7",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-dataDependentWalk_7",
+   "symbol": "dataDependentWalk_7",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-pointerChase_7",
+   "symbol": "pointerChase_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-randomishWhile_7",
+   "symbol": "randomishWhile_7",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-externalScan_7",
+   "symbol": "externalScan_7",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen3-adv3-01-mutualRecursion_7",
+   "symbol": "mutualRecursion_7",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  }
+ ]
+}

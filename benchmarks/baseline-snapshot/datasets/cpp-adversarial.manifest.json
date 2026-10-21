@@ -1,0 +1,8 @@
+{"version":1,"language":"cpp","cases":[
+{"id":"adv-unordered-map-nested-worst","symbol":"sampleUnorderedMapNestedWorstCase","time":"O(n^2)","space":"O(n)","confidence":"exact","tags":["adversarial","unordered_map","nested-loops"]},
+{"id":"adv-string-concat-loop","symbol":"sampleStringConcatLoop","time":"O(total_length^2)","space":"O(total_length)","confidence":"estimated","tags":["adversarial","strings"]},
+{"id":"adv-vector-insert-front","symbol":"sampleVectorInsertFront","time":"O(n^2)","space":"O(n)","confidence":"exact","tags":["adversarial","vector","insert"]},
+{"id":"adv-sort-every-prefix","symbol":"sampleSortEveryPrefix","time":"O(n^2 log n)","space":"O(log n)","confidence":"exact","tags":["adversarial","sorting"]},
+{"id":"adv-set-ops","symbol":"sampleSetOps","time":"O(n log n)","space":"O(n)","confidence":"exact","tags":["adversarial","set"]},
+{"id":"adv-hash-heavy-loop","symbol":"sampleHashHeavyInsideLoop","time":"O(n^2)","space":"O(n)","confidence":"estimated","tags":["adversarial","unordered_map","worst-case"]}
+]}

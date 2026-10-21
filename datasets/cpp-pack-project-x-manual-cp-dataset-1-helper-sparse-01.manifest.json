@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-helper-sparse-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_sparseTableQuery_sp1",
+      "time": "O(n log n + q)",
+      "space": "O(n log n)",
+      "confidence": "exact",
+      "tags": [
+        "sparse-table",
+        "rmq",
+        "preprocessing"
+      ],
+      "algorithmFamily": "sparse-table",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n",
+        "q",
+        "a",
+        "qs"
+      ],
+      "proof": "The table is precomputed on powers of two and each query is answered in O(1).",
+      "assumptions": "Queries are immutable and static.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-helper-sparse-01"
+    }
+  ]
+}

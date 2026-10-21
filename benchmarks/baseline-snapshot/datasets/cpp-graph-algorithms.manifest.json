@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "graph-algorithms",
+  "reviewedBy": "authored-batch",
+  "cases": [
+    {"id":"graph-dfs-adjacency-list","symbol":"depthFirstSearch","time":"O(V + E)","space":"O(V)","confidence":"exact","tags":["graph","dfs"],"inputSymbols":["V","E"],"proof":"Recursive DFS visits each vertex once and scans each adjacency list entry once.","assumptions":"V is vertices, E is edges.","origin":{"kind":"authored","license":"CC0-1.0-or-authored"},"variantOf":null},
+    {"id":"graph-bfs-adjacency-list","symbol":"breadthFirstSearch","time":"O(V + E)","space":"O(V)","confidence":"exact","tags":["graph","bfs"],"inputSymbols":["V","E"],"proof":"BFS uses queue to traverse each vertex and edge once.","assumptions":"V is vertices, E is edges.","origin":{"kind":"authored","license":"CC0-1.0-or-authored"},"variantOf":null},
+    {"id":"dijkstra-priority-queue","symbol":"dijkstraShortestPath","time":"O((V + E) log V)","space":"O(V + E)","confidence":"exact","tags":["graph","dijkstra"],"inputSymbols":["V","E"],"proof":"Min-priority queue operations take log V for each edge relaxation.","assumptions":"V is vertices, E is non-negatively weighted edges.","origin":{"kind":"authored","license":"CC0-1.0-or-authored"},"variantOf":null},
+    {"id":"zero-one-bfs","symbol":"zeroOneBfs","time":"O(V + E)","space":"O(V)","confidence":"exact","tags":["graph","0-1-bfs"],"inputSymbols":["V","E"],"proof":"Deque push_front/push_back guarantees distance ordering in linear time.","assumptions":"Edge weights are 0 or 1.","origin":{"kind":"authored","license":"CC0-1.0-or-authored"},"variantOf":null},
+    {"id":"unknown-graph-callback","symbol":"unknownGraphCallback","time":"Unknown","space":"Unknown","confidence":"unknown","tags":["graph","callback","unknown"],"inputSymbols":["V","E"],"proof":"Callback behavior is unconstrained statically.","assumptions":"External callback prevents exact bounds calculation.","origin":{"kind":"authored","license":"CC0-1.0-or-authored"},"variantOf":null}
+  ]
+}

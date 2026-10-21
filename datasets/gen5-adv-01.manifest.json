@@ -1,0 +1,906 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen5-adv-01-collatzSequence_0",
+   "symbol": "collatzSequence_0",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_0",
+   "symbol": "opaqueModuloStep_0",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_0",
+   "symbol": "opaquePredicateLoop_0",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_1",
+   "symbol": "collatzSequence_1",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_1",
+   "symbol": "opaqueModuloStep_1",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_1",
+   "symbol": "opaquePredicateLoop_1",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_2",
+   "symbol": "collatzSequence_2",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_2",
+   "symbol": "opaqueModuloStep_2",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_2",
+   "symbol": "opaquePredicateLoop_2",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_3",
+   "symbol": "collatzSequence_3",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_3",
+   "symbol": "opaqueModuloStep_3",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_3",
+   "symbol": "opaquePredicateLoop_3",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_4",
+   "symbol": "collatzSequence_4",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_4",
+   "symbol": "opaqueModuloStep_4",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_4",
+   "symbol": "opaquePredicateLoop_4",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_5",
+   "symbol": "collatzSequence_5",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_5",
+   "symbol": "opaqueModuloStep_5",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_5",
+   "symbol": "opaquePredicateLoop_5",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_6",
+   "symbol": "collatzSequence_6",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_6",
+   "symbol": "opaqueModuloStep_6",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_6",
+   "symbol": "opaquePredicateLoop_6",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_7",
+   "symbol": "collatzSequence_7",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_7",
+   "symbol": "opaqueModuloStep_7",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_7",
+   "symbol": "opaquePredicateLoop_7",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_8",
+   "symbol": "collatzSequence_8",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_8",
+   "symbol": "opaqueModuloStep_8",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_8",
+   "symbol": "opaquePredicateLoop_8",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_9",
+   "symbol": "collatzSequence_9",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_9",
+   "symbol": "opaqueModuloStep_9",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_9",
+   "symbol": "opaquePredicateLoop_9",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_10",
+   "symbol": "collatzSequence_10",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_10",
+   "symbol": "opaqueModuloStep_10",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_10",
+   "symbol": "opaquePredicateLoop_10",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_11",
+   "symbol": "collatzSequence_11",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_11",
+   "symbol": "opaqueModuloStep_11",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_11",
+   "symbol": "opaquePredicateLoop_11",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_12",
+   "symbol": "collatzSequence_12",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_12",
+   "symbol": "opaqueModuloStep_12",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_12",
+   "symbol": "opaquePredicateLoop_12",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_13",
+   "symbol": "collatzSequence_13",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_13",
+   "symbol": "opaqueModuloStep_13",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_13",
+   "symbol": "opaquePredicateLoop_13",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_14",
+   "symbol": "collatzSequence_14",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_14",
+   "symbol": "opaqueModuloStep_14",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_14",
+   "symbol": "opaquePredicateLoop_14",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_15",
+   "symbol": "collatzSequence_15",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_15",
+   "symbol": "opaqueModuloStep_15",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_15",
+   "symbol": "opaquePredicateLoop_15",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_16",
+   "symbol": "collatzSequence_16",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_16",
+   "symbol": "opaqueModuloStep_16",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_16",
+   "symbol": "opaquePredicateLoop_16",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_17",
+   "symbol": "collatzSequence_17",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_17",
+   "symbol": "opaqueModuloStep_17",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_17",
+   "symbol": "opaquePredicateLoop_17",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_18",
+   "symbol": "collatzSequence_18",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_18",
+   "symbol": "opaqueModuloStep_18",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_18",
+   "symbol": "opaquePredicateLoop_18",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_19",
+   "symbol": "collatzSequence_19",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_19",
+   "symbol": "opaqueModuloStep_19",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_19",
+   "symbol": "opaquePredicateLoop_19",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_20",
+   "symbol": "collatzSequence_20",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_20",
+   "symbol": "opaqueModuloStep_20",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_20",
+   "symbol": "opaquePredicateLoop_20",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_21",
+   "symbol": "collatzSequence_21",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_21",
+   "symbol": "opaqueModuloStep_21",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_21",
+   "symbol": "opaquePredicateLoop_21",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_22",
+   "symbol": "collatzSequence_22",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_22",
+   "symbol": "opaqueModuloStep_22",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_22",
+   "symbol": "opaquePredicateLoop_22",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_23",
+   "symbol": "collatzSequence_23",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_23",
+   "symbol": "opaqueModuloStep_23",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_23",
+   "symbol": "opaquePredicateLoop_23",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_24",
+   "symbol": "collatzSequence_24",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_24",
+   "symbol": "opaqueModuloStep_24",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_24",
+   "symbol": "opaquePredicateLoop_24",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_25",
+   "symbol": "collatzSequence_25",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_25",
+   "symbol": "opaqueModuloStep_25",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_25",
+   "symbol": "opaquePredicateLoop_25",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_26",
+   "symbol": "collatzSequence_26",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_26",
+   "symbol": "opaqueModuloStep_26",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_26",
+   "symbol": "opaquePredicateLoop_26",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_27",
+   "symbol": "collatzSequence_27",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_27",
+   "symbol": "opaqueModuloStep_27",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_27",
+   "symbol": "opaquePredicateLoop_27",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_28",
+   "symbol": "collatzSequence_28",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_28",
+   "symbol": "opaqueModuloStep_28",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_28",
+   "symbol": "opaquePredicateLoop_28",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-collatzSequence_29",
+   "symbol": "collatzSequence_29",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaqueModuloStep_29",
+   "symbol": "opaqueModuloStep_29",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen5-adv-01-opaquePredicateLoop_29",
+   "symbol": "opaquePredicateLoop_29",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  }
+ ]
+}

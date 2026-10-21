@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-adversarial-unknown",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-unknown-external-call-01",
+      "symbol": "pack_cp_requested_dataset_pack_unknownExternalCall_1",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "adversarial",
+        "external-call",
+        "unknown"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "A call to unknown user code prevents a safe local complexity proof.",
+      "assumptions": "The external helper may be superlinear or non-terminating.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-unknown-external-call-01"
+    }
+  ]
+}

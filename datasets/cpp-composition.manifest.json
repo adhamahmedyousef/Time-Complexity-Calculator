@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {"id":"halving-fixed-inner","symbol":"halvingOuterFixedInner","time":"O(n log n)","space":"O(1)","confidence":"exact","tags":["loop","composition","geometric"]},
+    {"id":"independent-logarithmic","symbol":"independentLogarithmicLoops","time":"O(log^2 n)","space":"O(1)","confidence":"exact","tags":["loop","composition","logarithmic"]},
+    {"id":"halving-dependent-inner","symbol":"halvingOuterDependentInner","time":"O(n)","space":"O(1)","confidence":"exact","tags":["loop","geometric-series","dependent-bound"]},
+    {"id":"doubling-dependent-inner","symbol":"doublingOuterDependentInner","time":"O(n)","space":"O(1)","confidence":"exact","tags":["loop","geometric-series","dependent-bound"]},
+    {"id":"halve-recursion","symbol":"halveRecursively","time":"O(log n)","space":"O(log n)","confidence":"exact","tags":["recursion","decrease-and-conquer"]}
+  ]
+}

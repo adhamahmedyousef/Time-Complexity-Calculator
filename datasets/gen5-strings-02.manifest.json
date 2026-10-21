@@ -1,0 +1,206 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen5-strings-02-polynomialHash_25",
+   "symbol": "polynomialHash_25",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-strings-02-countMatching_25",
+   "symbol": "countMatching_25",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-strings-02-countUppercase_25",
+   "symbol": "countUppercase_25",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-strings-02-consecutiveDuplicates_25",
+   "symbol": "consecutiveDuplicates_25",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-strings-02-polynomialHash_26",
+   "symbol": "polynomialHash_26",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-strings-02-countMatching_26",
+   "symbol": "countMatching_26",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-strings-02-countUppercase_26",
+   "symbol": "countUppercase_26",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-strings-02-consecutiveDuplicates_26",
+   "symbol": "consecutiveDuplicates_26",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-strings-02-polynomialHash_27",
+   "symbol": "polynomialHash_27",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-strings-02-countMatching_27",
+   "symbol": "countMatching_27",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-strings-02-countUppercase_27",
+   "symbol": "countUppercase_27",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-strings-02-consecutiveDuplicates_27",
+   "symbol": "consecutiveDuplicates_27",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-strings-02-polynomialHash_28",
+   "symbol": "polynomialHash_28",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-strings-02-countMatching_28",
+   "symbol": "countMatching_28",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-strings-02-countUppercase_28",
+   "symbol": "countUppercase_28",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-strings-02-consecutiveDuplicates_28",
+   "symbol": "consecutiveDuplicates_28",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-strings-02-polynomialHash_29",
+   "symbol": "polynomialHash_29",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-strings-02-countMatching_29",
+   "symbol": "countMatching_29",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-strings-02-countUppercase_29",
+   "symbol": "countUppercase_29",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-strings-02-consecutiveDuplicates_29",
+   "symbol": "consecutiveDuplicates_29",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  }
+ ]
+}

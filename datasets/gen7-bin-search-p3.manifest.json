@@ -1,0 +1,506 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "binSearchFunctionalCast_12",
+   "symbol": "binSearchFunctionalCast_12",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchRotatedMin_12",
+   "symbol": "binSearchRotatedMin_12",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchPeakElement_12",
+   "symbol": "binSearchPeakElement_12",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchFirstPositive_12",
+   "symbol": "binSearchFirstPositive_12",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchLowerBound_13",
+   "symbol": "binSearchLowerBound_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchUpperBound_13",
+   "symbol": "binSearchUpperBound_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchClassic_13",
+   "symbol": "binSearchClassic_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchParenMid_13",
+   "symbol": "binSearchParenMid_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchFunctionalCast_13",
+   "symbol": "binSearchFunctionalCast_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchRotatedMin_13",
+   "symbol": "binSearchRotatedMin_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchPeakElement_13",
+   "symbol": "binSearchPeakElement_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchFirstPositive_13",
+   "symbol": "binSearchFirstPositive_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchLowerBound_14",
+   "symbol": "binSearchLowerBound_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchUpperBound_14",
+   "symbol": "binSearchUpperBound_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchClassic_14",
+   "symbol": "binSearchClassic_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchParenMid_14",
+   "symbol": "binSearchParenMid_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchFunctionalCast_14",
+   "symbol": "binSearchFunctionalCast_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchRotatedMin_14",
+   "symbol": "binSearchRotatedMin_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchPeakElement_14",
+   "symbol": "binSearchPeakElement_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchFirstPositive_14",
+   "symbol": "binSearchFirstPositive_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchLowerBound_15",
+   "symbol": "binSearchLowerBound_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchUpperBound_15",
+   "symbol": "binSearchUpperBound_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchClassic_15",
+   "symbol": "binSearchClassic_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchParenMid_15",
+   "symbol": "binSearchParenMid_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchFunctionalCast_15",
+   "symbol": "binSearchFunctionalCast_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchRotatedMin_15",
+   "symbol": "binSearchRotatedMin_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchPeakElement_15",
+   "symbol": "binSearchPeakElement_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchFirstPositive_15",
+   "symbol": "binSearchFirstPositive_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchLowerBound_16",
+   "symbol": "binSearchLowerBound_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchUpperBound_16",
+   "symbol": "binSearchUpperBound_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchClassic_16",
+   "symbol": "binSearchClassic_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchParenMid_16",
+   "symbol": "binSearchParenMid_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchFunctionalCast_16",
+   "symbol": "binSearchFunctionalCast_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchRotatedMin_16",
+   "symbol": "binSearchRotatedMin_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchPeakElement_16",
+   "symbol": "binSearchPeakElement_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchFirstPositive_16",
+   "symbol": "binSearchFirstPositive_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchLowerBound_17",
+   "symbol": "binSearchLowerBound_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchUpperBound_17",
+   "symbol": "binSearchUpperBound_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchClassic_17",
+   "symbol": "binSearchClassic_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchParenMid_17",
+   "symbol": "binSearchParenMid_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchFunctionalCast_17",
+   "symbol": "binSearchFunctionalCast_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchRotatedMin_17",
+   "symbol": "binSearchRotatedMin_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchPeakElement_17",
+   "symbol": "binSearchPeakElement_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchFirstPositive_17",
+   "symbol": "binSearchFirstPositive_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchLowerBound_18",
+   "symbol": "binSearchLowerBound_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchUpperBound_18",
+   "symbol": "binSearchUpperBound_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchClassic_18",
+   "symbol": "binSearchClassic_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchParenMid_18",
+   "symbol": "binSearchParenMid_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchFunctionalCast_18",
+   "symbol": "binSearchFunctionalCast_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "binSearchRotatedMin_18",
+   "symbol": "binSearchRotatedMin_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  }
+ ]
+}

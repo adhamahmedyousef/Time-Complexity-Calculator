@@ -1,0 +1,966 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen3-window-01-maxSumWindow_0",
+   "symbol": "maxSumWindow_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-minSumWindow_0",
+   "symbol": "minSumWindow_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-twoSumPair_0",
+   "symbol": "twoSumPair_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-isPalindromeVec_0",
+   "symbol": "isPalindromeVec_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-reverseInPlace_0",
+   "symbol": "reverseInPlace_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-partitionEvenOdd_0",
+   "symbol": "partitionEvenOdd_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-removeDuplicates_0",
+   "symbol": "removeDuplicates_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-moveZeroes_0",
+   "symbol": "moveZeroes_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-mergeSortedVec_0",
+   "symbol": "mergeSortedVec_0",
+   "time": "O(n + m)",
+   "space": "O(n + m)",
+   "confidence": "estimated",
+   "tags": [
+    "merge"
+   ]
+  },
+  {
+   "id": "gen3-window-01-positiveWindows_0",
+   "symbol": "positiveWindows_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-rotateArraySteps_0",
+   "symbol": "rotateArraySteps_0",
+   "time": "O(n k)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "rotation"
+   ]
+  },
+  {
+   "id": "gen3-window-01-threeWayPartition_0",
+   "symbol": "threeWayPartition_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-maxSumWindow_1",
+   "symbol": "maxSumWindow_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-minSumWindow_1",
+   "symbol": "minSumWindow_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-twoSumPair_1",
+   "symbol": "twoSumPair_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-isPalindromeVec_1",
+   "symbol": "isPalindromeVec_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-reverseInPlace_1",
+   "symbol": "reverseInPlace_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-partitionEvenOdd_1",
+   "symbol": "partitionEvenOdd_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-removeDuplicates_1",
+   "symbol": "removeDuplicates_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-moveZeroes_1",
+   "symbol": "moveZeroes_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-mergeSortedVec_1",
+   "symbol": "mergeSortedVec_1",
+   "time": "O(n + m)",
+   "space": "O(n + m)",
+   "confidence": "estimated",
+   "tags": [
+    "merge"
+   ]
+  },
+  {
+   "id": "gen3-window-01-positiveWindows_1",
+   "symbol": "positiveWindows_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-rotateArraySteps_1",
+   "symbol": "rotateArraySteps_1",
+   "time": "O(n k)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "rotation"
+   ]
+  },
+  {
+   "id": "gen3-window-01-threeWayPartition_1",
+   "symbol": "threeWayPartition_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-maxSumWindow_2",
+   "symbol": "maxSumWindow_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-minSumWindow_2",
+   "symbol": "minSumWindow_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-twoSumPair_2",
+   "symbol": "twoSumPair_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-isPalindromeVec_2",
+   "symbol": "isPalindromeVec_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-reverseInPlace_2",
+   "symbol": "reverseInPlace_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-partitionEvenOdd_2",
+   "symbol": "partitionEvenOdd_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-removeDuplicates_2",
+   "symbol": "removeDuplicates_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-moveZeroes_2",
+   "symbol": "moveZeroes_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-mergeSortedVec_2",
+   "symbol": "mergeSortedVec_2",
+   "time": "O(n + m)",
+   "space": "O(n + m)",
+   "confidence": "estimated",
+   "tags": [
+    "merge"
+   ]
+  },
+  {
+   "id": "gen3-window-01-positiveWindows_2",
+   "symbol": "positiveWindows_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-rotateArraySteps_2",
+   "symbol": "rotateArraySteps_2",
+   "time": "O(n k)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "rotation"
+   ]
+  },
+  {
+   "id": "gen3-window-01-threeWayPartition_2",
+   "symbol": "threeWayPartition_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-maxSumWindow_3",
+   "symbol": "maxSumWindow_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-minSumWindow_3",
+   "symbol": "minSumWindow_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-twoSumPair_3",
+   "symbol": "twoSumPair_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-isPalindromeVec_3",
+   "symbol": "isPalindromeVec_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-reverseInPlace_3",
+   "symbol": "reverseInPlace_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-partitionEvenOdd_3",
+   "symbol": "partitionEvenOdd_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-removeDuplicates_3",
+   "symbol": "removeDuplicates_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-moveZeroes_3",
+   "symbol": "moveZeroes_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-mergeSortedVec_3",
+   "symbol": "mergeSortedVec_3",
+   "time": "O(n + m)",
+   "space": "O(n + m)",
+   "confidence": "estimated",
+   "tags": [
+    "merge"
+   ]
+  },
+  {
+   "id": "gen3-window-01-positiveWindows_3",
+   "symbol": "positiveWindows_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-rotateArraySteps_3",
+   "symbol": "rotateArraySteps_3",
+   "time": "O(n k)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "rotation"
+   ]
+  },
+  {
+   "id": "gen3-window-01-threeWayPartition_3",
+   "symbol": "threeWayPartition_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-maxSumWindow_4",
+   "symbol": "maxSumWindow_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-minSumWindow_4",
+   "symbol": "minSumWindow_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-twoSumPair_4",
+   "symbol": "twoSumPair_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-isPalindromeVec_4",
+   "symbol": "isPalindromeVec_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-reverseInPlace_4",
+   "symbol": "reverseInPlace_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-partitionEvenOdd_4",
+   "symbol": "partitionEvenOdd_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-removeDuplicates_4",
+   "symbol": "removeDuplicates_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-moveZeroes_4",
+   "symbol": "moveZeroes_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-mergeSortedVec_4",
+   "symbol": "mergeSortedVec_4",
+   "time": "O(n + m)",
+   "space": "O(n + m)",
+   "confidence": "estimated",
+   "tags": [
+    "merge"
+   ]
+  },
+  {
+   "id": "gen3-window-01-positiveWindows_4",
+   "symbol": "positiveWindows_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-rotateArraySteps_4",
+   "symbol": "rotateArraySteps_4",
+   "time": "O(n k)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "rotation"
+   ]
+  },
+  {
+   "id": "gen3-window-01-threeWayPartition_4",
+   "symbol": "threeWayPartition_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-maxSumWindow_5",
+   "symbol": "maxSumWindow_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-minSumWindow_5",
+   "symbol": "minSumWindow_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-twoSumPair_5",
+   "symbol": "twoSumPair_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-isPalindromeVec_5",
+   "symbol": "isPalindromeVec_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-reverseInPlace_5",
+   "symbol": "reverseInPlace_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-partitionEvenOdd_5",
+   "symbol": "partitionEvenOdd_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-removeDuplicates_5",
+   "symbol": "removeDuplicates_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-moveZeroes_5",
+   "symbol": "moveZeroes_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-mergeSortedVec_5",
+   "symbol": "mergeSortedVec_5",
+   "time": "O(n + m)",
+   "space": "O(n + m)",
+   "confidence": "estimated",
+   "tags": [
+    "merge"
+   ]
+  },
+  {
+   "id": "gen3-window-01-positiveWindows_5",
+   "symbol": "positiveWindows_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-rotateArraySteps_5",
+   "symbol": "rotateArraySteps_5",
+   "time": "O(n k)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "rotation"
+   ]
+  },
+  {
+   "id": "gen3-window-01-threeWayPartition_5",
+   "symbol": "threeWayPartition_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-maxSumWindow_6",
+   "symbol": "maxSumWindow_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-minSumWindow_6",
+   "symbol": "minSumWindow_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-twoSumPair_6",
+   "symbol": "twoSumPair_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-isPalindromeVec_6",
+   "symbol": "isPalindromeVec_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-reverseInPlace_6",
+   "symbol": "reverseInPlace_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-partitionEvenOdd_6",
+   "symbol": "partitionEvenOdd_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-removeDuplicates_6",
+   "symbol": "removeDuplicates_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-moveZeroes_6",
+   "symbol": "moveZeroes_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-mergeSortedVec_6",
+   "symbol": "mergeSortedVec_6",
+   "time": "O(n + m)",
+   "space": "O(n + m)",
+   "confidence": "estimated",
+   "tags": [
+    "merge"
+   ]
+  },
+  {
+   "id": "gen3-window-01-positiveWindows_6",
+   "symbol": "positiveWindows_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-rotateArraySteps_6",
+   "symbol": "rotateArraySteps_6",
+   "time": "O(n k)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "rotation"
+   ]
+  },
+  {
+   "id": "gen3-window-01-threeWayPartition_6",
+   "symbol": "threeWayPartition_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-maxSumWindow_7",
+   "symbol": "maxSumWindow_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-minSumWindow_7",
+   "symbol": "minSumWindow_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-twoSumPair_7",
+   "symbol": "twoSumPair_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-isPalindromeVec_7",
+   "symbol": "isPalindromeVec_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-reverseInPlace_7",
+   "symbol": "reverseInPlace_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-partitionEvenOdd_7",
+   "symbol": "partitionEvenOdd_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-removeDuplicates_7",
+   "symbol": "removeDuplicates_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-moveZeroes_7",
+   "symbol": "moveZeroes_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen3-window-01-mergeSortedVec_7",
+   "symbol": "mergeSortedVec_7",
+   "time": "O(n + m)",
+   "space": "O(n + m)",
+   "confidence": "estimated",
+   "tags": [
+    "merge"
+   ]
+  },
+  {
+   "id": "gen3-window-01-positiveWindows_7",
+   "symbol": "positiveWindows_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-window-01-rotateArraySteps_7",
+   "symbol": "rotateArraySteps_7",
+   "time": "O(n k)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "rotation"
+   ]
+  },
+  {
+   "id": "gen3-window-01-threeWayPartition_7",
+   "symbol": "threeWayPartition_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  }
+ ]
+}

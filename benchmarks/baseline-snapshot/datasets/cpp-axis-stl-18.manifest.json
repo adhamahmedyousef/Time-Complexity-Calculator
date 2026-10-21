@@ -1,0 +1,86 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "cpp-axis-stl-18-gen_strscan_3_v24",
+   "symbol": "gen_strscan_3_v24",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "cpp-axis-stl-18-gen_strscan_3_v25",
+   "symbol": "gen_strscan_3_v25",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "cpp-axis-stl-18-gen_strscan_3_v26",
+   "symbol": "gen_strscan_3_v26",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "cpp-axis-stl-18-gen_strscan_3_v27",
+   "symbol": "gen_strscan_3_v27",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "cpp-axis-stl-18-gen_strscan_3_v28",
+   "symbol": "gen_strscan_3_v28",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "cpp-axis-stl-18-gen_strscan_3_v29",
+   "symbol": "gen_strscan_3_v29",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "cpp-axis-stl-18-gen_strscan_3_v30",
+   "symbol": "gen_strscan_3_v30",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "cpp-axis-stl-18-gen_strscan_3_v31",
+   "symbol": "gen_strscan_3_v31",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  }
+ ]
+}

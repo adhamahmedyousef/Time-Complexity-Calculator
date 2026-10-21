@@ -1,0 +1,1903 @@
+{
+ "version": 2,
+ "language": "cpp",
+ "family": "cpp-dsu-amortized",
+ "reviewedBy": "authored-batch",
+ "cases": [
+  {
+   "id": "dsu-count-components-by-edges",
+   "symbol": "dsuCountComponentsByEdges",
+   "time": "O((n + m) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "components",
+    "union-find"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "Each edge causes at most two finds and one union. With union by size and path compression, the amortized cost is \u03b1(n) per operation, so the full scan is O((n+m) \u03b1(n)).",
+   "assumptions": "Nodes are labeled in [0, n). Edges may repeat and may contain self-loops; self-loops do not change the component count.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-largest-component-after-edges",
+   "symbol": "dsuLargestComponentAfterEdges",
+   "time": "O((n + m) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "largest-component",
+    "union-by-size"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "Every union triggers a constant number of finds, and the size of the merged component only changes when a union succeeds. Path compression and union by size make the total amortized cost O((n+m) \u03b1(n)).",
+   "assumptions": "Nodes are in [0, n). The function reports the size of the largest connected component after processing all edges.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-largest-component-after-edges-reversed",
+   "symbol": "dsuLargestComponentAfterEdgesReversed",
+   "time": "O((n + m) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "largest-component",
+    "traversal-order"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "Reversing the scan order does not change the asymptotic number of DSU operations. Each edge still costs amortized \u03b1(n).",
+   "assumptions": "The edge order may be arbitrary; this variant intentionally processes it backwards and is equivalent only for the complexity profile, not the final graph semantics.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": "dsu-largest-component-after-edges"
+  },
+  {
+   "id": "dsu-redundant-edges-by-edges",
+   "symbol": "dsuRedundantEdgesByEdges",
+   "time": "O((n + m) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "redundant-edges",
+    "cycle-detection"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "A redundant edge is detected exactly when its two endpoints are already in the same set. That requires two finds and does not change the amortized bound.",
+   "assumptions": "Graph is undirected; self-loops count as redundant edges.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-can-merge-into-one-component",
+   "symbol": "dsuCanMergeIntoOneComponent",
+   "time": "O((n + m) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "connectivity",
+    "feasibility"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The algorithm performs one DSU pass over the edges and then checks whether exactly one component remains. The asymptotic cost is unchanged.",
+   "assumptions": "Nodes are indexed from 0 to n-1. The answer is true when the induced graph is connected.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-component-sizes-after-batch-unions",
+   "symbol": "dsuComponentSizesAfterBatchUnions",
+   "time": "O((n + m) \u03b1(n) + n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "component-sizes",
+    "sorting"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The DSU scan is amortized O((n+m) \u03b1(n)). Collecting roots is O(n \u03b1(n)), and sorting the component sizes contributes O(k log k) \u2264 O(n log n).",
+   "assumptions": "The return value lists the final component sizes in descending order.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-first-cycle-edge-index",
+   "symbol": "dsuFirstCycleEdgeIndex",
+   "time": "O((n + m) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "first-cycle",
+    "online-processing"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The first non-tree edge is found by scanning once and testing whether its endpoints are already connected. Each test is amortized \u03b1(n).",
+   "assumptions": "The returned index is 0-based; -1 means no cycle was introduced by any edge.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-minimum-edges-to-connect-graph",
+   "symbol": "dsuMinimumEdgesToConnectGraph",
+   "time": "O((n + m) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "minimum-additional-edges",
+    "connectivity"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "After the unions, the graph has c connected components. At least c-1 new edges are needed, and exactly c-1 are sufficient in an unrestricted setting.",
+   "assumptions": "The answer counts how many extra edges are needed to make the graph connected, assuming arbitrary new edges may be added.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-union-sequence-checksum",
+   "symbol": "dsuUnionSequenceChecksum",
+   "time": "O((n + m) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "checksum",
+    "union-trace"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The checksum only adds O(1) work per successful union, so the amortized DSU cost dominates.",
+   "assumptions": "The checksum is a deterministic audit value over the successful union sequence.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-kruskal-mst-weight",
+   "symbol": "dsuKruskalMstWeight",
+   "time": "O(m log m)",
+   "space": "O(n + m)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "kruskal",
+    "mst"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "Sorting the edges costs O(m log m). The subsequent DSU scan adds O(m \u03b1(n)), which is asymptotically dominated by sorting.",
+   "assumptions": "Each edge stores endpoints u,v and weight w. The edge id is assigned from the input order.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-kruskal-mst-edges",
+   "symbol": "dsuKruskalMstEdges",
+   "time": "O(m log m)",
+   "space": "O(n + m)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "kruskal",
+    "edge-list"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "Kruskal's algorithm sorts all edges once and then performs at most one union attempt per edge. Returning the chosen edge list does not change the asymptotics.",
+   "assumptions": "The returned list contains the selected MST edges in nondecreasing weight order.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-kruskal-forest-weight",
+   "symbol": "dsuKruskalForestWeight",
+   "time": "O(m log m)",
+   "space": "O(n + m)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "kruskal",
+    "minimum-spanning-forest"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The only difference from MST is that disconnected graphs are allowed; the same sorted DSU scan is used.",
+   "assumptions": "If the graph is disconnected, the sum of the MSTs of each component is returned.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": "dsu-kruskal-mst-weight"
+  },
+  {
+   "id": "dsu-kruskal-early-stop-weight",
+   "symbol": "dsuKruskalEarlyStopWeight",
+   "time": "O(m log m)",
+   "space": "O(n + m)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "kruskal",
+    "early-stop"
+   ],
+   "inputSymbols": [
+    "n",
+    "m",
+    "targetEdges"
+   ],
+   "proof": "The solver sorts the full edge set, then stops after selecting the requested number of edges. The worst case remains O(m log m).",
+   "assumptions": "targetEdges is nonnegative and at most n-1 for the usual MST-style interpretation.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-kruskal-with-forced-edges-weight",
+   "symbol": "dsuKruskalWithForcedEdgesWeight",
+   "time": "O(m log m + (m + f) \u03b1(n))",
+   "space": "O(n + m + f)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "kruskal",
+    "forced-edges"
+   ],
+   "inputSymbols": [
+    "n",
+    "m",
+    "f"
+   ],
+   "proof": "Forced edges are processed once, then the remaining edges are scanned in sorted order. This adds only O(f \u03b1(n)) beyond the normal Kruskal pass.",
+   "assumptions": "forcedIds refers to 0-based indices in the input edge array and may contain duplicates; duplicates are ignored by the DSU.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-kruskal-with-forbidden-edges-weight",
+   "symbol": "dsuKruskalWithForbiddenEdgesWeight",
+   "time": "O(m log m)",
+   "space": "O(n + m + b)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "kruskal",
+    "forbidden-edges"
+   ],
+   "inputSymbols": [
+    "n",
+    "m",
+    "b"
+   ],
+   "proof": "Marking banned edges is linear in the number of banned ids, and the main sorted DSU scan is unchanged.",
+   "assumptions": "If the banned set disconnects the graph, the function still returns the weight of the best forest under the remaining edges.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-kruskal-connects-graph",
+   "symbol": "dsuKruskalConnectsGraph",
+   "time": "O(m log m)",
+   "space": "O(n + m)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "kruskal",
+    "connectivity"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The decision is read from the component count after Kruskal's scan. The complexity is identical to the MST pass.",
+   "assumptions": "Returns whether the edge set contains a spanning tree.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-kruskal-max-edge-used",
+   "symbol": "dsuKruskalMaxEdgeUsed",
+   "time": "O(m log m)",
+   "space": "O(n + m)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "kruskal",
+    "bottleneck"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The bottleneck edge of the selected forest is tracked during the same pass that constructs the MST/forest.",
+   "assumptions": "If no edge is selected, -1 is returned.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-kruskal-bottleneck-weight",
+   "symbol": "dsuKruskalBottleneckWeight",
+   "time": "O(m log m)",
+   "space": "O(n + m)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "kruskal",
+    "bottleneck-spanning-tree"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The selected forest is the same size as in Kruskal; only the tie-breaking rule changes. Sorting still dominates the asymptotic cost.",
+   "assumptions": "Tie-breaking by endpoints is deterministic but does not affect the asymptotic running time.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": "dsu-kruskal-max-edge-used"
+  },
+  {
+   "id": "dsu-kruskal-component-count-after-mst",
+   "symbol": "dsuKruskalComponentCountAfterMst",
+   "time": "O(m log m)",
+   "space": "O(n + m)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "kruskal",
+    "components"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "Kruskal's scan produces a maximum spanning forest of the same components. The final component count is a direct byproduct of the DSU state.",
+   "assumptions": "The function is useful when the analyzer needs the complexity of MST plus a connectivity summary.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-kruskal-stable-tie-break-weight",
+   "symbol": "dsuKruskalStableTieBreakWeight",
+   "time": "O(m log m)",
+   "space": "O(n + m)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "kruskal",
+    "stable-sort"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "Adding endpoint tie-breaking only changes the comparator, not the structure of the algorithm. Sorting still costs O(m log m).",
+   "assumptions": "The comparator is deterministic and imposes a strict weak ordering.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": "dsu-kruskal-mst-weight"
+  },
+  {
+   "id": "dsu-kruskal-chosen-edge-checksum",
+   "symbol": "dsuKruskalChosenEdgeChecksum",
+   "time": "O(m log m)",
+   "space": "O(n + m)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "kruskal",
+    "checksum"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The selected edge list is produced by the same Kruskal scan; the final checksum adds only linear post-processing over the chosen edges.",
+   "assumptions": "The checksum is deterministic and depends only on the selected forest.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-is-bipartite-after-edges",
+   "symbol": "dsuIsBipartiteAfterEdges",
+   "time": "O((n + m) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "parity",
+    "bipartite"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "Each edge enforces opposite colors. A contradiction is detected exactly when both endpoints are already constrained to the same parity. The DSU cost is amortized \u03b1(n) per edge.",
+   "assumptions": "The graph is undirected and simple parity constraints are modeled as edges requiring different colors.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-first-odd-cycle-edge-index",
+   "symbol": "dsuFirstOddCycleEdgeIndex",
+   "time": "O((n + m) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "parity",
+    "odd-cycle"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The first edge that forces an odd cycle is exactly the first failed parity union. The scan is linear up to the inverse-Ackermann factor.",
+   "assumptions": "The returned index is 0-based.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-parity-conflict-count",
+   "symbol": "dsuParityConflictCount",
+   "time": "O((n + m) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "parity",
+    "conflict-count"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "Every conflict is detected during a normal parity-union attempt, so counting conflicts does not change the asymptotic bound.",
+   "assumptions": "Parallel edges may each be counted as separate conflicts if they individually violate parity.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-parity-coloring-snapshot",
+   "symbol": "dsuParityColoringSnapshot",
+   "time": "O((n + m) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "parity",
+    "color-reconstruction"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "After all constraints are consistent, each node's relative parity to its root is available via one additional find. This is linear in the number of nodes plus edges.",
+   "assumptions": "If the constraints are inconsistent, an empty vector is returned.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": "dsu-is-bipartite-after-edges"
+  },
+  {
+   "id": "dsu-parity-component-count",
+   "symbol": "dsuParityComponentCount",
+   "time": "O((n + m) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "parity",
+    "components"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The parity constraints maintain the same DSU forest structure, so the component count is available in O(1) after the scan.",
+   "assumptions": "Returns -1 when a contradiction is found.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-parity-can-add-edge",
+   "symbol": "dsuParityCanAddEdge",
+   "time": "O((n + m) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "parity",
+    "online-check"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The graph is built once and the candidate edge is tested with one more parity union. The asymptotic complexity remains linear-amortized in the number of processed edges.",
+   "assumptions": "The candidate edge is also required to connect opposite colors.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-parity-component-sizes",
+   "symbol": "dsuParityComponentSizes",
+   "time": "O((n + m) \u03b1(n) + n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "parity",
+    "component-sizes"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "Collecting component sizes is an O(n) root scan on top of the parity DSU pass, followed by sorting the resulting size list.",
+   "assumptions": "The graph must be consistent for the sizes to be meaningful.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-parity-merge-trace-checksum",
+   "symbol": "dsuParityMergeTraceChecksum",
+   "time": "O((n + m) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "parity",
+    "trace-checksum"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The checksum adds only constant work per edge in the same DSU scan. The inverse-Ackermann bound remains dominant.",
+   "assumptions": "Failed constraints are ignored in the checksum.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-parity-same-color-pairs",
+   "symbol": "dsuParitySameColorPairs",
+   "time": "O((n + m) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "parity",
+    "same-color-pairs"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "Counting same-color pairs requires one root pass and one find per node to recover relative parity. This adds no more than O(n \u03b1(n)) after the DSU scan.",
+   "assumptions": "The answer is -1 when the parity constraints are inconsistent.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-parity-component-signature",
+   "symbol": "dsuParityComponentSignature",
+   "time": "O((n + m) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "parity",
+    "signature"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The signature is formed by a single root scan after the parity-union phase. Its cost is linear in the number of nodes on top of the amortized DSU passes.",
+   "assumptions": "This is a deterministic structural fingerprint, not a cryptographic hash.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-difference-constraints-feasible",
+   "symbol": "dsuDifferenceConstraintsFeasible",
+   "time": "O((n + k) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "weighted",
+    "difference-constraints"
+   ],
+   "inputSymbols": [
+    "n",
+    "k"
+   ],
+   "proof": "Each constraint is a weighted union-find equation. The DSU either merges two components or checks consistency, so the total cost is amortized \u03b1(n) per constraint.",
+   "assumptions": "Each tuple encodes value[v] - value[u] = w.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-difference-query-answers",
+   "symbol": "dsuDifferenceQueryAnswers",
+   "time": "O((n + k + q) \u03b1(n))",
+   "space": "O(n + q)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "weighted",
+    "difference-queries"
+   ],
+   "inputSymbols": [
+    "n",
+    "k",
+    "q"
+   ],
+   "proof": "The constraints are processed once, and each query requires two find operations. Weighted path compression makes all finds amortized \u03b1(n).",
+   "assumptions": "Disconnected queries return a large sentinel value to denote an unknown difference.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-weighted-component-potential-span",
+   "symbol": "dsuWeightedComponentPotentialSpan",
+   "time": "O((n + k) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "weighted",
+    "potential-range"
+   ],
+   "inputSymbols": [
+    "n",
+    "k"
+   ],
+   "proof": "After building the weighted components, one additional root scan recovers the minimum and maximum potential in each component. That scan is linear in n.",
+   "assumptions": "The span is measured over the potentials relative to each component root.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-weighted-contradiction-index",
+   "symbol": "dsuWeightedContradictionIndex",
+   "time": "O((n + k) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "weighted",
+    "first-contradiction"
+   ],
+   "inputSymbols": [
+    "n",
+    "k"
+   ],
+   "proof": "The first inconsistent equation is detected during the same weighted-union scan, so the asymptotic cost is unchanged.",
+   "assumptions": "The returned index is 0-based; -1 means all constraints were consistent.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-weighted-max-difference",
+   "symbol": "dsuWeightedMaxDifference",
+   "time": "O((n + k + q) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "weighted",
+    "max-difference"
+   ],
+   "inputSymbols": [
+    "n",
+    "k",
+    "q"
+   ],
+   "proof": "The query pass uses only two finds per query. Taking the maximum absolute difference does not change the DSU-based complexity.",
+   "assumptions": "Only connected query pairs contribute to the maximum.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-weighted-root-offsets",
+   "symbol": "dsuWeightedRootOffsets",
+   "time": "O((n + k) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "weighted",
+    "root-offsets"
+   ],
+   "inputSymbols": [
+    "n",
+    "k"
+   ],
+   "proof": "After consistency checking, one find per node retrieves the potential relative to the component root. That is linear-amortized in n and k.",
+   "assumptions": "The function returns the potential of each node relative to its root; inconsistent systems return an empty vector.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": "dsu-difference-constraints-feasible"
+  },
+  {
+   "id": "dsu-weighted-components-after-constraints",
+   "symbol": "dsuWeightedComponentsAfterConstraints",
+   "time": "O((n + k) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "weighted",
+    "components"
+   ],
+   "inputSymbols": [
+    "n",
+    "k"
+   ],
+   "proof": "The weighted constraints have the same connectivity structure as ordinary unions, so the component count is a direct DSU invariant.",
+   "assumptions": "Returns -1 on contradiction.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-weighted-anchored-node-count",
+   "symbol": "dsuWeightedAnchoredNodeCount",
+   "time": "O((n + k) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "weighted",
+    "anchored-component"
+   ],
+   "inputSymbols": [
+    "n",
+    "k"
+   ],
+   "proof": "The anchor's component is found with one query, then all nodes are scanned once to count membership. Each membership test is a find operation.",
+   "assumptions": "The anchor is a valid node index.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-weighted-component-potential-checksum",
+   "symbol": "dsuWeightedComponentPotentialChecksum",
+   "time": "O((n + k) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "weighted",
+    "checksum"
+   ],
+   "inputSymbols": [
+    "n",
+    "k"
+   ],
+   "proof": "The checksum is computed in a single node scan after all weighted unions are processed. This adds only O(n \u03b1(n)) to the amortized DSU work.",
+   "assumptions": "A negative return value means the constraint system was inconsistent.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-weighted-consistent-roots",
+   "symbol": "dsuWeightedConsistentRoots",
+   "time": "O((n + k) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "weighted",
+    "roots"
+   ],
+   "inputSymbols": [
+    "n",
+    "k"
+   ],
+   "proof": "Finding all roots after processing the weighted constraints is a linear scan with amortized finds.",
+   "assumptions": "Returns an empty vector when a contradiction is present.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-rollback-offline-component-counts",
+   "symbol": "dsuRollbackOfflineComponentCounts",
+   "time": "O(q log q * \u03b1(n))",
+   "space": "O(n + q log q)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "rollback",
+    "offline-connectivity"
+   ],
+   "inputSymbols": [
+    "n",
+    "q"
+   ],
+   "proof": "Each active edge interval is inserted into O(log q) segment-tree nodes, and every inserted copy is applied and rolled back once. Thus the total DSU work is O((q+k) log q \u00b7 \u03b1(n)).",
+   "assumptions": "ops encodes add/remove/query events over time; add/remove pairs are well-formed.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-rollback-offline-connected-pairs",
+   "symbol": "dsuRollbackOfflineConnectedPairs",
+   "time": "O(q log q * \u03b1(n))",
+   "space": "O(n + q log q)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "rollback",
+    "connected-pairs"
+   ],
+   "inputSymbols": [
+    "n",
+    "q"
+   ],
+   "proof": "The same offline dynamic-connectivity traversal can maintain the number of pairs inside components as an additive invariant alongside the component count.",
+   "assumptions": "Query times are returned in chronological order.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-rollback-offline-largest-component-sizes",
+   "symbol": "dsuRollbackOfflineLargestComponentSizes",
+   "time": "O(q log q * \u03b1(n))",
+   "space": "O(n + q log q)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "rollback",
+    "largest-component"
+   ],
+   "inputSymbols": [
+    "n",
+    "q"
+   ],
+   "proof": "Rollback DSU stores the maximum component size as an additional reversible statistic. The segment-tree recursion is unchanged.",
+   "assumptions": "The largest component size is tracked at each query time.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": "dsu-rollback-offline-component-counts"
+  },
+  {
+   "id": "dsu-rollback-offline-union-counts",
+   "symbol": "dsuRollbackOfflineUnionCounts",
+   "time": "O(q log q * \u03b1(n))",
+   "space": "O(n + q log q)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "rollback",
+    "union-count"
+   ],
+   "inputSymbols": [
+    "n",
+    "q"
+   ],
+   "proof": "The number of successful unions is a reversible counter maintained inside the rollback DSU, so reporting it at each query adds no extra asymptotic cost.",
+   "assumptions": "Only successful unions are counted.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-rollback-offline-max-size-trace",
+   "symbol": "dsuRollbackOfflineMaxSizeTrace",
+   "time": "O(q log q * \u03b1(n))",
+   "space": "O(n + q log q)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "rollback",
+    "max-size-trace"
+   ],
+   "inputSymbols": [
+    "n",
+    "q"
+   ],
+   "proof": "Maximum size is already maintained as part of the rollback state, so extracting the trace is free up to the base offline traversal.",
+   "assumptions": "This is a syntactic variant of the largest-component trace with the same asymptotic behavior.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": "dsu-rollback-offline-largest-component-sizes"
+  },
+  {
+   "id": "dsu-rollback-offline-checksum-trace",
+   "symbol": "dsuRollbackOfflineChecksumTrace",
+   "time": "O(q log q * \u03b1(n))",
+   "space": "O(n + q log q)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "rollback",
+    "checksum"
+   ],
+   "inputSymbols": [
+    "n",
+    "q"
+   ],
+   "proof": "The checksum is computed from already available traces. The expensive part is still the offline segment-tree traversal plus rollback merges.",
+   "assumptions": "The checksum is intended for analyzer datasets rather than for exact combinatorial meaning.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-rollback-offline-merged-queries",
+   "symbol": "dsuRollbackOfflineMergedQueries",
+   "time": "O(q log q * \u03b1(n))",
+   "space": "O(n + q log q)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "rollback",
+    "merged-trace"
+   ],
+   "inputSymbols": [
+    "n",
+    "q"
+   ],
+   "proof": "This wrapper only post-processes the already computed rollback trace, so the asymptotic complexity is unchanged.",
+   "assumptions": "The returned values are derived from the offline connectivity trace.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-rollback-offline-active-components",
+   "symbol": "dsuRollbackOfflineActiveComponents",
+   "time": "O(q log q * \u03b1(n))",
+   "space": "O(n + q log q)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "rollback",
+    "active-components"
+   ],
+   "inputSymbols": [
+    "n",
+    "q"
+   ],
+   "proof": "This is the same trace as the component-count wrapper, keeping the same offline-dynamic-connectivity complexity.",
+   "assumptions": "This is a syntactic variant of the component-count output.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": "dsu-rollback-offline-component-counts"
+  },
+  {
+   "id": "dsu-paint-intervals-coloring",
+   "symbol": "dsuPaintIntervalsColoring",
+   "time": "O((n + q) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "successor",
+    "interval-painting"
+   ],
+   "inputSymbols": [
+    "n",
+    "q"
+   ],
+   "proof": "Every position is erased from the successor structure at most once, and each erase is a path-compressed find step. Therefore the total cost is O((n+q) \u03b1(n)).",
+   "assumptions": "Intervals are clamped to [0, n-1]. Later paints overwrite earlier colors.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-count-painted-cells",
+   "symbol": "dsuCountPaintedCells",
+   "time": "O((n + q) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "successor",
+    "paint-count"
+   ],
+   "inputSymbols": [
+    "n",
+    "q"
+   ],
+   "proof": "The successor DSU processes each position once, and the final painted-cell count is a single linear scan over the result array.",
+   "assumptions": "Color 0 is treated as 'unpainted'.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-next-unpainted-positions",
+   "symbol": "dsuNextUnpaintedPositions",
+   "time": "O((n + q) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "successor",
+    "next-pointer"
+   ],
+   "inputSymbols": [
+    "n",
+    "q"
+   ],
+   "proof": "Building the final occupied set and then querying the successor of every index takes linear time with inverse-Ackermann DSU updates.",
+   "assumptions": "The returned value for a fully painted suffix is n.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-min-operations-to-cover-all-cells",
+   "symbol": "dsuMinOperationsToCoverAllCells",
+   "time": "O((n + q) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "successor",
+    "covering"
+   ],
+   "inputSymbols": [
+    "n",
+    "q"
+   ],
+   "proof": "Each cell becomes covered at most once, so the total successor skips over all intervals is linear-amortized. Checking the coverage threshold after each query adds only O(q).",
+   "assumptions": "The function returns the first query index that covers every cell, or -1 if complete coverage never happens.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-painted-prefix-lengths",
+   "symbol": "dsuPaintedPrefixLengths",
+   "time": "O(nq)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "interval-painting",
+    "prefix-length"
+   ],
+   "inputSymbols": [
+    "n",
+    "q"
+   ],
+   "proof": "This wrapper intentionally materializes the painted array after each query, making the worst-case cost quadratic. It is still a realistic adversarial variant for an analyzer.",
+   "assumptions": "This variant does not use successor compression and is included as a baseline-adversarial contrast.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": "dsu-paint-intervals-coloring"
+  },
+  {
+   "id": "dsu-interval-paint-cost-checksum",
+   "symbol": "dsuIntervalPaintCostChecksum",
+   "time": "O((n + q) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "successor",
+    "checksum"
+   ],
+   "inputSymbols": [
+    "n",
+    "q"
+   ],
+   "proof": "The checksum is a linear scan over the final coloring, while the coloring itself comes from a successor DSU pass.",
+   "assumptions": "The checksum is a deterministic footprint of the painted array.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-grid-island-count",
+   "symbol": "dsuGridIslandCount",
+   "time": "O(a \u03b1(rows * cols))",
+   "space": "O(rows * cols + a)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "grid",
+    "islands"
+   ],
+   "inputSymbols": [
+    "rows",
+    "cols",
+    "a"
+   ],
+   "proof": "Each activation touches at most four neighbors and performs a constant number of DSU operations. With path compression, this is O(a \u03b1(rc)).",
+   "assumptions": "rows*cols can fit into memory for the DSU arrays. Activations outside the grid are ignored.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-grid-largest-island-size",
+   "symbol": "dsuGridLargestIslandSize",
+   "time": "O(a \u03b1(rows * cols))",
+   "space": "O(rows * cols + a)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "grid",
+    "largest-island"
+   ],
+   "inputSymbols": [
+    "rows",
+    "cols",
+    "a"
+   ],
+   "proof": "The largest component size is maintained incrementally during activation and neighbor unions, so extracting the final value is O(1) after the DSU work.",
+   "assumptions": "The grid is 4-neighbor connected.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": "dsu-grid-island-count"
+  },
+  {
+   "id": "dsu-grid-component-counts-after-activations",
+   "symbol": "dsuGridComponentCountsAfterActivations",
+   "time": "O(a \u03b1(rows * cols))",
+   "space": "O(rows * cols + a)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "grid",
+    "component-trace"
+   ],
+   "inputSymbols": [
+    "rows",
+    "cols",
+    "a"
+   ],
+   "proof": "The trace stores the component count after each activation. Each step uses only local neighbor checks plus DSU unions.",
+   "assumptions": "Activations may repeat; repeated activations do not change the trace.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-grid-perimeter-after-activations",
+   "symbol": "dsuGridPerimeterAfterActivations",
+   "time": "O(a \u03b1(rows * cols))",
+   "space": "O(rows * cols + a)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "grid",
+    "perimeter-trace"
+   ],
+   "inputSymbols": [
+    "rows",
+    "cols",
+    "a"
+   ],
+   "proof": "The perimeter changes only when a cell is activated and when it shares a side with an already active neighbor. Both checks are constant per neighbor.",
+   "assumptions": "Perimeter counts exposed cell sides in the active set.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-grid-merge-trace-checksum",
+   "symbol": "dsuGridMergeTraceChecksum",
+   "time": "O(a \u03b1(rows * cols))",
+   "space": "O(rows * cols + a)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "grid",
+    "checksum"
+   ],
+   "inputSymbols": [
+    "rows",
+    "cols",
+    "a"
+   ],
+   "proof": "The trace checksum is a linear pass over the already computed activation trace. The DSU activation cost dominates.",
+   "assumptions": "The checksum is for complexity auditing rather than semantic output.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-grid-connectivity-after-activations",
+   "symbol": "dsuGridConnectivityAfterActivations",
+   "time": "O(a \u03b1(rows * cols))",
+   "space": "O(rows * cols + a)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "grid",
+    "connectivity"
+   ],
+   "inputSymbols": [
+    "rows",
+    "cols",
+    "a"
+   ],
+   "proof": "Connectivity is determined by the final DSU component count of the active cells. The incremental maintenance of that count is amortized \u03b1(rc) per activation.",
+   "assumptions": "Returns true if the active cells are connected or there are zero/one active cells.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-component-weight-sums-after-unions",
+   "symbol": "dsuComponentWeightSumsAfterUnions",
+   "time": "O((n + m) \u03b1(n) + n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "aggregate",
+    "component-sums"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The aggregate sum is maintained during each union, and the final root scan plus sorting contributes at most O(n log n) beyond the amortized DSU work.",
+   "assumptions": "The weight array has length n and gives one initial weight per node.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-component-min-max-after-unions",
+   "symbol": "dsuComponentMinMaxAfterUnions",
+   "time": "O((n + m) \u03b1(n))",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "aggregate",
+    "min-max"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "Component sums are updated lazily on merges, so a final root scan is enough to recover the minimum and maximum component totals.",
+   "assumptions": "The input weight array is valid and the graph may be disconnected.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-friend-circle-count-by-names",
+   "symbol": "dsuFriendCircleCountByNames",
+   "time": "O(r log r + r \u03b1(r))",
+   "space": "O(r)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "strings",
+    "equivalence-classes"
+   ],
+   "inputSymbols": [
+    "r"
+   ],
+   "proof": "Each name lookup in the ordered map costs O(log r), and the DSU unions add only amortized \u03b1(r) per relation.",
+   "assumptions": "Names are merged by pairwise relations, and r is the number of relations.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-merge-accounts-by-email",
+   "symbol": "dsuMergeAccountsByEmail",
+   "time": "O(T log T + T \u03b1(n))",
+   "space": "O(T)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "accounts-merge",
+    "map"
+   ],
+   "inputSymbols": [
+    "T"
+   ],
+   "proof": "Each email is inserted or looked up in an ordered map once, and each union is amortized \u03b1(n). The final grouping and deduplication are linearithmic in the number of stored strings.",
+   "assumptions": "Each account begins with a name followed by one or more emails.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-merge-accounts-by-phone",
+   "symbol": "dsuMergeAccountsByPhone",
+   "time": "O(T log T + T \u03b1(n))",
+   "space": "O(T)",
+   "confidence": "exact",
+   "tags": [
+    "dsu",
+    "accounts-merge",
+    "phone-matching"
+   ],
+   "inputSymbols": [
+    "T"
+   ],
+   "proof": "The complexity mirrors the email-merge wrapper: ordered-map lookups plus amortized union-find operations and a final root grouping pass.",
+   "assumptions": "The first element of each record is a label, followed by phone numbers.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-callback-driven-merge-unknown",
+   "symbol": "dsuCallbackDrivenMergeUnknown",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu",
+    "callback",
+    "unknown"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The callback decides which edges are even considered, so the analyzer cannot bound the work without knowing the callback's own cost and behavior.",
+   "assumptions": "The predicate may be arbitrary, stateful, or depend on external I/O.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-function-pointer-parent-access-unknown",
+   "symbol": "dsuFunctionPointerParentAccessUnknown",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu",
+    "pointer-aliasing",
+    "unknown"
+   ],
+   "inputSymbols": [
+    "n"
+   ],
+   "proof": "The function mutates caller-owned parent storage through a raw pointer, so the analyzer cannot safely separate local and external state.",
+   "assumptions": "The parent buffer may alias other structures and the callback may have hidden cost.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-mutable-parent-alias-unknown",
+   "symbol": "dsuMutableParentAliasUnknown",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu",
+    "alias-heavy",
+    "unknown"
+   ],
+   "inputSymbols": [
+    "n"
+   ],
+   "proof": "The complexity depends on aliasing between externally owned vectors, which makes safe worst-case derivation impossible from the function body alone.",
+   "assumptions": "The two vectors may alias other memory reachable by the caller.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-lambda-predicate-union-unknown",
+   "symbol": "dsuLambdaPredicateUnionUnknown",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu",
+    "callback",
+    "stop-condition",
+    "unknown"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The loop termination is controlled by a callback, so the number of processed edges is not statically bounded from the body.",
+   "assumptions": "The stop predicate is arbitrary and may depend on hidden state.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-external-comparator-merges-unknown",
+   "symbol": "dsuExternalComparatorMergesUnknown",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu",
+    "custom-comparator",
+    "unknown"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The comparator is injected from outside, so sorting complexity depends on an opaque callback rather than a fixed comparison relation.",
+   "assumptions": "The comparator may violate strict weak ordering or capture mutable state.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-unordered-map-string-merge-unknown",
+   "symbol": "dsuUnorderedMapStringMergeUnknown",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu",
+    "unordered-map",
+    "hash-adversarial",
+    "unknown"
+   ],
+   "inputSymbols": [
+    "T"
+   ],
+   "proof": "Using unordered_map makes the worst-case dependent on hash behavior and collision patterns, so a safe deterministic bound is not provable from the code alone.",
+   "assumptions": "The hash table is assumed to behave like a standard average-case container only; worst-case collisions are not bounded here.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-hash-based-email-merge-unknown",
+   "symbol": "dsuHashBasedEmailMergeUnknown",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu",
+    "hash-table",
+    "unknown"
+   ],
+   "inputSymbols": [
+    "T"
+   ],
+   "proof": "The container is hash-based, so the true worst-case depends on the hash distribution and is not safely bounded by the code alone.",
+   "assumptions": "Collisions and rehashing behavior are external to the algorithmic structure.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-stateful-functor-find-unknown",
+   "symbol": "dsuStatefulFunctorFindUnknown",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu",
+    "stateful-functor",
+    "unknown"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The root lookup is delegated to an opaque functor, so neither correctness nor cost can be proven from the wrapper itself.",
+   "assumptions": "The functor may mutate captured state or perform hidden work.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-rollback-with-callback-unknown",
+   "symbol": "dsuRollbackWithCallbackUnknown",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu",
+    "rollback",
+    "callback",
+    "unknown"
+   ],
+   "inputSymbols": [
+    "n",
+    "q"
+   ],
+   "proof": "The offline DSU work is clear, but the callback invoked per query makes the end-to-end cost callback-dependent.",
+   "assumptions": "The callback may do arbitrary work per report.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-alias-sensitive-component-scan-unknown",
+   "symbol": "dsuAliasSensitiveComponentScanUnknown",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu",
+    "alias-sensitive",
+    "unknown"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The externally owned parent vector is mutated after building a private DSU, which makes aliasing effects and effective cost hard to isolate safely.",
+   "assumptions": "The caller may share the vector with other structures.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-potentially-non-terminating-union-unknown",
+   "symbol": "dsuPotentiallyNonTerminatingUnionUnknown",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu",
+    "callback",
+    "termination",
+    "unknown"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The loop continuation is controlled externally, so the number of iterations is not statically derivable and may depend on hidden state.",
+   "assumptions": "The callback may stop immediately or run for an arbitrary number of iterations.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-indirect-mutation-through-reference-unknown",
+   "symbol": "dsuIndirectMutationThroughReferenceUnknown",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu",
+    "reference-mutation",
+    "unknown"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "Because the function mutates caller-owned references in a way that can alias external state, a safe algorithmic bound is not derivable from the wrapper alone.",
+   "assumptions": "The vectors may be shared with other aliases outside the function.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-template-alias-cycle-unknown",
+   "symbol": "dsuTemplateAliasCycleUnknown",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu",
+    "recursive-lambda",
+    "unknown"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The recursive lambda is syntactically valid but the analyzer cannot safely reason about any additional user-supplied recursion or captures outside the wrapper.",
+   "assumptions": "The recursion depth equals the number of edges, and the body is intentionally callback-like for analyzers that treat recursive lambdas conservatively.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-runtime-selected-join-unknown",
+   "symbol": "dsuRuntimeSelectedJoinUnknown",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu",
+    "runtime-branching",
+    "unknown"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The runtime-selected merge policy changes behavior based on external input, so the wrapper is intentionally ambiguous for a conservative analyzer.",
+   "assumptions": "The chosen mode may encode an arbitrary policy not visible in the wrapper.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-callback-based-stop-condition-unknown",
+   "symbol": "dsuCallbackBasedStopConditionUnknown",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu",
+    "callback",
+    "stop-condition",
+    "unknown"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The stopping threshold is hidden behind a callback, so the effective number of unions is not statically known.",
+   "assumptions": "The callback may depend on arbitrary external state or side effects.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  },
+  {
+   "id": "dsu-monkey-patched-find-unknown",
+   "symbol": "dsuMonkeyPatchedFindUnknown",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu",
+    "monkey-patched",
+    "unknown"
+   ],
+   "inputSymbols": [
+    "n",
+    "m"
+   ],
+   "proof": "The root lookup is replaced by an externally provided callable, making the wrapper callback-dependent and unsafe to bound precisely.",
+   "assumptions": "The callable may be expensive or even stateful.",
+   "origin": {
+    "kind": "authored",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": null
+  }
+ ]
+}

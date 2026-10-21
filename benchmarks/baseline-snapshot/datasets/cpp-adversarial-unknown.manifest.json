@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "adversarial-unknown",
+  "reviewedBy": "authored-batch",
+  "cases": [
+    {"id":"non-progressing-collatz-loop","symbol":"nonProgressingWhileLoop","time":"Unknown","space":"O(1)","confidence":"unknown","tags":["adversarial","non-terminating","collatz"],"inputSymbols":["n"],"proof":"Collatz conjecture cycle termination for arbitrary inputs remains unproven for static analyzer.","assumptions":"Uncertain termination bound.","origin":{"kind":"authored","license":"CC0-1.0-or-authored"},"variantOf":null},
+    {"id":"pointer-aliasing-side-effects","symbol":"pointerAliasingSideEffects","time":"O(n)","space":"O(1)","confidence":"exact","tags":["aliasing","pointers"],"inputSymbols":["n"],"proof":"Loop runs exactly n iterations regardless of pointer aliasing.","assumptions":"a and b are valid memory addresses.","origin":{"kind":"authored","license":"CC0-1.0-or-authored"},"variantOf":null},
+    {"id":"template-unconstrained-operation","symbol":"templateUnconstrainedOperation","time":"Unknown","space":"Unknown","confidence":"unknown","tags":["template","unknown"],"inputSymbols":["container"],"proof":"Complexity depends on container traversal cost and dynamic implementation of process().","assumptions":"Container size and process method unknown.","origin":{"kind":"authored","license":"CC0-1.0-or-authored"},"variantOf":null},
+    {"id":"external-api-call-loop","symbol":"externalApiCallLoop","time":"Unknown","space":"Unknown","confidence":"unknown","tags":["external-call","unknown"],"inputSymbols":["n"],"proof":"Invocation cost of external system calls depends on OS runtime environment.","assumptions":"System call overhead is outside pure computational model.","origin":{"kind":"authored","license":"CC0-1.0-or-authored"},"variantOf":null}
+  ]
+}

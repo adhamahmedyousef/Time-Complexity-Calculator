@@ -1,0 +1,8 @@
+{"version":1,"language":"cpp","cases":[
+{"id":"dp-memo-fib","symbol":"sampleMemoFib","time":"O(n)","space":"O(n)","confidence":"exact","tags":["dp","memoization","recursion"]},
+{"id":"dp-knapsack","symbol":"sampleKnapsack","time":"O(nW)","space":"O(W)","confidence":"exact","tags":["dp","knapsack"]},
+{"id":"dp-lis","symbol":"sampleLIS","time":"O(n log n)","space":"O(n)","confidence":"exact","tags":["dp","lis","binary-search"]},
+{"id":"dp-partition","symbol":"samplePartitionDP","time":"O(n^2)","space":"O(n)","confidence":"exact","tags":["dp","partition"]},
+{"id":"dp-bitmask-tsp","symbol":"sampleBitmaskTSP","time":"O(n^2 2^n)","space":"O(n 2^n)","confidence":"exact","tags":["dp","bitmask","tsp"]},
+{"id":"dp-coin-change","symbol":"sampleCoinChangeWays","time":"O(nS)","space":"O(S)","confidence":"exact","tags":["dp","coin-change"]}
+]}

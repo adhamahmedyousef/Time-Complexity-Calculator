@@ -1,0 +1,127 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+// tarjan-scc-01
+struct Tarjan_1 {
+    int timer = 0;
+    vector<int> disc, low, st, on;
+    vector<vector<int>> comp;
+    Tarjan_1(int n) : disc(n, -1), low(n, -1), on(n, 0) {}
+    void dfs(int u, const vector<vector<int>>& adj) {
+        disc[u] = low[u] = timer++;
+        st.push_back(u); on[u] = 1;
+        for (int v : adj[u]) {
+            if (disc[v] == -1) { dfs(v, adj); low[u] = min(low[u], low[v]); }
+            else if (on[v]) low[u] = min(low[u], disc[v]);
+        }
+        if (low[u] == disc[u]) {
+            vector<int> c;
+            while (!st.empty()) {
+                int x = st.back(); st.pop_back(); on[x] = 0; c.push_back(x);
+                if (x == u) break;
+            }
+            comp.push_back(c);
+        }
+    }
+};
+int tarjanScc_1(const vector<vector<int>>& adj) {
+    Tarjan_1 t((int)adj.size());
+    for (int i = 0; i < (int)adj.size(); ++i) if (t.disc[i] == -1) t.dfs(i, adj);
+    return (int)t.comp.size();
+}
+
+// bridges-articulation-01
+struct BridgeFinder_1 {
+    int timer = 0;
+    vector<int> tin, low, vis;
+    int bridges = 0, cut = 0;
+    BridgeFinder_1(int n) : tin(n, -1), low(n, -1), vis(n, 0) {}
+    void dfs(int u, int p, const vector<vector<int>>& adj) {
+        vis[u] = 1; tin[u] = low[u] = timer++;
+        int children = 0;
+        for (int v : adj[u]) if (v != p) {
+            if (vis[v]) low[u] = min(low[u], tin[v]);
+            else {
+                dfs(v, u, adj);
+                low[u] = min(low[u], low[v]);
+                if (low[v] > tin[u]) ++bridges;
+                if (low[v] >= tin[u] && p != -1) ++cut;
+                ++children;
+            }
+        }
+        if (p == -1 && children > 1) ++cut;
+    }
+};
+int bridgesArticulation_1(const vector<vector<int>>& adj) {
+    BridgeFinder_1 f((int)adj.size());
+    f.dfs(0, -1, adj);
+    return f.bridges + f.cut;
+}
+
+// topological-dp-01
+long long topologicalDp_1(const vector<vector<int>>& adj, vector<int> indegree) {
+    queue<int> q;
+    int n = (int)adj.size();
+    for (int i = 0; i < n; ++i) if (indegree[i] == 0) q.push(i);
+    vector<int> dp(n, 1);
+    while (!q.empty()) {
+        int u = q.front(); q.pop();
+        for (int v : adj[u]) {
+            dp[v] = max(dp[v], dp[u] + 1);
+            if (--indegree[v] == 0) q.push(v);
+        }
+    }
+    return *max_element(dp.begin(), dp.end());
+}
+
+// dinic-flow-01
+struct Edge { int to, rev, cap; };
+struct Dinic_1 {
+    int n;
+    vector<vector<Edge>> g;
+    vector<int> level, it;
+    Dinic_1(int n) : n(n), g(n), level(n), it(n) {}
+    void addEdge(int u, int v, int c) {
+        Edge a{v, (int)g[v].size(), c}, b{u, (int)g[u].size(), 0};
+        g[u].push_back(a); g[v].push_back(b);
+    }
+    bool bfs(int s, int t) {
+        fill(level.begin(), level.end(), -1);
+        queue<int> q; level[s] = 0; q.push(s);
+        while (!q.empty()) {
+            int u = q.front(); q.pop();
+            for (auto e : g[u]) if (e.cap > 0 && level[e.to] == -1) level[e.to] = level[u] + 1, q.push(e.to);
+        }
+        return level[t] != -1;
+    }
+    int dfs(int u, int t, int f) {
+        if (u == t) return f;
+        for (int &i = it[u]; i < (int)g[u].size(); ++i) {
+            auto &e = g[u][i];
+            if (e.cap > 0 && level[e.to] == level[u] + 1) {
+                int got = dfs(e.to, t, min(f, e.cap));
+                if (got) { e.cap -= got; g[e.to][e.rev].cap += got; return got; }
+            }
+        }
+        return 0;
+    }
+};
+int dinicFlow_1(int n, const vector<tuple<int,int,int>>& edges) {
+    Dinic_1 d(n);
+    for (auto [u, v, c] : edges) d.addEdge(u, v, c);
+    return d.bfs(0, n - 1) ? d.dfs(0, n - 1, INT_MAX) : 0;
+}
+
+// graph-unknown-lambda-01
+int pack_cp_requested_dataset_pack_graphUnknownLambda_1(const vector<vector<int>>& adj) {
+    vector<int> vis(adj.size());
+    function<void(int)> go = [&](int u) {
+        vis[u] = 1;
+        for (int v : adj[u]) {
+            if (rand() & 1) go(v);
+            else if (!vis[v]) go(v);
+        }
+    };
+    go(0);
+    return accumulate(vis.begin(), vis.end(), 0);
+}

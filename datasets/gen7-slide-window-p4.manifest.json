@@ -1,0 +1,556 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "slidingWindowProduct_16",
+   "symbol": "slidingWindowProduct_16",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowAtMostK_16",
+   "symbol": "slidingWindowAtMostK_16",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "string"
+   ]
+  },
+  {
+   "id": "slidingWindowCharFreq_16",
+   "symbol": "slidingWindowCharFreq_16",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "string"
+   ]
+  },
+  {
+   "id": "slidingWindowLimit_17",
+   "symbol": "slidingWindowLimit_17",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowPreInc_17",
+   "symbol": "slidingWindowPreInc_17",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowString_17",
+   "symbol": "slidingWindowString_17",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "string"
+   ]
+  },
+  {
+   "id": "slidingWindowNonNegative_17",
+   "symbol": "slidingWindowNonNegative_17",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowMinSubarray_17",
+   "symbol": "slidingWindowMinSubarray_17",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowTwoPtrK_17",
+   "symbol": "slidingWindowTwoPtrK_17",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowProduct_17",
+   "symbol": "slidingWindowProduct_17",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowAtMostK_17",
+   "symbol": "slidingWindowAtMostK_17",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "string"
+   ]
+  },
+  {
+   "id": "slidingWindowCharFreq_17",
+   "symbol": "slidingWindowCharFreq_17",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "string"
+   ]
+  },
+  {
+   "id": "slidingWindowLimit_18",
+   "symbol": "slidingWindowLimit_18",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowPreInc_18",
+   "symbol": "slidingWindowPreInc_18",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowString_18",
+   "symbol": "slidingWindowString_18",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "string"
+   ]
+  },
+  {
+   "id": "slidingWindowNonNegative_18",
+   "symbol": "slidingWindowNonNegative_18",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowMinSubarray_18",
+   "symbol": "slidingWindowMinSubarray_18",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowTwoPtrK_18",
+   "symbol": "slidingWindowTwoPtrK_18",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowProduct_18",
+   "symbol": "slidingWindowProduct_18",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowAtMostK_18",
+   "symbol": "slidingWindowAtMostK_18",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "string"
+   ]
+  },
+  {
+   "id": "slidingWindowCharFreq_18",
+   "symbol": "slidingWindowCharFreq_18",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "string"
+   ]
+  },
+  {
+   "id": "slidingWindowLimit_19",
+   "symbol": "slidingWindowLimit_19",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowPreInc_19",
+   "symbol": "slidingWindowPreInc_19",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowString_19",
+   "symbol": "slidingWindowString_19",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "string"
+   ]
+  },
+  {
+   "id": "slidingWindowNonNegative_19",
+   "symbol": "slidingWindowNonNegative_19",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowMinSubarray_19",
+   "symbol": "slidingWindowMinSubarray_19",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowTwoPtrK_19",
+   "symbol": "slidingWindowTwoPtrK_19",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowProduct_19",
+   "symbol": "slidingWindowProduct_19",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowAtMostK_19",
+   "symbol": "slidingWindowAtMostK_19",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "string"
+   ]
+  },
+  {
+   "id": "slidingWindowCharFreq_19",
+   "symbol": "slidingWindowCharFreq_19",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "string"
+   ]
+  },
+  {
+   "id": "slidingWindowLimit_20",
+   "symbol": "slidingWindowLimit_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowPreInc_20",
+   "symbol": "slidingWindowPreInc_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowString_20",
+   "symbol": "slidingWindowString_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "string"
+   ]
+  },
+  {
+   "id": "slidingWindowNonNegative_20",
+   "symbol": "slidingWindowNonNegative_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowMinSubarray_20",
+   "symbol": "slidingWindowMinSubarray_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowTwoPtrK_20",
+   "symbol": "slidingWindowTwoPtrK_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowProduct_20",
+   "symbol": "slidingWindowProduct_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowAtMostK_20",
+   "symbol": "slidingWindowAtMostK_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "string"
+   ]
+  },
+  {
+   "id": "slidingWindowCharFreq_20",
+   "symbol": "slidingWindowCharFreq_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "string"
+   ]
+  },
+  {
+   "id": "slidingWindowLimit_21",
+   "symbol": "slidingWindowLimit_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowPreInc_21",
+   "symbol": "slidingWindowPreInc_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowString_21",
+   "symbol": "slidingWindowString_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "string"
+   ]
+  },
+  {
+   "id": "slidingWindowNonNegative_21",
+   "symbol": "slidingWindowNonNegative_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowMinSubarray_21",
+   "symbol": "slidingWindowMinSubarray_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowTwoPtrK_21",
+   "symbol": "slidingWindowTwoPtrK_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowProduct_21",
+   "symbol": "slidingWindowProduct_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowAtMostK_21",
+   "symbol": "slidingWindowAtMostK_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "string"
+   ]
+  },
+  {
+   "id": "slidingWindowCharFreq_21",
+   "symbol": "slidingWindowCharFreq_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "string"
+   ]
+  },
+  {
+   "id": "slidingWindowLimit_22",
+   "symbol": "slidingWindowLimit_22",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  },
+  {
+   "id": "slidingWindowPreInc_22",
+   "symbol": "slidingWindowPreInc_22",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sliding-window",
+    "amortized"
+   ]
+  }
+ ]
+}

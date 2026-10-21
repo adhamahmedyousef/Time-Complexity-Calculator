@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-fenwick-sparse-table",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-fenwick-point-update-prefix-01",
+      "symbol": "pack_cp_requested_dataset_pack_fenwickQueries_1",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "fenwick",
+        "class-methods",
+        "prefix-query"
+      ],
+      "inputSymbols": [
+        "operations",
+        "n"
+      ],
+      "proof": "Each operation performs one Fenwick update and one Fenwick prefix query.",
+      "assumptions": "Fenwick tree size is proportional to n.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-fenwick-point-update-prefix-01"
+    }
+  ]
+}

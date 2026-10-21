@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-helper-lca-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_lcaQuery_lca1",
+      "time": "O(n log n + q log n)",
+      "space": "O(n log n)",
+      "confidence": "estimated",
+      "tags": [
+        "tree",
+        "lca",
+        "binary-lifting"
+      ],
+      "algorithmFamily": "lca",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n",
+        "q",
+        "adj",
+        "qs"
+      ],
+      "proof": "Tree preprocessing is logarithmic per node and each query uses ancestor jumps.",
+      "assumptions": "Tree is rooted and connected.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-helper-lca-01"
+    }
+  ]
+}

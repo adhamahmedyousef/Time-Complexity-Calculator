@@ -1,0 +1,30 @@
+{
+ "version": 2,
+ "language": "cpp",
+ "family": "pack-level0-400-pack-level0-089",
+ "reviewedBy": "imported-pack-representative",
+ "cases": [
+  {
+   "id": "pack-level0-400-pack-level0-089",
+   "symbol": "pack_level0_400_pack_main",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "adjudicated",
+    "unknown",
+    "strings"
+   ],
+   "inputSymbols": [
+    "s"
+   ],
+   "proof": "A mutable index jumps according to the characters.",
+   "assumptions": "Intentionally ambiguous; safe analysis should abstain.",
+   "origin": {
+    "kind": "derived",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": "pack-level0-400-pack-strings-base"
+  }
+ ]
+}

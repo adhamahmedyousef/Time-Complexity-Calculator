@@ -1,0 +1,226 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen5-range-02-diffArrayRangeUpdates_25",
+   "symbol": "diffArrayRangeUpdates_25",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen5-range-02-prefixMinScan_25",
+   "symbol": "prefixMinScan_25",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen5-range-02-suffixMaxScan_25",
+   "symbol": "suffixMaxScan_25",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen5-range-02-prefixSum2DBuild_25",
+   "symbol": "prefixSum2DBuild_25",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  },
+  {
+   "id": "gen5-range-02-diffArrayRangeUpdates_26",
+   "symbol": "diffArrayRangeUpdates_26",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen5-range-02-prefixMinScan_26",
+   "symbol": "prefixMinScan_26",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen5-range-02-suffixMaxScan_26",
+   "symbol": "suffixMaxScan_26",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen5-range-02-prefixSum2DBuild_26",
+   "symbol": "prefixSum2DBuild_26",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  },
+  {
+   "id": "gen5-range-02-diffArrayRangeUpdates_27",
+   "symbol": "diffArrayRangeUpdates_27",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen5-range-02-prefixMinScan_27",
+   "symbol": "prefixMinScan_27",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen5-range-02-suffixMaxScan_27",
+   "symbol": "suffixMaxScan_27",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen5-range-02-prefixSum2DBuild_27",
+   "symbol": "prefixSum2DBuild_27",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  },
+  {
+   "id": "gen5-range-02-diffArrayRangeUpdates_28",
+   "symbol": "diffArrayRangeUpdates_28",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen5-range-02-prefixMinScan_28",
+   "symbol": "prefixMinScan_28",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen5-range-02-suffixMaxScan_28",
+   "symbol": "suffixMaxScan_28",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen5-range-02-prefixSum2DBuild_28",
+   "symbol": "prefixSum2DBuild_28",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  },
+  {
+   "id": "gen5-range-02-diffArrayRangeUpdates_29",
+   "symbol": "diffArrayRangeUpdates_29",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen5-range-02-prefixMinScan_29",
+   "symbol": "prefixMinScan_29",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen5-range-02-suffixMaxScan_29",
+   "symbol": "suffixMaxScan_29",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen5-range-02-prefixSum2DBuild_29",
+   "symbol": "prefixSum2DBuild_29",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  }
+ ]
+}

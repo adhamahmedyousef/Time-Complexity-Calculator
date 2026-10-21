@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-helper-euler-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_eulerTourSubtree_et1",
+      "time": "O(n + q)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "tree",
+        "euler-tour",
+        "subtree"
+      ],
+      "algorithmFamily": "euler-tour",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n",
+        "q",
+        "adj",
+        "nodes"
+      ],
+      "proof": "Euler traversal is linear and each subtree query is answered from entry/exit indices.",
+      "assumptions": "Tree is connected.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-helper-euler-01"
+    }
+  ]
+}

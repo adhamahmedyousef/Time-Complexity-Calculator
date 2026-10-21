@@ -1,0 +1,246 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen4-abstain-01-collatzOddEvenSequence_0",
+   "symbol": "collatzOddEvenSequence_0",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-randomOpaqueStepWhile_0",
+   "symbol": "randomOpaqueStepWhile_0",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-unsupportedCallbackLoop_0",
+   "symbol": "unsupportedCallbackLoop_0",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-collatzOddEvenSequence_1",
+   "symbol": "collatzOddEvenSequence_1",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-randomOpaqueStepWhile_1",
+   "symbol": "randomOpaqueStepWhile_1",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-unsupportedCallbackLoop_1",
+   "symbol": "unsupportedCallbackLoop_1",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-collatzOddEvenSequence_2",
+   "symbol": "collatzOddEvenSequence_2",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-randomOpaqueStepWhile_2",
+   "symbol": "randomOpaqueStepWhile_2",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-unsupportedCallbackLoop_2",
+   "symbol": "unsupportedCallbackLoop_2",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-collatzOddEvenSequence_3",
+   "symbol": "collatzOddEvenSequence_3",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-randomOpaqueStepWhile_3",
+   "symbol": "randomOpaqueStepWhile_3",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-unsupportedCallbackLoop_3",
+   "symbol": "unsupportedCallbackLoop_3",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-collatzOddEvenSequence_4",
+   "symbol": "collatzOddEvenSequence_4",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-randomOpaqueStepWhile_4",
+   "symbol": "randomOpaqueStepWhile_4",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-unsupportedCallbackLoop_4",
+   "symbol": "unsupportedCallbackLoop_4",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-collatzOddEvenSequence_5",
+   "symbol": "collatzOddEvenSequence_5",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-randomOpaqueStepWhile_5",
+   "symbol": "randomOpaqueStepWhile_5",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-unsupportedCallbackLoop_5",
+   "symbol": "unsupportedCallbackLoop_5",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-collatzOddEvenSequence_6",
+   "symbol": "collatzOddEvenSequence_6",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-randomOpaqueStepWhile_6",
+   "symbol": "randomOpaqueStepWhile_6",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-unsupportedCallbackLoop_6",
+   "symbol": "unsupportedCallbackLoop_6",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-collatzOddEvenSequence_7",
+   "symbol": "collatzOddEvenSequence_7",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-randomOpaqueStepWhile_7",
+   "symbol": "randomOpaqueStepWhile_7",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  },
+  {
+   "id": "gen4-abstain-01-unsupportedCallbackLoop_7",
+   "symbol": "unsupportedCallbackLoop_7",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  }
+ ]
+}

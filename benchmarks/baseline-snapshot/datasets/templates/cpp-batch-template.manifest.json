@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "replace-with-family",
+  "reviewedBy": "replace-with-reviewer",
+  "cases": [
+    {
+      "id": "replace-with-stable-id",
+      "symbol": "batchTemplateLinear",
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": ["loop", "linear"],
+      "inputSymbols": ["n"],
+      "proof": "The loop performs one constant-time update for each value from 0 through n - 1.",
+      "origin": {"kind": "authored", "license": "CC0-1.0-or-authored"},
+      "variantOf": null
+    }
+  ]
+}

@@ -1,0 +1,814 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen3-bits3-01-popcount_0",
+   "symbol": "popcount_0",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-isPowerOfTwoLoop_0",
+   "symbol": "isPowerOfTwoLoop_0",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-reverseBitsLoop_0",
+   "symbol": "reverseBitsLoop_0",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-countBitsRange_0",
+   "symbol": "countBitsRange_0",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-subsetSumBrute_0",
+   "symbol": "subsetSumBrute_0",
+   "time": "O(n 2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-grayCodeBuild_0",
+   "symbol": "grayCodeBuild_0",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-subsetEnumCount_0",
+   "symbol": "subsetEnumCount_0",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-countingBitsDP_0",
+   "symbol": "countingBitsDP_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "bits",
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-xorRange_0",
+   "symbol": "xorRange_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-bitAndRange_0",
+   "symbol": "bitAndRange_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-popcount_1",
+   "symbol": "popcount_1",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-isPowerOfTwoLoop_1",
+   "symbol": "isPowerOfTwoLoop_1",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-reverseBitsLoop_1",
+   "symbol": "reverseBitsLoop_1",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-countBitsRange_1",
+   "symbol": "countBitsRange_1",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-subsetSumBrute_1",
+   "symbol": "subsetSumBrute_1",
+   "time": "O(n 2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-grayCodeBuild_1",
+   "symbol": "grayCodeBuild_1",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-subsetEnumCount_1",
+   "symbol": "subsetEnumCount_1",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-countingBitsDP_1",
+   "symbol": "countingBitsDP_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "bits",
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-xorRange_1",
+   "symbol": "xorRange_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-bitAndRange_1",
+   "symbol": "bitAndRange_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-popcount_2",
+   "symbol": "popcount_2",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-isPowerOfTwoLoop_2",
+   "symbol": "isPowerOfTwoLoop_2",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-reverseBitsLoop_2",
+   "symbol": "reverseBitsLoop_2",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-countBitsRange_2",
+   "symbol": "countBitsRange_2",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-subsetSumBrute_2",
+   "symbol": "subsetSumBrute_2",
+   "time": "O(n 2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-grayCodeBuild_2",
+   "symbol": "grayCodeBuild_2",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-subsetEnumCount_2",
+   "symbol": "subsetEnumCount_2",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-countingBitsDP_2",
+   "symbol": "countingBitsDP_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "bits",
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-xorRange_2",
+   "symbol": "xorRange_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-bitAndRange_2",
+   "symbol": "bitAndRange_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-popcount_3",
+   "symbol": "popcount_3",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-isPowerOfTwoLoop_3",
+   "symbol": "isPowerOfTwoLoop_3",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-reverseBitsLoop_3",
+   "symbol": "reverseBitsLoop_3",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-countBitsRange_3",
+   "symbol": "countBitsRange_3",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-subsetSumBrute_3",
+   "symbol": "subsetSumBrute_3",
+   "time": "O(n 2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-grayCodeBuild_3",
+   "symbol": "grayCodeBuild_3",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-subsetEnumCount_3",
+   "symbol": "subsetEnumCount_3",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-countingBitsDP_3",
+   "symbol": "countingBitsDP_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "bits",
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-xorRange_3",
+   "symbol": "xorRange_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-bitAndRange_3",
+   "symbol": "bitAndRange_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-popcount_4",
+   "symbol": "popcount_4",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-isPowerOfTwoLoop_4",
+   "symbol": "isPowerOfTwoLoop_4",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-reverseBitsLoop_4",
+   "symbol": "reverseBitsLoop_4",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-countBitsRange_4",
+   "symbol": "countBitsRange_4",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-subsetSumBrute_4",
+   "symbol": "subsetSumBrute_4",
+   "time": "O(n 2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-grayCodeBuild_4",
+   "symbol": "grayCodeBuild_4",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-subsetEnumCount_4",
+   "symbol": "subsetEnumCount_4",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-countingBitsDP_4",
+   "symbol": "countingBitsDP_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "bits",
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-xorRange_4",
+   "symbol": "xorRange_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-bitAndRange_4",
+   "symbol": "bitAndRange_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-popcount_5",
+   "symbol": "popcount_5",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-isPowerOfTwoLoop_5",
+   "symbol": "isPowerOfTwoLoop_5",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-reverseBitsLoop_5",
+   "symbol": "reverseBitsLoop_5",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-countBitsRange_5",
+   "symbol": "countBitsRange_5",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-subsetSumBrute_5",
+   "symbol": "subsetSumBrute_5",
+   "time": "O(n 2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-grayCodeBuild_5",
+   "symbol": "grayCodeBuild_5",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-subsetEnumCount_5",
+   "symbol": "subsetEnumCount_5",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-countingBitsDP_5",
+   "symbol": "countingBitsDP_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "bits",
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-xorRange_5",
+   "symbol": "xorRange_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-bitAndRange_5",
+   "symbol": "bitAndRange_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-popcount_6",
+   "symbol": "popcount_6",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-isPowerOfTwoLoop_6",
+   "symbol": "isPowerOfTwoLoop_6",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-reverseBitsLoop_6",
+   "symbol": "reverseBitsLoop_6",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-countBitsRange_6",
+   "symbol": "countBitsRange_6",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-subsetSumBrute_6",
+   "symbol": "subsetSumBrute_6",
+   "time": "O(n 2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-grayCodeBuild_6",
+   "symbol": "grayCodeBuild_6",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-subsetEnumCount_6",
+   "symbol": "subsetEnumCount_6",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-countingBitsDP_6",
+   "symbol": "countingBitsDP_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "bits",
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-xorRange_6",
+   "symbol": "xorRange_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-bitAndRange_6",
+   "symbol": "bitAndRange_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-popcount_7",
+   "symbol": "popcount_7",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-isPowerOfTwoLoop_7",
+   "symbol": "isPowerOfTwoLoop_7",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-reverseBitsLoop_7",
+   "symbol": "reverseBitsLoop_7",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-countBitsRange_7",
+   "symbol": "countBitsRange_7",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-subsetSumBrute_7",
+   "symbol": "subsetSumBrute_7",
+   "time": "O(n 2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-grayCodeBuild_7",
+   "symbol": "grayCodeBuild_7",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-subsetEnumCount_7",
+   "symbol": "subsetEnumCount_7",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-countingBitsDP_7",
+   "symbol": "countingBitsDP_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "bits",
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-xorRange_7",
+   "symbol": "xorRange_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen3-bits3-01-bitAndRange_7",
+   "symbol": "bitAndRange_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  }
+ ]
+}

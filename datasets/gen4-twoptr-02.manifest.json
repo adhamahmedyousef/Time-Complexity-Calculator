@@ -1,0 +1,606 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen4-twoptr-02-removeDuplicatesSorted_12",
+   "symbol": "removeDuplicatesSorted_12",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-slidingWindowAverage_12",
+   "symbol": "slidingWindowAverage_12",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-isSortedAscending_12",
+   "symbol": "isSortedAscending_12",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-twoSumLessThanK_12",
+   "symbol": "twoSumLessThanK_12",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-containerMostWater_13",
+   "symbol": "containerMostWater_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-trappingRainWater_13",
+   "symbol": "trappingRainWater_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-sortedSquaresMerge_13",
+   "symbol": "sortedSquaresMerge_13",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-removeTargetVal_13",
+   "symbol": "removeTargetVal_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-removeDuplicatesSorted_13",
+   "symbol": "removeDuplicatesSorted_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-slidingWindowAverage_13",
+   "symbol": "slidingWindowAverage_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-isSortedAscending_13",
+   "symbol": "isSortedAscending_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-twoSumLessThanK_13",
+   "symbol": "twoSumLessThanK_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-containerMostWater_14",
+   "symbol": "containerMostWater_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-trappingRainWater_14",
+   "symbol": "trappingRainWater_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-sortedSquaresMerge_14",
+   "symbol": "sortedSquaresMerge_14",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-removeTargetVal_14",
+   "symbol": "removeTargetVal_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-removeDuplicatesSorted_14",
+   "symbol": "removeDuplicatesSorted_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-slidingWindowAverage_14",
+   "symbol": "slidingWindowAverage_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-isSortedAscending_14",
+   "symbol": "isSortedAscending_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-twoSumLessThanK_14",
+   "symbol": "twoSumLessThanK_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-containerMostWater_15",
+   "symbol": "containerMostWater_15",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-trappingRainWater_15",
+   "symbol": "trappingRainWater_15",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-sortedSquaresMerge_15",
+   "symbol": "sortedSquaresMerge_15",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-removeTargetVal_15",
+   "symbol": "removeTargetVal_15",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-removeDuplicatesSorted_15",
+   "symbol": "removeDuplicatesSorted_15",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-slidingWindowAverage_15",
+   "symbol": "slidingWindowAverage_15",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-isSortedAscending_15",
+   "symbol": "isSortedAscending_15",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-twoSumLessThanK_15",
+   "symbol": "twoSumLessThanK_15",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-containerMostWater_16",
+   "symbol": "containerMostWater_16",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-trappingRainWater_16",
+   "symbol": "trappingRainWater_16",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-sortedSquaresMerge_16",
+   "symbol": "sortedSquaresMerge_16",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-removeTargetVal_16",
+   "symbol": "removeTargetVal_16",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-removeDuplicatesSorted_16",
+   "symbol": "removeDuplicatesSorted_16",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-slidingWindowAverage_16",
+   "symbol": "slidingWindowAverage_16",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-isSortedAscending_16",
+   "symbol": "isSortedAscending_16",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-twoSumLessThanK_16",
+   "symbol": "twoSumLessThanK_16",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-containerMostWater_17",
+   "symbol": "containerMostWater_17",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-trappingRainWater_17",
+   "symbol": "trappingRainWater_17",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-sortedSquaresMerge_17",
+   "symbol": "sortedSquaresMerge_17",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-removeTargetVal_17",
+   "symbol": "removeTargetVal_17",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-removeDuplicatesSorted_17",
+   "symbol": "removeDuplicatesSorted_17",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-slidingWindowAverage_17",
+   "symbol": "slidingWindowAverage_17",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-isSortedAscending_17",
+   "symbol": "isSortedAscending_17",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-twoSumLessThanK_17",
+   "symbol": "twoSumLessThanK_17",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-containerMostWater_18",
+   "symbol": "containerMostWater_18",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-trappingRainWater_18",
+   "symbol": "trappingRainWater_18",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-sortedSquaresMerge_18",
+   "symbol": "sortedSquaresMerge_18",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-removeTargetVal_18",
+   "symbol": "removeTargetVal_18",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-removeDuplicatesSorted_18",
+   "symbol": "removeDuplicatesSorted_18",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-slidingWindowAverage_18",
+   "symbol": "slidingWindowAverage_18",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-isSortedAscending_18",
+   "symbol": "isSortedAscending_18",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-twoSumLessThanK_18",
+   "symbol": "twoSumLessThanK_18",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-containerMostWater_19",
+   "symbol": "containerMostWater_19",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-trappingRainWater_19",
+   "symbol": "trappingRainWater_19",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-sortedSquaresMerge_19",
+   "symbol": "sortedSquaresMerge_19",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-removeTargetVal_19",
+   "symbol": "removeTargetVal_19",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-removeDuplicatesSorted_19",
+   "symbol": "removeDuplicatesSorted_19",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-slidingWindowAverage_19",
+   "symbol": "slidingWindowAverage_19",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-isSortedAscending_19",
+   "symbol": "isSortedAscending_19",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen4-twoptr-02-twoSumLessThanK_19",
+   "symbol": "twoSumLessThanK_19",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-segment-tree-methods",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-segment-tree-unknown-pointer-01",
+      "symbol": "pack_cp_requested_dataset_pack_segmentTreeUnknownPointer_1",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "segment-tree",
+        "adversarial",
+        "unknown"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "The update target depends on a pointer-chasing state that is not statically bounded here.",
+      "assumptions": "The helper may mutate arbitrary nodes through aliases.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-segment-tree-unknown-pointer-01"
+    }
+  ]
+}

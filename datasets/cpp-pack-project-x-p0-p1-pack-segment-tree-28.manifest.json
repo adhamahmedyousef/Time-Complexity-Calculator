@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-p0-p1-pack-segment-tree",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-p0-p1-pack-segment-tree-28",
+      "symbol": "pack_project_x_p0_p1_pack_segment_tree_28",
+      "time": "O(n + q log n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "segment-tree",
+        "helper",
+        "query"
+      ],
+      "inputSymbols": [
+        "n",
+        "q",
+        "a",
+        "qs"
+      ],
+      "proof": "A same-file helper does linear preprocessing and the caller performs an independent query sweep.",
+      "assumptions": "Helper is structurally a preprocessing step.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-p0-p1-pack-segment-tree-28",
+      "familyRole": "composed"
+    }
+  ]
+}

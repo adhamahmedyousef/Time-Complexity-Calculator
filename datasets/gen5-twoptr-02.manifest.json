@@ -1,0 +1,516 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen5-twoptr-02-twoSumSortedTarget_20",
+   "symbol": "twoSumSortedTarget_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-trapRainWaterTwoPtr_20",
+   "symbol": "trapRainWaterTwoPtr_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-moveZeroesInPlace_20",
+   "symbol": "moveZeroesInPlace_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-removeDuplicatesFast_20",
+   "symbol": "removeDuplicatesFast_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-isPalindromeScan_20",
+   "symbol": "isPalindromeScan_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers",
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-twoSumSortedTarget_21",
+   "symbol": "twoSumSortedTarget_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-trapRainWaterTwoPtr_21",
+   "symbol": "trapRainWaterTwoPtr_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-moveZeroesInPlace_21",
+   "symbol": "moveZeroesInPlace_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-removeDuplicatesFast_21",
+   "symbol": "removeDuplicatesFast_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-isPalindromeScan_21",
+   "symbol": "isPalindromeScan_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers",
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-twoSumSortedTarget_22",
+   "symbol": "twoSumSortedTarget_22",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-trapRainWaterTwoPtr_22",
+   "symbol": "trapRainWaterTwoPtr_22",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-moveZeroesInPlace_22",
+   "symbol": "moveZeroesInPlace_22",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-removeDuplicatesFast_22",
+   "symbol": "removeDuplicatesFast_22",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-isPalindromeScan_22",
+   "symbol": "isPalindromeScan_22",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers",
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-twoSumSortedTarget_23",
+   "symbol": "twoSumSortedTarget_23",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-trapRainWaterTwoPtr_23",
+   "symbol": "trapRainWaterTwoPtr_23",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-moveZeroesInPlace_23",
+   "symbol": "moveZeroesInPlace_23",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-removeDuplicatesFast_23",
+   "symbol": "removeDuplicatesFast_23",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-isPalindromeScan_23",
+   "symbol": "isPalindromeScan_23",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers",
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-twoSumSortedTarget_24",
+   "symbol": "twoSumSortedTarget_24",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-trapRainWaterTwoPtr_24",
+   "symbol": "trapRainWaterTwoPtr_24",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-moveZeroesInPlace_24",
+   "symbol": "moveZeroesInPlace_24",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-removeDuplicatesFast_24",
+   "symbol": "removeDuplicatesFast_24",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-isPalindromeScan_24",
+   "symbol": "isPalindromeScan_24",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers",
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-twoSumSortedTarget_25",
+   "symbol": "twoSumSortedTarget_25",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-trapRainWaterTwoPtr_25",
+   "symbol": "trapRainWaterTwoPtr_25",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-moveZeroesInPlace_25",
+   "symbol": "moveZeroesInPlace_25",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-removeDuplicatesFast_25",
+   "symbol": "removeDuplicatesFast_25",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-isPalindromeScan_25",
+   "symbol": "isPalindromeScan_25",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers",
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-twoSumSortedTarget_26",
+   "symbol": "twoSumSortedTarget_26",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-trapRainWaterTwoPtr_26",
+   "symbol": "trapRainWaterTwoPtr_26",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-moveZeroesInPlace_26",
+   "symbol": "moveZeroesInPlace_26",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-removeDuplicatesFast_26",
+   "symbol": "removeDuplicatesFast_26",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-isPalindromeScan_26",
+   "symbol": "isPalindromeScan_26",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers",
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-twoSumSortedTarget_27",
+   "symbol": "twoSumSortedTarget_27",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-trapRainWaterTwoPtr_27",
+   "symbol": "trapRainWaterTwoPtr_27",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-moveZeroesInPlace_27",
+   "symbol": "moveZeroesInPlace_27",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-removeDuplicatesFast_27",
+   "symbol": "removeDuplicatesFast_27",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-isPalindromeScan_27",
+   "symbol": "isPalindromeScan_27",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers",
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-twoSumSortedTarget_28",
+   "symbol": "twoSumSortedTarget_28",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-trapRainWaterTwoPtr_28",
+   "symbol": "trapRainWaterTwoPtr_28",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-moveZeroesInPlace_28",
+   "symbol": "moveZeroesInPlace_28",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-removeDuplicatesFast_28",
+   "symbol": "removeDuplicatesFast_28",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-isPalindromeScan_28",
+   "symbol": "isPalindromeScan_28",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers",
+    "strings"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-twoSumSortedTarget_29",
+   "symbol": "twoSumSortedTarget_29",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-trapRainWaterTwoPtr_29",
+   "symbol": "trapRainWaterTwoPtr_29",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-moveZeroesInPlace_29",
+   "symbol": "moveZeroesInPlace_29",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-removeDuplicatesFast_29",
+   "symbol": "removeDuplicatesFast_29",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen5-twoptr-02-isPalindromeScan_29",
+   "symbol": "isPalindromeScan_29",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers",
+    "strings"
+   ]
+  }
+ ]
+}

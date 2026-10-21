@@ -1,0 +1,1006 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen6-strings-03-countLetterPairs_33",
+   "symbol": "countLetterPairs_33",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countDigitsInString_33",
+   "symbol": "countDigitsInString_33",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-copyAsciiOnly_33",
+   "symbol": "copyAsciiOnly_33",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-polynomialHash_33",
+   "symbol": "polynomialHash_33",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countSubstringsLenK_34",
+   "symbol": "countSubstringsLenK_34",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countMatchingChars_34",
+   "symbol": "countMatchingChars_34",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countLetterPairs_34",
+   "symbol": "countLetterPairs_34",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countDigitsInString_34",
+   "symbol": "countDigitsInString_34",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-copyAsciiOnly_34",
+   "symbol": "copyAsciiOnly_34",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-polynomialHash_34",
+   "symbol": "polynomialHash_34",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countSubstringsLenK_35",
+   "symbol": "countSubstringsLenK_35",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countMatchingChars_35",
+   "symbol": "countMatchingChars_35",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countLetterPairs_35",
+   "symbol": "countLetterPairs_35",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countDigitsInString_35",
+   "symbol": "countDigitsInString_35",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-copyAsciiOnly_35",
+   "symbol": "copyAsciiOnly_35",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-polynomialHash_35",
+   "symbol": "polynomialHash_35",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countSubstringsLenK_36",
+   "symbol": "countSubstringsLenK_36",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countMatchingChars_36",
+   "symbol": "countMatchingChars_36",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countLetterPairs_36",
+   "symbol": "countLetterPairs_36",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countDigitsInString_36",
+   "symbol": "countDigitsInString_36",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-copyAsciiOnly_36",
+   "symbol": "copyAsciiOnly_36",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-polynomialHash_36",
+   "symbol": "polynomialHash_36",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countSubstringsLenK_37",
+   "symbol": "countSubstringsLenK_37",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countMatchingChars_37",
+   "symbol": "countMatchingChars_37",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countLetterPairs_37",
+   "symbol": "countLetterPairs_37",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countDigitsInString_37",
+   "symbol": "countDigitsInString_37",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-copyAsciiOnly_37",
+   "symbol": "copyAsciiOnly_37",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-polynomialHash_37",
+   "symbol": "polynomialHash_37",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countSubstringsLenK_38",
+   "symbol": "countSubstringsLenK_38",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countMatchingChars_38",
+   "symbol": "countMatchingChars_38",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countLetterPairs_38",
+   "symbol": "countLetterPairs_38",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countDigitsInString_38",
+   "symbol": "countDigitsInString_38",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-copyAsciiOnly_38",
+   "symbol": "copyAsciiOnly_38",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-polynomialHash_38",
+   "symbol": "polynomialHash_38",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countSubstringsLenK_39",
+   "symbol": "countSubstringsLenK_39",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countMatchingChars_39",
+   "symbol": "countMatchingChars_39",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countLetterPairs_39",
+   "symbol": "countLetterPairs_39",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countDigitsInString_39",
+   "symbol": "countDigitsInString_39",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-copyAsciiOnly_39",
+   "symbol": "copyAsciiOnly_39",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-polynomialHash_39",
+   "symbol": "polynomialHash_39",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countSubstringsLenK_40",
+   "symbol": "countSubstringsLenK_40",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countMatchingChars_40",
+   "symbol": "countMatchingChars_40",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countLetterPairs_40",
+   "symbol": "countLetterPairs_40",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countDigitsInString_40",
+   "symbol": "countDigitsInString_40",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-copyAsciiOnly_40",
+   "symbol": "copyAsciiOnly_40",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-polynomialHash_40",
+   "symbol": "polynomialHash_40",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countSubstringsLenK_41",
+   "symbol": "countSubstringsLenK_41",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countMatchingChars_41",
+   "symbol": "countMatchingChars_41",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countLetterPairs_41",
+   "symbol": "countLetterPairs_41",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countDigitsInString_41",
+   "symbol": "countDigitsInString_41",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-copyAsciiOnly_41",
+   "symbol": "copyAsciiOnly_41",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-polynomialHash_41",
+   "symbol": "polynomialHash_41",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countSubstringsLenK_42",
+   "symbol": "countSubstringsLenK_42",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countMatchingChars_42",
+   "symbol": "countMatchingChars_42",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countLetterPairs_42",
+   "symbol": "countLetterPairs_42",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countDigitsInString_42",
+   "symbol": "countDigitsInString_42",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-copyAsciiOnly_42",
+   "symbol": "copyAsciiOnly_42",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-polynomialHash_42",
+   "symbol": "polynomialHash_42",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countSubstringsLenK_43",
+   "symbol": "countSubstringsLenK_43",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countMatchingChars_43",
+   "symbol": "countMatchingChars_43",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countLetterPairs_43",
+   "symbol": "countLetterPairs_43",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countDigitsInString_43",
+   "symbol": "countDigitsInString_43",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-copyAsciiOnly_43",
+   "symbol": "copyAsciiOnly_43",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-polynomialHash_43",
+   "symbol": "polynomialHash_43",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countSubstringsLenK_44",
+   "symbol": "countSubstringsLenK_44",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countMatchingChars_44",
+   "symbol": "countMatchingChars_44",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countLetterPairs_44",
+   "symbol": "countLetterPairs_44",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countDigitsInString_44",
+   "symbol": "countDigitsInString_44",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-copyAsciiOnly_44",
+   "symbol": "copyAsciiOnly_44",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-polynomialHash_44",
+   "symbol": "polynomialHash_44",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countSubstringsLenK_45",
+   "symbol": "countSubstringsLenK_45",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countMatchingChars_45",
+   "symbol": "countMatchingChars_45",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countLetterPairs_45",
+   "symbol": "countLetterPairs_45",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countDigitsInString_45",
+   "symbol": "countDigitsInString_45",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-copyAsciiOnly_45",
+   "symbol": "copyAsciiOnly_45",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-polynomialHash_45",
+   "symbol": "polynomialHash_45",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countSubstringsLenK_46",
+   "symbol": "countSubstringsLenK_46",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countMatchingChars_46",
+   "symbol": "countMatchingChars_46",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countLetterPairs_46",
+   "symbol": "countLetterPairs_46",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countDigitsInString_46",
+   "symbol": "countDigitsInString_46",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-copyAsciiOnly_46",
+   "symbol": "copyAsciiOnly_46",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-polynomialHash_46",
+   "symbol": "polynomialHash_46",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countSubstringsLenK_47",
+   "symbol": "countSubstringsLenK_47",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countMatchingChars_47",
+   "symbol": "countMatchingChars_47",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countLetterPairs_47",
+   "symbol": "countLetterPairs_47",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countDigitsInString_47",
+   "symbol": "countDigitsInString_47",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-copyAsciiOnly_47",
+   "symbol": "copyAsciiOnly_47",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-polynomialHash_47",
+   "symbol": "polynomialHash_47",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countSubstringsLenK_48",
+   "symbol": "countSubstringsLenK_48",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countMatchingChars_48",
+   "symbol": "countMatchingChars_48",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countLetterPairs_48",
+   "symbol": "countLetterPairs_48",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countDigitsInString_48",
+   "symbol": "countDigitsInString_48",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-copyAsciiOnly_48",
+   "symbol": "copyAsciiOnly_48",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-polynomialHash_48",
+   "symbol": "polynomialHash_48",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countSubstringsLenK_49",
+   "symbol": "countSubstringsLenK_49",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countMatchingChars_49",
+   "symbol": "countMatchingChars_49",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countLetterPairs_49",
+   "symbol": "countLetterPairs_49",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-countDigitsInString_49",
+   "symbol": "countDigitsInString_49",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-copyAsciiOnly_49",
+   "symbol": "copyAsciiOnly_49",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen6-strings-03-polynomialHash_49",
+   "symbol": "polynomialHash_49",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  }
+ ]
+}

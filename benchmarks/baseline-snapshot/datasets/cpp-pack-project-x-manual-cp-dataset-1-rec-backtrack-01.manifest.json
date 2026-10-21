@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-rec-backtrack-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_backtrackSearch_bk1",
+      "time": "O(2^n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "recursion",
+        "backtracking"
+      ],
+      "algorithmFamily": "backtracking",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Every item branches into two choices and the recursion depth is n.",
+      "assumptions": "The search tree is binary and exhaustive.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-rec-backtrack-01"
+    }
+  ]
+}

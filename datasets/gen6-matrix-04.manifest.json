@@ -1,0 +1,1006 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen6-matrix-04-matrixSymmetricCheck_42",
+   "symbol": "matrixSymmetricCheck_42",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixIdentityInit_43",
+   "symbol": "matrixIdentityInit_43",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixZeroOut_43",
+   "symbol": "matrixZeroOut_43",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixVectorMul_43",
+   "symbol": "matrixVectorMul_43",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTransposeSquare_43",
+   "symbol": "matrixTransposeSquare_43",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSquareMultiply_43",
+   "symbol": "matrixSquareMultiply_43",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTraceDiagonal_43",
+   "symbol": "matrixTraceDiagonal_43",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSymmetricCheck_43",
+   "symbol": "matrixSymmetricCheck_43",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixIdentityInit_44",
+   "symbol": "matrixIdentityInit_44",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixZeroOut_44",
+   "symbol": "matrixZeroOut_44",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixVectorMul_44",
+   "symbol": "matrixVectorMul_44",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTransposeSquare_44",
+   "symbol": "matrixTransposeSquare_44",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSquareMultiply_44",
+   "symbol": "matrixSquareMultiply_44",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTraceDiagonal_44",
+   "symbol": "matrixTraceDiagonal_44",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSymmetricCheck_44",
+   "symbol": "matrixSymmetricCheck_44",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixIdentityInit_45",
+   "symbol": "matrixIdentityInit_45",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixZeroOut_45",
+   "symbol": "matrixZeroOut_45",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixVectorMul_45",
+   "symbol": "matrixVectorMul_45",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTransposeSquare_45",
+   "symbol": "matrixTransposeSquare_45",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSquareMultiply_45",
+   "symbol": "matrixSquareMultiply_45",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTraceDiagonal_45",
+   "symbol": "matrixTraceDiagonal_45",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSymmetricCheck_45",
+   "symbol": "matrixSymmetricCheck_45",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixIdentityInit_46",
+   "symbol": "matrixIdentityInit_46",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixZeroOut_46",
+   "symbol": "matrixZeroOut_46",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixVectorMul_46",
+   "symbol": "matrixVectorMul_46",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTransposeSquare_46",
+   "symbol": "matrixTransposeSquare_46",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSquareMultiply_46",
+   "symbol": "matrixSquareMultiply_46",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTraceDiagonal_46",
+   "symbol": "matrixTraceDiagonal_46",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSymmetricCheck_46",
+   "symbol": "matrixSymmetricCheck_46",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixIdentityInit_47",
+   "symbol": "matrixIdentityInit_47",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixZeroOut_47",
+   "symbol": "matrixZeroOut_47",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixVectorMul_47",
+   "symbol": "matrixVectorMul_47",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTransposeSquare_47",
+   "symbol": "matrixTransposeSquare_47",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSquareMultiply_47",
+   "symbol": "matrixSquareMultiply_47",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTraceDiagonal_47",
+   "symbol": "matrixTraceDiagonal_47",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSymmetricCheck_47",
+   "symbol": "matrixSymmetricCheck_47",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixIdentityInit_48",
+   "symbol": "matrixIdentityInit_48",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixZeroOut_48",
+   "symbol": "matrixZeroOut_48",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixVectorMul_48",
+   "symbol": "matrixVectorMul_48",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTransposeSquare_48",
+   "symbol": "matrixTransposeSquare_48",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSquareMultiply_48",
+   "symbol": "matrixSquareMultiply_48",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTraceDiagonal_48",
+   "symbol": "matrixTraceDiagonal_48",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSymmetricCheck_48",
+   "symbol": "matrixSymmetricCheck_48",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixIdentityInit_49",
+   "symbol": "matrixIdentityInit_49",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixZeroOut_49",
+   "symbol": "matrixZeroOut_49",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixVectorMul_49",
+   "symbol": "matrixVectorMul_49",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTransposeSquare_49",
+   "symbol": "matrixTransposeSquare_49",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSquareMultiply_49",
+   "symbol": "matrixSquareMultiply_49",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTraceDiagonal_49",
+   "symbol": "matrixTraceDiagonal_49",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSymmetricCheck_49",
+   "symbol": "matrixSymmetricCheck_49",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixIdentityInit_50",
+   "symbol": "matrixIdentityInit_50",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixZeroOut_50",
+   "symbol": "matrixZeroOut_50",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixVectorMul_50",
+   "symbol": "matrixVectorMul_50",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTransposeSquare_50",
+   "symbol": "matrixTransposeSquare_50",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSquareMultiply_50",
+   "symbol": "matrixSquareMultiply_50",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTraceDiagonal_50",
+   "symbol": "matrixTraceDiagonal_50",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSymmetricCheck_50",
+   "symbol": "matrixSymmetricCheck_50",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixIdentityInit_51",
+   "symbol": "matrixIdentityInit_51",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixZeroOut_51",
+   "symbol": "matrixZeroOut_51",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixVectorMul_51",
+   "symbol": "matrixVectorMul_51",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTransposeSquare_51",
+   "symbol": "matrixTransposeSquare_51",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSquareMultiply_51",
+   "symbol": "matrixSquareMultiply_51",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTraceDiagonal_51",
+   "symbol": "matrixTraceDiagonal_51",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSymmetricCheck_51",
+   "symbol": "matrixSymmetricCheck_51",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixIdentityInit_52",
+   "symbol": "matrixIdentityInit_52",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixZeroOut_52",
+   "symbol": "matrixZeroOut_52",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixVectorMul_52",
+   "symbol": "matrixVectorMul_52",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTransposeSquare_52",
+   "symbol": "matrixTransposeSquare_52",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSquareMultiply_52",
+   "symbol": "matrixSquareMultiply_52",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTraceDiagonal_52",
+   "symbol": "matrixTraceDiagonal_52",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSymmetricCheck_52",
+   "symbol": "matrixSymmetricCheck_52",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixIdentityInit_53",
+   "symbol": "matrixIdentityInit_53",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixZeroOut_53",
+   "symbol": "matrixZeroOut_53",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixVectorMul_53",
+   "symbol": "matrixVectorMul_53",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTransposeSquare_53",
+   "symbol": "matrixTransposeSquare_53",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSquareMultiply_53",
+   "symbol": "matrixSquareMultiply_53",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTraceDiagonal_53",
+   "symbol": "matrixTraceDiagonal_53",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSymmetricCheck_53",
+   "symbol": "matrixSymmetricCheck_53",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixIdentityInit_54",
+   "symbol": "matrixIdentityInit_54",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixZeroOut_54",
+   "symbol": "matrixZeroOut_54",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixVectorMul_54",
+   "symbol": "matrixVectorMul_54",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTransposeSquare_54",
+   "symbol": "matrixTransposeSquare_54",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSquareMultiply_54",
+   "symbol": "matrixSquareMultiply_54",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTraceDiagonal_54",
+   "symbol": "matrixTraceDiagonal_54",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSymmetricCheck_54",
+   "symbol": "matrixSymmetricCheck_54",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixIdentityInit_55",
+   "symbol": "matrixIdentityInit_55",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixZeroOut_55",
+   "symbol": "matrixZeroOut_55",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixVectorMul_55",
+   "symbol": "matrixVectorMul_55",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTransposeSquare_55",
+   "symbol": "matrixTransposeSquare_55",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSquareMultiply_55",
+   "symbol": "matrixSquareMultiply_55",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTraceDiagonal_55",
+   "symbol": "matrixTraceDiagonal_55",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSymmetricCheck_55",
+   "symbol": "matrixSymmetricCheck_55",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixIdentityInit_56",
+   "symbol": "matrixIdentityInit_56",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixZeroOut_56",
+   "symbol": "matrixZeroOut_56",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixVectorMul_56",
+   "symbol": "matrixVectorMul_56",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTransposeSquare_56",
+   "symbol": "matrixTransposeSquare_56",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSquareMultiply_56",
+   "symbol": "matrixSquareMultiply_56",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixTraceDiagonal_56",
+   "symbol": "matrixTraceDiagonal_56",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixSymmetricCheck_56",
+   "symbol": "matrixSymmetricCheck_56",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen6-matrix-04-matrixIdentityInit_57",
+   "symbol": "matrixIdentityInit_57",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  }
+ ]
+}

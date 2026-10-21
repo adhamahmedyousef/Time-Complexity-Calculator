@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "new10-08",
+      "symbol": "main",
+      "time": "O(t (q + 1440))",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "difference-array",
+        "time-intervals",
+        "sweep-line"
+      ],
+      "inputSymbols": [
+        "t",
+        "q",
+        "m"
+      ],
+      "proof": "The program repeats t cases. Each case marks q intervals and sweeps a fixed 1440-minute array; that array has compile-time fixed size, so its auxiliary space is O(1).",
+      "assumptions": "The clock window is bounded by a full day.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-trees-advanced",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-centroid-like-tree-dfs-005",
+      "symbol": "pack_l2_centroidLikeTreeDfs",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "tree",
+        "divide-conquer",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "n",
+        "adj"
+      ],
+      "proof": "Recursive decomposition visits each edge across logarithmic layers.",
+      "assumptions": "The helper chooses a balanced separator conceptually.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-centroid-like-tree-dfs"
+    }
+  ]
+}

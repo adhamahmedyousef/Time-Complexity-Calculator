@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-greedy-adversarial",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-non-progressing-unknown-004",
+      "symbol": "pack_l2_nonProgressingUnknown",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "adversarial",
+        "non-terminating",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Loop progress depends on a hidden runtime condition and cannot be proven monotonically.",
+      "assumptions": "The loop may or may not terminate.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-non-progressing-unknown"
+    }
+  ]
+}

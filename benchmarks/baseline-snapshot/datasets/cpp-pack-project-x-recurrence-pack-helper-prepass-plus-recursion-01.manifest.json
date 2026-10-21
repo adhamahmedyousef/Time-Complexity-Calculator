@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-recurrence-pack-helper-composition",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-recurrence-pack-helper-prepass-plus-recursion-01",
+      "symbol": "pack_project_x_recurrence_pack_helperPrepassRec_1_1",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "helpers",
+        "preprocessing",
+        "recurrence"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "A linear preprocessing helper is followed by a halving recursion, and the helper cost composes into the caller.",
+      "assumptions": "The helper scans the input once.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-recurrence-pack-helper-prepass-plus-recursion-01"
+    }
+  ]
+}

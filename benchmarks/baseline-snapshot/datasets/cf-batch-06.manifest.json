@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "cf-batch-06",
+      "symbol": "f",
+      "time": "O(nh)",
+      "space": "O(nh)",
+      "confidence": "exact",
+      "tags": [
+        "dp",
+        "modulo",
+        "choices"
+      ],
+      "inputSymbols": [
+        "n",
+        "h",
+        "l",
+        "r"
+      ],
+      "proof": "The DP table is indexed by position and modulo sum.",
+      "assumptions": "h is the modulo base.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

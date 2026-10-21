@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-dp-bitmask-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_bitmaskDpCount_bm1",
+      "time": "O(n 2^n)",
+      "space": "O(2^n)",
+      "confidence": "exact",
+      "tags": [
+        "dp",
+        "bitmask"
+      ],
+      "algorithmFamily": "bitmask-dp",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Every subset state is updated across n bit positions.",
+      "assumptions": "Mask domain is 2^n.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-dp-bitmask-01"
+    }
+  ]
+}

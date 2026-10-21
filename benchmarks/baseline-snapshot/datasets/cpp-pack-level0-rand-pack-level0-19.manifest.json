@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-rand-pack-level0-19",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-rand-pack-level0-19",
+      "symbol": "pack_level0_rand_pack_main",
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "strings",
+        "binary-counts",
+        "greedy"
+      ],
+      "inputSymbols": [
+        "t",
+        "n",
+        "k",
+        "a",
+        "b"
+      ],
+      "proof": "The code counts zeros and ones in two strings and combines the counts with constant-time arithmetic.",
+      "assumptions": "String traversal is linear.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-rand-pack-level0-19"
+    }
+  ]
+}

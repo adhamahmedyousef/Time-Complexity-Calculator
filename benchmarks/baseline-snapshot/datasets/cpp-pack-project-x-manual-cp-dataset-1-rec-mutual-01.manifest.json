@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-rec-mutual-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_mutualRecursionCount_mu1",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "recursion",
+        "mutual-recursion"
+      ],
+      "algorithmFamily": "mutual-recursion",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "The visible recursive lambda calls a non-recursive helper plus itself on x-2, so its call chain is linear.",
+      "assumptions": "The recursion is not memoized.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-rec-mutual-01"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "new10-07",
+      "symbol": "main",
+      "time": "O(n t)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "array",
+        "modular-distance",
+        "math"
+      ],
+      "inputSymbols": [
+        "t",
+        "n",
+        "k",
+        "a"
+      ],
+      "proof": "Each of t test cases constructs and scans one n-element vector once; scalar arithmetic per element is constant time. The local vector is O(n) auxiliary space.",
+      "assumptions": "Arithmetic and remainder operations are constant time.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

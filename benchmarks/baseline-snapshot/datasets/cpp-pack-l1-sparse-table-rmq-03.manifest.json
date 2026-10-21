@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l1-fenwick-segment-sparse",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l1-sparse-table-rmq-03",
+      "symbol": "pack_l1_sparseTableRMQ",
+      "time": "O(n log n + q)",
+      "space": "O(n log n)",
+      "confidence": "estimated",
+      "tags": [
+        "sparse-table",
+        "range-minimum-query",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "a",
+        "queries"
+      ],
+      "proof": "The table is precomputed on powers of two and each query is answered in O(1).",
+      "assumptions": "Queries are static and immutable.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l1-sparse-table-rmq"
+    }
+  ]
+}

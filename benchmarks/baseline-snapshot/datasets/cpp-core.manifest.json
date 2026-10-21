@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {"id":"constant-work","symbol":"constantWork","time":"O(1)","space":"O(1)","confidence":"exact","tags":["constant"]},
+    {"id":"linear-for","symbol":"linearFor","time":"O(n)","space":"O(1)","confidence":"exact","tags":["loop","linear"]},
+    {"id":"log-multiply","symbol":"logMultiply","time":"O(log n)","space":"O(1)","confidence":"exact","tags":["loop","logarithmic"]},
+    {"id":"nested-independent","symbol":"nestedIndependent","time":"O(n^2)","space":"O(1)","confidence":"exact","tags":["loop","nested"]},
+    {"id":"triangular-loop","symbol":"triangularLoop","time":"O(n^2)","space":"O(1)","confidence":"exact","tags":["loop","dependent-bound"]},
+    {"id":"n-log-n-loop","symbol":"nLogNLoop","time":"O(n log n)","space":"O(1)","confidence":"exact","tags":["loop","nested","logarithmic"]},
+    {"id":"cubic-loop","symbol":"cubicLoop","time":"O(n^3)","space":"O(1)","confidence":"exact","tags":["loop","nested"]},
+    {"id":"two-pointers","symbol":"twoPointers","time":"O(n)","space":"O(1)","confidence":"exact","tags":["two-pointers"]},
+    {"id":"binary-search","symbol":"binarySearch","time":"O(log n)","space":"O(1)","confidence":"exact","tags":["binary-search"]},
+    {"id":"sliding-window","symbol":"slidingWindow","time":"O(n)","space":"O(1)","confidence":"exact","tags":["sliding-window","amortized"]},
+    {"id":"set-inserts","symbol":"setInserts","time":"O(n log n)","space":"O(n)","confidence":"exact","tags":["stl","set"]},
+    {"id":"priority-queue-pushes","symbol":"priorityQueuePushes","time":"O(n log n)","space":"O(n)","confidence":"exact","tags":["stl","priority-queue"]},
+    {"id":"bfs","symbol":"bfs","time":"O(V + E)","space":"O(V)","confidence":"exact","tags":["graph","bfs"]},
+    {"id":"dfs","symbol":"dfs","time":"O(V + E)","space":"O(V)","confidence":"exact","tags":["graph","dfs"]},
+    {"id":"dijkstra","symbol":"dijkstra","time":"O((V + E) log V)","space":"O(V + E)","confidence":"exact","tags":["graph","dijkstra"]},
+    {"id":"dsu","symbol":"unionAll","time":"O(m alpha(n))","space":"O(n)","confidence":"exact","tags":["dsu","amortized"]},
+    {"id":"merge-sort","symbol":"mergeSort","time":"O(n log n)","space":"O(n)","confidence":"exact","tags":["recursion","divide-and-conquer"]},
+    {"id":"fibonacci","symbol":"fibonacci","time":"O(phi^n)","space":"O(n)","confidence":"exact","tags":["recursion","exponential"]},
+    {"id":"sort-space-unknown","symbol":"sortAndReturn","time":"O(n log n)","space":"Unknown","confidence":"exact","tags":["stl","implementation-dependent-space"]},
+    {"id":"unknown-call","symbol":"unknownCall","time":"Unknown","space":"Unknown","confidence":"unknown","tags":["unknown","external-call"]}
+  ]
+}

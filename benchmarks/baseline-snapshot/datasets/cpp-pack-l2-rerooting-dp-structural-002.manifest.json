@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-trees-advanced",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-rerooting-dp-structural-002",
+      "symbol": "pack_l2_rerootingDpStructural",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "tree",
+        "rerooting-dp",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "n",
+        "adj"
+      ],
+      "proof": "Two tree traversals propagate subtree states and then reroot values.",
+      "assumptions": "Tree edges are unweighted.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-rerooting-dp-structural"
+    }
+  ]
+}

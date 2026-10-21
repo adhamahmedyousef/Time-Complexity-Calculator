@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-authored-pack-level0-16",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-authored-pack-level0-16",
+      "symbol": "pack_level0_authored_pack_main",
+      "time": "O(2^n)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "bit",
+        "masks"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Enumerates all bitmasks.",
+      "assumptions": "Primitive operations are constant time.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-authored-pack-level0-16"
+    }
+  ]
+}

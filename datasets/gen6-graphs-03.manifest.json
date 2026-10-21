@@ -1,0 +1,1064 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen6-graphs-03-reachableCountBfs_28",
+   "symbol": "reachableCountBfs_28",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bipartiteCheckBfs_28",
+   "symbol": "bipartiteCheckBfs_28",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-kahnTopoSort_28",
+   "symbol": "kahnTopoSort_28",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphOutDegrees_29",
+   "symbol": "graphOutDegrees_29",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphEdgeCount_29",
+   "symbol": "graphEdgeCount_29",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphMaxDegree_29",
+   "symbol": "graphMaxDegree_29",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bfsDistance_29",
+   "symbol": "bfsDistance_29",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-reachableCountBfs_29",
+   "symbol": "reachableCountBfs_29",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bipartiteCheckBfs_29",
+   "symbol": "bipartiteCheckBfs_29",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-kahnTopoSort_29",
+   "symbol": "kahnTopoSort_29",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphOutDegrees_30",
+   "symbol": "graphOutDegrees_30",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphEdgeCount_30",
+   "symbol": "graphEdgeCount_30",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphMaxDegree_30",
+   "symbol": "graphMaxDegree_30",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bfsDistance_30",
+   "symbol": "bfsDistance_30",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-reachableCountBfs_30",
+   "symbol": "reachableCountBfs_30",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bipartiteCheckBfs_30",
+   "symbol": "bipartiteCheckBfs_30",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-kahnTopoSort_30",
+   "symbol": "kahnTopoSort_30",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphOutDegrees_31",
+   "symbol": "graphOutDegrees_31",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphEdgeCount_31",
+   "symbol": "graphEdgeCount_31",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphMaxDegree_31",
+   "symbol": "graphMaxDegree_31",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bfsDistance_31",
+   "symbol": "bfsDistance_31",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-reachableCountBfs_31",
+   "symbol": "reachableCountBfs_31",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bipartiteCheckBfs_31",
+   "symbol": "bipartiteCheckBfs_31",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-kahnTopoSort_31",
+   "symbol": "kahnTopoSort_31",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphOutDegrees_32",
+   "symbol": "graphOutDegrees_32",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphEdgeCount_32",
+   "symbol": "graphEdgeCount_32",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphMaxDegree_32",
+   "symbol": "graphMaxDegree_32",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bfsDistance_32",
+   "symbol": "bfsDistance_32",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-reachableCountBfs_32",
+   "symbol": "reachableCountBfs_32",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bipartiteCheckBfs_32",
+   "symbol": "bipartiteCheckBfs_32",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-kahnTopoSort_32",
+   "symbol": "kahnTopoSort_32",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphOutDegrees_33",
+   "symbol": "graphOutDegrees_33",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphEdgeCount_33",
+   "symbol": "graphEdgeCount_33",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphMaxDegree_33",
+   "symbol": "graphMaxDegree_33",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bfsDistance_33",
+   "symbol": "bfsDistance_33",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-reachableCountBfs_33",
+   "symbol": "reachableCountBfs_33",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bipartiteCheckBfs_33",
+   "symbol": "bipartiteCheckBfs_33",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-kahnTopoSort_33",
+   "symbol": "kahnTopoSort_33",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphOutDegrees_34",
+   "symbol": "graphOutDegrees_34",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphEdgeCount_34",
+   "symbol": "graphEdgeCount_34",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphMaxDegree_34",
+   "symbol": "graphMaxDegree_34",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bfsDistance_34",
+   "symbol": "bfsDistance_34",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-reachableCountBfs_34",
+   "symbol": "reachableCountBfs_34",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bipartiteCheckBfs_34",
+   "symbol": "bipartiteCheckBfs_34",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-kahnTopoSort_34",
+   "symbol": "kahnTopoSort_34",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphOutDegrees_35",
+   "symbol": "graphOutDegrees_35",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphEdgeCount_35",
+   "symbol": "graphEdgeCount_35",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphMaxDegree_35",
+   "symbol": "graphMaxDegree_35",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bfsDistance_35",
+   "symbol": "bfsDistance_35",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-reachableCountBfs_35",
+   "symbol": "reachableCountBfs_35",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bipartiteCheckBfs_35",
+   "symbol": "bipartiteCheckBfs_35",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-kahnTopoSort_35",
+   "symbol": "kahnTopoSort_35",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphOutDegrees_36",
+   "symbol": "graphOutDegrees_36",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphEdgeCount_36",
+   "symbol": "graphEdgeCount_36",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphMaxDegree_36",
+   "symbol": "graphMaxDegree_36",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bfsDistance_36",
+   "symbol": "bfsDistance_36",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-reachableCountBfs_36",
+   "symbol": "reachableCountBfs_36",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bipartiteCheckBfs_36",
+   "symbol": "bipartiteCheckBfs_36",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-kahnTopoSort_36",
+   "symbol": "kahnTopoSort_36",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphOutDegrees_37",
+   "symbol": "graphOutDegrees_37",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphEdgeCount_37",
+   "symbol": "graphEdgeCount_37",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphMaxDegree_37",
+   "symbol": "graphMaxDegree_37",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bfsDistance_37",
+   "symbol": "bfsDistance_37",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-reachableCountBfs_37",
+   "symbol": "reachableCountBfs_37",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bipartiteCheckBfs_37",
+   "symbol": "bipartiteCheckBfs_37",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-kahnTopoSort_37",
+   "symbol": "kahnTopoSort_37",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphOutDegrees_38",
+   "symbol": "graphOutDegrees_38",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphEdgeCount_38",
+   "symbol": "graphEdgeCount_38",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphMaxDegree_38",
+   "symbol": "graphMaxDegree_38",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bfsDistance_38",
+   "symbol": "bfsDistance_38",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-reachableCountBfs_38",
+   "symbol": "reachableCountBfs_38",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bipartiteCheckBfs_38",
+   "symbol": "bipartiteCheckBfs_38",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-kahnTopoSort_38",
+   "symbol": "kahnTopoSort_38",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphOutDegrees_39",
+   "symbol": "graphOutDegrees_39",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphEdgeCount_39",
+   "symbol": "graphEdgeCount_39",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphMaxDegree_39",
+   "symbol": "graphMaxDegree_39",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bfsDistance_39",
+   "symbol": "bfsDistance_39",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-reachableCountBfs_39",
+   "symbol": "reachableCountBfs_39",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bipartiteCheckBfs_39",
+   "symbol": "bipartiteCheckBfs_39",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-kahnTopoSort_39",
+   "symbol": "kahnTopoSort_39",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphOutDegrees_40",
+   "symbol": "graphOutDegrees_40",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphEdgeCount_40",
+   "symbol": "graphEdgeCount_40",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphMaxDegree_40",
+   "symbol": "graphMaxDegree_40",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bfsDistance_40",
+   "symbol": "bfsDistance_40",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-reachableCountBfs_40",
+   "symbol": "reachableCountBfs_40",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bipartiteCheckBfs_40",
+   "symbol": "bipartiteCheckBfs_40",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-kahnTopoSort_40",
+   "symbol": "kahnTopoSort_40",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphOutDegrees_41",
+   "symbol": "graphOutDegrees_41",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphEdgeCount_41",
+   "symbol": "graphEdgeCount_41",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphMaxDegree_41",
+   "symbol": "graphMaxDegree_41",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bfsDistance_41",
+   "symbol": "bfsDistance_41",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-reachableCountBfs_41",
+   "symbol": "reachableCountBfs_41",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bipartiteCheckBfs_41",
+   "symbol": "bipartiteCheckBfs_41",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-kahnTopoSort_41",
+   "symbol": "kahnTopoSort_41",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphOutDegrees_42",
+   "symbol": "graphOutDegrees_42",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphEdgeCount_42",
+   "symbol": "graphEdgeCount_42",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-graphMaxDegree_42",
+   "symbol": "graphMaxDegree_42",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bfsDistance_42",
+   "symbol": "bfsDistance_42",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-reachableCountBfs_42",
+   "symbol": "reachableCountBfs_42",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen6-graphs-03-bipartiteCheckBfs_42",
+   "symbol": "bipartiteCheckBfs_42",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  }
+ ]
+}

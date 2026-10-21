@@ -1,0 +1,822 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen3-bsearch-01-binSearchIter_0",
+   "symbol": "binSearchIter_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-lowerBoundIdx_0",
+   "symbol": "lowerBoundIdx_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-upperBoundIdx_0",
+   "symbol": "upperBoundIdx_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-binarySearchRec_0",
+   "symbol": "binarySearchRec_0",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search",
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-countOccurrences_0",
+   "symbol": "countOccurrences_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-floorSqrtBS_0",
+   "symbol": "floorSqrtBS_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search",
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-peakIndex_0",
+   "symbol": "peakIndex_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-searchRotated_0",
+   "symbol": "searchRotated_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-findMinRotated_0",
+   "symbol": "findMinRotated_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-searchInsert_0",
+   "symbol": "searchInsert_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-binSearchIter_1",
+   "symbol": "binSearchIter_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-lowerBoundIdx_1",
+   "symbol": "lowerBoundIdx_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-upperBoundIdx_1",
+   "symbol": "upperBoundIdx_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-binarySearchRec_1",
+   "symbol": "binarySearchRec_1",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search",
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-countOccurrences_1",
+   "symbol": "countOccurrences_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-floorSqrtBS_1",
+   "symbol": "floorSqrtBS_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search",
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-peakIndex_1",
+   "symbol": "peakIndex_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-searchRotated_1",
+   "symbol": "searchRotated_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-findMinRotated_1",
+   "symbol": "findMinRotated_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-searchInsert_1",
+   "symbol": "searchInsert_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-binSearchIter_2",
+   "symbol": "binSearchIter_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-lowerBoundIdx_2",
+   "symbol": "lowerBoundIdx_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-upperBoundIdx_2",
+   "symbol": "upperBoundIdx_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-binarySearchRec_2",
+   "symbol": "binarySearchRec_2",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search",
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-countOccurrences_2",
+   "symbol": "countOccurrences_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-floorSqrtBS_2",
+   "symbol": "floorSqrtBS_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search",
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-peakIndex_2",
+   "symbol": "peakIndex_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-searchRotated_2",
+   "symbol": "searchRotated_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-findMinRotated_2",
+   "symbol": "findMinRotated_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-searchInsert_2",
+   "symbol": "searchInsert_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-binSearchIter_3",
+   "symbol": "binSearchIter_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-lowerBoundIdx_3",
+   "symbol": "lowerBoundIdx_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-upperBoundIdx_3",
+   "symbol": "upperBoundIdx_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-binarySearchRec_3",
+   "symbol": "binarySearchRec_3",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search",
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-countOccurrences_3",
+   "symbol": "countOccurrences_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-floorSqrtBS_3",
+   "symbol": "floorSqrtBS_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search",
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-peakIndex_3",
+   "symbol": "peakIndex_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-searchRotated_3",
+   "symbol": "searchRotated_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-findMinRotated_3",
+   "symbol": "findMinRotated_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-searchInsert_3",
+   "symbol": "searchInsert_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-binSearchIter_4",
+   "symbol": "binSearchIter_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-lowerBoundIdx_4",
+   "symbol": "lowerBoundIdx_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-upperBoundIdx_4",
+   "symbol": "upperBoundIdx_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-binarySearchRec_4",
+   "symbol": "binarySearchRec_4",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search",
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-countOccurrences_4",
+   "symbol": "countOccurrences_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-floorSqrtBS_4",
+   "symbol": "floorSqrtBS_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search",
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-peakIndex_4",
+   "symbol": "peakIndex_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-searchRotated_4",
+   "symbol": "searchRotated_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-findMinRotated_4",
+   "symbol": "findMinRotated_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-searchInsert_4",
+   "symbol": "searchInsert_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-binSearchIter_5",
+   "symbol": "binSearchIter_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-lowerBoundIdx_5",
+   "symbol": "lowerBoundIdx_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-upperBoundIdx_5",
+   "symbol": "upperBoundIdx_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-binarySearchRec_5",
+   "symbol": "binarySearchRec_5",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search",
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-countOccurrences_5",
+   "symbol": "countOccurrences_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-floorSqrtBS_5",
+   "symbol": "floorSqrtBS_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search",
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-peakIndex_5",
+   "symbol": "peakIndex_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-searchRotated_5",
+   "symbol": "searchRotated_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-findMinRotated_5",
+   "symbol": "findMinRotated_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-searchInsert_5",
+   "symbol": "searchInsert_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-binSearchIter_6",
+   "symbol": "binSearchIter_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-lowerBoundIdx_6",
+   "symbol": "lowerBoundIdx_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-upperBoundIdx_6",
+   "symbol": "upperBoundIdx_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-binarySearchRec_6",
+   "symbol": "binarySearchRec_6",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search",
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-countOccurrences_6",
+   "symbol": "countOccurrences_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-floorSqrtBS_6",
+   "symbol": "floorSqrtBS_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search",
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-peakIndex_6",
+   "symbol": "peakIndex_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-searchRotated_6",
+   "symbol": "searchRotated_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-findMinRotated_6",
+   "symbol": "findMinRotated_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-searchInsert_6",
+   "symbol": "searchInsert_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-binSearchIter_7",
+   "symbol": "binSearchIter_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-lowerBoundIdx_7",
+   "symbol": "lowerBoundIdx_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-upperBoundIdx_7",
+   "symbol": "upperBoundIdx_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-binarySearchRec_7",
+   "symbol": "binarySearchRec_7",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search",
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-countOccurrences_7",
+   "symbol": "countOccurrences_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-floorSqrtBS_7",
+   "symbol": "floorSqrtBS_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search",
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-peakIndex_7",
+   "symbol": "peakIndex_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-searchRotated_7",
+   "symbol": "searchRotated_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-findMinRotated_7",
+   "symbol": "findMinRotated_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-bsearch-01-searchInsert_7",
+   "symbol": "searchInsert_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "binary-search"
+   ]
+  }
+ ]
+}

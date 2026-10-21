@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-rand-pack-level0-11",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-rand-pack-level0-11",
+      "symbol": "pack_level0_rand_pack_main",
+      "time": "O(|s|)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "strings",
+        "digit-processing",
+        "greedy"
+      ],
+      "inputSymbols": [
+        "s"
+      ],
+      "proof": "The program scans each digit once and chooses the smaller digit-or-complement value.",
+      "assumptions": "Character access is O(1).",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-rand-pack-level0-11"
+    }
+  ]
+}

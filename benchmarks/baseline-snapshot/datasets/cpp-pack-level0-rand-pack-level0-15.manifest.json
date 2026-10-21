@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-rand-pack-level0-15",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-rand-pack-level0-15",
+      "symbol": "pack_level0_rand_pack_main",
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "greedy",
+        "simulation",
+        "coins"
+      ],
+      "inputSymbols": [
+        "n",
+        "a"
+      ],
+      "proof": "The code simulates a coin/bill exchange using only constant-sized counters.",
+      "assumptions": "Values are restricted to the three denominations in the code.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-rand-pack-level0-15"
+    }
+  ]
+}

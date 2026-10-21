@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "cf-batch-07",
+      "symbol": "f",
+      "time": "O(nW)",
+      "space": "O(nW)",
+      "confidence": "exact",
+      "tags": [
+        "dp",
+        "subset-sum",
+        "offset"
+      ],
+      "inputSymbols": [
+        "n",
+        "k"
+      ],
+      "proof": "The memo table spans all index/sum states; each state is solved once.",
+      "assumptions": "W is the reachable sum-width around the offset.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

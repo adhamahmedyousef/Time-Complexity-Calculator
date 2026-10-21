@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-hq-targeted-60-level0-hq-029",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-hq-targeted-60-level0-hq-029-dp",
+      "symbol": "pack_level0_hq_targeted_60_f",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "dp",
+        "memoization",
+        "1d"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "A memoized 1D recursion solves each state once.",
+      "assumptions": "Primitive operations are constant time.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-hq-targeted-60-level0-hq-029"
+    }
+  ]
+}

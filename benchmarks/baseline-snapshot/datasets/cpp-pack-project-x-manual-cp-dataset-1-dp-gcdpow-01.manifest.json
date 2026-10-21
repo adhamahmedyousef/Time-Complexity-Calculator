@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-dp-gcdpow-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_gcdPowLoop_gp1",
+      "time": "O(log n)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "number-theory",
+        "gcd",
+        "power"
+      ],
+      "algorithmFamily": "number-theory-gcd-power",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Repeated division or exponent squaring reduces the state logarithmically.",
+      "assumptions": "The state is monotonically reduced by division or shift.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-dp-gcdpow-01"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "new10-03",
+      "symbol": "main",
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "math",
+        "arithmetic",
+        "constant-time",
+        "io"
+      ],
+      "inputSymbols": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "proof": "The program reads five integers, performs four additions, and prints the result.",
+      "assumptions": "Primitive integer arithmetic and I/O operations are treated as constant time.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

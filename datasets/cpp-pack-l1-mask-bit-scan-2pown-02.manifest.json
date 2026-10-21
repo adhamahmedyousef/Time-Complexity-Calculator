@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l1-masks-subsets",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l1-mask-bit-scan-2powN-02",
+      "symbol": "pack_l1_maskBitScan",
+      "time": "O(n 2^n)",
+      "space": "O(1)",
+      "confidence": "estimated",
+      "tags": [
+        "bitmask",
+        "bit-scan",
+        "level-1"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Each mask is scanned across n bit positions.",
+      "assumptions": "n is the bit width.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l1-mask-bit-scan-2powN"
+    }
+  ]
+}

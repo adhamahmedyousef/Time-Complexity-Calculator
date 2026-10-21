@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-p0-p1-pack-binary-lifting",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-p0-p1-pack-binary-lifting-12",
+      "symbol": "pack_project_x_p0_p1_pack_binary_lifting_12",
+      "time": "O(n log n + q log n)",
+      "space": "O(n log n)",
+      "confidence": "exact",
+      "tags": [
+        "binary-lifting",
+        "tree"
+      ],
+      "inputSymbols": [
+        "n",
+        "q",
+        "adj",
+        "qs"
+      ],
+      "proof": "Ancestor doubling is precomputed once and each query climbs powers of two.",
+      "assumptions": "Rooted tree.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-p0-p1-pack-binary-lifting-12",
+      "familyRole": "canonical"
+    }
+  ]
+}

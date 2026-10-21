@@ -1,0 +1,126 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen2-graph2-01-bfs_0",
+   "symbol": "bfs_0",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen2-graph2-01-topoSort_0",
+   "symbol": "topoSort_0",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen2-graph2-01-bfs_1",
+   "symbol": "bfs_1",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen2-graph2-01-topoSort_1",
+   "symbol": "topoSort_1",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen2-graph2-01-bfs_2",
+   "symbol": "bfs_2",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen2-graph2-01-topoSort_2",
+   "symbol": "topoSort_2",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen2-graph2-01-bfs_3",
+   "symbol": "bfs_3",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen2-graph2-01-topoSort_3",
+   "symbol": "topoSort_3",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen2-graph2-01-bfs_4",
+   "symbol": "bfs_4",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen2-graph2-01-topoSort_4",
+   "symbol": "topoSort_4",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen2-graph2-01-bfs_5",
+   "symbol": "bfs_5",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen2-graph2-01-topoSort_5",
+   "symbol": "topoSort_5",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  }
+ ]
+}

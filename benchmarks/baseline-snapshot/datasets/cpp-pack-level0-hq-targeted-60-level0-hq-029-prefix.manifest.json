@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-hq-targeted-60-level0-hq-029",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-hq-targeted-60-level0-hq-029-prefix",
+      "symbol": "pack_level0_hq_targeted_60_solve",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "prefix",
+        "unknown"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "The preprocessing index is mutated by the input data.",
+      "assumptions": "Intentionally ambiguous; safe analysis should abstain.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-hq-targeted-60-prefix-base"
+    }
+  ]
+}

@@ -1,0 +1,598 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "cpp-dp-patterns",
+  "reviewedBy": "authored-batch",
+  "cases": [
+    {
+      "id": "dp-knapsack01-rolling",
+      "symbol": "dpKnapsack01Rolling",
+      "time": "O(nW)",
+      "space": "O(W)",
+      "confidence": "exact",
+      "tags": [
+        "knapsack",
+        "rolling-dp",
+        "0-1"
+      ],
+      "inputSymbols": [
+        "W",
+        "items"
+      ],
+      "proof": "Each item scans the capacity array once in reverse order, so the runtime is linear in nW.",
+      "assumptions": "Weights and values are non-negative.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-knapsack01-rolling-variant",
+      "symbol": "dpKnapsack01RollingVariant",
+      "time": "O(nW)",
+      "space": "O(W)",
+      "confidence": "exact",
+      "tags": [
+        "knapsack",
+        "rolling-dp",
+        "variant"
+      ],
+      "inputSymbols": [
+        "W",
+        "items"
+      ],
+      "proof": "This is the same 0/1 knapsack transition with the same reverse-capacity scan.",
+      "assumptions": "Weights and values are non-negative.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "dpKnapsack01Rolling"
+    },
+    {
+      "id": "dp-unbounded-knapsack",
+      "symbol": "dpUnboundedKnapsack",
+      "time": "O(nW)",
+      "space": "O(W)",
+      "confidence": "exact",
+      "tags": [
+        "knapsack",
+        "unbounded",
+        "dp"
+      ],
+      "inputSymbols": [
+        "W",
+        "items"
+      ],
+      "proof": "Each item scans capacities forward once, so the standard unbounded knapsack takes O(nW).",
+      "assumptions": "Weights and values are non-negative.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-subset-sum-reachable-bitset",
+      "symbol": "dpSubsetSumReachableBitset",
+      "time": "O(nW/64)",
+      "space": "O(W/64)",
+      "confidence": "exact",
+      "tags": [
+        "subset-sum",
+        "bitset",
+        "reachability"
+      ],
+      "inputSymbols": [
+        "W",
+        "a"
+      ],
+      "proof": "Each shift and OR is performed on machine words, so the bitset DP is proportional to the number of words times n.",
+      "assumptions": "All a[i] are non-negative and W is the target sum bound.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-subset-sum-count-ways",
+      "symbol": "dpSubsetSumCountWays",
+      "time": "O(nW)",
+      "space": "O(W)",
+      "confidence": "exact",
+      "tags": [
+        "subset-sum",
+        "counting",
+        "dp"
+      ],
+      "inputSymbols": [
+        "W",
+        "a"
+      ],
+      "proof": "The 1D counting DP updates every reachable sum for each item, which is O(nW).",
+      "assumptions": "All a[i] are non-negative.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-meet-in-middle-subset-count",
+      "symbol": "dpMeetInMiddleSubsetCount",
+      "time": "O(2^(n/2) log 2^(n/2))",
+      "space": "O(2^(n/2))",
+      "confidence": "exact",
+      "tags": [
+        "meet-in-the-middle",
+        "subset",
+        "counting"
+      ],
+      "inputSymbols": [
+        "a",
+        "target"
+      ],
+      "proof": "Each half enumerates all subset sums, and one half is sorted for binary search, giving the classic 2^(n/2) bound.",
+      "assumptions": "n is small enough for meet-in-the-middle enumeration.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-digit-count-mod",
+      "symbol": "dpDigitCountMod",
+      "time": "O(len(n) * mod * 10)",
+      "space": "O(len(n) * mod)",
+      "confidence": "exact",
+
+      "tags": [
+        "digit-dp",
+        "modulo",
+        "memoization"
+      ],
+      "inputSymbols": [
+        "n",
+        "mod",
+        "need"
+      ],
+      "proof": "The memoized state space is positions × remainders × tight, with a constant 10-way transition per state.",
+      "assumptions": "mod > 0 and need is in [0, mod).",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-digit-sum",
+      "symbol": "dpDigitSum",
+      "time": "O(len(n) * 10)",
+      "space": "O(len(n))",
+      "confidence": "exact",
+      "tags": [
+        "digit-dp",
+        "sum",
+        "memoization"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "The DP memoizes per position and tight flag, and each state loops over 10 digits.",
+      "assumptions": "n is non-negative.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-digit-forbidden-substring",
+      "symbol": "dpDigitForbiddenSubstring",
+      "time": "O(len(n) * |pat| * 10)",
+      "space": "O(len(n) * |pat|)",
+      "confidence": "exact",
+      "tags": [
+        "digit-dp",
+        "automaton",
+        "forbidden-pattern"
+      ],
+      "inputSymbols": [
+        "n",
+        "pat"
+      ],
+      "proof": "The state is position × automaton-state × tight, with an O(10) transition per state.",
+      "assumptions": "pat is a non-empty decimal pattern.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-tree-independent-set",
+      "symbol": "dpTreeIndependentSet",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "tree-dp",
+        "independent-set",
+        "postorder"
+      ],
+      "inputSymbols": [
+        "g"
+      ],
+      "proof": "Each tree edge is traversed once in the DFS, and each node combines child states in constant time per child.",
+      "assumptions": "g is an undirected tree rooted at 0.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-tree-vertex-cover",
+      "symbol": "dpTreeVertexCover",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "tree-dp",
+        "vertex-cover",
+        "postorder"
+      ],
+      "inputSymbols": [
+        "g"
+      ],
+      "proof": "The DFS recurrence processes every tree edge once and keeps only two DP states per node.",
+      "assumptions": "g is an undirected tree rooted at 0.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-tree-reroot-distance-sum",
+      "symbol": "dpTreeRerootDistanceSum",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "tree-dp",
+        "rerooting",
+        "distance-sum"
+      ],
+      "inputSymbols": [
+        "g"
+      ],
+      "proof": "Two DFS passes over the tree are sufficient: one bottom-up for subtree sizes and one reroot pass.",
+      "assumptions": "g is an undirected tree rooted at 0.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-weighted-interval-scheduling",
+      "symbol": "dpWeightedIntervalScheduling",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "interval-dp",
+        "binary-search",
+        "weighted-scheduling"
+      ],
+      "inputSymbols": [
+        "jobs"
+      ],
+      "proof": "Sorting dominates the setup and each interval uses one binary search over the prefix of finishing times.",
+      "assumptions": "Each job is (start, end, weight) with end >= start.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+
+    },
+    {
+      "id": "dp-interval-merge-stones",
+      "symbol": "dpIntervalMergeStones",
+      "time": "O(n^3)",
+      "space": "O(n^2)",
+      "confidence": "exact",
+      "tags": [
+        "interval-dp",
+        "partition",
+        "cubic"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "The triple loop over interval length, left endpoint, and split point gives cubic worst-case time.",
+      "assumptions": "a contains non-negative pile sizes.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-tsp-bitmask",
+      "symbol": "dpTspBitmask",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "state-compression"
+      ],
+      "inputSymbols": [
+        "w"
+      ],
+      "proof": "For each subset state, every endpoint may extend to every unused vertex, yielding O(n^2 2^n).",
+      "assumptions": "w is a complete cost matrix and the tour starts and ends at vertex 0.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-assignment-bitmask",
+      "symbol": "dpAssignmentBitmask",
+      "time": "O(n 2^n)",
+      "space": "O(2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "assignment",
+        "matching"
+      ],
+      "inputSymbols": [
+        "cost"
+      ],
+      "proof": "Each mask is processed once and branches to all unused columns, producing O(n 2^n) transitions.",
+      "assumptions": "cost is an n×n matrix.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-sos-subset-transform",
+      "symbol": "dpSosSubsetTransform",
+      "time": "O(n 2^n)",
+      "space": "O(2^n)",
+      "confidence": "exact",
+      "tags": [
+        "sos-dp",
+        "subset-transform",
+        "bitmask"
+      ],
+      "inputSymbols": [
+        "f"
+      ],
+      "proof": "Each of the n bit positions is propagated over all 2^n masks exactly once.",
+      "assumptions": "f has length 2^n for some n.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-sos-superset-transform",
+      "symbol": "dpSosSupersetTransform",
+      "time": "O(n 2^n)",
+      "space": "O(2^n)",
+      "confidence": "exact",
+      "tags": [
+        "sos-dp",
+        "superset-transform",
+        "bitmask"
+      ],
+      "inputSymbols": [
+        "f"
+      ],
+      "proof": "The transform performs one linear pass per bit over the full mask space.",
+      "assumptions": "f has length 2^n for some n.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "dpSosSubsetTransform"
+    },
+    {
+      "id": "dp-domino-tilings",
+      "symbol": "dpDominoTilings",
+      "time": "O(n m 2^m)",
+      "space": "O(n 2^m)",
+      "confidence": "exact",
+      "tags": [
+        "profile-dp",
+        "domino-tiling",
+        "state-compression"
+      ],
+      "inputSymbols": [
+        "n",
+        "m"
+      ],
+      "proof": "For each row and each profile mask, the DFS enumerates all local completions, so the bound is O(nm2^m) up to a constant branching factor.",
+      "assumptions": "n and m are non-negative and m is the smaller dimension in practice.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-deque-optimization",
+      "symbol": "dpDequeOptimization",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "deque-optimization",
+        "sliding-window",
+        "dp"
+      ],
+      "inputSymbols": [
+        "a",
+        "k"
+      ],
+      "proof": "Every index is inserted and removed from the deque at most once, so the amortized cost is linear.",
+
+      "assumptions": "k is positive.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-li-chao-min-value",
+      "symbol": "dpLiChaoMinValue",
+      "time": "O((n + q) log C)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "li-chao",
+        "convex-hull-trick",
+        "dp"
+      ],
+      "inputSymbols": [
+        "lines",
+        "xs"
+      ],
+      "proof": "Each insertion and query descends one root-to-leaf path in the implicit Li Chao tree.",
+      "assumptions": "The x-coordinates are integer-bounded so the implicit domain is finite.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-divide-conquer-partition-d-p",
+      "symbol": "dpDivideConquerPartitionDP",
+      "time": "O(k n log n)",
+      "space": "O(k n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer-opt",
+        "partition-dp",
+        "monge-style"
+      ],
+      "inputSymbols": [
+        "a",
+        "groups"
+      ],
+      "proof": "The divide-and-conquer recursion restricts the argmin search interval at each level, yielding a logarithmic number of levels over n states.",
+      "assumptions": "The partition cost is quadrangle-inequality friendly in the intended use.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-hamiltonian-paths-dag",
+      "symbol": "dpHamiltonianPathsDag",
+      "time": "O(n 2^n + m 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "hamiltonian",
+        "path-count"
+      ],
+      "inputSymbols": [
+        "g"
+      ],
+      "proof": "Every subset-state and endpoint pair is processed once, and each transition follows an outgoing edge.",
+      "assumptions": "The graph is a DAG and vertex 0 is the designated start.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-circular-house-robber",
+      "symbol": "dpCircularHouseRobber",
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "dp",
+        "circular",
+        "house-robber"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "The function runs two linear passes on disjoint ranges and maintains only constant extra state.",
+      "assumptions": "a has at least one element.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-min-max-partition-sum",
+      "symbol": "dpMinMaxPartitionSum",
+      "time": "O(k n^2)",
+      "space": "O(k n)",
+      "confidence": "exact",
+      "tags": [
+        "partition-dp",
+        "minimax",
+        "prefix-sums"
+      ],
+      "inputSymbols": [
+        "a",
+        "k"
+      ],
+      "proof": "The nested loops over groups, endpoints, and split points are quadratic per layer.",
+      "assumptions": "k is positive and no segment is empty.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "dp-bitset-knapsack-count-reachable",
+      "symbol": "dpBitsetKnapsackCountReachable",
+      "time": "O(nW/64)",
+      "space": "O(W/64)",
+      "confidence": "exact",
+      "tags": [
+        "bitset",
+        "knapsack",
+        "reachability"
+      ],
+      "inputSymbols": [
+        "W",
+        "a"
+      ],
+      "proof": "This is the same bitset reachability scan as the base subset-sum variant.",
+      "assumptions": "All item weights are non-negative.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "dpSubsetSumReachableBitset"
+    }
+  ]
+}

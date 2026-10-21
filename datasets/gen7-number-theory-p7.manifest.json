@@ -1,0 +1,212 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "countDivisorsSqrt_37",
+   "symbol": "countDivisorsSqrt_37",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "sumDivisorsSqrt_37",
+   "symbol": "sumDivisorsSqrt_37",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "sieveOfEratosthenes_37",
+   "symbol": "sieveOfEratosthenes_37",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory",
+    "sieve"
+   ]
+  },
+  {
+   "id": "smallestPrimeFactorSieve_37",
+   "symbol": "smallestPrimeFactorSieve_37",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gcdEuclidModulo_38",
+   "symbol": "gcdEuclidModulo_38",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "lcmEuclid_38",
+   "symbol": "lcmEuclid_38",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "fastPowerMod_38",
+   "symbol": "fastPowerMod_38",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "isPrimeTrialDivision_38",
+   "symbol": "isPrimeTrialDivision_38",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "countDivisorsSqrt_38",
+   "symbol": "countDivisorsSqrt_38",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "sumDivisorsSqrt_38",
+   "symbol": "sumDivisorsSqrt_38",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "sieveOfEratosthenes_38",
+   "symbol": "sieveOfEratosthenes_38",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory",
+    "sieve"
+   ]
+  },
+  {
+   "id": "smallestPrimeFactorSieve_38",
+   "symbol": "smallestPrimeFactorSieve_38",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gcdEuclidModulo_39",
+   "symbol": "gcdEuclidModulo_39",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "lcmEuclid_39",
+   "symbol": "lcmEuclid_39",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "fastPowerMod_39",
+   "symbol": "fastPowerMod_39",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "isPrimeTrialDivision_39",
+   "symbol": "isPrimeTrialDivision_39",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "countDivisorsSqrt_39",
+   "symbol": "countDivisorsSqrt_39",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "sumDivisorsSqrt_39",
+   "symbol": "sumDivisorsSqrt_39",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "sieveOfEratosthenes_39",
+   "symbol": "sieveOfEratosthenes_39",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory",
+    "sieve"
+   ]
+  },
+  {
+   "id": "smallestPrimeFactorSieve_39",
+   "symbol": "smallestPrimeFactorSieve_39",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory",
+    "sieve"
+   ]
+  }
+ ]
+}

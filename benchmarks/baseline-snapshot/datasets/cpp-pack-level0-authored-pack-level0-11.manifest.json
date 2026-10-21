@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-authored-pack-level0-11",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-authored-pack-level0-11",
+      "symbol": "pack_level0_authored_pack_main",
+      "time": "O(log min(a,b))",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "math",
+        "gcd"
+      ],
+      "inputSymbols": [
+        "a",
+        "b"
+      ],
+      "proof": "Computes gcd using Euclid's algorithm.",
+      "assumptions": "Primitive operations are constant time.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-authored-pack-level0-11"
+    }
+  ]
+}

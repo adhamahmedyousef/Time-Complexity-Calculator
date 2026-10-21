@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-400-pack-level0-370",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-400-pack-level0-370",
+      "symbol": "pack_level0_400_pack_main",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "stl",
+        "set"
+      ],
+      "inputSymbols": [
+        "n",
+        "a"
+      ],
+      "proof": "Balanced-tree set operations are logarithmic.",
+      "assumptions": "Primitive operations are constant time.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-400-pack-stl_hashing-base"
+    }
+  ]
+}

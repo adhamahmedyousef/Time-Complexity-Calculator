@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "cf-batch-01",
+      "symbol": "solve",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "sorting",
+        "scan",
+        "array"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Sort plus one linear validation scan.",
+      "assumptions": "Array elements are comparable; the intended family is missing-number style.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

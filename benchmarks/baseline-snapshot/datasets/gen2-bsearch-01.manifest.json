@@ -1,0 +1,126 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen2-bsearch-01-binSearch_0",
+   "symbol": "binSearch_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search"
+   ]
+  },
+  {
+   "id": "gen2-bsearch-01-lowerBnd_0",
+   "symbol": "lowerBnd_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search"
+   ]
+  },
+  {
+   "id": "gen2-bsearch-01-binSearch_1",
+   "symbol": "binSearch_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search"
+   ]
+  },
+  {
+   "id": "gen2-bsearch-01-lowerBnd_1",
+   "symbol": "lowerBnd_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search"
+   ]
+  },
+  {
+   "id": "gen2-bsearch-01-binSearch_2",
+   "symbol": "binSearch_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search"
+   ]
+  },
+  {
+   "id": "gen2-bsearch-01-lowerBnd_2",
+   "symbol": "lowerBnd_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search"
+   ]
+  },
+  {
+   "id": "gen2-bsearch-01-binSearch_3",
+   "symbol": "binSearch_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search"
+   ]
+  },
+  {
+   "id": "gen2-bsearch-01-lowerBnd_3",
+   "symbol": "lowerBnd_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search"
+   ]
+  },
+  {
+   "id": "gen2-bsearch-01-binSearch_4",
+   "symbol": "binSearch_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search"
+   ]
+  },
+  {
+   "id": "gen2-bsearch-01-lowerBnd_4",
+   "symbol": "lowerBnd_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search"
+   ]
+  },
+  {
+   "id": "gen2-bsearch-01-binSearch_5",
+   "symbol": "binSearch_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search"
+   ]
+  },
+  {
+   "id": "gen2-bsearch-01-lowerBnd_5",
+   "symbol": "lowerBnd_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search"
+   ]
+  }
+ ]
+}

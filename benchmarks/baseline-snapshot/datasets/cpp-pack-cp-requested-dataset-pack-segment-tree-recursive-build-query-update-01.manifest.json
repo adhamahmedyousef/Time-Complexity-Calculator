@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-segment-tree-methods",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-segment-tree-recursive-build-query-update-01",
+      "symbol": "pack_cp_requested_dataset_pack_segmentTreeRangeMin_1",
+      "time": "O((n + q) log n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "segment-tree",
+        "recursive",
+        "range-query"
+      ],
+      "inputSymbols": [
+        "a",
+        "queries"
+      ],
+      "proof": "Recursive build touches each node once and each query/update descends one path per level.",
+      "assumptions": "The segment tree is built over a contiguous array of size n.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-segment-tree-recursive-build-query-update-01"
+    }
+  ]
+}

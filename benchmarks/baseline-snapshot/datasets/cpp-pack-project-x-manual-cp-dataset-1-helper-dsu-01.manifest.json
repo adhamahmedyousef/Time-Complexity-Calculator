@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-helper-dsu-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_dsuFindUnion_dsu1",
+      "time": "O(m alpha(n))",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "dsu",
+        "union-find",
+        "graphs"
+      ],
+      "algorithmFamily": "dsu",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n",
+        "m",
+        "edges"
+      ],
+      "proof": "Union-find with path compression and union by rank is effectively inverse-Ackermann per operation.",
+      "assumptions": "The union-find array is size n.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-helper-dsu-01"
+    }
+  ]
+}

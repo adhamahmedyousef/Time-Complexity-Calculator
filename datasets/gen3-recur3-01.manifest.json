@@ -1,0 +1,734 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen3-recur3-01-factorialRec_0",
+   "symbol": "factorialRec_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-powerRec_0",
+   "symbol": "powerRec_0",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-digitSumRec_0",
+   "symbol": "digitSumRec_0",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-sumArrayRec_0",
+   "symbol": "sumArrayRec_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-fibBranch_0",
+   "symbol": "fibBranch_0",
+   "time": "O(1.618^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-tribBranch_0",
+   "symbol": "tribBranch_0",
+   "time": "O(1.839^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-hanoiRec_0",
+   "symbol": "hanoiRec_0",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-binaryStringsRec_0",
+   "symbol": "binaryStringsRec_0",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-binomialRec_0",
+   "symbol": "binomialRec_0",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-factorialRec_1",
+   "symbol": "factorialRec_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-powerRec_1",
+   "symbol": "powerRec_1",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-digitSumRec_1",
+   "symbol": "digitSumRec_1",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-sumArrayRec_1",
+   "symbol": "sumArrayRec_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-fibBranch_1",
+   "symbol": "fibBranch_1",
+   "time": "O(1.618^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-tribBranch_1",
+   "symbol": "tribBranch_1",
+   "time": "O(1.839^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-hanoiRec_1",
+   "symbol": "hanoiRec_1",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-binaryStringsRec_1",
+   "symbol": "binaryStringsRec_1",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-binomialRec_1",
+   "symbol": "binomialRec_1",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-factorialRec_2",
+   "symbol": "factorialRec_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-powerRec_2",
+   "symbol": "powerRec_2",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-digitSumRec_2",
+   "symbol": "digitSumRec_2",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-sumArrayRec_2",
+   "symbol": "sumArrayRec_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-fibBranch_2",
+   "symbol": "fibBranch_2",
+   "time": "O(1.618^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-tribBranch_2",
+   "symbol": "tribBranch_2",
+   "time": "O(1.839^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-hanoiRec_2",
+   "symbol": "hanoiRec_2",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-binaryStringsRec_2",
+   "symbol": "binaryStringsRec_2",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-binomialRec_2",
+   "symbol": "binomialRec_2",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-factorialRec_3",
+   "symbol": "factorialRec_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-powerRec_3",
+   "symbol": "powerRec_3",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-digitSumRec_3",
+   "symbol": "digitSumRec_3",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-sumArrayRec_3",
+   "symbol": "sumArrayRec_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-fibBranch_3",
+   "symbol": "fibBranch_3",
+   "time": "O(1.618^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-tribBranch_3",
+   "symbol": "tribBranch_3",
+   "time": "O(1.839^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-hanoiRec_3",
+   "symbol": "hanoiRec_3",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-binaryStringsRec_3",
+   "symbol": "binaryStringsRec_3",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-binomialRec_3",
+   "symbol": "binomialRec_3",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-factorialRec_4",
+   "symbol": "factorialRec_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-powerRec_4",
+   "symbol": "powerRec_4",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-digitSumRec_4",
+   "symbol": "digitSumRec_4",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-sumArrayRec_4",
+   "symbol": "sumArrayRec_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-fibBranch_4",
+   "symbol": "fibBranch_4",
+   "time": "O(1.618^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-tribBranch_4",
+   "symbol": "tribBranch_4",
+   "time": "O(1.839^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-hanoiRec_4",
+   "symbol": "hanoiRec_4",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-binaryStringsRec_4",
+   "symbol": "binaryStringsRec_4",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-binomialRec_4",
+   "symbol": "binomialRec_4",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-factorialRec_5",
+   "symbol": "factorialRec_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-powerRec_5",
+   "symbol": "powerRec_5",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-digitSumRec_5",
+   "symbol": "digitSumRec_5",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-sumArrayRec_5",
+   "symbol": "sumArrayRec_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-fibBranch_5",
+   "symbol": "fibBranch_5",
+   "time": "O(1.618^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-tribBranch_5",
+   "symbol": "tribBranch_5",
+   "time": "O(1.839^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-hanoiRec_5",
+   "symbol": "hanoiRec_5",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-binaryStringsRec_5",
+   "symbol": "binaryStringsRec_5",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-binomialRec_5",
+   "symbol": "binomialRec_5",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-factorialRec_6",
+   "symbol": "factorialRec_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-powerRec_6",
+   "symbol": "powerRec_6",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-digitSumRec_6",
+   "symbol": "digitSumRec_6",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-sumArrayRec_6",
+   "symbol": "sumArrayRec_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-fibBranch_6",
+   "symbol": "fibBranch_6",
+   "time": "O(1.618^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-tribBranch_6",
+   "symbol": "tribBranch_6",
+   "time": "O(1.839^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-hanoiRec_6",
+   "symbol": "hanoiRec_6",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-binaryStringsRec_6",
+   "symbol": "binaryStringsRec_6",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-binomialRec_6",
+   "symbol": "binomialRec_6",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-factorialRec_7",
+   "symbol": "factorialRec_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-powerRec_7",
+   "symbol": "powerRec_7",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-digitSumRec_7",
+   "symbol": "digitSumRec_7",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion",
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-sumArrayRec_7",
+   "symbol": "sumArrayRec_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-fibBranch_7",
+   "symbol": "fibBranch_7",
+   "time": "O(1.618^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-tribBranch_7",
+   "symbol": "tribBranch_7",
+   "time": "O(1.839^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-hanoiRec_7",
+   "symbol": "hanoiRec_7",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-binaryStringsRec_7",
+   "symbol": "binaryStringsRec_7",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen3-recur3-01-binomialRec_7",
+   "symbol": "binomialRec_7",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "recursion"
+   ]
+  }
+ ]
+}

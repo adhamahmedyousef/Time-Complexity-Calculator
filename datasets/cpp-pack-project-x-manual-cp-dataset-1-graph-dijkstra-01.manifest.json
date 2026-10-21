@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-graph-dijkstra-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_dijkstraShortest_di1",
+      "time": "O((V + E) log V)",
+      "space": "O(V + E)",
+      "confidence": "exact",
+      "tags": [
+        "graphs",
+        "shortest-path",
+        "priority-queue"
+      ],
+      "algorithmFamily": "dijkstra",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "V",
+        "E",
+        "adj"
+      ],
+      "proof": "Every successful relaxation may push one state into a heap or tree structure, adding a logarithmic factor.",
+      "assumptions": "All edge weights are non-negative.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-graph-dijkstra-01"
+    }
+  ]
+}

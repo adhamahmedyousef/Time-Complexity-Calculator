@@ -1,0 +1,246 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen2-numtheory-01-isPrime_0",
+   "symbol": "isPrime_0",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-countPrimes_0",
+   "symbol": "countPrimes_0",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-modPow_0",
+   "symbol": "modPow_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-eulerPhi_0",
+   "symbol": "eulerPhi_0",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-isPrime_1",
+   "symbol": "isPrime_1",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-countPrimes_1",
+   "symbol": "countPrimes_1",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-modPow_1",
+   "symbol": "modPow_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-eulerPhi_1",
+   "symbol": "eulerPhi_1",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-isPrime_2",
+   "symbol": "isPrime_2",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-countPrimes_2",
+   "symbol": "countPrimes_2",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-modPow_2",
+   "symbol": "modPow_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-eulerPhi_2",
+   "symbol": "eulerPhi_2",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-isPrime_3",
+   "symbol": "isPrime_3",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-countPrimes_3",
+   "symbol": "countPrimes_3",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-modPow_3",
+   "symbol": "modPow_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-eulerPhi_3",
+   "symbol": "eulerPhi_3",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-isPrime_4",
+   "symbol": "isPrime_4",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-countPrimes_4",
+   "symbol": "countPrimes_4",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-modPow_4",
+   "symbol": "modPow_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-eulerPhi_4",
+   "symbol": "eulerPhi_4",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-isPrime_5",
+   "symbol": "isPrime_5",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-countPrimes_5",
+   "symbol": "countPrimes_5",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-modPow_5",
+   "symbol": "modPow_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen2-numtheory-01-eulerPhi_5",
+   "symbol": "eulerPhi_5",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  }
+ ]
+}

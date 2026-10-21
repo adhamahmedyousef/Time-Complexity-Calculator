@@ -1,0 +1,186 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen2-recur2-01-hanoi_0",
+   "symbol": "hanoi_0",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen2-recur2-01-fastPow_0",
+   "symbol": "fastPow_0",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen2-recur2-01-permCount_0",
+   "symbol": "permCount_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen2-recur2-01-hanoi_1",
+   "symbol": "hanoi_1",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen2-recur2-01-fastPow_1",
+   "symbol": "fastPow_1",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen2-recur2-01-permCount_1",
+   "symbol": "permCount_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen2-recur2-01-hanoi_2",
+   "symbol": "hanoi_2",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen2-recur2-01-fastPow_2",
+   "symbol": "fastPow_2",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen2-recur2-01-permCount_2",
+   "symbol": "permCount_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen2-recur2-01-hanoi_3",
+   "symbol": "hanoi_3",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen2-recur2-01-fastPow_3",
+   "symbol": "fastPow_3",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen2-recur2-01-permCount_3",
+   "symbol": "permCount_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen2-recur2-01-hanoi_4",
+   "symbol": "hanoi_4",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen2-recur2-01-fastPow_4",
+   "symbol": "fastPow_4",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen2-recur2-01-permCount_4",
+   "symbol": "permCount_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen2-recur2-01-hanoi_5",
+   "symbol": "hanoi_5",
+   "time": "O(2^n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen2-recur2-01-fastPow_5",
+   "symbol": "fastPow_5",
+   "time": "O(log n)",
+   "space": "O(log n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  },
+  {
+   "id": "gen2-recur2-01-permCount_5",
+   "symbol": "permCount_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "recursion"
+   ]
+  }
+ ]
+}

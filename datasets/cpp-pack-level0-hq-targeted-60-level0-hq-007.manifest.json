@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-hq-targeted-60-level0-hq-007",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-hq-targeted-60-level0-hq-007",
+      "symbol": "pack_level0_hq_targeted_60_solve",
+      "time": "O(n log n + q)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "composition",
+        "helper"
+      ],
+      "inputSymbols": [
+        "n",
+        "q"
+      ],
+      "proof": "A helper preprocesses the array and queries are handled afterward.",
+      "assumptions": "Primitive operations are constant time.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-hq-targeted-60-composition-base"
+    }
+  ]
+}

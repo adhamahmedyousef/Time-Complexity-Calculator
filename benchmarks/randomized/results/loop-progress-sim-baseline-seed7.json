@@ -1,0 +1,2574 @@
+{
+ "campaign": "loop-progress-sim",
+ "label": "baseline",
+ "seed": 7,
+ "caseCount": 120,
+ "dist": "C:\\Users\\j\\OneDrive\\Desktop\\Project-X\\benchmarks\\baseline-snapshot\\analyzer\\dist\\index.js",
+ "invariants": {
+  "INV1": "simulated termination => engine must not claim non-termination",
+  "INV2": "simulated non-termination => engine must not claim a finite bound",
+  "INV3": "literal-bound O(1) claim => simulated trip count <= 100"
+ },
+ "cap": 100000,
+ "violations": [
+  {
+   "id": "rnd_baseline_7_1",
+   "source": "int rnd_baseline_7_1(int n) { int i = 0; int s = 0; while (i < 3) { --i; s += i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 0,
+     "s": -100001
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_24",
+   "source": "int rnd_baseline_7_24(int n) { int i = 1; int s = 0; while (i <= 3) { ++i; if (i > 3) --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_37",
+   "source": "int rnd_baseline_7_37(int n) { int i = 1; int s = 0; while (i >= 1) { { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_51",
+   "source": "int rnd_baseline_7_51(int n) { int i = 0; int s = 0; while (i <= n) { --i; ++i; s += i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_54",
+   "source": "int rnd_baseline_7_54(int n) { int i = 1; int s = 0; while (i > 0) { { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_56",
+   "source": "int rnd_baseline_7_56(int n) { int i = -3; int s = 0; while (i <= 1) { { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_71",
+   "source": "int rnd_baseline_7_71(int n) { int i = 0; int s = 0; while (i < n) { i -= 2; ++i; s += i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -100001,
+     "s": -5000150001
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_76",
+   "source": "int rnd_baseline_7_76(int n) { int i = -3; int s = 0; while (i <= 5) { --i; s += i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -3,
+     "s": -400004
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_82",
+   "source": "int rnd_baseline_7_82(int n) { int i = 1; int s = 0; while (i >= 0) { { ++i; --i; } if (i < 4) ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_92",
+   "source": "int rnd_baseline_7_92(int n) { int i = 1; int s = 0; while (i >= 0) { { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_102",
+   "source": "int rnd_baseline_7_102(int n) { int i = -3; int s = 0; while (i < 3) { { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_114",
+   "source": "int rnd_baseline_7_114(int n) { int i = 1; int s = 0; while (i <= 1) { s += i++; i -= 2; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -100000,
+     "s": -4999949999
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  }
+ ],
+ "records": [
+  {
+   "id": "rnd_baseline_7_0",
+   "source": "int rnd_baseline_7_0(int n) { int i = -3; int s = 0; while (i < 10) { s += i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 13,
+    "state": {
+     "i": 10,
+     "s": 39
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_1",
+   "source": "int rnd_baseline_7_1(int n) { int i = 0; int s = 0; while (i < 3) { --i; s += i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 0,
+     "s": -100001
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_2",
+   "source": "int rnd_baseline_7_2(int n) { int i = -3; int s = 0; while (i <= 1) { --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -100004,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_3",
+   "source": "int rnd_baseline_7_3(int n) { int i = -3; int s = 0; while (i >= n) { i++; s += i++; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_4",
+   "source": "int rnd_baseline_7_4(int n) { int i = 4; int s = 0; while (i < 10) { ++i; s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 6,
+    "state": {
+     "i": 10,
+     "s": 45
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_5",
+   "source": "int rnd_baseline_7_5(int n) { int i = 4; int s = 0; while (i > 10) { ++i; s += i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_6",
+   "source": "int rnd_baseline_7_6(int n) { int i = -3; int s = 0; while (i < 5) { s += i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 8,
+    "state": {
+     "i": 5,
+     "s": 4
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_7",
+   "source": "int rnd_baseline_7_7(int n) { int i = 4; int s = 0; while (i > n) { --i; i++; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_8",
+   "source": "int rnd_baseline_7_8(int n) { int i = 4; int s = 0; while (i <= 0) { i -= 2; { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_9",
+   "source": "int rnd_baseline_7_9(int n) { int i = 1; int s = 0; while (i >= 5) { i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_10",
+   "source": "int rnd_baseline_7_10(int n) { int i = 1; int s = 0; while (i >= 10) { ++i; s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_11",
+   "source": "int rnd_baseline_7_11(int n) { int i = 4; int s = 0; while (i > n) { ++i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_12",
+   "source": "int rnd_baseline_7_12(int n) { int i = 0; int s = 0; while (i > 3) { { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_13",
+   "source": "int rnd_baseline_7_13(int n) { int i = 4; int s = 0; while (i <= 5) { s += i++; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 1,
+    "state": {
+     "i": 6,
+     "s": 4
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_14",
+   "source": "int rnd_baseline_7_14(int n) { int i = -3; int s = 0; while (i >= 10) { ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_15",
+   "source": "int rnd_baseline_7_15(int n) { int i = 1; int s = 0; while (i > n) { --i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_16",
+   "source": "int rnd_baseline_7_16(int n) { int i = 1; int s = 0; while (i >= 5) { i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_17",
+   "source": "int rnd_baseline_7_17(int n) { int i = 1; int s = 0; while (i > 0) { i += 2; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 200003,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_18",
+   "source": "int rnd_baseline_7_18(int n) { int i = 4; int s = 0; while (i > 5) { ++i; s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_19",
+   "source": "int rnd_baseline_7_19(int n) { int i = 4; int s = 0; while (i <= n) { ++i; s += i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 7,
+    "state": {
+     "i": 11,
+     "s": 56
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_20",
+   "source": "int rnd_baseline_7_20(int n) { int i = 4; int s = 0; while (i < 3) { s += i++; s += i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_21",
+   "source": "int rnd_baseline_7_21(int n) { int i = 0; int s = 0; while (i < 0) { ++i; { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_22",
+   "source": "int rnd_baseline_7_22(int n) { int i = -3; int s = 0; while (i < 3) { if (i < 0) ++i; if (i > -1) --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_23",
+   "source": "int rnd_baseline_7_23(int n) { int i = 1; int s = 0; while (i >= n) { if (i > 3) --i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_24",
+   "source": "int rnd_baseline_7_24(int n) { int i = 1; int s = 0; while (i <= 3) { ++i; if (i > 3) --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_25",
+   "source": "int rnd_baseline_7_25(int n) { int i = 4; int s = 0; while (i <= 1) { --i; if (i > 6) --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_26",
+   "source": "int rnd_baseline_7_26(int n) { int i = 0; int s = 0; while (i >= 3) { i -= 2; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_27",
+   "source": "int rnd_baseline_7_27(int n) { int i = 0; int s = 0; while (i >= n) { { ++i; --i; } } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_28",
+   "source": "int rnd_baseline_7_28(int n) { int i = 0; int s = 0; while (i <= 5) { s += i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 6,
+    "state": {
+     "i": 6,
+     "s": 15
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_29",
+   "source": "int rnd_baseline_7_29(int n) { int i = -3; int s = 0; while (i > 1) { s += i; i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_30",
+   "source": "int rnd_baseline_7_30(int n) { int i = 1; int s = 0; while (i > 10) { --i; { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_31",
+   "source": "int rnd_baseline_7_31(int n) { int i = 4; int s = 0; while (i >= n) { i += 3; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_32",
+   "source": "int rnd_baseline_7_32(int n) { int i = 0; int s = 0; while (i > 1) { if (i > 2) --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_33",
+   "source": "int rnd_baseline_7_33(int n) { int i = 1; int s = 0; while (i > 3) { if (i > 3) --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_34",
+   "source": "int rnd_baseline_7_34(int n) { int i = -3; int s = 0; while (i > 3) { s += i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_35",
+   "source": "int rnd_baseline_7_35(int n) { int i = 4; int s = 0; while (i < n) { --i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -99997,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_36",
+   "source": "int rnd_baseline_7_36(int n) { int i = 0; int s = 0; while (i >= 10) { s += i; { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_37",
+   "source": "int rnd_baseline_7_37(int n) { int i = 1; int s = 0; while (i >= 1) { { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_38",
+   "source": "int rnd_baseline_7_38(int n) { int i = -3; int s = 0; while (i < 5) { ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 8,
+    "state": {
+     "i": 5,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_39",
+   "source": "int rnd_baseline_7_39(int n) { int i = 0; int s = 0; while (i > n) { if (i > 2) --i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_40",
+   "source": "int rnd_baseline_7_40(int n) { int i = -3; int s = 0; while (i <= 10) { i++; if (i < 0) ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 13,
+    "state": {
+     "i": 11,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_41",
+   "source": "int rnd_baseline_7_41(int n) { int i = 0; int s = 0; while (i <= 0) { s += i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 1,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_42",
+   "source": "int rnd_baseline_7_42(int n) { int i = -3; int s = 0; while (i >= 1) { if (i > -1) --i; if (i < 0) ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_43",
+   "source": "int rnd_baseline_7_43(int n) { int i = 4; int s = 0; while (i <= n) { ++i; s += i; i++; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 4,
+    "state": {
+     "i": 12,
+     "s": 32
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_44",
+   "source": "int rnd_baseline_7_44(int n) { int i = 4; int s = 0; while (i > 1) { ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 100005,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_45",
+   "source": "int rnd_baseline_7_45(int n) { int i = 0; int s = 0; while (i >= 0) { i += 3; s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 300003,
+     "s": 15000450003
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_46",
+   "source": "int rnd_baseline_7_46(int n) { int i = -3; int s = 0; while (i < 10) { s += i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 13,
+    "state": {
+     "i": 10,
+     "s": 39
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_47",
+   "source": "int rnd_baseline_7_47(int n) { int i = 1; int s = 0; while (i < n) { ++i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 9,
+    "state": {
+     "i": 10,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_48",
+   "source": "int rnd_baseline_7_48(int n) { int i = 1; int s = 0; while (i >= 0) { i -= 2; --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 1,
+    "state": {
+     "i": -2,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_49",
+   "source": "int rnd_baseline_7_49(int n) { int i = -3; int s = 0; while (i <= 1) { if (i > -1) --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_50",
+   "source": "int rnd_baseline_7_50(int n) { int i = 4; int s = 0; while (i > 10) { if (i < 7) ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_51",
+   "source": "int rnd_baseline_7_51(int n) { int i = 0; int s = 0; while (i <= n) { --i; ++i; s += i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_52",
+   "source": "int rnd_baseline_7_52(int n) { int i = 1; int s = 0; while (i <= 5) { if (i < 4) ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_53",
+   "source": "int rnd_baseline_7_53(int n) { int i = 0; int s = 0; while (i <= 10) { s += i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 11,
+    "state": {
+     "i": 11,
+     "s": 55
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_54",
+   "source": "int rnd_baseline_7_54(int n) { int i = 1; int s = 0; while (i > 0) { { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_55",
+   "source": "int rnd_baseline_7_55(int n) { int i = 1; int s = 0; while (i > n) { { ++i; --i; } s += i; ++i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_56",
+   "source": "int rnd_baseline_7_56(int n) { int i = -3; int s = 0; while (i <= 1) { { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_57",
+   "source": "int rnd_baseline_7_57(int n) { int i = 4; int s = 0; while (i < 3) { ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_58",
+   "source": "int rnd_baseline_7_58(int n) { int i = 4; int s = 0; while (i < 0) { ++i; s += i; { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_59",
+   "source": "int rnd_baseline_7_59(int n) { int i = 0; int s = 0; while (i > n) { --i; i++; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_60",
+   "source": "int rnd_baseline_7_60(int n) { int i = 1; int s = 0; while (i <= 5) { if (i < 4) ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_61",
+   "source": "int rnd_baseline_7_61(int n) { int i = 4; int s = 0; while (i > 5) { ++i; s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_62",
+   "source": "int rnd_baseline_7_62(int n) { int i = 1; int s = 0; while (i >= 5) { s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_63",
+   "source": "int rnd_baseline_7_63(int n) { int i = 1; int s = 0; while (i < n) { { ++i; --i; } ++i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 9,
+    "state": {
+     "i": 10,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_64",
+   "source": "int rnd_baseline_7_64(int n) { int i = 1; int s = 0; while (i > 10) { i += 1; ++i; s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_65",
+   "source": "int rnd_baseline_7_65(int n) { int i = 0; int s = 0; while (i < 1) { i++; if (i < 3) ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 1,
+    "state": {
+     "i": 2,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_66",
+   "source": "int rnd_baseline_7_66(int n) { int i = -3; int s = 0; while (i > 0) { s += i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_67",
+   "source": "int rnd_baseline_7_67(int n) { int i = 1; int s = 0; while (i <= n) { --i; if (i > 3) --i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -100000,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_68",
+   "source": "int rnd_baseline_7_68(int n) { int i = 1; int s = 0; while (i > 1) { i += 2; i += 2; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_69",
+   "source": "int rnd_baseline_7_69(int n) { int i = 4; int s = 0; while (i < 1) { i -= 1; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_70",
+   "source": "int rnd_baseline_7_70(int n) { int i = 4; int s = 0; while (i > 5) { ++i; i -= 1; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_71",
+   "source": "int rnd_baseline_7_71(int n) { int i = 0; int s = 0; while (i < n) { i -= 2; ++i; s += i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -100001,
+     "s": -5000150001
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_72",
+   "source": "int rnd_baseline_7_72(int n) { int i = 0; int s = 0; while (i <= 0) { if (i > 2) --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_73",
+   "source": "int rnd_baseline_7_73(int n) { int i = 1; int s = 0; while (i > 10) { i -= 3; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_74",
+   "source": "int rnd_baseline_7_74(int n) { int i = 4; int s = 0; while (i >= 10) { if (i < 7) ++i; if (i > 6) --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_75",
+   "source": "int rnd_baseline_7_75(int n) { int i = 0; int s = 0; while (i >= n) { s += i++; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_76",
+   "source": "int rnd_baseline_7_76(int n) { int i = -3; int s = 0; while (i <= 5) { --i; s += i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -3,
+     "s": -400004
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_77",
+   "source": "int rnd_baseline_7_77(int n) { int i = -3; int s = 0; while (i < 3) { if (i < 0) ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_78",
+   "source": "int rnd_baseline_7_78(int n) { int i = 4; int s = 0; while (i >= 5) { { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_79",
+   "source": "int rnd_baseline_7_79(int n) { int i = 1; int s = 0; while (i >= n) { i -= 3; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_80",
+   "source": "int rnd_baseline_7_80(int n) { int i = 4; int s = 0; while (i <= 1) { s += i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_81",
+   "source": "int rnd_baseline_7_81(int n) { int i = 1; int s = 0; while (i <= 5) { ++i; s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 5,
+    "state": {
+     "i": 6,
+     "s": 20
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_82",
+   "source": "int rnd_baseline_7_82(int n) { int i = 1; int s = 0; while (i >= 0) { { ++i; --i; } if (i < 4) ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_83",
+   "source": "int rnd_baseline_7_83(int n) { int i = 4; int s = 0; while (i > n) { { ++i; --i; } } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_84",
+   "source": "int rnd_baseline_7_84(int n) { int i = -3; int s = 0; while (i > 1) { s += i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_85",
+   "source": "int rnd_baseline_7_85(int n) { int i = 0; int s = 0; while (i > 5) { i++; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_86",
+   "source": "int rnd_baseline_7_86(int n) { int i = 4; int s = 0; while (i <= 5) { if (i > 6) --i; s += i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 2,
+    "state": {
+     "i": 6,
+     "s": 9
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_87",
+   "source": "int rnd_baseline_7_87(int n) { int i = 1; int s = 0; while (i < n) { ++i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 9,
+    "state": {
+     "i": 10,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_88",
+   "source": "int rnd_baseline_7_88(int n) { int i = 1; int s = 0; while (i < 10) { if (i < 4) ++i; ++i; s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 7,
+    "state": {
+     "i": 10,
+     "s": 48
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_89",
+   "source": "int rnd_baseline_7_89(int n) { int i = -3; int s = 0; while (i <= 3) { i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 7,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_90",
+   "source": "int rnd_baseline_7_90(int n) { int i = 1; int s = 0; while (i >= 5) { s += i; ++i; --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_91",
+   "source": "int rnd_baseline_7_91(int n) { int i = 1; int s = 0; while (i > n) { ++i; s += i; ++i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_92",
+   "source": "int rnd_baseline_7_92(int n) { int i = 1; int s = 0; while (i >= 0) { { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_93",
+   "source": "int rnd_baseline_7_93(int n) { int i = 4; int s = 0; while (i >= 3) { i += 1; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 100005,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_94",
+   "source": "int rnd_baseline_7_94(int n) { int i = -3; int s = 0; while (i <= 5) { i -= 3; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -300006,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_95",
+   "source": "int rnd_baseline_7_95(int n) { int i = 4; int s = 0; while (i > n) { --i; if (i > 6) --i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_96",
+   "source": "int rnd_baseline_7_96(int n) { int i = 0; int s = 0; while (i <= 5) { i++; s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 6,
+    "state": {
+     "i": 6,
+     "s": 21
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_97",
+   "source": "int rnd_baseline_7_97(int n) { int i = 4; int s = 0; while (i >= 5) { --i; s += i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_98",
+   "source": "int rnd_baseline_7_98(int n) { int i = -3; int s = 0; while (i < 1) { --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -100004,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_99",
+   "source": "int rnd_baseline_7_99(int n) { int i = 4; int s = 0; while (i >= n) { { ++i; --i; } } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_100",
+   "source": "int rnd_baseline_7_100(int n) { int i = 1; int s = 0; while (i >= 3) { { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_101",
+   "source": "int rnd_baseline_7_101(int n) { int i = 0; int s = 0; while (i < 3) { ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 3,
+    "state": {
+     "i": 3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_102",
+   "source": "int rnd_baseline_7_102(int n) { int i = -3; int s = 0; while (i < 3) { { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_103",
+   "source": "int rnd_baseline_7_103(int n) { int i = 0; int s = 0; while (i >= n) { --i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_104",
+   "source": "int rnd_baseline_7_104(int n) { int i = 1; int s = 0; while (i >= 10) { s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_105",
+   "source": "int rnd_baseline_7_105(int n) { int i = 4; int s = 0; while (i < 3) { s += i++; s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_106",
+   "source": "int rnd_baseline_7_106(int n) { int i = -3; int s = 0; while (i < 3) { s += i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 6,
+    "state": {
+     "i": 3,
+     "s": -3
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_107",
+   "source": "int rnd_baseline_7_107(int n) { int i = 4; int s = 0; while (i <= n) { ++i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 7,
+    "state": {
+     "i": 11,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_108",
+   "source": "int rnd_baseline_7_108(int n) { int i = 4; int s = 0; while (i >= 3) { if (i < 7) ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 7,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_109",
+   "source": "int rnd_baseline_7_109(int n) { int i = 0; int s = 0; while (i < 5) { i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 5,
+    "state": {
+     "i": 5,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_110",
+   "source": "int rnd_baseline_7_110(int n) { int i = 1; int s = 0; while (i < 1) { s += i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_111",
+   "source": "int rnd_baseline_7_111(int n) { int i = 4; int s = 0; while (i > n) { s += i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_112",
+   "source": "int rnd_baseline_7_112(int n) { int i = 4; int s = 0; while (i <= 0) { i++; i += 1; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_113",
+   "source": "int rnd_baseline_7_113(int n) { int i = 4; int s = 0; while (i < 3) { s += i++; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_114",
+   "source": "int rnd_baseline_7_114(int n) { int i = 1; int s = 0; while (i <= 1) { s += i++; i -= 2; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -100000,
+     "s": -4999949999
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": [
+    "INV2"
+   ]
+  },
+  {
+   "id": "rnd_baseline_7_115",
+   "source": "int rnd_baseline_7_115(int n) { int i = -3; int s = 0; while (i >= n) { if (i > -1) --i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_116",
+   "source": "int rnd_baseline_7_116(int n) { int i = 1; int s = 0; while (i >= 10) { if (i > 3) --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_117",
+   "source": "int rnd_baseline_7_117(int n) { int i = 1; int s = 0; while (i >= 5) { i -= 2; s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_118",
+   "source": "int rnd_baseline_7_118(int n) { int i = 4; int s = 0; while (i <= 3) { --i; { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_baseline_7_119",
+   "source": "int rnd_baseline_7_119(int n) { int i = 4; int s = 0; while (i > n) { i -= 3; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  }
+ ],
+ "startedForTask": "2026-10-17 analyzer bug hunt"
+}

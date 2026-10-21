@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-helper-fenwick-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_fenwickPrefix_fen1",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "fenwick",
+        "class-methods",
+        "prefix-sum"
+      ],
+      "algorithmFamily": "fenwick-tree",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n",
+        "values"
+      ],
+      "proof": "Each update/query walks one lowbit chain of length logarithmic in n.",
+      "assumptions": "The Fenwick tree stores one indexed array of size n.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-helper-fenwick-01"
+    }
+  ]
+}

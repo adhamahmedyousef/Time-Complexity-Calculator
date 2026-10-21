@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-authored-pack-level0-18",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-authored-pack-level0-18",
+      "symbol": "pack_level0_authored_pack_f",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "recursion"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Linear recursion decreases the argument by one.",
+      "assumptions": "Primitive operations are constant time.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-authored-pack-level0-18"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-dp-patterns",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-bitmask-dp-hamilton-01",
+      "symbol": "pack_cp_requested_dataset_pack_bitmaskDpHamilton_1",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "estimated",
+      "tags": [
+        "dp",
+        "bitmask",
+        "hamilton"
+      ],
+      "inputSymbols": [
+        "n",
+        "dp"
+      ],
+      "proof": "Subset states are combined with all possible endpoints and predecessors.",
+      "assumptions": "Mask space is 2^n.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-bitmask-dp-hamilton-01"
+    }
+  ]
+}

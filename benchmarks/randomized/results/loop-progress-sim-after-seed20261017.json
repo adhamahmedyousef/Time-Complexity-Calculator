@@ -1,0 +1,2297 @@
+{
+ "campaign": "loop-progress-sim",
+ "label": "after",
+ "seed": 20261017,
+ "caseCount": 120,
+ "dist": "C:\\Users\\j\\OneDrive\\Desktop\\Project-X\\analyzer\\dist\\index.js",
+ "invariants": {
+  "INV1": "simulated termination => engine must not claim non-termination",
+  "INV2": "simulated non-termination => engine must not claim a finite bound",
+  "INV3": "literal-bound O(1) claim => simulated trip count <= 100"
+ },
+ "cap": 100000,
+ "violations": [],
+ "records": [
+  {
+   "id": "rnd_after_20261017_0",
+   "source": "int rnd_after_20261017_0(int n) { int i = -3; int s = 0; while (i <= 0) { i -= 2; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -200005,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_1",
+   "source": "int rnd_after_20261017_1(int n) { int i = -3; int s = 0; while (i <= 0) { s += i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 4,
+    "state": {
+     "i": 1,
+     "s": -6
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_2",
+   "source": "int rnd_after_20261017_2(int n) { int i = 0; int s = 0; while (i >= 10) { if (i < 3) ++i; { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_3",
+   "source": "int rnd_after_20261017_3(int n) { int i = 4; int s = 0; while (i >= n) { if (i < 7) ++i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_4",
+   "source": "int rnd_after_20261017_4(int n) { int i = 4; int s = 0; while (i > 3) { i += 1; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 100005,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_5",
+   "source": "int rnd_after_20261017_5(int n) { int i = 4; int s = 0; while (i > 10) { i -= 1; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_6",
+   "source": "int rnd_after_20261017_6(int n) { int i = 4; int s = 0; while (i >= 5) { i++; s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_7",
+   "source": "int rnd_after_20261017_7(int n) { int i = 0; int s = 0; while (i > n) { --i; ++i; s += i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_8",
+   "source": "int rnd_after_20261017_8(int n) { int i = -3; int s = 0; while (i >= 5) { { ++i; --i; } ++i; s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_9",
+   "source": "int rnd_after_20261017_9(int n) { int i = -3; int s = 0; while (i < 3) { if (i > -1) --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_10",
+   "source": "int rnd_after_20261017_10(int n) { int i = 1; int s = 0; while (i <= 1) { i -= 1; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -100000,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_11",
+   "source": "int rnd_after_20261017_11(int n) { int i = 1; int s = 0; while (i < n) { i++; if (i < 4) ++i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 8,
+    "state": {
+     "i": 10,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_12",
+   "source": "int rnd_after_20261017_12(int n) { int i = -3; int s = 0; while (i > 1) { if (i < 0) ++i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_13",
+   "source": "int rnd_after_20261017_13(int n) { int i = 4; int s = 0; while (i >= 10) { i += 1; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_14",
+   "source": "int rnd_after_20261017_14(int n) { int i = -3; int s = 0; while (i <= 10) { --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -100004,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_15",
+   "source": "int rnd_after_20261017_15(int n) { int i = -3; int s = 0; while (i >= n) { s += i++; ++i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_16",
+   "source": "int rnd_after_20261017_16(int n) { int i = 1; int s = 0; while (i > 0) { i += 3; if (i < 4) ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 300004,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_17",
+   "source": "int rnd_after_20261017_17(int n) { int i = 4; int s = 0; while (i > 0) { ++i; s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 100005,
+     "s": 5000550005
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_18",
+   "source": "int rnd_after_20261017_18(int n) { int i = -3; int s = 0; while (i > 0) { s += i++; i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_19",
+   "source": "int rnd_after_20261017_19(int n) { int i = -3; int s = 0; while (i >= n) { i++; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_20",
+   "source": "int rnd_after_20261017_20(int n) { int i = 0; int s = 0; while (i >= 5) { { ++i; --i; } { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_21",
+   "source": "int rnd_after_20261017_21(int n) { int i = 0; int s = 0; while (i >= 10) { ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_22",
+   "source": "int rnd_after_20261017_22(int n) { int i = -3; int s = 0; while (i > 0) { if (i > -1) --i; if (i < 0) ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_23",
+   "source": "int rnd_after_20261017_23(int n) { int i = 0; int s = 0; while (i <= n) { s += i; ++i; --i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_24",
+   "source": "int rnd_after_20261017_24(int n) { int i = 0; int s = 0; while (i > 3) { i += 3; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_25",
+   "source": "int rnd_after_20261017_25(int n) { int i = 0; int s = 0; while (i < 3) { if (i < 3) ++i; i += 3; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 1,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_26",
+   "source": "int rnd_after_20261017_26(int n) { int i = 0; int s = 0; while (i > 1) { s += i++; i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_27",
+   "source": "int rnd_after_20261017_27(int n) { int i = -3; int s = 0; while (i < n) { if (i < 0) ++i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_28",
+   "source": "int rnd_after_20261017_28(int n) { int i = -3; int s = 0; while (i >= 1) { i += 3; s += i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_29",
+   "source": "int rnd_after_20261017_29(int n) { int i = 4; int s = 0; while (i > 10) { --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_30",
+   "source": "int rnd_after_20261017_30(int n) { int i = 1; int s = 0; while (i > 5) { ++i; s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_31",
+   "source": "int rnd_after_20261017_31(int n) { int i = 4; int s = 0; while (i >= n) { s += i; ++i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_32",
+   "source": "int rnd_after_20261017_32(int n) { int i = 4; int s = 0; while (i < 1) { s += i; s += i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_33",
+   "source": "int rnd_after_20261017_33(int n) { int i = -3; int s = 0; while (i >= 1) { i++; --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_34",
+   "source": "int rnd_after_20261017_34(int n) { int i = 4; int s = 0; while (i < 3) { if (i > 6) --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_35",
+   "source": "int rnd_after_20261017_35(int n) { int i = 4; int s = 0; while (i >= n) { i += 2; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_36",
+   "source": "int rnd_after_20261017_36(int n) { int i = 0; int s = 0; while (i < 10) { s += i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 10,
+    "state": {
+     "i": 10,
+     "s": 45
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_37",
+   "source": "int rnd_after_20261017_37(int n) { int i = 4; int s = 0; while (i >= 10) { if (i < 7) ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_38",
+   "source": "int rnd_after_20261017_38(int n) { int i = -3; int s = 0; while (i <= 1) { s += i; ++i; s += i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 3,
+    "state": {
+     "i": 3,
+     "s": -3
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_39",
+   "source": "int rnd_after_20261017_39(int n) { int i = 1; int s = 0; while (i > n) { ++i; s += i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_40",
+   "source": "int rnd_after_20261017_40(int n) { int i = 1; int s = 0; while (i < 3) { ++i; s += i; i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 1,
+    "state": {
+     "i": 3,
+     "s": 2
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_41",
+   "source": "int rnd_after_20261017_41(int n) { int i = 4; int s = 0; while (i <= 1) { i++; { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_42",
+   "source": "int rnd_after_20261017_42(int n) { int i = 1; int s = 0; while (i <= 10) { ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 10,
+    "state": {
+     "i": 11,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_43",
+   "source": "int rnd_after_20261017_43(int n) { int i = 0; int s = 0; while (i > n) { ++i; s += i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_44",
+   "source": "int rnd_after_20261017_44(int n) { int i = -3; int s = 0; while (i < 5) { s += i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 8,
+    "state": {
+     "i": 5,
+     "s": 4
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_45",
+   "source": "int rnd_after_20261017_45(int n) { int i = -3; int s = 0; while (i <= 10) { ++i; { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 14,
+    "state": {
+     "i": 11,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_46",
+   "source": "int rnd_after_20261017_46(int n) { int i = 4; int s = 0; while (i < 1) { { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_47",
+   "source": "int rnd_after_20261017_47(int n) { int i = 0; int s = 0; while (i >= n) { i += 1; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_48",
+   "source": "int rnd_after_20261017_48(int n) { int i = -3; int s = 0; while (i > 3) { ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_49",
+   "source": "int rnd_after_20261017_49(int n) { int i = 4; int s = 0; while (i >= 10) { i += 2; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_50",
+   "source": "int rnd_after_20261017_50(int n) { int i = 1; int s = 0; while (i < 10) { --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -100000,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_51",
+   "source": "int rnd_after_20261017_51(int n) { int i = 1; int s = 0; while (i >= n) { ++i; if (i > 3) --i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_52",
+   "source": "int rnd_after_20261017_52(int n) { int i = 0; int s = 0; while (i <= 3) { if (i < 3) ++i; s += i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 2,
+    "state": {
+     "i": 4,
+     "s": 4
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_53",
+   "source": "int rnd_after_20261017_53(int n) { int i = -3; int s = 0; while (i > 1) { --i; i += 3; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_54",
+   "source": "int rnd_after_20261017_54(int n) { int i = 0; int s = 0; while (i <= 3) { i -= 2; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -200002,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_55",
+   "source": "int rnd_after_20261017_55(int n) { int i = 4; int s = 0; while (i < n) { s += i; s += i; ++i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 6,
+    "state": {
+     "i": 10,
+     "s": 78
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_56",
+   "source": "int rnd_after_20261017_56(int n) { int i = -3; int s = 0; while (i <= 0) { --i; s += i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -3,
+     "s": -400004
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_57",
+   "source": "int rnd_after_20261017_57(int n) { int i = 4; int s = 0; while (i >= 0) { s += i; --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 5,
+    "state": {
+     "i": -1,
+     "s": 10
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_58",
+   "source": "int rnd_after_20261017_58(int n) { int i = -3; int s = 0; while (i < 3) { s += i; s += i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 6,
+    "state": {
+     "i": 3,
+     "s": -6
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_59",
+   "source": "int rnd_after_20261017_59(int n) { int i = -3; int s = 0; while (i <= n) { s += i; ++i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 14,
+    "state": {
+     "i": 11,
+     "s": 49
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_60",
+   "source": "int rnd_after_20261017_60(int n) { int i = 0; int s = 0; while (i > 10) { if (i > 2) --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_61",
+   "source": "int rnd_after_20261017_61(int n) { int i = 1; int s = 0; while (i < 10) { i += 2; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 5,
+    "state": {
+     "i": 11,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_62",
+   "source": "int rnd_after_20261017_62(int n) { int i = 0; int s = 0; while (i > 1) { s += i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_63",
+   "source": "int rnd_after_20261017_63(int n) { int i = 1; int s = 0; while (i > n) { i += 3; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_64",
+   "source": "int rnd_after_20261017_64(int n) { int i = 4; int s = 0; while (i >= 5) { --i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_65",
+   "source": "int rnd_after_20261017_65(int n) { int i = 4; int s = 0; while (i < 0) { if (i < 7) ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_66",
+   "source": "int rnd_after_20261017_66(int n) { int i = 0; int s = 0; while (i > 0) { s += i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_67",
+   "source": "int rnd_after_20261017_67(int n) { int i = -3; int s = 0; while (i < n) { if (i < 0) ++i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_68",
+   "source": "int rnd_after_20261017_68(int n) { int i = 0; int s = 0; while (i <= 0) { i++; s += i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 1,
+    "state": {
+     "i": 2,
+     "s": 1
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_69",
+   "source": "int rnd_after_20261017_69(int n) { int i = 4; int s = 0; while (i < 5) { ++i; s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 1,
+    "state": {
+     "i": 5,
+     "s": 5
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_70",
+   "source": "int rnd_after_20261017_70(int n) { int i = 0; int s = 0; while (i >= 3) { --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_71",
+   "source": "int rnd_after_20261017_71(int n) { int i = -3; int s = 0; while (i < n) { --i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -100004,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_72",
+   "source": "int rnd_after_20261017_72(int n) { int i = 1; int s = 0; while (i <= 0) { if (i < 4) ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_73",
+   "source": "int rnd_after_20261017_73(int n) { int i = 0; int s = 0; while (i < 5) { --i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_74",
+   "source": "int rnd_after_20261017_74(int n) { int i = 4; int s = 0; while (i <= 1) { i -= 2; i -= 3; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_75",
+   "source": "int rnd_after_20261017_75(int n) { int i = 4; int s = 0; while (i >= n) { ++i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_76",
+   "source": "int rnd_after_20261017_76(int n) { int i = 1; int s = 0; while (i > 1) { i -= 3; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_77",
+   "source": "int rnd_after_20261017_77(int n) { int i = 0; int s = 0; while (i < 10) { i -= 2; s += i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -100001,
+     "s": -5000250002
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_78",
+   "source": "int rnd_after_20261017_78(int n) { int i = -3; int s = 0; while (i < 1) { { ++i; --i; } --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -100004,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_79",
+   "source": "int rnd_after_20261017_79(int n) { int i = 1; int s = 0; while (i < n) { --i; ++i; s += i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 1,
+     "s": 100001
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_80",
+   "source": "int rnd_after_20261017_80(int n) { int i = -3; int s = 0; while (i < 10) { ++i; i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 7,
+    "state": {
+     "i": 11,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_81",
+   "source": "int rnd_after_20261017_81(int n) { int i = 0; int s = 0; while (i >= 5) { s += i; if (i < 3) ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_82",
+   "source": "int rnd_after_20261017_82(int n) { int i = -3; int s = 0; while (i > 10) { if (i < 0) ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_83",
+   "source": "int rnd_after_20261017_83(int n) { int i = 4; int s = 0; while (i < n) { ++i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 6,
+    "state": {
+     "i": 10,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_84",
+   "source": "int rnd_after_20261017_84(int n) { int i = 0; int s = 0; while (i >= 5) { ++i; ++i; s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_85",
+   "source": "int rnd_after_20261017_85(int n) { int i = -3; int s = 0; while (i < 1) { i += 1; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 4,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_86",
+   "source": "int rnd_after_20261017_86(int n) { int i = 1; int s = 0; while (i < 3) { --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -100000,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_87",
+   "source": "int rnd_after_20261017_87(int n) { int i = 1; int s = 0; while (i >= n) { i -= 3; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_88",
+   "source": "int rnd_after_20261017_88(int n) { int i = 1; int s = 0; while (i <= 0) { s += i++; s += i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_89",
+   "source": "int rnd_after_20261017_89(int n) { int i = 1; int s = 0; while (i >= 5) { i++; --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_90",
+   "source": "int rnd_after_20261017_90(int n) { int i = 0; int s = 0; while (i < 3) { i++; s += i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 2,
+    "state": {
+     "i": 4,
+     "s": 4
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_91",
+   "source": "int rnd_after_20261017_91(int n) { int i = 4; int s = 0; while (i >= n) { if (i > 6) --i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_92",
+   "source": "int rnd_after_20261017_92(int n) { int i = 1; int s = 0; while (i <= 3) { { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_93",
+   "source": "int rnd_after_20261017_93(int n) { int i = 0; int s = 0; while (i < 5) { i -= 2; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -200002,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_94",
+   "source": "int rnd_after_20261017_94(int n) { int i = 4; int s = 0; while (i < 1) { s += i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_95",
+   "source": "int rnd_after_20261017_95(int n) { int i = 1; int s = 0; while (i < n) { s += i; ++i; s += i++; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 5,
+    "state": {
+     "i": 11,
+     "s": 55
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_96",
+   "source": "int rnd_after_20261017_96(int n) { int i = 4; int s = 0; while (i <= 0) { s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_97",
+   "source": "int rnd_after_20261017_97(int n) { int i = 4; int s = 0; while (i <= 0) { if (i < 7) ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_98",
+   "source": "int rnd_after_20261017_98(int n) { int i = -3; int s = 0; while (i < 0) { --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -100004,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_99",
+   "source": "int rnd_after_20261017_99(int n) { int i = -3; int s = 0; while (i <= n) { --i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -100004,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_100",
+   "source": "int rnd_after_20261017_100(int n) { int i = 4; int s = 0; while (i <= 0) { { ++i; --i; } } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_101",
+   "source": "int rnd_after_20261017_101(int n) { int i = 0; int s = 0; while (i < 3) { { ++i; --i; } ++i; s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 3,
+    "state": {
+     "i": 3,
+     "s": 6
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_102",
+   "source": "int rnd_after_20261017_102(int n) { int i = 4; int s = 0; while (i > 1) { ++i; i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 200006,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_103",
+   "source": "int rnd_after_20261017_103(int n) { int i = 0; int s = 0; while (i > n) { if (i > 2) --i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_104",
+   "source": "int rnd_after_20261017_104(int n) { int i = 1; int s = 0; while (i >= 1) { ++i; s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 100002,
+     "s": 5000250002
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_105",
+   "source": "int rnd_after_20261017_105(int n) { int i = 4; int s = 0; while (i < 1) { --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_106",
+   "source": "int rnd_after_20261017_106(int n) { int i = 4; int s = 0; while (i > 0) { ++i; s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": 100005,
+     "s": 5000550005
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_107",
+   "source": "int rnd_after_20261017_107(int n) { int i = 1; int s = 0; while (i >= n) { i += 2; i++; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_108",
+   "source": "int rnd_after_20261017_108(int n) { int i = 1; int s = 0; while (i >= 10) { --i; s += i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_109",
+   "source": "int rnd_after_20261017_109(int n) { int i = -3; int s = 0; while (i >= 10) { if (i < 0) ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_110",
+   "source": "int rnd_after_20261017_110(int n) { int i = 1; int s = 0; while (i <= 1) { { ++i; --i; } s += i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 1,
+    "state": {
+     "i": 2,
+     "s": 1
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_111",
+   "source": "int rnd_after_20261017_111(int n) { int i = 4; int s = 0; while (i >= n) { s += i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_112",
+   "source": "int rnd_after_20261017_112(int n) { int i = 4; int s = 0; while (i < 0) { i -= 1; i += 2; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 4,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_113",
+   "source": "int rnd_after_20261017_113(int n) { int i = 0; int s = 0; while (i <= 5) { i -= 2; if (i > 2) --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -200002,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_114",
+   "source": "int rnd_after_20261017_114(int n) { int i = 0; int s = 0; while (i >= 10) { i++; ++i; s += i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_115",
+   "source": "int rnd_after_20261017_115(int n) { int i = 1; int s = 0; while (i < n) { if (i < 4) ++i; s += i; ++i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 7,
+    "state": {
+     "i": 10,
+     "s": 41
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_116",
+   "source": "int rnd_after_20261017_116(int n) { int i = -3; int s = 0; while (i > 0) { --i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_117",
+   "source": "int rnd_after_20261017_117(int n) { int i = -3; int s = 0; while (i > 3) { s += i; ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": -3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_118",
+   "source": "int rnd_after_20261017_118(int n) { int i = 4; int s = 0; while (i < 10) { i += 1; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 6,
+    "state": {
+     "i": 10,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_after_20261017_119",
+   "source": "int rnd_after_20261017_119(int n) { int i = 1; int s = 0; while (i > n) { s += i; i -= 3; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 1,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  }
+ ],
+ "startedForTask": "2026-10-17 analyzer bug hunt"
+}

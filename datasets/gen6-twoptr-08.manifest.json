@@ -1,0 +1,376 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen6-twoptr-08-isPalindromeScan_63",
+   "symbol": "isPalindromeScan_63",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-isSortedAscending_63",
+   "symbol": "isSortedAscending_63",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-sortedSquaresMerge_63",
+   "symbol": "sortedSquaresMerge_63",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-slidingWindowAverage_63",
+   "symbol": "slidingWindowAverage_63",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-twoSumSortedTarget_64",
+   "symbol": "twoSumSortedTarget_64",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-twoSumLessThanK_64",
+   "symbol": "twoSumLessThanK_64",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-containerMostWater_64",
+   "symbol": "containerMostWater_64",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-trappingRainWater_64",
+   "symbol": "trappingRainWater_64",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-removeDuplicatesFast_64",
+   "symbol": "removeDuplicatesFast_64",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-removeTargetVal_64",
+   "symbol": "removeTargetVal_64",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-moveZeroesInPlace_64",
+   "symbol": "moveZeroesInPlace_64",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-isPalindromeScan_64",
+   "symbol": "isPalindromeScan_64",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-isSortedAscending_64",
+   "symbol": "isSortedAscending_64",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-sortedSquaresMerge_64",
+   "symbol": "sortedSquaresMerge_64",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-slidingWindowAverage_64",
+   "symbol": "slidingWindowAverage_64",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-twoSumSortedTarget_65",
+   "symbol": "twoSumSortedTarget_65",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-twoSumLessThanK_65",
+   "symbol": "twoSumLessThanK_65",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-containerMostWater_65",
+   "symbol": "containerMostWater_65",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-trappingRainWater_65",
+   "symbol": "trappingRainWater_65",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-removeDuplicatesFast_65",
+   "symbol": "removeDuplicatesFast_65",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-removeTargetVal_65",
+   "symbol": "removeTargetVal_65",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-moveZeroesInPlace_65",
+   "symbol": "moveZeroesInPlace_65",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-isPalindromeScan_65",
+   "symbol": "isPalindromeScan_65",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-isSortedAscending_65",
+   "symbol": "isSortedAscending_65",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-sortedSquaresMerge_65",
+   "symbol": "sortedSquaresMerge_65",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-slidingWindowAverage_65",
+   "symbol": "slidingWindowAverage_65",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-twoSumSortedTarget_66",
+   "symbol": "twoSumSortedTarget_66",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-twoSumLessThanK_66",
+   "symbol": "twoSumLessThanK_66",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-containerMostWater_66",
+   "symbol": "containerMostWater_66",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-trappingRainWater_66",
+   "symbol": "trappingRainWater_66",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-removeDuplicatesFast_66",
+   "symbol": "removeDuplicatesFast_66",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-removeTargetVal_66",
+   "symbol": "removeTargetVal_66",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-moveZeroesInPlace_66",
+   "symbol": "moveZeroesInPlace_66",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-isPalindromeScan_66",
+   "symbol": "isPalindromeScan_66",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-isSortedAscending_66",
+   "symbol": "isSortedAscending_66",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-sortedSquaresMerge_66",
+   "symbol": "sortedSquaresMerge_66",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "gen6-twoptr-08-slidingWindowAverage_66",
+   "symbol": "slidingWindowAverage_66",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "window"
+   ]
+  }
+ ]
+}

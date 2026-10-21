@@ -1,0 +1,1006 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen6-dsu-02-dsuCountSets_33",
+   "symbol": "dsuCountSets_33",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_33",
+   "symbol": "dsuFindRoot_33",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_34",
+   "symbol": "dsuInitParent_34",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_34",
+   "symbol": "dsuCountSets_34",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_34",
+   "symbol": "dsuFindRoot_34",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_35",
+   "symbol": "dsuInitParent_35",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_35",
+   "symbol": "dsuCountSets_35",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_35",
+   "symbol": "dsuFindRoot_35",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_36",
+   "symbol": "dsuInitParent_36",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_36",
+   "symbol": "dsuCountSets_36",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_36",
+   "symbol": "dsuFindRoot_36",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_37",
+   "symbol": "dsuInitParent_37",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_37",
+   "symbol": "dsuCountSets_37",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_37",
+   "symbol": "dsuFindRoot_37",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_38",
+   "symbol": "dsuInitParent_38",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_38",
+   "symbol": "dsuCountSets_38",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_38",
+   "symbol": "dsuFindRoot_38",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_39",
+   "symbol": "dsuInitParent_39",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_39",
+   "symbol": "dsuCountSets_39",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_39",
+   "symbol": "dsuFindRoot_39",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_40",
+   "symbol": "dsuInitParent_40",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_40",
+   "symbol": "dsuCountSets_40",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_40",
+   "symbol": "dsuFindRoot_40",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_41",
+   "symbol": "dsuInitParent_41",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_41",
+   "symbol": "dsuCountSets_41",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_41",
+   "symbol": "dsuFindRoot_41",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_42",
+   "symbol": "dsuInitParent_42",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_42",
+   "symbol": "dsuCountSets_42",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_42",
+   "symbol": "dsuFindRoot_42",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_43",
+   "symbol": "dsuInitParent_43",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_43",
+   "symbol": "dsuCountSets_43",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_43",
+   "symbol": "dsuFindRoot_43",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_44",
+   "symbol": "dsuInitParent_44",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_44",
+   "symbol": "dsuCountSets_44",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_44",
+   "symbol": "dsuFindRoot_44",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_45",
+   "symbol": "dsuInitParent_45",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_45",
+   "symbol": "dsuCountSets_45",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_45",
+   "symbol": "dsuFindRoot_45",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_46",
+   "symbol": "dsuInitParent_46",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_46",
+   "symbol": "dsuCountSets_46",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_46",
+   "symbol": "dsuFindRoot_46",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_47",
+   "symbol": "dsuInitParent_47",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_47",
+   "symbol": "dsuCountSets_47",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_47",
+   "symbol": "dsuFindRoot_47",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_48",
+   "symbol": "dsuInitParent_48",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_48",
+   "symbol": "dsuCountSets_48",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_48",
+   "symbol": "dsuFindRoot_48",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_49",
+   "symbol": "dsuInitParent_49",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_49",
+   "symbol": "dsuCountSets_49",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_49",
+   "symbol": "dsuFindRoot_49",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_50",
+   "symbol": "dsuInitParent_50",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_50",
+   "symbol": "dsuCountSets_50",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_50",
+   "symbol": "dsuFindRoot_50",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_51",
+   "symbol": "dsuInitParent_51",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_51",
+   "symbol": "dsuCountSets_51",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_51",
+   "symbol": "dsuFindRoot_51",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_52",
+   "symbol": "dsuInitParent_52",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_52",
+   "symbol": "dsuCountSets_52",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_52",
+   "symbol": "dsuFindRoot_52",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_53",
+   "symbol": "dsuInitParent_53",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_53",
+   "symbol": "dsuCountSets_53",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_53",
+   "symbol": "dsuFindRoot_53",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_54",
+   "symbol": "dsuInitParent_54",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_54",
+   "symbol": "dsuCountSets_54",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_54",
+   "symbol": "dsuFindRoot_54",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_55",
+   "symbol": "dsuInitParent_55",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_55",
+   "symbol": "dsuCountSets_55",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_55",
+   "symbol": "dsuFindRoot_55",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_56",
+   "symbol": "dsuInitParent_56",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_56",
+   "symbol": "dsuCountSets_56",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_56",
+   "symbol": "dsuFindRoot_56",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_57",
+   "symbol": "dsuInitParent_57",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_57",
+   "symbol": "dsuCountSets_57",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_57",
+   "symbol": "dsuFindRoot_57",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_58",
+   "symbol": "dsuInitParent_58",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_58",
+   "symbol": "dsuCountSets_58",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_58",
+   "symbol": "dsuFindRoot_58",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_59",
+   "symbol": "dsuInitParent_59",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_59",
+   "symbol": "dsuCountSets_59",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_59",
+   "symbol": "dsuFindRoot_59",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_60",
+   "symbol": "dsuInitParent_60",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_60",
+   "symbol": "dsuCountSets_60",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_60",
+   "symbol": "dsuFindRoot_60",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_61",
+   "symbol": "dsuInitParent_61",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_61",
+   "symbol": "dsuCountSets_61",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_61",
+   "symbol": "dsuFindRoot_61",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_62",
+   "symbol": "dsuInitParent_62",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_62",
+   "symbol": "dsuCountSets_62",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_62",
+   "symbol": "dsuFindRoot_62",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_63",
+   "symbol": "dsuInitParent_63",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_63",
+   "symbol": "dsuCountSets_63",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_63",
+   "symbol": "dsuFindRoot_63",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_64",
+   "symbol": "dsuInitParent_64",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_64",
+   "symbol": "dsuCountSets_64",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_64",
+   "symbol": "dsuFindRoot_64",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_65",
+   "symbol": "dsuInitParent_65",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_65",
+   "symbol": "dsuCountSets_65",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuFindRoot_65",
+   "symbol": "dsuFindRoot_65",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuInitParent_66",
+   "symbol": "dsuInitParent_66",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen6-dsu-02-dsuCountSets_66",
+   "symbol": "dsuCountSets_66",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  }
+ ]
+}

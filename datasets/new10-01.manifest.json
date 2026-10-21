@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "new10-01",
+      "symbol": "solve",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "math",
+        "combinatorics",
+        "modular-arithmetic",
+        "binary-exponentiation",
+        "factorials",
+        "modular-inverse"
+      ],
+      "inputSymbols": [
+        "n",
+        "t"
+      ],
+      "proof": "The algorithm performs two O(n) factorial passes. MOD is a compile-time constant in this source, so the one binary exponentiation is O(1) with respect to input n.",
+      "assumptions": "MOD is prime.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

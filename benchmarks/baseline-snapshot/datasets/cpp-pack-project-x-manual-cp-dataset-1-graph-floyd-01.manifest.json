@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-graph-floyd-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_floydWarshall_fl1",
+      "time": "O(V^3)",
+      "space": "O(V^2)",
+      "confidence": "exact",
+      "tags": [
+        "graphs",
+        "apsp",
+        "matrix-dp"
+      ],
+      "algorithmFamily": "floyd-warshall",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "V",
+        "dist"
+      ],
+      "proof": "Three nested loops over the vertex set give cubic time and quadratic storage.",
+      "assumptions": "Distance matrix size is the vertex count.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-graph-floyd-01"
+    }
+  ]
+}

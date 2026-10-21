@@ -1,0 +1,566 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "cpp-stl-adversarial",
+  "reviewedBy": "authored-batch",
+  "cases": [
+    {
+      "id": "stl-case-vector-erase-loop-quadratic",
+      "symbol": "stlCaseVectorEraseLoopQuadratic",
+      "time": "O(n^2)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "vector",
+        "erase",
+        "quadratic"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "Erasing from the middle of a vector shifts the suffix each time, so repeated middle erases are quadratic.",
+      "assumptions": "a is a standard vector.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "stl-case-rotate-inside-loop",
+      "symbol": "stlCaseRotateInsideLoop",
+      "time": "O(n^2)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "vector",
+        "rotate",
+        "quadratic"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "Each rotate touches the full vector, and it is repeated once per element.",
+      "assumptions": "a is a standard vector.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "stl-case-nth-element-repeated",
+      "symbol": "stlCaseNthElementRepeated",
+      "time": "O(n^2)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "algorithm",
+        "nth_element",
+        "repeated"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "A single nth_element is linear on average, but repeating it over growing prefixes yields quadratic total work.",
+      "assumptions": "a is a standard vector.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "stl-case-deque-monotonic-max",
+      "symbol": "stlCaseDequeMonotonicMax",
+      "time": "O(n)",
+      "space": "O(k)",
+      "confidence": "exact",
+      "tags": [
+        "deque",
+        "monotonic-queue",
+        "sliding-window"
+      ],
+      "inputSymbols": [
+        "a",
+        "k"
+      ],
+      "proof": "Each index enters and leaves the deque at most once, so the amortized complexity is linear.",
+      "assumptions": "k is positive.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "stl-case-list-splice-blocks",
+      "symbol": "stlCaseListSpliceBlocks",
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "list",
+        "splice",
+        "blocks"
+      ],
+      "inputSymbols": [
+        "lst",
+        "blockSize"
+      ],
+      "proof": "list::splice relinks nodes in constant time per moved range, and each node moves at most once.",
+      "assumptions": "blockSize is positive.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "stl-case-list-sort-chunks",
+      "symbol": "stlCaseListSortChunks",
+      "time": "O(n log n)",
+      "space": "O(log n)",
+      "confidence": "exact",
+      "tags": [
+        "list",
+        "sort",
+        "merge-sort"
+      ],
+      "inputSymbols": [
+        "lst"
+      ],
+      "proof": "list::sort uses a merge-based strategy whose standard bound is O(n log n).",
+      "assumptions": "lst is a standard list.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "stl-case-multiset-median-maintenance",
+      "symbol": "stlCaseMultisetMedianMaintenance",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "multiset",
+        "median",
+        "balanced-bst"
+
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "Each insertion and rebalancing step uses multiset operations that cost logarithmic time.",
+      "assumptions": "a is a standard vector.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "stl-case-unordered-bad-hash-distinct",
+      "symbol": "stlCaseUnorderedBadHashDistinct",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered-map",
+        "collision",
+        "adversarial"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "With a deliberately degenerate hash, every insert can scan a growing collision chain, giving quadratic worst-case time.",
+      "assumptions": "The custom hash collapses all keys to the same bucket.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "stl-case-unordered-bad-hash-group-sum",
+      "symbol": "stlCaseUnorderedBadHashGroupSum",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered-set",
+        "collision",
+        "adversarial"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "The worst case matches the degenerate hash-table collision chain behavior.",
+      "assumptions": "The custom hash collapses all keys to the same bucket.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "stlCaseUnorderedBadHashDistinct"
+    },
+    {
+      "id": "stl-case-priority-queue-k-way-merge",
+      "symbol": "stlCasePriorityQueueKWayMerge",
+      "time": "O(N log k)",
+      "space": "O(k)",
+      "confidence": "exact",
+      "tags": [
+        "priority-queue",
+        "k-way-merge",
+        "heap"
+      ],
+      "inputSymbols": [
+        "lists"
+      ],
+      "proof": "Every emitted element causes at most one heap pop and one push, each of which costs logarithmic time in the number of lists.",
+      "assumptions": "Each inner vector is sorted.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "stl-case-set-interval-union",
+      "symbol": "stlCaseSetIntervalUnion",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "intervals",
+        "sweep-line"
+      ],
+      "inputSymbols": [
+        "segs"
+      ],
+      "proof": "Sorting and ordered-set updates dominate; each interval causes logarithmic set work.",
+      "assumptions": "Intervals are finite integer pairs.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "stl-case-map-lower-bound-sweep",
+      "symbol": "stlCaseMapLowerBoundSweep",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "map",
+        "lower_bound",
+        "sweep"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "Each map lookup and increment costs logarithmic time in the number of distinct keys.",
+      "assumptions": "a is a standard vector.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "stl-case-heap-lazy-deletion",
+      "symbol": "stlCaseHeapLazyDeletion",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "priority-queue",
+        "lazy-deletion",
+        "heap"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "Each insertion and extraction from the heap is logarithmic, and lazy deletions only add constant bookkeeping.",
+      "assumptions": "a is a standard vector.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "stl-case-bitset-shift-knapsack",
+      "symbol": "stlCaseBitsetShiftKnapsack",
+      "time": "O(nW/64)",
+      "space": "O(W/64)",
+      "confidence": "exact",
+
+      "tags": [
+        "bitset",
+        "knapsack",
+        "word-parallel"
+      ],
+      "inputSymbols": [
+        "W",
+        "a"
+      ],
+      "proof": "The bitset is shifted and OR-ed wordwise for each item, so the runtime scales with the number of machine words.",
+      "assumptions": "All weights are non-negative.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "stl-case-remove-erase-pattern",
+      "symbol": "stlCaseRemoveErasePattern",
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "erase-remove",
+        "vector",
+        "filter"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "std::remove_if and erase each scan the vector once.",
+      "assumptions": "a is a standard vector.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "stl-case-unique-erase-sorted",
+      "symbol": "stlCaseUniqueEraseSorted",
+      "time": "O(n log n)",
+      "space": "O(log n)",
+      "confidence": "exact",
+      "tags": [
+        "sort",
+        "unique",
+        "erase-remove"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "Sorting dominates; unique and erase are linear after the sort.",
+      "assumptions": "a is a standard vector.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "stl-case-stable-partition-chain",
+      "symbol": "stlCaseStablePartitionChain",
+      "time": "O(n log n)",
+      "space": "O(log n)",
+      "confidence": "exact",
+      "tags": [
+        "stable-partition",
+        "algorithm",
+        "chain"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "Two stable_partition passes run on the same range and each is linearithmic in the standard library implementation assumption.",
+      "assumptions": "a is a standard vector.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "stl-case-forward-list-erase-after",
+      "symbol": "stlCaseForwardListEraseAfter",
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "forward_list",
+        "erase_after",
+        "single-pass"
+      ],
+      "inputSymbols": [
+        "fl"
+      ],
+      "proof": "Each node is visited at most once and erase_after is constant time.",
+      "assumptions": "fl is a standard singly linked list.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "stl-case-vector-lower-bound-sweep",
+      "symbol": "stlCaseVectorLowerBoundSweep",
+      "time": "O(n log n)",
+      "space": "O(log n)",
+      "confidence": "exact",
+      "tags": [
+        "vector",
+        "lower_bound",
+        "binary-search"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "The sort is O(n log n), and each lower_bound query is logarithmic.",
+      "assumptions": "a is a standard vector.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "stl-case-deque-ends-stress",
+      "symbol": "stlCaseDequeEndsStress",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "deque",
+        "push-pop",
+        "double-ended"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Deque push/pop at both ends is amortized constant time, and each element is removed once.",
+      "assumptions": "n is non-negative.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+
+      "id": "stl-case-multimap-sweep-line",
+      "symbol": "stlCaseMultimapSweepLine",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "multimap",
+        "sweep-line",
+        "ordered-map"
+      ],
+      "inputSymbols": [
+        "events"
+      ],
+      "proof": "Each multimap insertion and traversal costs logarithmic or linear time, giving O(n log n) overall.",
+      "assumptions": "events contains finite key-value pairs.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "stl-case-iterator-invalidation-unknown",
+      "symbol": "stlCaseIteratorInvalidationUnknown",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "exact",
+      "tags": [
+        "iterator",
+        "invalidation",
+        "undefined-behavior"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "The loop mutates a vector while iterating over it, so iterator validity and even termination are not statically provable.",
+      "assumptions": "The function intentionally relies on aliasing and iterator invalidation.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "stl-case-callback-comparator-unknown",
+      "symbol": "stlCaseCallbackComparatorUnknown",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "exact",
+      "tags": [
+        "callback",
+        "comparator",
+        "external-dependency"
+      ],
+      "inputSymbols": [
+        "a",
+        "cmp"
+      ],
+      "proof": "The comparator is an arbitrary callback, so the analyzer cannot bound its behavior without inspecting the callee.",
+      "assumptions": "cmp may have side effects and may fail to impose a strict weak ordering.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "stl-case-higher-order-traversal-unknown",
+      "symbol": "stlCaseHigherOrderTraversalUnknown",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "exact",
+      "tags": [
+        "callback",
+        "higher-order",
+        "external-dependency"
+      ],
+      "inputSymbols": [
+        "a",
+        "f"
+      ],
+      "proof": "The cost of the callback f is opaque, so the runtime depends on external code not visible to the analyzer.",
+      "assumptions": "f is an arbitrary callable.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "stlCaseCallbackComparatorUnknown"
+    },
+    {
+      "id": "stl-case-unordered-collision-chain",
+      "symbol": "stlCaseUnorderedCollisionChain",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered-map",
+        "collision-chain",
+        "adversarial"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "A degenerate hash funnels all keys into one bucket, so inserts degrade to a growing linear chain.",
+      "assumptions": "The hash function intentionally returns the same bucket for all keys.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

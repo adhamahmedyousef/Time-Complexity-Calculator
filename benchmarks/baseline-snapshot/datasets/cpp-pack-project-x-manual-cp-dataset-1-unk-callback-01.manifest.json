@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-unk-callback-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_callbackUnknown_cb1",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "adversarial",
+        "callback",
+        "unknown"
+      ],
+      "algorithmFamily": "mutable-callback",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "adj"
+      ],
+      "proof": "The traversal order depends on a mutable callback and a hidden branch condition.",
+      "assumptions": "The callback may mutate the worklist externally.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-unk-callback-01"
+    }
+  ]
+}

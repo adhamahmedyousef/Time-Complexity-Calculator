@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-dp-advanced",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-digit-dp-shape-003",
+      "symbol": "pack_l2_digitDpShape",
+      "time": "O(len * states * transitions)",
+      "space": "O(len * states)",
+      "confidence": "estimated",
+      "tags": [
+        "dp",
+        "digit-dp",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "s"
+      ],
+      "proof": "The state space is a digit-position automaton with tight and sum dimensions.",
+      "assumptions": "The bound depends on the digit length only.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-digit-dp-shape"
+    }
+  ]
+}

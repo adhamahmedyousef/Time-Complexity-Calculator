@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-graph-builder-adjacency-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_buildAdjacency_ad1",
+      "time": "O(n + m)",
+      "space": "O(n + m)",
+      "confidence": "exact",
+      "tags": [
+        "graphs",
+        "graph-builder",
+        "adjacency"
+      ],
+      "algorithmFamily": "graph-builder",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n",
+        "edges"
+      ],
+      "proof": "Constructing adjacency lists touches each vertex container once and each edge once.",
+      "assumptions": "Edges are stored as pairs of endpoints in a directed or undirected graph.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-graph-builder-adjacency-01"
+    }
+  ]
+}

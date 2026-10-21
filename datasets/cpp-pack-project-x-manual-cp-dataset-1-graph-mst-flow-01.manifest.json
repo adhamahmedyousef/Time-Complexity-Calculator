@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-graph-mst-flow-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_mstOrFlow_fl1",
+      "time": "O(m log m)",
+      "space": "O(n + m)",
+      "confidence": "estimated",
+      "tags": [
+        "graphs",
+        "mst",
+        "flow",
+        "matching"
+      ],
+      "algorithmFamily": "mst-flow-matching",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n",
+        "m",
+        "edges"
+      ],
+      "proof": "The family covers Kruskal-like edge sorting, Prim-like heap growth, and flow/matching variants; each proof requires the concrete selected variant.",
+      "assumptions": "This case is a family placeholder that remains structurally recognizable only when the concrete variant is selected.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-graph-mst-flow-01"
+    }
+  ]
+}

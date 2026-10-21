@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "new10-09",
+      "symbol": "solve",
+      "time": "O(n + m)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "strings",
+        "suffix",
+        "common-suffix"
+      ],
+      "inputSymbols": [
+        "n",
+        "m"
+      ],
+      "proof": "With n = |s| and m = |s1|, the loop scans from the end until the suffix diverges, so it is bounded by the combined string lengths.",
+      "assumptions": "String indexing is O(1).",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen2-dp2-01-lcs_0",
+   "symbol": "lcs_0",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen2-dp2-01-lis_0",
+   "symbol": "lis_0",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen2-dp2-01-coinChange_0",
+   "symbol": "coinChange_0",
+   "time": "O(|coins| · amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen2-dp2-01-lcs_1",
+   "symbol": "lcs_1",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen2-dp2-01-lis_1",
+   "symbol": "lis_1",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen2-dp2-01-coinChange_1",
+   "symbol": "coinChange_1",
+   "time": "O(|coins| · amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen2-dp2-01-lcs_2",
+   "symbol": "lcs_2",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen2-dp2-01-lis_2",
+   "symbol": "lis_2",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen2-dp2-01-coinChange_2",
+   "symbol": "coinChange_2",
+   "time": "O(|coins| · amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen2-dp2-01-lcs_3",
+   "symbol": "lcs_3",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen2-dp2-01-lis_3",
+   "symbol": "lis_3",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen2-dp2-01-coinChange_3",
+   "symbol": "coinChange_3",
+   "time": "O(|coins| · amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen2-dp2-01-lcs_4",
+   "symbol": "lcs_4",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen2-dp2-01-lis_4",
+   "symbol": "lis_4",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen2-dp2-01-coinChange_4",
+   "symbol": "coinChange_4",
+   "time": "O(|coins| · amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen2-dp2-01-lcs_5",
+   "symbol": "lcs_5",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen2-dp2-01-lis_5",
+   "symbol": "lis_5",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen2-dp2-01-coinChange_5",
+   "symbol": "coinChange_5",
+   "time": "O(|coins| · amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  }
+ ]
+}

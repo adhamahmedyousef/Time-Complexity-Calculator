@@ -1,0 +1,520 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "geometricSeriesInner_25",
+   "symbol": "geometricSeriesInner_25",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "series"
+   ]
+  },
+  {
+   "id": "harmonicSeriesDouble_25",
+   "symbol": "harmonicSeriesDouble_25",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "harmonic"
+   ]
+  },
+  {
+   "id": "triangularNestedQuadratic_25",
+   "symbol": "triangularNestedQuadratic_25",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "strictSquareDoubleLoop_25",
+   "symbol": "strictSquareDoubleLoop_25",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "cubicTripleLoop_25",
+   "symbol": "cubicTripleLoop_25",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "halvingNestedLogLog_25",
+   "symbol": "halvingNestedLogLog_25",
+   "time": "O(log^2 n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "linearOutsideLogarithmic_25",
+   "symbol": "linearOutsideLogarithmic_25",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "twoIndependentDimensionsNM_25",
+   "symbol": "twoIndependentDimensionsNM_25",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "geometricSeriesInner_26",
+   "symbol": "geometricSeriesInner_26",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "series"
+   ]
+  },
+  {
+   "id": "harmonicSeriesDouble_26",
+   "symbol": "harmonicSeriesDouble_26",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "harmonic"
+   ]
+  },
+  {
+   "id": "triangularNestedQuadratic_26",
+   "symbol": "triangularNestedQuadratic_26",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "strictSquareDoubleLoop_26",
+   "symbol": "strictSquareDoubleLoop_26",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "cubicTripleLoop_26",
+   "symbol": "cubicTripleLoop_26",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "halvingNestedLogLog_26",
+   "symbol": "halvingNestedLogLog_26",
+   "time": "O(log^2 n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "linearOutsideLogarithmic_26",
+   "symbol": "linearOutsideLogarithmic_26",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "twoIndependentDimensionsNM_26",
+   "symbol": "twoIndependentDimensionsNM_26",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "geometricSeriesInner_27",
+   "symbol": "geometricSeriesInner_27",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "series"
+   ]
+  },
+  {
+   "id": "harmonicSeriesDouble_27",
+   "symbol": "harmonicSeriesDouble_27",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "harmonic"
+   ]
+  },
+  {
+   "id": "triangularNestedQuadratic_27",
+   "symbol": "triangularNestedQuadratic_27",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "strictSquareDoubleLoop_27",
+   "symbol": "strictSquareDoubleLoop_27",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "cubicTripleLoop_27",
+   "symbol": "cubicTripleLoop_27",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "halvingNestedLogLog_27",
+   "symbol": "halvingNestedLogLog_27",
+   "time": "O(log^2 n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "linearOutsideLogarithmic_27",
+   "symbol": "linearOutsideLogarithmic_27",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "twoIndependentDimensionsNM_27",
+   "symbol": "twoIndependentDimensionsNM_27",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "geometricSeriesInner_28",
+   "symbol": "geometricSeriesInner_28",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "series"
+   ]
+  },
+  {
+   "id": "harmonicSeriesDouble_28",
+   "symbol": "harmonicSeriesDouble_28",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "harmonic"
+   ]
+  },
+  {
+   "id": "triangularNestedQuadratic_28",
+   "symbol": "triangularNestedQuadratic_28",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "strictSquareDoubleLoop_28",
+   "symbol": "strictSquareDoubleLoop_28",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "cubicTripleLoop_28",
+   "symbol": "cubicTripleLoop_28",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "halvingNestedLogLog_28",
+   "symbol": "halvingNestedLogLog_28",
+   "time": "O(log^2 n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "linearOutsideLogarithmic_28",
+   "symbol": "linearOutsideLogarithmic_28",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "twoIndependentDimensionsNM_28",
+   "symbol": "twoIndependentDimensionsNM_28",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "geometricSeriesInner_29",
+   "symbol": "geometricSeriesInner_29",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "series"
+   ]
+  },
+  {
+   "id": "harmonicSeriesDouble_29",
+   "symbol": "harmonicSeriesDouble_29",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "harmonic"
+   ]
+  },
+  {
+   "id": "triangularNestedQuadratic_29",
+   "symbol": "triangularNestedQuadratic_29",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "strictSquareDoubleLoop_29",
+   "symbol": "strictSquareDoubleLoop_29",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "cubicTripleLoop_29",
+   "symbol": "cubicTripleLoop_29",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "halvingNestedLogLog_29",
+   "symbol": "halvingNestedLogLog_29",
+   "time": "O(log^2 n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "linearOutsideLogarithmic_29",
+   "symbol": "linearOutsideLogarithmic_29",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "twoIndependentDimensionsNM_29",
+   "symbol": "twoIndependentDimensionsNM_29",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "geometricSeriesInner_30",
+   "symbol": "geometricSeriesInner_30",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "series"
+   ]
+  },
+  {
+   "id": "harmonicSeriesDouble_30",
+   "symbol": "harmonicSeriesDouble_30",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "harmonic"
+   ]
+  },
+  {
+   "id": "triangularNestedQuadratic_30",
+   "symbol": "triangularNestedQuadratic_30",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "strictSquareDoubleLoop_30",
+   "symbol": "strictSquareDoubleLoop_30",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "cubicTripleLoop_30",
+   "symbol": "cubicTripleLoop_30",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "halvingNestedLogLog_30",
+   "symbol": "halvingNestedLogLog_30",
+   "time": "O(log^2 n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "linearOutsideLogarithmic_30",
+   "symbol": "linearOutsideLogarithmic_30",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "twoIndependentDimensionsNM_30",
+   "symbol": "twoIndependentDimensionsNM_30",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "loops"
+   ]
+  },
+  {
+   "id": "geometricSeriesInner_31",
+   "symbol": "geometricSeriesInner_31",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "series"
+   ]
+  },
+  {
+   "id": "harmonicSeriesDouble_31",
+   "symbol": "harmonicSeriesDouble_31",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "harmonic"
+   ]
+  }
+ ]
+}

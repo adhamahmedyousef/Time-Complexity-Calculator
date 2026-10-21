@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-rand-pack-level0-17",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-rand-pack-level0-17",
+      "symbol": "pack_level0_rand_pack_main",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "unordered_set",
+        "missing-number"
+      ],
+      "inputSymbols": [
+        "n",
+        "x"
+      ],
+      "proof": "The program inserts the full range and deletes seen values to find the missing element.",
+      "assumptions": "Hash lookups are average O(1).",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-rand-pack-level0-17"
+    }
+  ]
+}

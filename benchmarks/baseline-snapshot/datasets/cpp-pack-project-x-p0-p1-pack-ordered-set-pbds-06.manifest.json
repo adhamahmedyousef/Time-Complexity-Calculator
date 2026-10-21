@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-p0-p1-pack-ordered-set-pbds",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-p0-p1-pack-ordered-set-pbds-06",
+      "symbol": "pack_project_x_p0_p1_pack_ordered_set_pbds_06",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "ordered-set",
+        "pbds"
+      ],
+      "inputSymbols": [
+        "n",
+        "a"
+      ],
+      "proof": "Tree-based ordered inserts are logarithmic.",
+      "assumptions": "Ordered container available.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-p0-p1-pack-ordered-set-pbds-06",
+      "familyRole": "canonical"
+    }
+  ]
+}

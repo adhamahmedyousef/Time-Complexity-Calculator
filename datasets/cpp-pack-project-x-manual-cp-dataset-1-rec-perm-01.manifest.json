@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-rec-perm-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_permutationRecursion_pr1",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "recursion",
+        "permutation"
+      ],
+      "algorithmFamily": "permutation-recursion",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "The visible lambda makes exactly one recursive call on x-1 per level; multiplying its return value does not create recursive work.",
+      "assumptions": "The recursion explores all permutations.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-rec-perm-01"
+    }
+  ]
+}

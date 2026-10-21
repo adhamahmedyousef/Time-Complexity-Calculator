@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "new10-02",
+      "symbol": "main",
+      "time": "O(t)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "loops",
+        "test-cases",
+        "math",
+        "arithmetic"
+      ],
+      "inputSymbols": [
+        "t",
+        "n"
+      ],
+      "proof": "The program processes each test case independently with a constant number of arithmetic operations and outputs.",
+      "assumptions": "Arithmetic on integers is constant time.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

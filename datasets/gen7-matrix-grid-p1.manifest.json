@@ -1,0 +1,512 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "matrixZeroCheck_0",
+   "symbol": "matrixZeroCheck_0",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixDiagonalSum_0",
+   "symbol": "matrixDiagonalSum_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixMultiplication_0",
+   "symbol": "matrixMultiplication_0",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixTransposeInplace_0",
+   "symbol": "matrixTransposeInplace_0",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixPrefix2D_0",
+   "symbol": "matrixPrefix2D_0",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "matrix",
+    "prefix-sums"
+   ]
+  },
+  {
+   "id": "matrixSymmetricCheck_0",
+   "symbol": "matrixSymmetricCheck_0",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixQueryLoopSequential_0",
+   "symbol": "matrixQueryLoopSequential_0",
+   "time": "O(n^2 + q)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixRowMinimums_0",
+   "symbol": "matrixRowMinimums_0",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixZeroCheck_1",
+   "symbol": "matrixZeroCheck_1",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixDiagonalSum_1",
+   "symbol": "matrixDiagonalSum_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixMultiplication_1",
+   "symbol": "matrixMultiplication_1",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixTransposeInplace_1",
+   "symbol": "matrixTransposeInplace_1",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixPrefix2D_1",
+   "symbol": "matrixPrefix2D_1",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "matrix",
+    "prefix-sums"
+   ]
+  },
+  {
+   "id": "matrixSymmetricCheck_1",
+   "symbol": "matrixSymmetricCheck_1",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixQueryLoopSequential_1",
+   "symbol": "matrixQueryLoopSequential_1",
+   "time": "O(n^2 + q)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixRowMinimums_1",
+   "symbol": "matrixRowMinimums_1",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixZeroCheck_2",
+   "symbol": "matrixZeroCheck_2",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixDiagonalSum_2",
+   "symbol": "matrixDiagonalSum_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixMultiplication_2",
+   "symbol": "matrixMultiplication_2",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixTransposeInplace_2",
+   "symbol": "matrixTransposeInplace_2",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixPrefix2D_2",
+   "symbol": "matrixPrefix2D_2",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "matrix",
+    "prefix-sums"
+   ]
+  },
+  {
+   "id": "matrixSymmetricCheck_2",
+   "symbol": "matrixSymmetricCheck_2",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixQueryLoopSequential_2",
+   "symbol": "matrixQueryLoopSequential_2",
+   "time": "O(n^2 + q)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixRowMinimums_2",
+   "symbol": "matrixRowMinimums_2",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixZeroCheck_3",
+   "symbol": "matrixZeroCheck_3",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixDiagonalSum_3",
+   "symbol": "matrixDiagonalSum_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixMultiplication_3",
+   "symbol": "matrixMultiplication_3",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixTransposeInplace_3",
+   "symbol": "matrixTransposeInplace_3",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixPrefix2D_3",
+   "symbol": "matrixPrefix2D_3",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "matrix",
+    "prefix-sums"
+   ]
+  },
+  {
+   "id": "matrixSymmetricCheck_3",
+   "symbol": "matrixSymmetricCheck_3",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixQueryLoopSequential_3",
+   "symbol": "matrixQueryLoopSequential_3",
+   "time": "O(n^2 + q)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixRowMinimums_3",
+   "symbol": "matrixRowMinimums_3",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixZeroCheck_4",
+   "symbol": "matrixZeroCheck_4",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixDiagonalSum_4",
+   "symbol": "matrixDiagonalSum_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixMultiplication_4",
+   "symbol": "matrixMultiplication_4",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixTransposeInplace_4",
+   "symbol": "matrixTransposeInplace_4",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixPrefix2D_4",
+   "symbol": "matrixPrefix2D_4",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "matrix",
+    "prefix-sums"
+   ]
+  },
+  {
+   "id": "matrixSymmetricCheck_4",
+   "symbol": "matrixSymmetricCheck_4",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixQueryLoopSequential_4",
+   "symbol": "matrixQueryLoopSequential_4",
+   "time": "O(n^2 + q)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixRowMinimums_4",
+   "symbol": "matrixRowMinimums_4",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixZeroCheck_5",
+   "symbol": "matrixZeroCheck_5",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixDiagonalSum_5",
+   "symbol": "matrixDiagonalSum_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixMultiplication_5",
+   "symbol": "matrixMultiplication_5",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixTransposeInplace_5",
+   "symbol": "matrixTransposeInplace_5",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixPrefix2D_5",
+   "symbol": "matrixPrefix2D_5",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "matrix",
+    "prefix-sums"
+   ]
+  },
+  {
+   "id": "matrixSymmetricCheck_5",
+   "symbol": "matrixSymmetricCheck_5",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixQueryLoopSequential_5",
+   "symbol": "matrixQueryLoopSequential_5",
+   "time": "O(n^2 + q)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixRowMinimums_5",
+   "symbol": "matrixRowMinimums_5",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixZeroCheck_6",
+   "symbol": "matrixZeroCheck_6",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "matrixDiagonalSum_6",
+   "symbol": "matrixDiagonalSum_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  }
+ ]
+}

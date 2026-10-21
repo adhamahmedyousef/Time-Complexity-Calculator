@@ -1,0 +1,506 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen5-bits-02-isPowerOfTwo_20",
+   "symbol": "isPowerOfTwo_20",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-reverseBits32_20",
+   "symbol": "reverseBits32_20",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-subsetMaskIter_20",
+   "symbol": "subsetMaskIter_20",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-countOddBits_20",
+   "symbol": "countOddBits_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-singleNumberXor_20",
+   "symbol": "singleNumberXor_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-isPowerOfTwo_21",
+   "symbol": "isPowerOfTwo_21",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-reverseBits32_21",
+   "symbol": "reverseBits32_21",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-subsetMaskIter_21",
+   "symbol": "subsetMaskIter_21",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-countOddBits_21",
+   "symbol": "countOddBits_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-singleNumberXor_21",
+   "symbol": "singleNumberXor_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-isPowerOfTwo_22",
+   "symbol": "isPowerOfTwo_22",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-reverseBits32_22",
+   "symbol": "reverseBits32_22",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-subsetMaskIter_22",
+   "symbol": "subsetMaskIter_22",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-countOddBits_22",
+   "symbol": "countOddBits_22",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-singleNumberXor_22",
+   "symbol": "singleNumberXor_22",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-isPowerOfTwo_23",
+   "symbol": "isPowerOfTwo_23",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-reverseBits32_23",
+   "symbol": "reverseBits32_23",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-subsetMaskIter_23",
+   "symbol": "subsetMaskIter_23",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-countOddBits_23",
+   "symbol": "countOddBits_23",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-singleNumberXor_23",
+   "symbol": "singleNumberXor_23",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-isPowerOfTwo_24",
+   "symbol": "isPowerOfTwo_24",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-reverseBits32_24",
+   "symbol": "reverseBits32_24",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-subsetMaskIter_24",
+   "symbol": "subsetMaskIter_24",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-countOddBits_24",
+   "symbol": "countOddBits_24",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-singleNumberXor_24",
+   "symbol": "singleNumberXor_24",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-isPowerOfTwo_25",
+   "symbol": "isPowerOfTwo_25",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-reverseBits32_25",
+   "symbol": "reverseBits32_25",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-subsetMaskIter_25",
+   "symbol": "subsetMaskIter_25",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-countOddBits_25",
+   "symbol": "countOddBits_25",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-singleNumberXor_25",
+   "symbol": "singleNumberXor_25",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-isPowerOfTwo_26",
+   "symbol": "isPowerOfTwo_26",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-reverseBits32_26",
+   "symbol": "reverseBits32_26",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-subsetMaskIter_26",
+   "symbol": "subsetMaskIter_26",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-countOddBits_26",
+   "symbol": "countOddBits_26",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-singleNumberXor_26",
+   "symbol": "singleNumberXor_26",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-isPowerOfTwo_27",
+   "symbol": "isPowerOfTwo_27",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-reverseBits32_27",
+   "symbol": "reverseBits32_27",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-subsetMaskIter_27",
+   "symbol": "subsetMaskIter_27",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-countOddBits_27",
+   "symbol": "countOddBits_27",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-singleNumberXor_27",
+   "symbol": "singleNumberXor_27",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-isPowerOfTwo_28",
+   "symbol": "isPowerOfTwo_28",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-reverseBits32_28",
+   "symbol": "reverseBits32_28",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-subsetMaskIter_28",
+   "symbol": "subsetMaskIter_28",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-countOddBits_28",
+   "symbol": "countOddBits_28",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-singleNumberXor_28",
+   "symbol": "singleNumberXor_28",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-isPowerOfTwo_29",
+   "symbol": "isPowerOfTwo_29",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-reverseBits32_29",
+   "symbol": "reverseBits32_29",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-subsetMaskIter_29",
+   "symbol": "subsetMaskIter_29",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-countOddBits_29",
+   "symbol": "countOddBits_29",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen5-bits-02-singleNumberXor_29",
+   "symbol": "singleNumberXor_29",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  }
+ ]
+}

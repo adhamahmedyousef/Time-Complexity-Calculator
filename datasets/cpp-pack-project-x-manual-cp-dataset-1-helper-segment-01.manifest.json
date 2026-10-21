@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-helper-segment-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_segmentTreeRange_seg1",
+      "time": "O((n + q) log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "segment-tree",
+        "query",
+        "range"
+      ],
+      "algorithmFamily": "segment-tree",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n",
+        "q",
+        "a",
+        "qs"
+      ],
+      "proof": "Recursive build is linear and each query descends one path per tree level.",
+      "assumptions": "Range queries are on a static array.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-helper-segment-01"
+    }
+  ]
+}

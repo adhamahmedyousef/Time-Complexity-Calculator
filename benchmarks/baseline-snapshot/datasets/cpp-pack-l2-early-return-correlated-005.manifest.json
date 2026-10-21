@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-greedy-adversarial",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-early-return-correlated-005",
+      "symbol": "pack_l2_earlyReturnCorrelated",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "adversarial",
+        "branch-correlation",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "a",
+        "b"
+      ],
+      "proof": "Branch conditions and early returns are correlated across iterations in a way not yet proven.",
+      "assumptions": "The algorithm is intentionally ambiguous.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-early-return-correlated"
+    }
+  ]
+}

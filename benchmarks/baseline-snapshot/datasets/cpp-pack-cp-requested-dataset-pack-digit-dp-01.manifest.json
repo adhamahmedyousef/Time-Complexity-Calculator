@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-dp-patterns",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-digit-dp-01",
+      "symbol": "pack_cp_requested_dataset_pack_digitDp_1",
+      "time": "O(len * states * transitions)",
+      "space": "O(len * states)",
+      "confidence": "estimated",
+      "tags": [
+        "dp",
+        "digit-dp",
+        "automaton"
+      ],
+      "inputSymbols": [
+        "s"
+      ],
+      "proof": "The automaton state is indexed by digit position and tightness.",
+      "assumptions": "Digit length bounds the DP height.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-digit-dp-01"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l1-fenwick-segment-sparse",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l1-fenwick-point-update-range-query-01",
+      "symbol": "pack_l1_fenwickPointUpdateRangeQuery",
+      "time": "O((n + q) log n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "fenwick-tree",
+        "range-query",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "n",
+        "updates",
+        "queries"
+      ],
+      "proof": "Point updates and prefix queries are both logarithmic over the tree size.",
+      "assumptions": "Index domain is 1-based and bounded by n.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l1-fenwick-point-update-range-query"
+    }
+  ]
+}

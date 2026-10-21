@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-strings-structures",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-trie-insert-search-delete-01",
+      "symbol": "pack_cp_requested_dataset_pack_trieOperations_1",
+      "time": "O(totalChars)",
+      "space": "O(totalChars)",
+      "confidence": "estimated",
+      "tags": [
+        "strings",
+        "trie",
+        "class-methods"
+      ],
+      "inputSymbols": [
+        "words"
+      ],
+      "proof": "Each character follows one trie edge; insertion, search, and erase are proportional to word length.",
+      "assumptions": "Alphabet is fixed and small.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-trie-insert-search-delete-01"
+    }
+  ]
+}

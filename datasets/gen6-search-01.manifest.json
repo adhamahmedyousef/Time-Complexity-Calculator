@@ -1,0 +1,1106 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen6-search-01-bsearchFirstOccur_0",
+   "symbol": "bsearchFirstOccur_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchLastOccur_0",
+   "symbol": "bsearchLastOccur_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-findPeakElement_0",
+   "symbol": "findPeakElement_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-intSquareRootBS_0",
+   "symbol": "intSquareRootBS_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-lowerBoundSearch_0",
+   "symbol": "lowerBoundSearch_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-upperBoundSearch_0",
+   "symbol": "upperBoundSearch_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-isPerfectSquareBS_0",
+   "symbol": "isPerfectSquareBS_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchFirstOccur_1",
+   "symbol": "bsearchFirstOccur_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchLastOccur_1",
+   "symbol": "bsearchLastOccur_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-findPeakElement_1",
+   "symbol": "findPeakElement_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-intSquareRootBS_1",
+   "symbol": "intSquareRootBS_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-lowerBoundSearch_1",
+   "symbol": "lowerBoundSearch_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-upperBoundSearch_1",
+   "symbol": "upperBoundSearch_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-isPerfectSquareBS_1",
+   "symbol": "isPerfectSquareBS_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchFirstOccur_2",
+   "symbol": "bsearchFirstOccur_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchLastOccur_2",
+   "symbol": "bsearchLastOccur_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-findPeakElement_2",
+   "symbol": "findPeakElement_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-intSquareRootBS_2",
+   "symbol": "intSquareRootBS_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-lowerBoundSearch_2",
+   "symbol": "lowerBoundSearch_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-upperBoundSearch_2",
+   "symbol": "upperBoundSearch_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-isPerfectSquareBS_2",
+   "symbol": "isPerfectSquareBS_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchFirstOccur_3",
+   "symbol": "bsearchFirstOccur_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchLastOccur_3",
+   "symbol": "bsearchLastOccur_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-findPeakElement_3",
+   "symbol": "findPeakElement_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-intSquareRootBS_3",
+   "symbol": "intSquareRootBS_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-lowerBoundSearch_3",
+   "symbol": "lowerBoundSearch_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-upperBoundSearch_3",
+   "symbol": "upperBoundSearch_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-isPerfectSquareBS_3",
+   "symbol": "isPerfectSquareBS_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchFirstOccur_4",
+   "symbol": "bsearchFirstOccur_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchLastOccur_4",
+   "symbol": "bsearchLastOccur_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-findPeakElement_4",
+   "symbol": "findPeakElement_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-intSquareRootBS_4",
+   "symbol": "intSquareRootBS_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-lowerBoundSearch_4",
+   "symbol": "lowerBoundSearch_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-upperBoundSearch_4",
+   "symbol": "upperBoundSearch_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-isPerfectSquareBS_4",
+   "symbol": "isPerfectSquareBS_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchFirstOccur_5",
+   "symbol": "bsearchFirstOccur_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchLastOccur_5",
+   "symbol": "bsearchLastOccur_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-findPeakElement_5",
+   "symbol": "findPeakElement_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-intSquareRootBS_5",
+   "symbol": "intSquareRootBS_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-lowerBoundSearch_5",
+   "symbol": "lowerBoundSearch_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-upperBoundSearch_5",
+   "symbol": "upperBoundSearch_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-isPerfectSquareBS_5",
+   "symbol": "isPerfectSquareBS_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchFirstOccur_6",
+   "symbol": "bsearchFirstOccur_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchLastOccur_6",
+   "symbol": "bsearchLastOccur_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-findPeakElement_6",
+   "symbol": "findPeakElement_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-intSquareRootBS_6",
+   "symbol": "intSquareRootBS_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-lowerBoundSearch_6",
+   "symbol": "lowerBoundSearch_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-upperBoundSearch_6",
+   "symbol": "upperBoundSearch_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-isPerfectSquareBS_6",
+   "symbol": "isPerfectSquareBS_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchFirstOccur_7",
+   "symbol": "bsearchFirstOccur_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchLastOccur_7",
+   "symbol": "bsearchLastOccur_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-findPeakElement_7",
+   "symbol": "findPeakElement_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-intSquareRootBS_7",
+   "symbol": "intSquareRootBS_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-lowerBoundSearch_7",
+   "symbol": "lowerBoundSearch_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-upperBoundSearch_7",
+   "symbol": "upperBoundSearch_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-isPerfectSquareBS_7",
+   "symbol": "isPerfectSquareBS_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchFirstOccur_8",
+   "symbol": "bsearchFirstOccur_8",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchLastOccur_8",
+   "symbol": "bsearchLastOccur_8",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-findPeakElement_8",
+   "symbol": "findPeakElement_8",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-intSquareRootBS_8",
+   "symbol": "intSquareRootBS_8",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-lowerBoundSearch_8",
+   "symbol": "lowerBoundSearch_8",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-upperBoundSearch_8",
+   "symbol": "upperBoundSearch_8",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-isPerfectSquareBS_8",
+   "symbol": "isPerfectSquareBS_8",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchFirstOccur_9",
+   "symbol": "bsearchFirstOccur_9",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchLastOccur_9",
+   "symbol": "bsearchLastOccur_9",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-findPeakElement_9",
+   "symbol": "findPeakElement_9",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-intSquareRootBS_9",
+   "symbol": "intSquareRootBS_9",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-lowerBoundSearch_9",
+   "symbol": "lowerBoundSearch_9",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-upperBoundSearch_9",
+   "symbol": "upperBoundSearch_9",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-isPerfectSquareBS_9",
+   "symbol": "isPerfectSquareBS_9",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchFirstOccur_10",
+   "symbol": "bsearchFirstOccur_10",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchLastOccur_10",
+   "symbol": "bsearchLastOccur_10",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-findPeakElement_10",
+   "symbol": "findPeakElement_10",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-intSquareRootBS_10",
+   "symbol": "intSquareRootBS_10",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-lowerBoundSearch_10",
+   "symbol": "lowerBoundSearch_10",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-upperBoundSearch_10",
+   "symbol": "upperBoundSearch_10",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-isPerfectSquareBS_10",
+   "symbol": "isPerfectSquareBS_10",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchFirstOccur_11",
+   "symbol": "bsearchFirstOccur_11",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchLastOccur_11",
+   "symbol": "bsearchLastOccur_11",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-findPeakElement_11",
+   "symbol": "findPeakElement_11",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-intSquareRootBS_11",
+   "symbol": "intSquareRootBS_11",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-lowerBoundSearch_11",
+   "symbol": "lowerBoundSearch_11",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-upperBoundSearch_11",
+   "symbol": "upperBoundSearch_11",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-isPerfectSquareBS_11",
+   "symbol": "isPerfectSquareBS_11",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchFirstOccur_12",
+   "symbol": "bsearchFirstOccur_12",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchLastOccur_12",
+   "symbol": "bsearchLastOccur_12",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-findPeakElement_12",
+   "symbol": "findPeakElement_12",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-intSquareRootBS_12",
+   "symbol": "intSquareRootBS_12",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-lowerBoundSearch_12",
+   "symbol": "lowerBoundSearch_12",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-upperBoundSearch_12",
+   "symbol": "upperBoundSearch_12",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-isPerfectSquareBS_12",
+   "symbol": "isPerfectSquareBS_12",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchFirstOccur_13",
+   "symbol": "bsearchFirstOccur_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchLastOccur_13",
+   "symbol": "bsearchLastOccur_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-findPeakElement_13",
+   "symbol": "findPeakElement_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-intSquareRootBS_13",
+   "symbol": "intSquareRootBS_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-lowerBoundSearch_13",
+   "symbol": "lowerBoundSearch_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-upperBoundSearch_13",
+   "symbol": "upperBoundSearch_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-isPerfectSquareBS_13",
+   "symbol": "isPerfectSquareBS_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchFirstOccur_14",
+   "symbol": "bsearchFirstOccur_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen6-search-01-bsearchLastOccur_14",
+   "symbol": "bsearchLastOccur_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-fenwick-sparse-table",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-fenwick-range-update-point-query-01",
+      "symbol": "pack_cp_requested_dataset_pack_fenwickRangeUpdatePointQuery_1",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "fenwick",
+        "range-update",
+        "point-query"
+      ],
+      "inputSymbols": [
+        "updates",
+        "n"
+      ],
+      "proof": "Range update is decomposed into two logarithmic Fenwick adjustments and each query is a prefix walk.",
+      "assumptions": "Ranges are valid and 1-based.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-fenwick-range-update-point-query-01"
+    }
+  ]
+}

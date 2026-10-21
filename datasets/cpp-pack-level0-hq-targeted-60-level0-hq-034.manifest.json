@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-hq-targeted-60-level0-hq-034",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-hq-targeted-60-level0-hq-034",
+      "symbol": "pack_level0_hq_targeted_60_solve",
+      "time": "O(2^n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "dp",
+        "subset"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Subset DP explores every mask.",
+      "assumptions": "Primitive operations are constant time.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-hq-targeted-60-dp-base"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen2-const-01-constLoop_0",
+   "symbol": "constLoop_0",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "constant"
+   ]
+  },
+  {
+   "id": "gen2-const-01-fixedArr_0",
+   "symbol": "fixedArr_0",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "constant"
+   ]
+  },
+  {
+   "id": "gen2-const-01-constLoop_1",
+   "symbol": "constLoop_1",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "constant"
+   ]
+  },
+  {
+   "id": "gen2-const-01-fixedArr_1",
+   "symbol": "fixedArr_1",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "constant"
+   ]
+  },
+  {
+   "id": "gen2-const-01-constLoop_2",
+   "symbol": "constLoop_2",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "constant"
+   ]
+  },
+  {
+   "id": "gen2-const-01-fixedArr_2",
+   "symbol": "fixedArr_2",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "constant"
+   ]
+  },
+  {
+   "id": "gen2-const-01-constLoop_3",
+   "symbol": "constLoop_3",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "constant"
+   ]
+  },
+  {
+   "id": "gen2-const-01-fixedArr_3",
+   "symbol": "fixedArr_3",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "constant"
+   ]
+  }
+ ]
+}

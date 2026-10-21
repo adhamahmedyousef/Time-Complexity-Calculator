@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-segment-tree-methods",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-segment-tree-iterative-01",
+      "symbol": "pack_cp_requested_dataset_pack_segmentTreeIterative_1",
+      "time": "O((n + q) log n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "segment-tree",
+        "iterative",
+        "range-query"
+      ],
+      "inputSymbols": [
+        "a",
+        "queries"
+      ],
+      "proof": "Iterative build is linear and each point update or range query uses one path per level.",
+      "assumptions": "The tree stores point aggregates over a power-of-two base.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-segment-tree-iterative-01"
+    }
+  ]
+}

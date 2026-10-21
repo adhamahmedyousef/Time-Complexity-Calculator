@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-authored-pack-level0-31",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-authored-pack-level0-31",
+      "symbol": "pack_level0_authored_pack_main",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "stl",
+        "unordered_map"
+      ],
+      "inputSymbols": [
+        "n",
+        "a"
+      ],
+      "proof": "Average-case hash inserts are constant.",
+      "assumptions": "Primitive operations are constant time.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-authored-pack-level0-31"
+    }
+  ]
+}

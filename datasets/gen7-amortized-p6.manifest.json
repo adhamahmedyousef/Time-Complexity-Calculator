@@ -1,0 +1,544 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "monotonicQueueDrain_31",
+   "symbol": "monotonicQueueDrain_31",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "queue",
+    "amortized"
+   ]
+  },
+  {
+   "id": "priorityQueueSort_31",
+   "symbol": "priorityQueueSort_31",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "heap",
+    "amortized"
+   ]
+  },
+  {
+   "id": "twoPointerConvergeSorted_31",
+   "symbol": "twoPointerConvergeSorted_31",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "twoPointerPartition_31",
+   "symbol": "twoPointerPartition_31",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "eulerTotientPhi_31",
+   "symbol": "eulerTotientPhi_31",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "amortized"
+   ]
+  },
+  {
+   "id": "primeFactorizationAmort_31",
+   "symbol": "primeFactorizationAmort_31",
+   "time": "O(sqrt n)",
+   "space": "O(sqrt n log n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "amortized"
+   ]
+  },
+  {
+   "id": "monotonicStackNextGreater_32",
+   "symbol": "monotonicStackNextGreater_32",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "monotonicStackPrevGreater_32",
+   "symbol": "monotonicStackPrevGreater_32",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "monotonicQueueDrain_32",
+   "symbol": "monotonicQueueDrain_32",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "queue",
+    "amortized"
+   ]
+  },
+  {
+   "id": "priorityQueueSort_32",
+   "symbol": "priorityQueueSort_32",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "heap",
+    "amortized"
+   ]
+  },
+  {
+   "id": "twoPointerConvergeSorted_32",
+   "symbol": "twoPointerConvergeSorted_32",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "twoPointerPartition_32",
+   "symbol": "twoPointerPartition_32",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "eulerTotientPhi_32",
+   "symbol": "eulerTotientPhi_32",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "amortized"
+   ]
+  },
+  {
+   "id": "primeFactorizationAmort_32",
+   "symbol": "primeFactorizationAmort_32",
+   "time": "O(sqrt n)",
+   "space": "O(sqrt n log n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "amortized"
+   ]
+  },
+  {
+   "id": "monotonicStackNextGreater_33",
+   "symbol": "monotonicStackNextGreater_33",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "monotonicStackPrevGreater_33",
+   "symbol": "monotonicStackPrevGreater_33",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "monotonicQueueDrain_33",
+   "symbol": "monotonicQueueDrain_33",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "queue",
+    "amortized"
+   ]
+  },
+  {
+   "id": "priorityQueueSort_33",
+   "symbol": "priorityQueueSort_33",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "heap",
+    "amortized"
+   ]
+  },
+  {
+   "id": "twoPointerConvergeSorted_33",
+   "symbol": "twoPointerConvergeSorted_33",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "twoPointerPartition_33",
+   "symbol": "twoPointerPartition_33",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "eulerTotientPhi_33",
+   "symbol": "eulerTotientPhi_33",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "amortized"
+   ]
+  },
+  {
+   "id": "primeFactorizationAmort_33",
+   "symbol": "primeFactorizationAmort_33",
+   "time": "O(sqrt n)",
+   "space": "O(sqrt n log n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "amortized"
+   ]
+  },
+  {
+   "id": "monotonicStackNextGreater_34",
+   "symbol": "monotonicStackNextGreater_34",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "monotonicStackPrevGreater_34",
+   "symbol": "monotonicStackPrevGreater_34",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "monotonicQueueDrain_34",
+   "symbol": "monotonicQueueDrain_34",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "queue",
+    "amortized"
+   ]
+  },
+  {
+   "id": "priorityQueueSort_34",
+   "symbol": "priorityQueueSort_34",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "heap",
+    "amortized"
+   ]
+  },
+  {
+   "id": "twoPointerConvergeSorted_34",
+   "symbol": "twoPointerConvergeSorted_34",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "twoPointerPartition_34",
+   "symbol": "twoPointerPartition_34",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "eulerTotientPhi_34",
+   "symbol": "eulerTotientPhi_34",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "amortized"
+   ]
+  },
+  {
+   "id": "primeFactorizationAmort_34",
+   "symbol": "primeFactorizationAmort_34",
+   "time": "O(sqrt n)",
+   "space": "O(sqrt n log n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "amortized"
+   ]
+  },
+  {
+   "id": "monotonicStackNextGreater_35",
+   "symbol": "monotonicStackNextGreater_35",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "monotonicStackPrevGreater_35",
+   "symbol": "monotonicStackPrevGreater_35",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "monotonicQueueDrain_35",
+   "symbol": "monotonicQueueDrain_35",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "queue",
+    "amortized"
+   ]
+  },
+  {
+   "id": "priorityQueueSort_35",
+   "symbol": "priorityQueueSort_35",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "heap",
+    "amortized"
+   ]
+  },
+  {
+   "id": "twoPointerConvergeSorted_35",
+   "symbol": "twoPointerConvergeSorted_35",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "twoPointerPartition_35",
+   "symbol": "twoPointerPartition_35",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "eulerTotientPhi_35",
+   "symbol": "eulerTotientPhi_35",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "amortized"
+   ]
+  },
+  {
+   "id": "primeFactorizationAmort_35",
+   "symbol": "primeFactorizationAmort_35",
+   "time": "O(sqrt n)",
+   "space": "O(sqrt n log n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "amortized"
+   ]
+  },
+  {
+   "id": "monotonicStackNextGreater_36",
+   "symbol": "monotonicStackNextGreater_36",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "monotonicStackPrevGreater_36",
+   "symbol": "monotonicStackPrevGreater_36",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "monotonicQueueDrain_36",
+   "symbol": "monotonicQueueDrain_36",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "queue",
+    "amortized"
+   ]
+  },
+  {
+   "id": "priorityQueueSort_36",
+   "symbol": "priorityQueueSort_36",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "heap",
+    "amortized"
+   ]
+  },
+  {
+   "id": "twoPointerConvergeSorted_36",
+   "symbol": "twoPointerConvergeSorted_36",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "twoPointerPartition_36",
+   "symbol": "twoPointerPartition_36",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "two-pointers"
+   ]
+  },
+  {
+   "id": "eulerTotientPhi_36",
+   "symbol": "eulerTotientPhi_36",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "amortized"
+   ]
+  },
+  {
+   "id": "primeFactorizationAmort_36",
+   "symbol": "primeFactorizationAmort_36",
+   "time": "O(sqrt n)",
+   "space": "O(sqrt n log n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "amortized"
+   ]
+  },
+  {
+   "id": "monotonicStackNextGreater_37",
+   "symbol": "monotonicStackNextGreater_37",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "monotonicStackPrevGreater_37",
+   "symbol": "monotonicStackPrevGreater_37",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "amortized"
+   ]
+  },
+  {
+   "id": "monotonicQueueDrain_37",
+   "symbol": "monotonicQueueDrain_37",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "queue",
+    "amortized"
+   ]
+  },
+  {
+   "id": "priorityQueueSort_37",
+   "symbol": "priorityQueueSort_37",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "heap",
+    "amortized"
+   ]
+  }
+ ]
+}

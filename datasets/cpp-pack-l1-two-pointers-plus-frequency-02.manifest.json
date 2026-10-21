@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l1-mixed-level1",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l1-two-pointers-plus-frequency-02",
+      "symbol": "pack_l1_twoPointersFrequencyHybrid",
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "estimated",
+      "tags": [
+        "two-pointers",
+        "frequency-map",
+        "level-1"
+      ],
+      "inputSymbols": [
+        "s"
+      ],
+      "proof": "One monotone pointer walk is maintained with a small state table.",
+      "assumptions": "Input is treated as a single sequence.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l1-two-pointers-plus-frequency"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "cf-batch-12",
+      "symbol": "solve",
+      "time": "O(nm log n + mk)",
+      "space": "O(n^2 + m + k)",
+      "confidence": "exact",
+      "tags": [
+        "graphs",
+        "all-pairs-shortest-path"
+      ],
+      "inputSymbols": [
+        "n",
+        "m",
+        "k",
+        "q"
+      ],
+      "proof": "The code performs n Dijkstra runs, then checks all edges against all queries.",
+      "assumptions": "n, m, k are graph/query sizes.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

@@ -1,0 +1,1026 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen5-math-01-modPowExp_0",
+   "symbol": "modPowExp_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sievePrimeCount_0",
+   "symbol": "sievePrimeCount_0",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen5-math-01-isPrimeTrialDivision_0",
+   "symbol": "isPrimeTrialDivision_0",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sumProperDivisors_0",
+   "symbol": "sumProperDivisors_0",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-eulerTotientPhi_0",
+   "symbol": "eulerTotientPhi_0",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-modPowExp_1",
+   "symbol": "modPowExp_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sievePrimeCount_1",
+   "symbol": "sievePrimeCount_1",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen5-math-01-isPrimeTrialDivision_1",
+   "symbol": "isPrimeTrialDivision_1",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sumProperDivisors_1",
+   "symbol": "sumProperDivisors_1",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-eulerTotientPhi_1",
+   "symbol": "eulerTotientPhi_1",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-modPowExp_2",
+   "symbol": "modPowExp_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sievePrimeCount_2",
+   "symbol": "sievePrimeCount_2",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen5-math-01-isPrimeTrialDivision_2",
+   "symbol": "isPrimeTrialDivision_2",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sumProperDivisors_2",
+   "symbol": "sumProperDivisors_2",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-eulerTotientPhi_2",
+   "symbol": "eulerTotientPhi_2",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-modPowExp_3",
+   "symbol": "modPowExp_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sievePrimeCount_3",
+   "symbol": "sievePrimeCount_3",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen5-math-01-isPrimeTrialDivision_3",
+   "symbol": "isPrimeTrialDivision_3",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sumProperDivisors_3",
+   "symbol": "sumProperDivisors_3",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-eulerTotientPhi_3",
+   "symbol": "eulerTotientPhi_3",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-modPowExp_4",
+   "symbol": "modPowExp_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sievePrimeCount_4",
+   "symbol": "sievePrimeCount_4",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen5-math-01-isPrimeTrialDivision_4",
+   "symbol": "isPrimeTrialDivision_4",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sumProperDivisors_4",
+   "symbol": "sumProperDivisors_4",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-eulerTotientPhi_4",
+   "symbol": "eulerTotientPhi_4",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-modPowExp_5",
+   "symbol": "modPowExp_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sievePrimeCount_5",
+   "symbol": "sievePrimeCount_5",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen5-math-01-isPrimeTrialDivision_5",
+   "symbol": "isPrimeTrialDivision_5",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sumProperDivisors_5",
+   "symbol": "sumProperDivisors_5",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-eulerTotientPhi_5",
+   "symbol": "eulerTotientPhi_5",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-modPowExp_6",
+   "symbol": "modPowExp_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sievePrimeCount_6",
+   "symbol": "sievePrimeCount_6",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen5-math-01-isPrimeTrialDivision_6",
+   "symbol": "isPrimeTrialDivision_6",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sumProperDivisors_6",
+   "symbol": "sumProperDivisors_6",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-eulerTotientPhi_6",
+   "symbol": "eulerTotientPhi_6",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-modPowExp_7",
+   "symbol": "modPowExp_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sievePrimeCount_7",
+   "symbol": "sievePrimeCount_7",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen5-math-01-isPrimeTrialDivision_7",
+   "symbol": "isPrimeTrialDivision_7",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sumProperDivisors_7",
+   "symbol": "sumProperDivisors_7",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-eulerTotientPhi_7",
+   "symbol": "eulerTotientPhi_7",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-modPowExp_8",
+   "symbol": "modPowExp_8",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sievePrimeCount_8",
+   "symbol": "sievePrimeCount_8",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen5-math-01-isPrimeTrialDivision_8",
+   "symbol": "isPrimeTrialDivision_8",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sumProperDivisors_8",
+   "symbol": "sumProperDivisors_8",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-eulerTotientPhi_8",
+   "symbol": "eulerTotientPhi_8",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-modPowExp_9",
+   "symbol": "modPowExp_9",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sievePrimeCount_9",
+   "symbol": "sievePrimeCount_9",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen5-math-01-isPrimeTrialDivision_9",
+   "symbol": "isPrimeTrialDivision_9",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sumProperDivisors_9",
+   "symbol": "sumProperDivisors_9",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-eulerTotientPhi_9",
+   "symbol": "eulerTotientPhi_9",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-modPowExp_10",
+   "symbol": "modPowExp_10",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sievePrimeCount_10",
+   "symbol": "sievePrimeCount_10",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen5-math-01-isPrimeTrialDivision_10",
+   "symbol": "isPrimeTrialDivision_10",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sumProperDivisors_10",
+   "symbol": "sumProperDivisors_10",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-eulerTotientPhi_10",
+   "symbol": "eulerTotientPhi_10",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-modPowExp_11",
+   "symbol": "modPowExp_11",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sievePrimeCount_11",
+   "symbol": "sievePrimeCount_11",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen5-math-01-isPrimeTrialDivision_11",
+   "symbol": "isPrimeTrialDivision_11",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sumProperDivisors_11",
+   "symbol": "sumProperDivisors_11",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-eulerTotientPhi_11",
+   "symbol": "eulerTotientPhi_11",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-modPowExp_12",
+   "symbol": "modPowExp_12",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sievePrimeCount_12",
+   "symbol": "sievePrimeCount_12",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen5-math-01-isPrimeTrialDivision_12",
+   "symbol": "isPrimeTrialDivision_12",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sumProperDivisors_12",
+   "symbol": "sumProperDivisors_12",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-eulerTotientPhi_12",
+   "symbol": "eulerTotientPhi_12",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-modPowExp_13",
+   "symbol": "modPowExp_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sievePrimeCount_13",
+   "symbol": "sievePrimeCount_13",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen5-math-01-isPrimeTrialDivision_13",
+   "symbol": "isPrimeTrialDivision_13",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sumProperDivisors_13",
+   "symbol": "sumProperDivisors_13",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-eulerTotientPhi_13",
+   "symbol": "eulerTotientPhi_13",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-modPowExp_14",
+   "symbol": "modPowExp_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sievePrimeCount_14",
+   "symbol": "sievePrimeCount_14",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen5-math-01-isPrimeTrialDivision_14",
+   "symbol": "isPrimeTrialDivision_14",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sumProperDivisors_14",
+   "symbol": "sumProperDivisors_14",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-eulerTotientPhi_14",
+   "symbol": "eulerTotientPhi_14",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-modPowExp_15",
+   "symbol": "modPowExp_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sievePrimeCount_15",
+   "symbol": "sievePrimeCount_15",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen5-math-01-isPrimeTrialDivision_15",
+   "symbol": "isPrimeTrialDivision_15",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sumProperDivisors_15",
+   "symbol": "sumProperDivisors_15",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-eulerTotientPhi_15",
+   "symbol": "eulerTotientPhi_15",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-modPowExp_16",
+   "symbol": "modPowExp_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sievePrimeCount_16",
+   "symbol": "sievePrimeCount_16",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen5-math-01-isPrimeTrialDivision_16",
+   "symbol": "isPrimeTrialDivision_16",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sumProperDivisors_16",
+   "symbol": "sumProperDivisors_16",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-eulerTotientPhi_16",
+   "symbol": "eulerTotientPhi_16",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-modPowExp_17",
+   "symbol": "modPowExp_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sievePrimeCount_17",
+   "symbol": "sievePrimeCount_17",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen5-math-01-isPrimeTrialDivision_17",
+   "symbol": "isPrimeTrialDivision_17",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sumProperDivisors_17",
+   "symbol": "sumProperDivisors_17",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-eulerTotientPhi_17",
+   "symbol": "eulerTotientPhi_17",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-modPowExp_18",
+   "symbol": "modPowExp_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sievePrimeCount_18",
+   "symbol": "sievePrimeCount_18",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen5-math-01-isPrimeTrialDivision_18",
+   "symbol": "isPrimeTrialDivision_18",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sumProperDivisors_18",
+   "symbol": "sumProperDivisors_18",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-eulerTotientPhi_18",
+   "symbol": "eulerTotientPhi_18",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-modPowExp_19",
+   "symbol": "modPowExp_19",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sievePrimeCount_19",
+   "symbol": "sievePrimeCount_19",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gen5-math-01-isPrimeTrialDivision_19",
+   "symbol": "isPrimeTrialDivision_19",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-sumProperDivisors_19",
+   "symbol": "sumProperDivisors_19",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen5-math-01-eulerTotientPhi_19",
+   "symbol": "eulerTotientPhi_19",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  }
+ ]
+}

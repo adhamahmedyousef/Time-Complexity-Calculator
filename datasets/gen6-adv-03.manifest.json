@@ -1,0 +1,16 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen6-adv-03-unsupportedCallbackLoop_66",
+   "symbol": "unsupportedCallbackLoop_66",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "adversarial"
+   ]
+  }
+ ]
+}

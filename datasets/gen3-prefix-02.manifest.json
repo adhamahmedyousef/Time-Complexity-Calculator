@@ -1,0 +1,128 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen3-prefix-02-suffixSum_7",
+   "symbol": "suffixSum_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-02-diffArray_7",
+   "symbol": "diffArray_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-02-rangeAddRestore_7",
+   "symbol": "rangeAddRestore_7",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-02-runningMax_7",
+   "symbol": "runningMax_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "scan"
+   ]
+  },
+  {
+   "id": "gen3-prefix-02-runningMin_7",
+   "symbol": "runningMin_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "scan"
+   ]
+  },
+  {
+   "id": "gen3-prefix-02-prefixMax_7",
+   "symbol": "prefixMax_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-02-gridRowPrefix_7",
+   "symbol": "gridRowPrefix_7",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "prefix",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-02-gridPrefix2d_7",
+   "symbol": "gridPrefix2d_7",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "prefix",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-02-gridRowSums_7",
+   "symbol": "gridRowSums_7",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-02-gridColSums_7",
+   "symbol": "gridColSums_7",
+   "time": "O(n m)",
+   "space": "O(m)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-02-diagonalSum_7",
+   "symbol": "diagonalSum_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-02-prefixCountQueries_7",
+   "symbol": "prefixCountQueries_7",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  }
+ ]
+}

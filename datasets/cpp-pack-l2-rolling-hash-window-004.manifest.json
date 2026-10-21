@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-strings-advanced",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-rolling-hash-window-004",
+      "symbol": "pack_l2_rollingHashWindow",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "strings",
+        "rolling-hash",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "s"
+      ],
+      "proof": "A fixed-size rolling update scans the string once.",
+      "assumptions": "Window size is constant or provided externally.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-rolling-hash-window"
+    }
+  ]
+}

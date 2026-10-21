@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-graphs-advanced",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-prim-structural-002",
+      "symbol": "pack_l2_primStructural",
+      "time": "O((n + m) log n)",
+      "space": "O(n + m)",
+      "confidence": "estimated",
+      "tags": [
+        "graph",
+        "mst",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "n",
+        "adj"
+      ],
+      "proof": "Priority queue selects minimum crossing edge with visited set growth.",
+      "assumptions": "Graph is connected.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-prim-structural"
+    }
+  ]
+}

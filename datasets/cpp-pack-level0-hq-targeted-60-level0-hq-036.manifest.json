@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-hq-targeted-60-level0-hq-036",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-hq-targeted-60-level0-hq-036",
+      "symbol": "pack_level0_hq_targeted_60_solve",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "stl",
+        "unordered_map"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Hash map inserts are average constant time.",
+      "assumptions": "A helper builds a container and the caller scans it.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-hq-targeted-60-stl-base"
+    }
+  ]
+}

@@ -1,0 +1,1090 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen5-dp-01-knapsack01DP_0",
+   "symbol": "knapsack01DP_0",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-unboundedKnapsackDP_0",
+   "symbol": "unboundedKnapsackDP_0",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-lisQuadraticDP_0",
+   "symbol": "lisQuadraticDP_0",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-minPathSumGrid_0",
+   "symbol": "minPathSumGrid_0",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-kadaneMaxSubarray_0",
+   "symbol": "kadaneMaxSubarray_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-coinChangeWays_0",
+   "symbol": "coinChangeWays_0",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-knapsack01DP_1",
+   "symbol": "knapsack01DP_1",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-unboundedKnapsackDP_1",
+   "symbol": "unboundedKnapsackDP_1",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-lisQuadraticDP_1",
+   "symbol": "lisQuadraticDP_1",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-minPathSumGrid_1",
+   "symbol": "minPathSumGrid_1",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-kadaneMaxSubarray_1",
+   "symbol": "kadaneMaxSubarray_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-coinChangeWays_1",
+   "symbol": "coinChangeWays_1",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-knapsack01DP_2",
+   "symbol": "knapsack01DP_2",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-unboundedKnapsackDP_2",
+   "symbol": "unboundedKnapsackDP_2",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-lisQuadraticDP_2",
+   "symbol": "lisQuadraticDP_2",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-minPathSumGrid_2",
+   "symbol": "minPathSumGrid_2",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-kadaneMaxSubarray_2",
+   "symbol": "kadaneMaxSubarray_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-coinChangeWays_2",
+   "symbol": "coinChangeWays_2",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-knapsack01DP_3",
+   "symbol": "knapsack01DP_3",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-unboundedKnapsackDP_3",
+   "symbol": "unboundedKnapsackDP_3",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-lisQuadraticDP_3",
+   "symbol": "lisQuadraticDP_3",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-minPathSumGrid_3",
+   "symbol": "minPathSumGrid_3",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-kadaneMaxSubarray_3",
+   "symbol": "kadaneMaxSubarray_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-coinChangeWays_3",
+   "symbol": "coinChangeWays_3",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-knapsack01DP_4",
+   "symbol": "knapsack01DP_4",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-unboundedKnapsackDP_4",
+   "symbol": "unboundedKnapsackDP_4",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-lisQuadraticDP_4",
+   "symbol": "lisQuadraticDP_4",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-minPathSumGrid_4",
+   "symbol": "minPathSumGrid_4",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-kadaneMaxSubarray_4",
+   "symbol": "kadaneMaxSubarray_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-coinChangeWays_4",
+   "symbol": "coinChangeWays_4",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-knapsack01DP_5",
+   "symbol": "knapsack01DP_5",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-unboundedKnapsackDP_5",
+   "symbol": "unboundedKnapsackDP_5",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-lisQuadraticDP_5",
+   "symbol": "lisQuadraticDP_5",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-minPathSumGrid_5",
+   "symbol": "minPathSumGrid_5",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-kadaneMaxSubarray_5",
+   "symbol": "kadaneMaxSubarray_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-coinChangeWays_5",
+   "symbol": "coinChangeWays_5",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-knapsack01DP_6",
+   "symbol": "knapsack01DP_6",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-unboundedKnapsackDP_6",
+   "symbol": "unboundedKnapsackDP_6",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-lisQuadraticDP_6",
+   "symbol": "lisQuadraticDP_6",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-minPathSumGrid_6",
+   "symbol": "minPathSumGrid_6",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-kadaneMaxSubarray_6",
+   "symbol": "kadaneMaxSubarray_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-coinChangeWays_6",
+   "symbol": "coinChangeWays_6",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-knapsack01DP_7",
+   "symbol": "knapsack01DP_7",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-unboundedKnapsackDP_7",
+   "symbol": "unboundedKnapsackDP_7",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-lisQuadraticDP_7",
+   "symbol": "lisQuadraticDP_7",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-minPathSumGrid_7",
+   "symbol": "minPathSumGrid_7",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-kadaneMaxSubarray_7",
+   "symbol": "kadaneMaxSubarray_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-coinChangeWays_7",
+   "symbol": "coinChangeWays_7",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-knapsack01DP_8",
+   "symbol": "knapsack01DP_8",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-unboundedKnapsackDP_8",
+   "symbol": "unboundedKnapsackDP_8",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-lisQuadraticDP_8",
+   "symbol": "lisQuadraticDP_8",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-minPathSumGrid_8",
+   "symbol": "minPathSumGrid_8",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-kadaneMaxSubarray_8",
+   "symbol": "kadaneMaxSubarray_8",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-coinChangeWays_8",
+   "symbol": "coinChangeWays_8",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-knapsack01DP_9",
+   "symbol": "knapsack01DP_9",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-unboundedKnapsackDP_9",
+   "symbol": "unboundedKnapsackDP_9",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-lisQuadraticDP_9",
+   "symbol": "lisQuadraticDP_9",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-minPathSumGrid_9",
+   "symbol": "minPathSumGrid_9",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-kadaneMaxSubarray_9",
+   "symbol": "kadaneMaxSubarray_9",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-coinChangeWays_9",
+   "symbol": "coinChangeWays_9",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-knapsack01DP_10",
+   "symbol": "knapsack01DP_10",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-unboundedKnapsackDP_10",
+   "symbol": "unboundedKnapsackDP_10",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-lisQuadraticDP_10",
+   "symbol": "lisQuadraticDP_10",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-minPathSumGrid_10",
+   "symbol": "minPathSumGrid_10",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-kadaneMaxSubarray_10",
+   "symbol": "kadaneMaxSubarray_10",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-coinChangeWays_10",
+   "symbol": "coinChangeWays_10",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-knapsack01DP_11",
+   "symbol": "knapsack01DP_11",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-unboundedKnapsackDP_11",
+   "symbol": "unboundedKnapsackDP_11",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-lisQuadraticDP_11",
+   "symbol": "lisQuadraticDP_11",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-minPathSumGrid_11",
+   "symbol": "minPathSumGrid_11",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-kadaneMaxSubarray_11",
+   "symbol": "kadaneMaxSubarray_11",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-coinChangeWays_11",
+   "symbol": "coinChangeWays_11",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-knapsack01DP_12",
+   "symbol": "knapsack01DP_12",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-unboundedKnapsackDP_12",
+   "symbol": "unboundedKnapsackDP_12",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-lisQuadraticDP_12",
+   "symbol": "lisQuadraticDP_12",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-minPathSumGrid_12",
+   "symbol": "minPathSumGrid_12",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-kadaneMaxSubarray_12",
+   "symbol": "kadaneMaxSubarray_12",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-coinChangeWays_12",
+   "symbol": "coinChangeWays_12",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-knapsack01DP_13",
+   "symbol": "knapsack01DP_13",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-unboundedKnapsackDP_13",
+   "symbol": "unboundedKnapsackDP_13",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-lisQuadraticDP_13",
+   "symbol": "lisQuadraticDP_13",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-minPathSumGrid_13",
+   "symbol": "minPathSumGrid_13",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-kadaneMaxSubarray_13",
+   "symbol": "kadaneMaxSubarray_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-coinChangeWays_13",
+   "symbol": "coinChangeWays_13",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-knapsack01DP_14",
+   "symbol": "knapsack01DP_14",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-unboundedKnapsackDP_14",
+   "symbol": "unboundedKnapsackDP_14",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-lisQuadraticDP_14",
+   "symbol": "lisQuadraticDP_14",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-minPathSumGrid_14",
+   "symbol": "minPathSumGrid_14",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-kadaneMaxSubarray_14",
+   "symbol": "kadaneMaxSubarray_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-coinChangeWays_14",
+   "symbol": "coinChangeWays_14",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-knapsack01DP_15",
+   "symbol": "knapsack01DP_15",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-unboundedKnapsackDP_15",
+   "symbol": "unboundedKnapsackDP_15",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-lisQuadraticDP_15",
+   "symbol": "lisQuadraticDP_15",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-minPathSumGrid_15",
+   "symbol": "minPathSumGrid_15",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-kadaneMaxSubarray_15",
+   "symbol": "kadaneMaxSubarray_15",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-coinChangeWays_15",
+   "symbol": "coinChangeWays_15",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-knapsack01DP_16",
+   "symbol": "knapsack01DP_16",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-unboundedKnapsackDP_16",
+   "symbol": "unboundedKnapsackDP_16",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-lisQuadraticDP_16",
+   "symbol": "lisQuadraticDP_16",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen5-dp-01-minPathSumGrid_16",
+   "symbol": "minPathSumGrid_16",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  }
+ ]
+}

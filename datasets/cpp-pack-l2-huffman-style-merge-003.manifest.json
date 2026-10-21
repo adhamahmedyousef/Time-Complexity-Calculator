@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-greedy-adversarial",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-huffman-style-merge-003",
+      "symbol": "pack_l2_huffmanStyleMerge",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "greedy",
+        "priority-queue",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "weights"
+      ],
+      "proof": "Two smallest states are repeatedly merged with a min-heap.",
+      "assumptions": "Merge cost depends on current heap size.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-huffman-style-merge"
+    }
+  ]
+}

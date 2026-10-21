@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-400-pack-level0-366",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-400-pack-level0-366",
+      "symbol": "pack_level0_400_pack_main",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "stl",
+        "unknown"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "The container usage depends on external mutation.",
+      "assumptions": "Intentionally ambiguous; safe analysis should abstain.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-400-pack-stl_hashing-base"
+    }
+  ]
+}

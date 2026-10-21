@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-rand-pack-level0-21",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-rand-pack-level0-21",
+      "symbol": "pack_level0_rand_pack_main",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "sorting",
+        "divisibility",
+        "arrays"
+      ],
+      "inputSymbols": [
+        "t",
+        "n",
+        "a"
+      ],
+      "proof": "The array is sorted once and then checked with a linear divisibility condition.",
+      "assumptions": "Sorting dominates the cost.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-rand-pack-level0-21"
+    }
+  ]
+}

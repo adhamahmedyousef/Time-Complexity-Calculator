@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-recurrence-pack-branching-recurrences",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-recurrence-pack-branching-balanced-step-13",
+      "symbol": "pack_project_x_recurrence_pack_balancedTwoStepRec_4_1",
+      "time": "O(1.41^n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "recurrence",
+        "branching",
+        "exponential"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "The two direct calls decrease n by two, so 2r^-2 = 1 and r = sqrt(2) ≈ 1.41.",
+      "assumptions": "No caching or pruning changes the recursion tree.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-recurrence-pack-branching-triple-01"
+    }
+  ]
+}

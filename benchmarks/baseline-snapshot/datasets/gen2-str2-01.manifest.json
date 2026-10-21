@@ -1,0 +1,186 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen2-str2-01-isPal_0",
+   "symbol": "isPal_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "gen2-str2-01-charFreq_0",
+   "symbol": "charFreq_0",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "gen2-str2-01-anagram_0",
+   "symbol": "anagram_0",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "gen2-str2-01-isPal_1",
+   "symbol": "isPal_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "gen2-str2-01-charFreq_1",
+   "symbol": "charFreq_1",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "gen2-str2-01-anagram_1",
+   "symbol": "anagram_1",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "gen2-str2-01-isPal_2",
+   "symbol": "isPal_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "gen2-str2-01-charFreq_2",
+   "symbol": "charFreq_2",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "gen2-str2-01-anagram_2",
+   "symbol": "anagram_2",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "gen2-str2-01-isPal_3",
+   "symbol": "isPal_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "gen2-str2-01-charFreq_3",
+   "symbol": "charFreq_3",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "gen2-str2-01-anagram_3",
+   "symbol": "anagram_3",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "gen2-str2-01-isPal_4",
+   "symbol": "isPal_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "gen2-str2-01-charFreq_4",
+   "symbol": "charFreq_4",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "gen2-str2-01-anagram_4",
+   "symbol": "anagram_4",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "gen2-str2-01-isPal_5",
+   "symbol": "isPal_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "gen2-str2-01-charFreq_5",
+   "symbol": "charFreq_5",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  },
+  {
+   "id": "gen2-str2-01-anagram_5",
+   "symbol": "anagram_5",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "string"
+   ]
+  }
+ ]
+}

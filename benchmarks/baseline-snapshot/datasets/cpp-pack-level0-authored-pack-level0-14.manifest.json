@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-authored-pack-level0-14",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-authored-pack-level0-14",
+      "symbol": "pack_level0_authored_pack_main",
+      "time": "O(n log log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "math",
+        "sieve"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Classic sieve marks composite numbers with harmonic-like overhead.",
+      "assumptions": "Primitive operations are constant time.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-authored-pack-level0-14"
+    }
+  ]
+}

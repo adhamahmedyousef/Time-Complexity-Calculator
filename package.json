@@ -1,0 +1,20 @@
+{
+  "name": "time-complexity-calculator",
+  "version": "1.0.0",
+  "description": "Offline C++ Time & Space Complexity Static Analyzer with first-principles proofs",
+  "author": "Adham Ahmed Yousef",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "analyzer",
+    "extension"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspace @project-x/analyzer",
+    "validate:dataset": "python tools/validate_dataset.py",
+    "benchmark:dataset": "node tools/benchmark_dataset.mjs",
+    "benchmark:diagnose": "node tools/diagnose_dataset.mjs",
+    "holdout:generate": "python tools/holdout_split.py"
+  }
+}

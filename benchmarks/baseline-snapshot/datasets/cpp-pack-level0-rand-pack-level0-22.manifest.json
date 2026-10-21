@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-rand-pack-level0-22",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-rand-pack-level0-22",
+      "symbol": "pack_level0_rand_pack_good",
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "inclusion-exclusion",
+        "divisibility"
+      ],
+      "inputSymbols": [
+        "l",
+        "r"
+      ],
+      "proof": "The function is a fixed inclusion-exclusion formula over divisibility by small constants.",
+      "assumptions": "The divisibility set is fixed.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-rand-pack-level0-22"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-hq-targeted-60-level0-hq-003",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-hq-targeted-60-level0-hq-003",
+      "symbol": "pack_level0_hq_targeted_60_solve",
+      "time": "O(n+q)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "composition",
+        "prefix"
+      ],
+      "inputSymbols": [
+        "n",
+        "q"
+      ],
+      "proof": "Prefix preprocessing plus query phase composes linearly.",
+      "assumptions": "Primitive operations are constant time.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-hq-targeted-60-composition-base"
+    }
+  ]
+}

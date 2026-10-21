@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l1-adversarial-unknown",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l1-data-dependent-loop-progress-01",
+      "symbol": "pack_l1_dataDependentLoopProgress",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "adversarial",
+        "data-dependent",
+        "level-1"
+      ],
+      "inputSymbols": [
+        "a",
+        "n"
+      ],
+      "proof": "Loop progress depends on runtime array values and may not be monotone.",
+      "assumptions": "The loop may terminate, but the iteration count cannot be proven statically.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l1-data-dependent-loop-progress"
+    }
+  ]
+}

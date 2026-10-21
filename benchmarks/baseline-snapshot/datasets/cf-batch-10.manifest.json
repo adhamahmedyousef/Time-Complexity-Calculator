@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "cf-batch-10",
+      "symbol": "solve",
+      "time": "O(C * sqrt(P))",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "number-theory",
+        "primes"
+      ],
+      "inputSymbols": [
+        "n",
+        "k"
+      ],
+      "proof": "Candidate primality checks dominate; the largest generated prime controls the trial-division cost.",
+      "assumptions": "C is the number of candidates tested and P is the largest candidate examined.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

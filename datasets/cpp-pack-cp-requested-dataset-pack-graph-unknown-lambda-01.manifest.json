@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-graph-algorithms",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-graph-unknown-lambda-01",
+      "symbol": "pack_cp_requested_dataset_pack_graphUnknownLambda_1",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "graph",
+        "adversarial",
+        "unknown"
+      ],
+      "inputSymbols": [
+        "adj"
+      ],
+      "proof": "The traversal order depends on a mutable callback and a hidden branch condition.",
+      "assumptions": "The callback may mutate the worklist externally.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-graph-unknown-lambda-01"
+    }
+  ]
+}

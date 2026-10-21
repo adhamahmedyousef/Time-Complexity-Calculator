@@ -1,0 +1,806 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen3-sort3-01-bubbleSort_0",
+   "symbol": "bubbleSort_0",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-selectionSort_0",
+   "symbol": "selectionSort_0",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-insertionSort_0",
+   "symbol": "insertionSort_0",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-insertionSortFor_0",
+   "symbol": "insertionSortFor_0",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-countingSort_0",
+   "symbol": "countingSort_0",
+   "time": "O(n + k)",
+   "space": "O(n + k)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-countingSortStable_0",
+   "symbol": "countingSortStable_0",
+   "time": "O(n + k)",
+   "space": "O(n + k)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-sortScanEarly_0",
+   "symbol": "sortScanEarly_0",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-kthSmallestSort_0",
+   "symbol": "kthSmallestSort_0",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-sortThenCountPairs_0",
+   "symbol": "sortThenCountPairs_0",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-bubbleSortShrinking_0",
+   "symbol": "bubbleSortShrinking_0",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-bubbleSort_1",
+   "symbol": "bubbleSort_1",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-selectionSort_1",
+   "symbol": "selectionSort_1",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-insertionSort_1",
+   "symbol": "insertionSort_1",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-insertionSortFor_1",
+   "symbol": "insertionSortFor_1",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-countingSort_1",
+   "symbol": "countingSort_1",
+   "time": "O(n + k)",
+   "space": "O(n + k)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-countingSortStable_1",
+   "symbol": "countingSortStable_1",
+   "time": "O(n + k)",
+   "space": "O(n + k)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-sortScanEarly_1",
+   "symbol": "sortScanEarly_1",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-kthSmallestSort_1",
+   "symbol": "kthSmallestSort_1",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-sortThenCountPairs_1",
+   "symbol": "sortThenCountPairs_1",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-bubbleSortShrinking_1",
+   "symbol": "bubbleSortShrinking_1",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-bubbleSort_2",
+   "symbol": "bubbleSort_2",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-selectionSort_2",
+   "symbol": "selectionSort_2",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-insertionSort_2",
+   "symbol": "insertionSort_2",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-insertionSortFor_2",
+   "symbol": "insertionSortFor_2",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-countingSort_2",
+   "symbol": "countingSort_2",
+   "time": "O(n + k)",
+   "space": "O(n + k)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-countingSortStable_2",
+   "symbol": "countingSortStable_2",
+   "time": "O(n + k)",
+   "space": "O(n + k)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-sortScanEarly_2",
+   "symbol": "sortScanEarly_2",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-kthSmallestSort_2",
+   "symbol": "kthSmallestSort_2",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-sortThenCountPairs_2",
+   "symbol": "sortThenCountPairs_2",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-bubbleSortShrinking_2",
+   "symbol": "bubbleSortShrinking_2",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-bubbleSort_3",
+   "symbol": "bubbleSort_3",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-selectionSort_3",
+   "symbol": "selectionSort_3",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-insertionSort_3",
+   "symbol": "insertionSort_3",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-insertionSortFor_3",
+   "symbol": "insertionSortFor_3",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-countingSort_3",
+   "symbol": "countingSort_3",
+   "time": "O(n + k)",
+   "space": "O(n + k)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-countingSortStable_3",
+   "symbol": "countingSortStable_3",
+   "time": "O(n + k)",
+   "space": "O(n + k)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-sortScanEarly_3",
+   "symbol": "sortScanEarly_3",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-kthSmallestSort_3",
+   "symbol": "kthSmallestSort_3",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-sortThenCountPairs_3",
+   "symbol": "sortThenCountPairs_3",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-bubbleSortShrinking_3",
+   "symbol": "bubbleSortShrinking_3",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-bubbleSort_4",
+   "symbol": "bubbleSort_4",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-selectionSort_4",
+   "symbol": "selectionSort_4",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-insertionSort_4",
+   "symbol": "insertionSort_4",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-insertionSortFor_4",
+   "symbol": "insertionSortFor_4",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-countingSort_4",
+   "symbol": "countingSort_4",
+   "time": "O(n + k)",
+   "space": "O(n + k)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-countingSortStable_4",
+   "symbol": "countingSortStable_4",
+   "time": "O(n + k)",
+   "space": "O(n + k)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-sortScanEarly_4",
+   "symbol": "sortScanEarly_4",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-kthSmallestSort_4",
+   "symbol": "kthSmallestSort_4",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-sortThenCountPairs_4",
+   "symbol": "sortThenCountPairs_4",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-bubbleSortShrinking_4",
+   "symbol": "bubbleSortShrinking_4",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-bubbleSort_5",
+   "symbol": "bubbleSort_5",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-selectionSort_5",
+   "symbol": "selectionSort_5",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-insertionSort_5",
+   "symbol": "insertionSort_5",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-insertionSortFor_5",
+   "symbol": "insertionSortFor_5",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-countingSort_5",
+   "symbol": "countingSort_5",
+   "time": "O(n + k)",
+   "space": "O(n + k)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-countingSortStable_5",
+   "symbol": "countingSortStable_5",
+   "time": "O(n + k)",
+   "space": "O(n + k)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-sortScanEarly_5",
+   "symbol": "sortScanEarly_5",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-kthSmallestSort_5",
+   "symbol": "kthSmallestSort_5",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-sortThenCountPairs_5",
+   "symbol": "sortThenCountPairs_5",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-bubbleSortShrinking_5",
+   "symbol": "bubbleSortShrinking_5",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-bubbleSort_6",
+   "symbol": "bubbleSort_6",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-selectionSort_6",
+   "symbol": "selectionSort_6",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-insertionSort_6",
+   "symbol": "insertionSort_6",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-insertionSortFor_6",
+   "symbol": "insertionSortFor_6",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-countingSort_6",
+   "symbol": "countingSort_6",
+   "time": "O(n + k)",
+   "space": "O(n + k)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-countingSortStable_6",
+   "symbol": "countingSortStable_6",
+   "time": "O(n + k)",
+   "space": "O(n + k)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-sortScanEarly_6",
+   "symbol": "sortScanEarly_6",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-kthSmallestSort_6",
+   "symbol": "kthSmallestSort_6",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-sortThenCountPairs_6",
+   "symbol": "sortThenCountPairs_6",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-bubbleSortShrinking_6",
+   "symbol": "bubbleSortShrinking_6",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-bubbleSort_7",
+   "symbol": "bubbleSort_7",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-selectionSort_7",
+   "symbol": "selectionSort_7",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-insertionSort_7",
+   "symbol": "insertionSort_7",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-insertionSortFor_7",
+   "symbol": "insertionSortFor_7",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-countingSort_7",
+   "symbol": "countingSort_7",
+   "time": "O(n + k)",
+   "space": "O(n + k)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-countingSortStable_7",
+   "symbol": "countingSortStable_7",
+   "time": "O(n + k)",
+   "space": "O(n + k)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-sortScanEarly_7",
+   "symbol": "sortScanEarly_7",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-kthSmallestSort_7",
+   "symbol": "kthSmallestSort_7",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-sortThenCountPairs_7",
+   "symbol": "sortThenCountPairs_7",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-sort3-01-bubbleSortShrinking_7",
+   "symbol": "bubbleSortShrinking_7",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  }
+ ]
+}

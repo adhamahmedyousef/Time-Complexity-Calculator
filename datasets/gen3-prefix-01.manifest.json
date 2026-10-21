@@ -1,0 +1,1020 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen3-prefix-01-buildPrefix_0",
+   "symbol": "buildPrefix_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-rangeSumQueries_0",
+   "symbol": "rangeSumQueries_0",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-suffixSum_0",
+   "symbol": "suffixSum_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-diffArray_0",
+   "symbol": "diffArray_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-rangeAddRestore_0",
+   "symbol": "rangeAddRestore_0",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-runningMax_0",
+   "symbol": "runningMax_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "scan"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-runningMin_0",
+   "symbol": "runningMin_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "scan"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-prefixMax_0",
+   "symbol": "prefixMax_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridRowPrefix_0",
+   "symbol": "gridRowPrefix_0",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "prefix",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridPrefix2d_0",
+   "symbol": "gridPrefix2d_0",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "prefix",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridRowSums_0",
+   "symbol": "gridRowSums_0",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridColSums_0",
+   "symbol": "gridColSums_0",
+   "time": "O(n m)",
+   "space": "O(m)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-diagonalSum_0",
+   "symbol": "diagonalSum_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-prefixCountQueries_0",
+   "symbol": "prefixCountQueries_0",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-buildPrefix_1",
+   "symbol": "buildPrefix_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-rangeSumQueries_1",
+   "symbol": "rangeSumQueries_1",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-suffixSum_1",
+   "symbol": "suffixSum_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-diffArray_1",
+   "symbol": "diffArray_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-rangeAddRestore_1",
+   "symbol": "rangeAddRestore_1",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-runningMax_1",
+   "symbol": "runningMax_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "scan"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-runningMin_1",
+   "symbol": "runningMin_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "scan"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-prefixMax_1",
+   "symbol": "prefixMax_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridRowPrefix_1",
+   "symbol": "gridRowPrefix_1",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "prefix",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridPrefix2d_1",
+   "symbol": "gridPrefix2d_1",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "prefix",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridRowSums_1",
+   "symbol": "gridRowSums_1",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridColSums_1",
+   "symbol": "gridColSums_1",
+   "time": "O(n m)",
+   "space": "O(m)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-diagonalSum_1",
+   "symbol": "diagonalSum_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-prefixCountQueries_1",
+   "symbol": "prefixCountQueries_1",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-buildPrefix_2",
+   "symbol": "buildPrefix_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-rangeSumQueries_2",
+   "symbol": "rangeSumQueries_2",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-suffixSum_2",
+   "symbol": "suffixSum_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-diffArray_2",
+   "symbol": "diffArray_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-rangeAddRestore_2",
+   "symbol": "rangeAddRestore_2",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-runningMax_2",
+   "symbol": "runningMax_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "scan"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-runningMin_2",
+   "symbol": "runningMin_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "scan"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-prefixMax_2",
+   "symbol": "prefixMax_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridRowPrefix_2",
+   "symbol": "gridRowPrefix_2",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "prefix",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridPrefix2d_2",
+   "symbol": "gridPrefix2d_2",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "prefix",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridRowSums_2",
+   "symbol": "gridRowSums_2",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridColSums_2",
+   "symbol": "gridColSums_2",
+   "time": "O(n m)",
+   "space": "O(m)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-diagonalSum_2",
+   "symbol": "diagonalSum_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-prefixCountQueries_2",
+   "symbol": "prefixCountQueries_2",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-buildPrefix_3",
+   "symbol": "buildPrefix_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-rangeSumQueries_3",
+   "symbol": "rangeSumQueries_3",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-suffixSum_3",
+   "symbol": "suffixSum_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-diffArray_3",
+   "symbol": "diffArray_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-rangeAddRestore_3",
+   "symbol": "rangeAddRestore_3",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-runningMax_3",
+   "symbol": "runningMax_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "scan"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-runningMin_3",
+   "symbol": "runningMin_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "scan"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-prefixMax_3",
+   "symbol": "prefixMax_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridRowPrefix_3",
+   "symbol": "gridRowPrefix_3",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "prefix",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridPrefix2d_3",
+   "symbol": "gridPrefix2d_3",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "prefix",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridRowSums_3",
+   "symbol": "gridRowSums_3",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridColSums_3",
+   "symbol": "gridColSums_3",
+   "time": "O(n m)",
+   "space": "O(m)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-diagonalSum_3",
+   "symbol": "diagonalSum_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-prefixCountQueries_3",
+   "symbol": "prefixCountQueries_3",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-buildPrefix_4",
+   "symbol": "buildPrefix_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-rangeSumQueries_4",
+   "symbol": "rangeSumQueries_4",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-suffixSum_4",
+   "symbol": "suffixSum_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-diffArray_4",
+   "symbol": "diffArray_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-rangeAddRestore_4",
+   "symbol": "rangeAddRestore_4",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-runningMax_4",
+   "symbol": "runningMax_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "scan"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-runningMin_4",
+   "symbol": "runningMin_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "scan"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-prefixMax_4",
+   "symbol": "prefixMax_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridRowPrefix_4",
+   "symbol": "gridRowPrefix_4",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "prefix",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridPrefix2d_4",
+   "symbol": "gridPrefix2d_4",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "prefix",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridRowSums_4",
+   "symbol": "gridRowSums_4",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridColSums_4",
+   "symbol": "gridColSums_4",
+   "time": "O(n m)",
+   "space": "O(m)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-diagonalSum_4",
+   "symbol": "diagonalSum_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-prefixCountQueries_4",
+   "symbol": "prefixCountQueries_4",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-buildPrefix_5",
+   "symbol": "buildPrefix_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-rangeSumQueries_5",
+   "symbol": "rangeSumQueries_5",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-suffixSum_5",
+   "symbol": "suffixSum_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-diffArray_5",
+   "symbol": "diffArray_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-rangeAddRestore_5",
+   "symbol": "rangeAddRestore_5",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-runningMax_5",
+   "symbol": "runningMax_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "scan"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-runningMin_5",
+   "symbol": "runningMin_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "scan"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-prefixMax_5",
+   "symbol": "prefixMax_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridRowPrefix_5",
+   "symbol": "gridRowPrefix_5",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "prefix",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridPrefix2d_5",
+   "symbol": "gridPrefix2d_5",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "prefix",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridRowSums_5",
+   "symbol": "gridRowSums_5",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridColSums_5",
+   "symbol": "gridColSums_5",
+   "time": "O(n m)",
+   "space": "O(m)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-diagonalSum_5",
+   "symbol": "diagonalSum_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-prefixCountQueries_5",
+   "symbol": "prefixCountQueries_5",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-buildPrefix_6",
+   "symbol": "buildPrefix_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-rangeSumQueries_6",
+   "symbol": "rangeSumQueries_6",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-suffixSum_6",
+   "symbol": "suffixSum_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-diffArray_6",
+   "symbol": "diffArray_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-rangeAddRestore_6",
+   "symbol": "rangeAddRestore_6",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-runningMax_6",
+   "symbol": "runningMax_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "scan"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-runningMin_6",
+   "symbol": "runningMin_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "scan"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-prefixMax_6",
+   "symbol": "prefixMax_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridRowPrefix_6",
+   "symbol": "gridRowPrefix_6",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "prefix",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridPrefix2d_6",
+   "symbol": "gridPrefix2d_6",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "prefix",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridRowSums_6",
+   "symbol": "gridRowSums_6",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-gridColSums_6",
+   "symbol": "gridColSums_6",
+   "time": "O(n m)",
+   "space": "O(m)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-diagonalSum_6",
+   "symbol": "diagonalSum_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-prefixCountQueries_6",
+   "symbol": "prefixCountQueries_6",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-buildPrefix_7",
+   "symbol": "buildPrefix_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen3-prefix-01-rangeSumQueries_7",
+   "symbol": "rangeSumQueries_7",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "prefix"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1006 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen4-matrix-01-matrixSquareMultiply_0",
+   "symbol": "matrixSquareMultiply_0",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixTransposeSquare_0",
+   "symbol": "matrixTransposeSquare_0",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixVectorMul_0",
+   "symbol": "matrixVectorMul_0",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixIdentityInit_0",
+   "symbol": "matrixIdentityInit_0",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixZeroOut_0",
+   "symbol": "matrixZeroOut_0",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixSquareMultiply_1",
+   "symbol": "matrixSquareMultiply_1",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixTransposeSquare_1",
+   "symbol": "matrixTransposeSquare_1",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixVectorMul_1",
+   "symbol": "matrixVectorMul_1",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixIdentityInit_1",
+   "symbol": "matrixIdentityInit_1",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixZeroOut_1",
+   "symbol": "matrixZeroOut_1",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixSquareMultiply_2",
+   "symbol": "matrixSquareMultiply_2",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixTransposeSquare_2",
+   "symbol": "matrixTransposeSquare_2",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixVectorMul_2",
+   "symbol": "matrixVectorMul_2",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixIdentityInit_2",
+   "symbol": "matrixIdentityInit_2",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixZeroOut_2",
+   "symbol": "matrixZeroOut_2",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixSquareMultiply_3",
+   "symbol": "matrixSquareMultiply_3",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixTransposeSquare_3",
+   "symbol": "matrixTransposeSquare_3",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixVectorMul_3",
+   "symbol": "matrixVectorMul_3",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixIdentityInit_3",
+   "symbol": "matrixIdentityInit_3",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixZeroOut_3",
+   "symbol": "matrixZeroOut_3",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixSquareMultiply_4",
+   "symbol": "matrixSquareMultiply_4",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixTransposeSquare_4",
+   "symbol": "matrixTransposeSquare_4",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixVectorMul_4",
+   "symbol": "matrixVectorMul_4",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixIdentityInit_4",
+   "symbol": "matrixIdentityInit_4",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixZeroOut_4",
+   "symbol": "matrixZeroOut_4",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixSquareMultiply_5",
+   "symbol": "matrixSquareMultiply_5",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixTransposeSquare_5",
+   "symbol": "matrixTransposeSquare_5",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixVectorMul_5",
+   "symbol": "matrixVectorMul_5",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixIdentityInit_5",
+   "symbol": "matrixIdentityInit_5",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixZeroOut_5",
+   "symbol": "matrixZeroOut_5",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixSquareMultiply_6",
+   "symbol": "matrixSquareMultiply_6",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixTransposeSquare_6",
+   "symbol": "matrixTransposeSquare_6",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixVectorMul_6",
+   "symbol": "matrixVectorMul_6",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixIdentityInit_6",
+   "symbol": "matrixIdentityInit_6",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixZeroOut_6",
+   "symbol": "matrixZeroOut_6",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixSquareMultiply_7",
+   "symbol": "matrixSquareMultiply_7",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixTransposeSquare_7",
+   "symbol": "matrixTransposeSquare_7",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixVectorMul_7",
+   "symbol": "matrixVectorMul_7",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixIdentityInit_7",
+   "symbol": "matrixIdentityInit_7",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixZeroOut_7",
+   "symbol": "matrixZeroOut_7",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixSquareMultiply_8",
+   "symbol": "matrixSquareMultiply_8",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixTransposeSquare_8",
+   "symbol": "matrixTransposeSquare_8",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixVectorMul_8",
+   "symbol": "matrixVectorMul_8",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixIdentityInit_8",
+   "symbol": "matrixIdentityInit_8",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixZeroOut_8",
+   "symbol": "matrixZeroOut_8",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixSquareMultiply_9",
+   "symbol": "matrixSquareMultiply_9",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixTransposeSquare_9",
+   "symbol": "matrixTransposeSquare_9",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixVectorMul_9",
+   "symbol": "matrixVectorMul_9",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixIdentityInit_9",
+   "symbol": "matrixIdentityInit_9",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixZeroOut_9",
+   "symbol": "matrixZeroOut_9",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixSquareMultiply_10",
+   "symbol": "matrixSquareMultiply_10",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixTransposeSquare_10",
+   "symbol": "matrixTransposeSquare_10",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixVectorMul_10",
+   "symbol": "matrixVectorMul_10",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixIdentityInit_10",
+   "symbol": "matrixIdentityInit_10",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixZeroOut_10",
+   "symbol": "matrixZeroOut_10",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixSquareMultiply_11",
+   "symbol": "matrixSquareMultiply_11",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixTransposeSquare_11",
+   "symbol": "matrixTransposeSquare_11",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixVectorMul_11",
+   "symbol": "matrixVectorMul_11",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixIdentityInit_11",
+   "symbol": "matrixIdentityInit_11",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixZeroOut_11",
+   "symbol": "matrixZeroOut_11",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixSquareMultiply_12",
+   "symbol": "matrixSquareMultiply_12",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixTransposeSquare_12",
+   "symbol": "matrixTransposeSquare_12",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixVectorMul_12",
+   "symbol": "matrixVectorMul_12",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixIdentityInit_12",
+   "symbol": "matrixIdentityInit_12",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixZeroOut_12",
+   "symbol": "matrixZeroOut_12",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixSquareMultiply_13",
+   "symbol": "matrixSquareMultiply_13",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixTransposeSquare_13",
+   "symbol": "matrixTransposeSquare_13",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixVectorMul_13",
+   "symbol": "matrixVectorMul_13",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixIdentityInit_13",
+   "symbol": "matrixIdentityInit_13",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixZeroOut_13",
+   "symbol": "matrixZeroOut_13",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixSquareMultiply_14",
+   "symbol": "matrixSquareMultiply_14",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixTransposeSquare_14",
+   "symbol": "matrixTransposeSquare_14",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixVectorMul_14",
+   "symbol": "matrixVectorMul_14",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixIdentityInit_14",
+   "symbol": "matrixIdentityInit_14",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixZeroOut_14",
+   "symbol": "matrixZeroOut_14",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixSquareMultiply_15",
+   "symbol": "matrixSquareMultiply_15",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixTransposeSquare_15",
+   "symbol": "matrixTransposeSquare_15",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixVectorMul_15",
+   "symbol": "matrixVectorMul_15",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixIdentityInit_15",
+   "symbol": "matrixIdentityInit_15",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixZeroOut_15",
+   "symbol": "matrixZeroOut_15",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixSquareMultiply_16",
+   "symbol": "matrixSquareMultiply_16",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixTransposeSquare_16",
+   "symbol": "matrixTransposeSquare_16",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixVectorMul_16",
+   "symbol": "matrixVectorMul_16",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixIdentityInit_16",
+   "symbol": "matrixIdentityInit_16",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixZeroOut_16",
+   "symbol": "matrixZeroOut_16",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixSquareMultiply_17",
+   "symbol": "matrixSquareMultiply_17",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixTransposeSquare_17",
+   "symbol": "matrixTransposeSquare_17",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixVectorMul_17",
+   "symbol": "matrixVectorMul_17",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixIdentityInit_17",
+   "symbol": "matrixIdentityInit_17",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixZeroOut_17",
+   "symbol": "matrixZeroOut_17",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixSquareMultiply_18",
+   "symbol": "matrixSquareMultiply_18",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixTransposeSquare_18",
+   "symbol": "matrixTransposeSquare_18",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixVectorMul_18",
+   "symbol": "matrixVectorMul_18",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixIdentityInit_18",
+   "symbol": "matrixIdentityInit_18",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixZeroOut_18",
+   "symbol": "matrixZeroOut_18",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixSquareMultiply_19",
+   "symbol": "matrixSquareMultiply_19",
+   "time": "O(n^3)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixTransposeSquare_19",
+   "symbol": "matrixTransposeSquare_19",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixVectorMul_19",
+   "symbol": "matrixVectorMul_19",
+   "time": "O(n m)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixIdentityInit_19",
+   "symbol": "matrixIdentityInit_19",
+   "time": "O(n)",
+   "space": "O(n^2)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  },
+  {
+   "id": "gen4-matrix-01-matrixZeroOut_19",
+   "symbol": "matrixZeroOut_19",
+   "time": "O(n m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "matrix"
+   ]
+  }
+ ]
+}

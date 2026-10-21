@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-strings-advanced",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-kmp-search-001",
+      "symbol": "pack_l2_kmpSearch",
+      "time": "O(n + m)",
+      "space": "O(n + m)",
+      "confidence": "estimated",
+      "tags": [
+        "strings",
+        "kmp",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "text",
+        "pattern"
+      ],
+      "proof": "Prefix-function preprocessing plus one linear scan over the text.",
+      "assumptions": "Pattern and text are static strings.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-kmp-search"
+    }
+  ]
+}

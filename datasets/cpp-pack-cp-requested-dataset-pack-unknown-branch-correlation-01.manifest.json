@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-adversarial-unknown",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-unknown-branch-correlation-01",
+      "symbol": "pack_cp_requested_dataset_pack_unknownBranchCorrelation_1",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "adversarial",
+        "branch-correlation",
+        "unknown"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "A correlated predicate across iterations is not statically provable here.",
+      "assumptions": "The branch may hide a non-monotone update.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-unknown-branch-correlation-01"
+    }
+  ]
+}

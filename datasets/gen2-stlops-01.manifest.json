@@ -1,0 +1,126 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen2-stlops-01-vecPush_0",
+   "symbol": "vecPush_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stlops-01-setInsert_0",
+   "symbol": "setInsert_0",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stlops-01-vecPush_1",
+   "symbol": "vecPush_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stlops-01-setInsert_1",
+   "symbol": "setInsert_1",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stlops-01-vecPush_2",
+   "symbol": "vecPush_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stlops-01-setInsert_2",
+   "symbol": "setInsert_2",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stlops-01-vecPush_3",
+   "symbol": "vecPush_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stlops-01-setInsert_3",
+   "symbol": "setInsert_3",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stlops-01-vecPush_4",
+   "symbol": "vecPush_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stlops-01-setInsert_4",
+   "symbol": "setInsert_4",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stlops-01-vecPush_5",
+   "symbol": "vecPush_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stlops-01-setInsert_5",
+   "symbol": "setInsert_5",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  }
+ ]
+}

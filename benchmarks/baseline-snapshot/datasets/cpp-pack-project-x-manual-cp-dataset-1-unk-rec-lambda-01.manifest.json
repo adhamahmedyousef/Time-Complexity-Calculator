@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-unk-rec-lambda-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_recursiveLambdaUnknown_rl1",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "adversarial",
+        "lambda",
+        "unknown"
+      ],
+      "algorithmFamily": "recursive-lambda",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Recursive behavior is hidden behind a self-capturing lambda with no proven recurrence summary.",
+      "assumptions": "The lambda may branch unpredictably.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-unk-rec-lambda-01"
+    }
+  ]
+}

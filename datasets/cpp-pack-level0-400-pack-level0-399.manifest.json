@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-400-pack-level0-399",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-400-pack-level0-399",
+      "symbol": "pack_level0_400_pack_main",
+      "time": "O(n log n)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "greedy",
+        "sort"
+      ],
+      "inputSymbols": [
+        "n",
+        "a"
+      ],
+      "proof": "Greedy choice after sorting is logarithmic due to sort.",
+      "assumptions": "Primitive operations are constant time.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-400-pack-greedy_simulation_bruteforce-base"
+    }
+  ]
+}

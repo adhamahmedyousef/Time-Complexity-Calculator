@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "cf-batch-02",
+      "symbol": "main",
+      "time": "O(t)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "math",
+        "comparison"
+      ],
+      "inputSymbols": [
+        "t"
+      ],
+      "proof": "Each test case does one division and one branch.",
+      "assumptions": "t is the number of test cases.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

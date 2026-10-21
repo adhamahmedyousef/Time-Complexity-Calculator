@@ -1,0 +1,996 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_0",
+   "symbol": "nextGreaterElemStack_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_0",
+   "symbol": "prevGreaterElemStack_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_0",
+   "symbol": "dailyTemperaturesSpan_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_1",
+   "symbol": "nextGreaterElemStack_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_1",
+   "symbol": "prevGreaterElemStack_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_1",
+   "symbol": "dailyTemperaturesSpan_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_2",
+   "symbol": "nextGreaterElemStack_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_2",
+   "symbol": "prevGreaterElemStack_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_2",
+   "symbol": "dailyTemperaturesSpan_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_3",
+   "symbol": "nextGreaterElemStack_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_3",
+   "symbol": "prevGreaterElemStack_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_3",
+   "symbol": "dailyTemperaturesSpan_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_4",
+   "symbol": "nextGreaterElemStack_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_4",
+   "symbol": "prevGreaterElemStack_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_4",
+   "symbol": "dailyTemperaturesSpan_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_5",
+   "symbol": "nextGreaterElemStack_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_5",
+   "symbol": "prevGreaterElemStack_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_5",
+   "symbol": "dailyTemperaturesSpan_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_6",
+   "symbol": "nextGreaterElemStack_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_6",
+   "symbol": "prevGreaterElemStack_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_6",
+   "symbol": "dailyTemperaturesSpan_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_7",
+   "symbol": "nextGreaterElemStack_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_7",
+   "symbol": "prevGreaterElemStack_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_7",
+   "symbol": "dailyTemperaturesSpan_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_8",
+   "symbol": "nextGreaterElemStack_8",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_8",
+   "symbol": "prevGreaterElemStack_8",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_8",
+   "symbol": "dailyTemperaturesSpan_8",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_9",
+   "symbol": "nextGreaterElemStack_9",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_9",
+   "symbol": "prevGreaterElemStack_9",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_9",
+   "symbol": "dailyTemperaturesSpan_9",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_10",
+   "symbol": "nextGreaterElemStack_10",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_10",
+   "symbol": "prevGreaterElemStack_10",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_10",
+   "symbol": "dailyTemperaturesSpan_10",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_11",
+   "symbol": "nextGreaterElemStack_11",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_11",
+   "symbol": "prevGreaterElemStack_11",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_11",
+   "symbol": "dailyTemperaturesSpan_11",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_12",
+   "symbol": "nextGreaterElemStack_12",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_12",
+   "symbol": "prevGreaterElemStack_12",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_12",
+   "symbol": "dailyTemperaturesSpan_12",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_13",
+   "symbol": "nextGreaterElemStack_13",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_13",
+   "symbol": "prevGreaterElemStack_13",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_13",
+   "symbol": "dailyTemperaturesSpan_13",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_14",
+   "symbol": "nextGreaterElemStack_14",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_14",
+   "symbol": "prevGreaterElemStack_14",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_14",
+   "symbol": "dailyTemperaturesSpan_14",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_15",
+   "symbol": "nextGreaterElemStack_15",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_15",
+   "symbol": "prevGreaterElemStack_15",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_15",
+   "symbol": "dailyTemperaturesSpan_15",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_16",
+   "symbol": "nextGreaterElemStack_16",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_16",
+   "symbol": "prevGreaterElemStack_16",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_16",
+   "symbol": "dailyTemperaturesSpan_16",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_17",
+   "symbol": "nextGreaterElemStack_17",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_17",
+   "symbol": "prevGreaterElemStack_17",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_17",
+   "symbol": "dailyTemperaturesSpan_17",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_18",
+   "symbol": "nextGreaterElemStack_18",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_18",
+   "symbol": "prevGreaterElemStack_18",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_18",
+   "symbol": "dailyTemperaturesSpan_18",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_19",
+   "symbol": "nextGreaterElemStack_19",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_19",
+   "symbol": "prevGreaterElemStack_19",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_19",
+   "symbol": "dailyTemperaturesSpan_19",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_20",
+   "symbol": "nextGreaterElemStack_20",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_20",
+   "symbol": "prevGreaterElemStack_20",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_20",
+   "symbol": "dailyTemperaturesSpan_20",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_21",
+   "symbol": "nextGreaterElemStack_21",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_21",
+   "symbol": "prevGreaterElemStack_21",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_21",
+   "symbol": "dailyTemperaturesSpan_21",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_22",
+   "symbol": "nextGreaterElemStack_22",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_22",
+   "symbol": "prevGreaterElemStack_22",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_22",
+   "symbol": "dailyTemperaturesSpan_22",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_23",
+   "symbol": "nextGreaterElemStack_23",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_23",
+   "symbol": "prevGreaterElemStack_23",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_23",
+   "symbol": "dailyTemperaturesSpan_23",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_24",
+   "symbol": "nextGreaterElemStack_24",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_24",
+   "symbol": "prevGreaterElemStack_24",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_24",
+   "symbol": "dailyTemperaturesSpan_24",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_25",
+   "symbol": "nextGreaterElemStack_25",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_25",
+   "symbol": "prevGreaterElemStack_25",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_25",
+   "symbol": "dailyTemperaturesSpan_25",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_26",
+   "symbol": "nextGreaterElemStack_26",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_26",
+   "symbol": "prevGreaterElemStack_26",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_26",
+   "symbol": "dailyTemperaturesSpan_26",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_27",
+   "symbol": "nextGreaterElemStack_27",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_27",
+   "symbol": "prevGreaterElemStack_27",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_27",
+   "symbol": "dailyTemperaturesSpan_27",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_28",
+   "symbol": "nextGreaterElemStack_28",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_28",
+   "symbol": "prevGreaterElemStack_28",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_28",
+   "symbol": "dailyTemperaturesSpan_28",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-nextGreaterElemStack_29",
+   "symbol": "nextGreaterElemStack_29",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-prevGreaterElemStack_29",
+   "symbol": "prevGreaterElemStack_29",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  },
+  {
+   "id": "gen5-stack-01-dailyTemperaturesSpan_29",
+   "symbol": "dailyTemperaturesSpan_29",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack",
+    "monotonic"
+   ]
+  }
+ ]
+}

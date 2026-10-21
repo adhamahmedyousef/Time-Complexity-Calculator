@@ -1,0 +1,1106 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_0",
+   "symbol": "lowerBoundBinarySearch_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_0",
+   "symbol": "upperBoundBinarySearch_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_0",
+   "symbol": "findPeakElement_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_0",
+   "symbol": "intSquareRootBS_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_1",
+   "symbol": "lowerBoundBinarySearch_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_1",
+   "symbol": "upperBoundBinarySearch_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_1",
+   "symbol": "findPeakElement_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_1",
+   "symbol": "intSquareRootBS_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_2",
+   "symbol": "lowerBoundBinarySearch_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_2",
+   "symbol": "upperBoundBinarySearch_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_2",
+   "symbol": "findPeakElement_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_2",
+   "symbol": "intSquareRootBS_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_3",
+   "symbol": "lowerBoundBinarySearch_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_3",
+   "symbol": "upperBoundBinarySearch_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_3",
+   "symbol": "findPeakElement_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_3",
+   "symbol": "intSquareRootBS_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_4",
+   "symbol": "lowerBoundBinarySearch_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_4",
+   "symbol": "upperBoundBinarySearch_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_4",
+   "symbol": "findPeakElement_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_4",
+   "symbol": "intSquareRootBS_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_5",
+   "symbol": "lowerBoundBinarySearch_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_5",
+   "symbol": "upperBoundBinarySearch_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_5",
+   "symbol": "findPeakElement_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_5",
+   "symbol": "intSquareRootBS_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_6",
+   "symbol": "lowerBoundBinarySearch_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_6",
+   "symbol": "upperBoundBinarySearch_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_6",
+   "symbol": "findPeakElement_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_6",
+   "symbol": "intSquareRootBS_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_7",
+   "symbol": "lowerBoundBinarySearch_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_7",
+   "symbol": "upperBoundBinarySearch_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_7",
+   "symbol": "findPeakElement_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_7",
+   "symbol": "intSquareRootBS_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_8",
+   "symbol": "lowerBoundBinarySearch_8",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_8",
+   "symbol": "upperBoundBinarySearch_8",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_8",
+   "symbol": "findPeakElement_8",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_8",
+   "symbol": "intSquareRootBS_8",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_9",
+   "symbol": "lowerBoundBinarySearch_9",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_9",
+   "symbol": "upperBoundBinarySearch_9",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_9",
+   "symbol": "findPeakElement_9",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_9",
+   "symbol": "intSquareRootBS_9",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_10",
+   "symbol": "lowerBoundBinarySearch_10",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_10",
+   "symbol": "upperBoundBinarySearch_10",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_10",
+   "symbol": "findPeakElement_10",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_10",
+   "symbol": "intSquareRootBS_10",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_11",
+   "symbol": "lowerBoundBinarySearch_11",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_11",
+   "symbol": "upperBoundBinarySearch_11",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_11",
+   "symbol": "findPeakElement_11",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_11",
+   "symbol": "intSquareRootBS_11",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_12",
+   "symbol": "lowerBoundBinarySearch_12",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_12",
+   "symbol": "upperBoundBinarySearch_12",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_12",
+   "symbol": "findPeakElement_12",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_12",
+   "symbol": "intSquareRootBS_12",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_13",
+   "symbol": "lowerBoundBinarySearch_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_13",
+   "symbol": "upperBoundBinarySearch_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_13",
+   "symbol": "findPeakElement_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_13",
+   "symbol": "intSquareRootBS_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_14",
+   "symbol": "lowerBoundBinarySearch_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_14",
+   "symbol": "upperBoundBinarySearch_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_14",
+   "symbol": "findPeakElement_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_14",
+   "symbol": "intSquareRootBS_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_15",
+   "symbol": "lowerBoundBinarySearch_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_15",
+   "symbol": "upperBoundBinarySearch_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_15",
+   "symbol": "findPeakElement_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_15",
+   "symbol": "intSquareRootBS_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_16",
+   "symbol": "lowerBoundBinarySearch_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_16",
+   "symbol": "upperBoundBinarySearch_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_16",
+   "symbol": "findPeakElement_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_16",
+   "symbol": "intSquareRootBS_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_17",
+   "symbol": "lowerBoundBinarySearch_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_17",
+   "symbol": "upperBoundBinarySearch_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_17",
+   "symbol": "findPeakElement_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_17",
+   "symbol": "intSquareRootBS_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_18",
+   "symbol": "lowerBoundBinarySearch_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_18",
+   "symbol": "upperBoundBinarySearch_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_18",
+   "symbol": "findPeakElement_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_18",
+   "symbol": "intSquareRootBS_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_19",
+   "symbol": "lowerBoundBinarySearch_19",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_19",
+   "symbol": "upperBoundBinarySearch_19",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_19",
+   "symbol": "findPeakElement_19",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_19",
+   "symbol": "intSquareRootBS_19",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_20",
+   "symbol": "lowerBoundBinarySearch_20",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_20",
+   "symbol": "upperBoundBinarySearch_20",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_20",
+   "symbol": "findPeakElement_20",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_20",
+   "symbol": "intSquareRootBS_20",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_21",
+   "symbol": "lowerBoundBinarySearch_21",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_21",
+   "symbol": "upperBoundBinarySearch_21",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_21",
+   "symbol": "findPeakElement_21",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_21",
+   "symbol": "intSquareRootBS_21",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_22",
+   "symbol": "lowerBoundBinarySearch_22",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_22",
+   "symbol": "upperBoundBinarySearch_22",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_22",
+   "symbol": "findPeakElement_22",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_22",
+   "symbol": "intSquareRootBS_22",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_23",
+   "symbol": "lowerBoundBinarySearch_23",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_23",
+   "symbol": "upperBoundBinarySearch_23",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_23",
+   "symbol": "findPeakElement_23",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_23",
+   "symbol": "intSquareRootBS_23",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-lowerBoundBinarySearch_24",
+   "symbol": "lowerBoundBinarySearch_24",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-upperBoundBinarySearch_24",
+   "symbol": "upperBoundBinarySearch_24",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-findPeakElement_24",
+   "symbol": "findPeakElement_24",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen5-search-01-intSquareRootBS_24",
+   "symbol": "intSquareRootBS_24",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "search",
+    "binary-search"
+   ]
+  }
+ ]
+}

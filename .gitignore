@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+*.vsix
+.vscode-test/
+
+# Scratch & Temporary Testing Files
+.scratch/
+*.log
+*.tmp
+*.bak
+*.cpuprofile
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Native LibTooling build directories
+native-analyzer/build*/
+native-analyzer/cmake-build-*/
+native-analyzer/CMakeCache.txt
+native-analyzer/CMakeFiles/
+
+# Operating System
+.DS_Store
+Thumbs.db
+InstallationLog.txt
+
+# IDE configuration
+.idea/
+*.sublime-project
+*.sublime-workspace

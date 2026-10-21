@@ -1,0 +1,9 @@
+Reviewed cases: 8186
+Exact manifest matches: 6687
+Time/space profile matches (confidence-independent): 87.6% (7174/8186)
+Evidence-compatible profile matches: 81.8% (6695/8186)
+Asserted-result precision: 91.5% (6287/6868)
+Underclaimed (correct profile, softer confidence): 395
+Coverage (non-Unknown): 88.7% (7263/8186)
+Abstentions (Unknown): 923
+Confident mismatches: 581

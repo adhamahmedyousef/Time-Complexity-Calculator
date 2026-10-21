@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-p0-p1-pack-sparse-table",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-p0-p1-pack-sparse-table-14",
+      "symbol": "pack_project_x_p0_p1_pack_sparse_table_14",
+      "time": "O(n log n + q)",
+      "space": "O(n log n)",
+      "confidence": "estimated",
+      "tags": [
+        "sparse-table",
+        "helper"
+      ],
+      "inputSymbols": [
+        "n",
+        "q",
+        "a",
+        "qs"
+      ],
+      "proof": "A helper query composes the preprocessing table into caller queries.",
+      "assumptions": "Table is static.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-p0-p1-pack-sparse-table-14",
+      "familyRole": "composed"
+    }
+  ]
+}

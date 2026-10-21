@@ -1,0 +1,126 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen2-compose2-01-run_0",
+   "symbol": "run_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "composition"
+   ]
+  },
+  {
+   "id": "gen2-compose2-01-f_0",
+   "symbol": "f_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "composition"
+   ]
+  },
+  {
+   "id": "gen2-compose2-01-run_1",
+   "symbol": "run_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "composition"
+   ]
+  },
+  {
+   "id": "gen2-compose2-01-f_1",
+   "symbol": "f_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "composition"
+   ]
+  },
+  {
+   "id": "gen2-compose2-01-run_2",
+   "symbol": "run_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "composition"
+   ]
+  },
+  {
+   "id": "gen2-compose2-01-f_2",
+   "symbol": "f_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "composition"
+   ]
+  },
+  {
+   "id": "gen2-compose2-01-run_3",
+   "symbol": "run_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "composition"
+   ]
+  },
+  {
+   "id": "gen2-compose2-01-f_3",
+   "symbol": "f_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "composition"
+   ]
+  },
+  {
+   "id": "gen2-compose2-01-run_4",
+   "symbol": "run_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "composition"
+   ]
+  },
+  {
+   "id": "gen2-compose2-01-f_4",
+   "symbol": "f_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "composition"
+   ]
+  },
+  {
+   "id": "gen2-compose2-01-run_5",
+   "symbol": "run_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "composition"
+   ]
+  },
+  {
+   "id": "gen2-compose2-01-f_5",
+   "symbol": "f_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "composition"
+   ]
+  }
+ ]
+}

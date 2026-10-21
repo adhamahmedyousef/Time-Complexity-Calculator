@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-greedy-adversarial",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-sweep-line-events-002",
+      "symbol": "pack_l2_sweepLineEvents",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "greedy",
+        "sweep-line",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "events"
+      ],
+      "proof": "All endpoints are sorted and processed in a single sweep.",
+      "assumptions": "Events are independent and finite.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-sweep-line-events"
+    }
+  ]
+}

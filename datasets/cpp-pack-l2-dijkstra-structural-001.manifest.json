@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-graphs-advanced",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-dijkstra-structural-001",
+      "symbol": "pack_l2_dijkstraStructural",
+      "time": "O((n + m) log n)",
+      "space": "O(n + m)",
+      "confidence": "estimated",
+      "tags": [
+        "graph",
+        "shortest-path",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "n",
+        "m",
+        "adj"
+      ],
+      "proof": "Priority-driven relaxation over adjacency traversal with stale-state skipping.",
+      "assumptions": "Graph is directed or undirected with non-negative weights.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-dijkstra-structural"
+    }
+  ]
+}

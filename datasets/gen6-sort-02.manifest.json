@@ -1,0 +1,1006 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen6-sort-02-insertionSortAscending_33",
+   "symbol": "insertionSortAscending_33",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_33",
+   "symbol": "countSortFreqArray_33",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_34",
+   "symbol": "selectionSortMin_34",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_34",
+   "symbol": "insertionSortAscending_34",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_34",
+   "symbol": "countSortFreqArray_34",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_35",
+   "symbol": "selectionSortMin_35",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_35",
+   "symbol": "insertionSortAscending_35",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_35",
+   "symbol": "countSortFreqArray_35",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_36",
+   "symbol": "selectionSortMin_36",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_36",
+   "symbol": "insertionSortAscending_36",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_36",
+   "symbol": "countSortFreqArray_36",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_37",
+   "symbol": "selectionSortMin_37",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_37",
+   "symbol": "insertionSortAscending_37",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_37",
+   "symbol": "countSortFreqArray_37",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_38",
+   "symbol": "selectionSortMin_38",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_38",
+   "symbol": "insertionSortAscending_38",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_38",
+   "symbol": "countSortFreqArray_38",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_39",
+   "symbol": "selectionSortMin_39",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_39",
+   "symbol": "insertionSortAscending_39",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_39",
+   "symbol": "countSortFreqArray_39",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_40",
+   "symbol": "selectionSortMin_40",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_40",
+   "symbol": "insertionSortAscending_40",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_40",
+   "symbol": "countSortFreqArray_40",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_41",
+   "symbol": "selectionSortMin_41",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_41",
+   "symbol": "insertionSortAscending_41",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_41",
+   "symbol": "countSortFreqArray_41",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_42",
+   "symbol": "selectionSortMin_42",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_42",
+   "symbol": "insertionSortAscending_42",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_42",
+   "symbol": "countSortFreqArray_42",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_43",
+   "symbol": "selectionSortMin_43",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_43",
+   "symbol": "insertionSortAscending_43",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_43",
+   "symbol": "countSortFreqArray_43",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_44",
+   "symbol": "selectionSortMin_44",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_44",
+   "symbol": "insertionSortAscending_44",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_44",
+   "symbol": "countSortFreqArray_44",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_45",
+   "symbol": "selectionSortMin_45",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_45",
+   "symbol": "insertionSortAscending_45",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_45",
+   "symbol": "countSortFreqArray_45",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_46",
+   "symbol": "selectionSortMin_46",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_46",
+   "symbol": "insertionSortAscending_46",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_46",
+   "symbol": "countSortFreqArray_46",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_47",
+   "symbol": "selectionSortMin_47",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_47",
+   "symbol": "insertionSortAscending_47",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_47",
+   "symbol": "countSortFreqArray_47",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_48",
+   "symbol": "selectionSortMin_48",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_48",
+   "symbol": "insertionSortAscending_48",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_48",
+   "symbol": "countSortFreqArray_48",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_49",
+   "symbol": "selectionSortMin_49",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_49",
+   "symbol": "insertionSortAscending_49",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_49",
+   "symbol": "countSortFreqArray_49",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_50",
+   "symbol": "selectionSortMin_50",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_50",
+   "symbol": "insertionSortAscending_50",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_50",
+   "symbol": "countSortFreqArray_50",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_51",
+   "symbol": "selectionSortMin_51",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_51",
+   "symbol": "insertionSortAscending_51",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_51",
+   "symbol": "countSortFreqArray_51",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_52",
+   "symbol": "selectionSortMin_52",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_52",
+   "symbol": "insertionSortAscending_52",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_52",
+   "symbol": "countSortFreqArray_52",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_53",
+   "symbol": "selectionSortMin_53",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_53",
+   "symbol": "insertionSortAscending_53",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_53",
+   "symbol": "countSortFreqArray_53",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_54",
+   "symbol": "selectionSortMin_54",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_54",
+   "symbol": "insertionSortAscending_54",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_54",
+   "symbol": "countSortFreqArray_54",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_55",
+   "symbol": "selectionSortMin_55",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_55",
+   "symbol": "insertionSortAscending_55",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_55",
+   "symbol": "countSortFreqArray_55",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_56",
+   "symbol": "selectionSortMin_56",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_56",
+   "symbol": "insertionSortAscending_56",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_56",
+   "symbol": "countSortFreqArray_56",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_57",
+   "symbol": "selectionSortMin_57",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_57",
+   "symbol": "insertionSortAscending_57",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_57",
+   "symbol": "countSortFreqArray_57",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_58",
+   "symbol": "selectionSortMin_58",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_58",
+   "symbol": "insertionSortAscending_58",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_58",
+   "symbol": "countSortFreqArray_58",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_59",
+   "symbol": "selectionSortMin_59",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_59",
+   "symbol": "insertionSortAscending_59",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_59",
+   "symbol": "countSortFreqArray_59",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_60",
+   "symbol": "selectionSortMin_60",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_60",
+   "symbol": "insertionSortAscending_60",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_60",
+   "symbol": "countSortFreqArray_60",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_61",
+   "symbol": "selectionSortMin_61",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_61",
+   "symbol": "insertionSortAscending_61",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_61",
+   "symbol": "countSortFreqArray_61",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_62",
+   "symbol": "selectionSortMin_62",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_62",
+   "symbol": "insertionSortAscending_62",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_62",
+   "symbol": "countSortFreqArray_62",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_63",
+   "symbol": "selectionSortMin_63",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_63",
+   "symbol": "insertionSortAscending_63",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_63",
+   "symbol": "countSortFreqArray_63",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_64",
+   "symbol": "selectionSortMin_64",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_64",
+   "symbol": "insertionSortAscending_64",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_64",
+   "symbol": "countSortFreqArray_64",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_65",
+   "symbol": "selectionSortMin_65",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_65",
+   "symbol": "insertionSortAscending_65",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-countSortFreqArray_65",
+   "symbol": "countSortFreqArray_65",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-selectionSortMin_66",
+   "symbol": "selectionSortMin_66",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen6-sort-02-insertionSortAscending_66",
+   "symbol": "insertionSortAscending_66",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  }
+ ]
+}

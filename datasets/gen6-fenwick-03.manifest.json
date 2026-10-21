@@ -1,0 +1,16 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen6-fenwick-03-fenwickScale_66",
+   "symbol": "fenwickScale_66",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  }
+ ]
+}

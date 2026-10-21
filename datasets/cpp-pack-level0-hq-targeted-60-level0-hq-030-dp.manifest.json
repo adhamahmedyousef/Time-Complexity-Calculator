@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-hq-targeted-60-level0-hq-030",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-hq-targeted-60-level0-hq-030-dp",
+      "symbol": "pack_level0_hq_targeted_60_f",
+      "time": "O(n^2)",
+      "space": "O(n^2)",
+      "confidence": "exact",
+      "tags": [
+        "dp",
+        "memoization",
+        "2d"
+      ],
+      "inputSymbols": [
+        "n",
+        "m"
+      ],
+      "proof": "A two-dimensional state grid is solved once per cell.",
+      "assumptions": "Primitive operations are constant time.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-hq-targeted-60-dp-base"
+    }
+  ]
+}

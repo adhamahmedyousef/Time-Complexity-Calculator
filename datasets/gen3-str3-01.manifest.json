@@ -1,0 +1,822 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen3-str3-01-countVowels_0",
+   "symbol": "countVowels_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-isPalindromeStr_0",
+   "symbol": "isPalindromeStr_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-reverseStringNew_0",
+   "symbol": "reverseStringNew_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-removeSpaces_0",
+   "symbol": "removeSpaces_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-charFrequency26_0",
+   "symbol": "charFrequency26_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-longestUniqueWindow_0",
+   "symbol": "longestUniqueWindow_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings",
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-firstUniqueCharMap_0",
+   "symbol": "firstUniqueCharMap_0",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings",
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-toUpperInPlace_0",
+   "symbol": "toUpperInPlace_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-stringCompress_0",
+   "symbol": "stringCompress_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-countSubstringsStart_0",
+   "symbol": "countSubstringsStart_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-countVowels_1",
+   "symbol": "countVowels_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-isPalindromeStr_1",
+   "symbol": "isPalindromeStr_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-reverseStringNew_1",
+   "symbol": "reverseStringNew_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-removeSpaces_1",
+   "symbol": "removeSpaces_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-charFrequency26_1",
+   "symbol": "charFrequency26_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-longestUniqueWindow_1",
+   "symbol": "longestUniqueWindow_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings",
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-firstUniqueCharMap_1",
+   "symbol": "firstUniqueCharMap_1",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings",
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-toUpperInPlace_1",
+   "symbol": "toUpperInPlace_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-stringCompress_1",
+   "symbol": "stringCompress_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-countSubstringsStart_1",
+   "symbol": "countSubstringsStart_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-countVowels_2",
+   "symbol": "countVowels_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-isPalindromeStr_2",
+   "symbol": "isPalindromeStr_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-reverseStringNew_2",
+   "symbol": "reverseStringNew_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-removeSpaces_2",
+   "symbol": "removeSpaces_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-charFrequency26_2",
+   "symbol": "charFrequency26_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-longestUniqueWindow_2",
+   "symbol": "longestUniqueWindow_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings",
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-firstUniqueCharMap_2",
+   "symbol": "firstUniqueCharMap_2",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings",
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-toUpperInPlace_2",
+   "symbol": "toUpperInPlace_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-stringCompress_2",
+   "symbol": "stringCompress_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-countSubstringsStart_2",
+   "symbol": "countSubstringsStart_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-countVowels_3",
+   "symbol": "countVowels_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-isPalindromeStr_3",
+   "symbol": "isPalindromeStr_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-reverseStringNew_3",
+   "symbol": "reverseStringNew_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-removeSpaces_3",
+   "symbol": "removeSpaces_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-charFrequency26_3",
+   "symbol": "charFrequency26_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-longestUniqueWindow_3",
+   "symbol": "longestUniqueWindow_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings",
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-firstUniqueCharMap_3",
+   "symbol": "firstUniqueCharMap_3",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings",
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-toUpperInPlace_3",
+   "symbol": "toUpperInPlace_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-stringCompress_3",
+   "symbol": "stringCompress_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-countSubstringsStart_3",
+   "symbol": "countSubstringsStart_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-countVowels_4",
+   "symbol": "countVowels_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-isPalindromeStr_4",
+   "symbol": "isPalindromeStr_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-reverseStringNew_4",
+   "symbol": "reverseStringNew_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-removeSpaces_4",
+   "symbol": "removeSpaces_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-charFrequency26_4",
+   "symbol": "charFrequency26_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-longestUniqueWindow_4",
+   "symbol": "longestUniqueWindow_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings",
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-firstUniqueCharMap_4",
+   "symbol": "firstUniqueCharMap_4",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings",
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-toUpperInPlace_4",
+   "symbol": "toUpperInPlace_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-stringCompress_4",
+   "symbol": "stringCompress_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-countSubstringsStart_4",
+   "symbol": "countSubstringsStart_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-countVowels_5",
+   "symbol": "countVowels_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-isPalindromeStr_5",
+   "symbol": "isPalindromeStr_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-reverseStringNew_5",
+   "symbol": "reverseStringNew_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-removeSpaces_5",
+   "symbol": "removeSpaces_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-charFrequency26_5",
+   "symbol": "charFrequency26_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-longestUniqueWindow_5",
+   "symbol": "longestUniqueWindow_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings",
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-firstUniqueCharMap_5",
+   "symbol": "firstUniqueCharMap_5",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings",
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-toUpperInPlace_5",
+   "symbol": "toUpperInPlace_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-stringCompress_5",
+   "symbol": "stringCompress_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-countSubstringsStart_5",
+   "symbol": "countSubstringsStart_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-countVowels_6",
+   "symbol": "countVowels_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-isPalindromeStr_6",
+   "symbol": "isPalindromeStr_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-reverseStringNew_6",
+   "symbol": "reverseStringNew_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-removeSpaces_6",
+   "symbol": "removeSpaces_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-charFrequency26_6",
+   "symbol": "charFrequency26_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-longestUniqueWindow_6",
+   "symbol": "longestUniqueWindow_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings",
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-firstUniqueCharMap_6",
+   "symbol": "firstUniqueCharMap_6",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings",
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-toUpperInPlace_6",
+   "symbol": "toUpperInPlace_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-stringCompress_6",
+   "symbol": "stringCompress_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-countSubstringsStart_6",
+   "symbol": "countSubstringsStart_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-countVowels_7",
+   "symbol": "countVowels_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-isPalindromeStr_7",
+   "symbol": "isPalindromeStr_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-reverseStringNew_7",
+   "symbol": "reverseStringNew_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-removeSpaces_7",
+   "symbol": "removeSpaces_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-charFrequency26_7",
+   "symbol": "charFrequency26_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-longestUniqueWindow_7",
+   "symbol": "longestUniqueWindow_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings",
+    "window"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-firstUniqueCharMap_7",
+   "symbol": "firstUniqueCharMap_7",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings",
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-toUpperInPlace_7",
+   "symbol": "toUpperInPlace_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-stringCompress_7",
+   "symbol": "stringCompress_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-str3-01-countSubstringsStart_7",
+   "symbol": "countSubstringsStart_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "strings"
+   ]
+  }
+ ]
+}

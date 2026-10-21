@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-trees-advanced",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-binary-lifting-kth-ancestor-004",
+      "symbol": "pack_l2_binaryLiftingKthAncestor",
+      "time": "O(n log n + q log n)",
+      "space": "O(n log n)",
+      "confidence": "estimated",
+      "tags": [
+        "tree",
+        "binary-lifting",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "n",
+        "queries"
+      ],
+      "proof": "Ancestor jumps are decomposed across powers of two.",
+      "assumptions": "Queries ask for kth ancestor values.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-binary-lifting-kth-ancestor"
+    }
+  ]
+}

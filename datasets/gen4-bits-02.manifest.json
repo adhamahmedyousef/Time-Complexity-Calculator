@@ -1,0 +1,606 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen4-bits-02-countOddBits_12",
+   "symbol": "countOddBits_12",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-highestSetBitPos_12",
+   "symbol": "highestSetBitPos_12",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-singleNumberXor_12",
+   "symbol": "singleNumberXor_12",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-countTrailingZeroes_12",
+   "symbol": "countTrailingZeroes_12",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-isPowerOfTwo_13",
+   "symbol": "isPowerOfTwo_13",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-reverseBits32_13",
+   "symbol": "reverseBits32_13",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-subsetMaskScan_13",
+   "symbol": "subsetMaskScan_13",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-grayCodeVec_13",
+   "symbol": "grayCodeVec_13",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-countOddBits_13",
+   "symbol": "countOddBits_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-highestSetBitPos_13",
+   "symbol": "highestSetBitPos_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-singleNumberXor_13",
+   "symbol": "singleNumberXor_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-countTrailingZeroes_13",
+   "symbol": "countTrailingZeroes_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-isPowerOfTwo_14",
+   "symbol": "isPowerOfTwo_14",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-reverseBits32_14",
+   "symbol": "reverseBits32_14",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-subsetMaskScan_14",
+   "symbol": "subsetMaskScan_14",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-grayCodeVec_14",
+   "symbol": "grayCodeVec_14",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-countOddBits_14",
+   "symbol": "countOddBits_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-highestSetBitPos_14",
+   "symbol": "highestSetBitPos_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-singleNumberXor_14",
+   "symbol": "singleNumberXor_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-countTrailingZeroes_14",
+   "symbol": "countTrailingZeroes_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-isPowerOfTwo_15",
+   "symbol": "isPowerOfTwo_15",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-reverseBits32_15",
+   "symbol": "reverseBits32_15",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-subsetMaskScan_15",
+   "symbol": "subsetMaskScan_15",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-grayCodeVec_15",
+   "symbol": "grayCodeVec_15",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-countOddBits_15",
+   "symbol": "countOddBits_15",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-highestSetBitPos_15",
+   "symbol": "highestSetBitPos_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-singleNumberXor_15",
+   "symbol": "singleNumberXor_15",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-countTrailingZeroes_15",
+   "symbol": "countTrailingZeroes_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-isPowerOfTwo_16",
+   "symbol": "isPowerOfTwo_16",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-reverseBits32_16",
+   "symbol": "reverseBits32_16",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-subsetMaskScan_16",
+   "symbol": "subsetMaskScan_16",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-grayCodeVec_16",
+   "symbol": "grayCodeVec_16",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-countOddBits_16",
+   "symbol": "countOddBits_16",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-highestSetBitPos_16",
+   "symbol": "highestSetBitPos_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-singleNumberXor_16",
+   "symbol": "singleNumberXor_16",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-countTrailingZeroes_16",
+   "symbol": "countTrailingZeroes_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-isPowerOfTwo_17",
+   "symbol": "isPowerOfTwo_17",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-reverseBits32_17",
+   "symbol": "reverseBits32_17",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-subsetMaskScan_17",
+   "symbol": "subsetMaskScan_17",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-grayCodeVec_17",
+   "symbol": "grayCodeVec_17",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-countOddBits_17",
+   "symbol": "countOddBits_17",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-highestSetBitPos_17",
+   "symbol": "highestSetBitPos_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-singleNumberXor_17",
+   "symbol": "singleNumberXor_17",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-countTrailingZeroes_17",
+   "symbol": "countTrailingZeroes_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-isPowerOfTwo_18",
+   "symbol": "isPowerOfTwo_18",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-reverseBits32_18",
+   "symbol": "reverseBits32_18",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-subsetMaskScan_18",
+   "symbol": "subsetMaskScan_18",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-grayCodeVec_18",
+   "symbol": "grayCodeVec_18",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-countOddBits_18",
+   "symbol": "countOddBits_18",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-highestSetBitPos_18",
+   "symbol": "highestSetBitPos_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-singleNumberXor_18",
+   "symbol": "singleNumberXor_18",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-countTrailingZeroes_18",
+   "symbol": "countTrailingZeroes_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-isPowerOfTwo_19",
+   "symbol": "isPowerOfTwo_19",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-reverseBits32_19",
+   "symbol": "reverseBits32_19",
+   "time": "O(1)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-subsetMaskScan_19",
+   "symbol": "subsetMaskScan_19",
+   "time": "O(2^n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-grayCodeVec_19",
+   "symbol": "grayCodeVec_19",
+   "time": "O(2^n)",
+   "space": "O(2^n)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-countOddBits_19",
+   "symbol": "countOddBits_19",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-highestSetBitPos_19",
+   "symbol": "highestSetBitPos_19",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-singleNumberXor_19",
+   "symbol": "singleNumberXor_19",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  },
+  {
+   "id": "gen4-bits-02-countTrailingZeroes_19",
+   "symbol": "countTrailingZeroes_19",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "bits"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "cf-batch-03",
+      "symbol": "f",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "dp",
+        "memoization",
+        "parity"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Two-state memoized recursion visits each index-state once.",
+      "assumptions": "n is the sequence length.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

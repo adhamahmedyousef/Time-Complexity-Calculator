@@ -1,0 +1,546 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "cpp-templates-macros-unknown",
+  "reviewedBy": "authored-batch",
+  "cases": [
+    {
+      "id": "tmpl-case-generic-sum",
+      "symbol": "tmplCaseGenericSum",
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "templates",
+        "generic",
+        "accumulate"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "The helper scans the vector once and only keeps a running total.",
+      "assumptions": "a is a standard vector.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-generic-sort-by-key",
+      "symbol": "tmplCaseGenericSortByKey",
+      "time": "O(n log n)",
+      "space": "O(log n)",
+      "confidence": "exact",
+      "tags": [
+        "templates",
+        "sort",
+        "comparator"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "The comparator-based sort dominates the runtime and uses standard library comparison sorting.",
+      "assumptions": "a is a standard vector of pairs.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-recursive-lambda-memo",
+      "symbol": "tmplCaseRecursiveLambdaMemo",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "lambda",
+        "memoization",
+        "recursion"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Each Fibonacci-like state is computed once and then memoized.",
+      "assumptions": "n is non-negative.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-y-combinator-tree-d-p",
+      "symbol": "tmplCaseYCombinatorTreeDP",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "tree-dp",
+        "lambda",
+        "recursion"
+      ],
+      "inputSymbols": [
+        "g"
+      ],
+      "proof": "The DFS visits each tree edge once and combines children in constant time per edge.",
+      "assumptions": "g is a rooted tree.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-macro-nested-loop-count",
+      "symbol": "tmplCaseMacroNestedLoopCount",
+      "time": "O(nm)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "macro",
+        "nested-loops",
+        "expansion"
+      ],
+      "inputSymbols": [
+        "n",
+        "m"
+      ],
+      "proof": "The macro expands to two nested loops whose iteration counts multiply.",
+      "assumptions": "n and m are non-negative.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-macro-prefix-scan",
+      "symbol": "tmplCaseMacroPrefixScan",
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "macro",
+        "prefix-sum",
+        "scan"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "The loop performs one prefix update per element.",
+      "assumptions": "a is a standard vector.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-template-map-aggregation",
+      "symbol": "tmplCaseTemplateMapAggregation",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "template",
+        "map",
+        "aggregation"
+      ],
+
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "Each map insert and iteration step costs logarithmic or linear time in the number of distinct keys.",
+      "assumptions": "a is a standard vector.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-template-set-union-sweep",
+      "symbol": "tmplCaseTemplateSetUnionSweep",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "intervals",
+        "template"
+      ],
+      "inputSymbols": [
+        "segs"
+      ],
+      "proof": "Sorting plus ordered-set operations gives logarithmic overhead per interval.",
+      "assumptions": "Intervals are finite integer pairs.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-generic-fenwick",
+      "symbol": "tmplCaseGenericFenwick",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "fenwick",
+        "template",
+        "prefix-sum"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "Each point update and prefix query is logarithmic in the Fenwick tree size.",
+      "assumptions": "a is a standard vector.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-generic-stable-partition",
+      "symbol": "tmplCaseGenericStablePartition",
+      "time": "O(n log n)",
+      "space": "O(log n)",
+      "confidence": "exact",
+      "tags": [
+        "stable-partition",
+        "template",
+        "predicate"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "The standard library stable_partition is a divide-and-conquer partitioning routine with linearithmic cost in common implementations.",
+      "assumptions": "a is a standard vector.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-generic-deque-window",
+      "symbol": "tmplCaseGenericDequeWindow",
+      "time": "O(n)",
+      "space": "O(k)",
+      "confidence": "exact",
+      "tags": [
+        "deque",
+        "window",
+        "template"
+      ],
+      "inputSymbols": [
+        "a",
+        "k"
+      ],
+      "proof": "The deque-based monotonic window keeps amortized constant updates per element.",
+      "assumptions": "k is positive.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-compile-time-array-transform",
+      "symbol": "tmplCaseCompileTimeArrayTransform",
+      "time": "O(N)",
+      "space": "O(N)",
+      "confidence": "exact",
+      "tags": [
+        "template",
+        "compile-time",
+        "array"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "The template instantiation performs one fixed-size pass over the array.",
+      "assumptions": "The array size is fixed at compile time.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-priority-queue-merge",
+      "symbol": "tmplCasePriorityQueueMerge",
+      "time": "O(N log k)",
+      "space": "O(k)",
+      "confidence": "exact",
+      "tags": [
+        "priority-queue",
+        "merge",
+        "template"
+      ],
+      "inputSymbols": [
+        "lists"
+      ],
+      "proof": "Each emitted item causes at most one heap pop and one heap push.",
+      "assumptions": "Each inner vector is sorted.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-bitset-reachable",
+      "symbol": "tmplCaseBitsetReachable",
+      "time": "O(nW/64)",
+      "space": "O(W/64)",
+      "confidence": "exact",
+
+      "tags": [
+        "bitset",
+        "template",
+        "knapsack"
+      ],
+      "inputSymbols": [
+        "W",
+        "a"
+      ],
+      "proof": "The bitset shifts are word-parallel, so every item costs a pass over the word array.",
+      "assumptions": "All weights are non-negative.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-tree-reroot-sum",
+      "symbol": "tmplCaseTreeRerootSum",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "tree-dp",
+        "rerooting",
+        "template"
+      ],
+      "inputSymbols": [
+        "g"
+      ],
+      "proof": "Two DFS passes over the tree suffice: one to compute subtree sizes and one to reroot.",
+      "assumptions": "g is a rooted tree.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-lower-bound-sweep",
+      "symbol": "tmplCaseLowerBoundSweep",
+      "time": "O(n log n)",
+      "space": "O(log n)",
+      "confidence": "exact",
+      "tags": [
+        "lower_bound",
+        "template",
+        "sweep"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "Sorting is O(n log n) and every lower_bound query is logarithmic.",
+      "assumptions": "a is a standard vector.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-callback-bfs-unknown",
+      "symbol": "tmplCaseCallbackBfsUnknown",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "callback",
+        "bfs",
+        "unknown"
+      ],
+      "inputSymbols": [
+        "g",
+        "stop"
+      ],
+      "proof": "The callback controls termination and may have arbitrary side effects, so the analyzer cannot bound the runtime safely.",
+      "assumptions": "stop is an arbitrary callable.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-function-pointer-unknown",
+      "symbol": "tmplCaseFunctionPointerUnknown",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "function-pointer",
+        "callback",
+        "unknown"
+      ],
+      "inputSymbols": [
+        "a",
+        "fint"
+      ],
+      "proof": "The cost of the pointed-to function is opaque to static analysis.",
+      "assumptions": "f may be any valid function pointer.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-lambda-capture-unknown",
+      "symbol": "tmplCaseLambdaCaptureUnknown",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "lambda",
+        "capture",
+        "unknown"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "The lambda captures mutable state and invokes nondeterministic behavior, so exact complexity is not safely provable.",
+      "assumptions": "The body intentionally depends on hidden state.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-alias-mutation-unknown",
+      "symbol": "tmplCaseAliasMutationUnknown",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "aliasing",
+        "pointer",
+        "unknown"
+      ],
+      "inputSymbols": [
+        "a",
+        "b"
+      ],
+      "proof": "Pointer aliasing can make the effective work depend on whether the two vectors overlap, which the analyzer cannot safely resolve here.",
+      "assumptions": "The function intentionally uses raw pointers and alias-sensitive mutation.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-runtime-dispatch-unknown",
+      "symbol": "tmplCaseRuntimeDispatchUnknown",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "dispatch",
+        "runtime",
+        "unknown"
+      ],
+      "inputSymbols": [
+        "a",
+        "mode"
+      ],
+      "proof": "The selected branch is runtime-dependent and may be replaced by arbitrary logic in future extensions.",
+      "assumptions": "mode controls which branch executes.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-move-only-functor-unknown",
+      "symbol": "tmplCaseMoveOnlyFunctorUnknown",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "move-only",
+        "functor",
+        "unknown"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "The move-only closure hides stateful behavior from the analyzer, so the exact effect of the callable is opaque.",
+      "assumptions": "The closure captures move-only state.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-pointer-to-member-unknown",
+      "symbol": "tmplCasePointerToMemberUnknown",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "pointer-to-member",
+        "dispatch",
+        "unknown"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "Member-function dispatch with mutable hidden state makes the executed work depend on opaque object state.",
+      "assumptions": "The object state is intentionally mutated through a member-function pointer.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "tmpl-case-macro-hash-mix",
+      "symbol": "tmplCaseMacroHashMix",
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "macro",
+        "hashing",
+        "accumulator"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "The hash-like accumulator scans the vector once and performs constant work per element.",
+      "assumptions": "a is a standard vector.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

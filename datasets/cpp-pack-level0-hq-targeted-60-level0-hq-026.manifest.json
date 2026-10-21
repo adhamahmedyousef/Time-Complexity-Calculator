@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-hq-targeted-60-level0-hq-026",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-hq-targeted-60-level0-hq-026",
+      "symbol": "pack_level0_hq_targeted_60_solve",
+      "time": "O(nm+q)",
+      "space": "O(nm)",
+      "confidence": "exact",
+      "tags": [
+        "prefix-2d"
+      ],
+      "inputSymbols": [
+        "n",
+        "m",
+        "q"
+      ],
+      "proof": "2D prefix preprocessing is linear in table size.",
+      "assumptions": "Primitive operations are constant time.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-hq-targeted-60-prefix-base"
+    }
+  ]
+}

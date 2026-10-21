@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "number-theory",
+  "reviewedBy": "authored-batch",
+  "cases": [
+    {"id":"sieve-of-eratosthenes","symbol":"sieveOfEratosthenes","time":"O(n log log n)","space":"O(n)","confidence":"exact","tags":["number-theory","sieve","primes"],"inputSymbols":["n"],"proof":"Sum of n/p over prime numbers up to n equals n log log n based on Mertens' second theorem.","assumptions":"n is upper limit integer.","origin":{"kind":"authored","license":"CC0-1.0-or-authored"},"variantOf":null},
+    {"id":"smallest-prime-factor-sieve","symbol":"smallestPrimeFactorSieve","time":"O(n log log n)","space":"O(n)","confidence":"exact","tags":["number-theory","spf","sieve"],"inputSymbols":["n"],"proof":"Precomputes SPF array for fast factorization up to n in O(n log log n).","assumptions":"n is positive integer bound.","origin":{"kind":"authored","license":"CC0-1.0-or-authored"},"variantOf":null},
+    {"id":"modular-exponentiation","symbol":"modularExponentiation","time":"O(log n)","space":"O(1)","confidence":"exact","tags":["number-theory","binary-exponentiation"],"inputSymbols":["exp"],"proof":"Divides exponent exp by 2 at each iteration until exp reaches 0.","assumptions":"exp is non-negative power.","origin":{"kind":"authored","license":"CC0-1.0-or-authored"},"variantOf":null},
+    {"id":"get-divisors-trial-division","symbol":"getDivisorsTrialDivision","time":"O(sqrt n)","space":"O(sqrt n)","confidence":"exact","tags":["number-theory","divisors"],"inputSymbols":["n"],"proof":"Loops up to sqrt(n) to find factor pairs.","assumptions":"n is integer.","origin":{"kind":"authored","license":"CC0-1.0-or-authored"},"variantOf":null},
+    {"id":"euler-totient-function","symbol":"eulerTotientFunction","time":"O(sqrt n)","space":"O(1)","confidence":"exact","tags":["number-theory","phi"],"inputSymbols":["n"],"proof":"Checks prime factors up to sqrt(n).","assumptions":"n is positive integer.","origin":{"kind":"authored","license":"CC0-1.0-or-authored"},"variantOf":null}
+  ]
+}

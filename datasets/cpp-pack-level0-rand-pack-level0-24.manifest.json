@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-rand-pack-level0-24",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-rand-pack-level0-24",
+      "symbol": "pack_level0_rand_pack_main",
+      "time": "O(log n)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "digit-scan",
+        "lucky-number"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "The helper scans each digit once and checks whether the digit count is lucky.",
+      "assumptions": "Digit extraction is linear in the number of digits.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-rand-pack-level0-24"
+    }
+  ]
+}

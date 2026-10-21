@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "cf-batch-13",
+      "symbol": "solve",
+      "time": "O((n + m) log n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "graphs",
+        "parity",
+        "shortest-path"
+      ],
+      "inputSymbols": [
+        "n",
+        "m",
+        "k",
+        "q"
+      ],
+      "proof": "It maintains a layered shortest-path state over adjacency and reversed adjacency with bounded parity layers.",
+      "assumptions": "K is fixed at 19, so the layer count is constant.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

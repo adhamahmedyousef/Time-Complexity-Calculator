@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-400-pack-level0-393",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-400-pack-level0-393",
+      "symbol": "pack_level0_400_pack_main",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "greedy",
+        "priority_queue"
+      ],
+      "inputSymbols": [
+        "n",
+        "a"
+      ],
+      "proof": "A heap maintains the best current choice.",
+      "assumptions": "Primitive operations are constant time.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-400-pack-greedy_simulation_bruteforce-base"
+    }
+  ]
+}

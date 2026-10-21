@@ -1,0 +1,5912 @@
+{
+ "label": "before3",
+ "dist": "C:\\Users\\j\\OneDrive\\Desktop\\Project-X\\benchmarks\\baseline-snapshot\\analyzer\\dist\\index.js",
+ "workloadFile": "C:\\Users\\j\\OneDrive\\Desktop\\Project-X\\benchmarks\\workloads\\workloads.json",
+ "workloadSeed": 20261017,
+ "generator": "benchmarks/workloads/generate.mjs",
+ "startedAt": "2026-10-17T15:32:41.915Z",
+ "finishedAt": "2026-10-17T15:33:24.398Z",
+ "node": "v24.12.0",
+ "platform": "win32",
+ "clang": "C:\\Program Files\\LLVM\\bin\\clang++.exe",
+ "scenarios": [
+  {
+   "scenario": "typical-selection",
+   "kind": "selection",
+   "dist": "C:\\Users\\j\\OneDrive\\Desktop\\Project-X\\benchmarks\\baseline-snapshot\\analyzer\\dist\\index.js",
+   "node": "v24.12.0",
+   "clang": "C:\\Program Files\\LLVM\\bin\\clang++.exe",
+   "coldRepeats": 3,
+   "warmRepeats": 5,
+   "maxRssKb": 98572,
+   "cases": [
+    {
+     "id": "typ-const-int",
+     "cold": [
+      269.046,
+      209.43399999999997,
+      197.9484
+     ],
+     "warm": [
+      18.25879999999995,
+      14.792299999999955,
+      16.54970000000003,
+      20.09590000000003,
+      15.515999999999963
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "typ-arith-fold",
+     "cold": [
+      170.87029999999993,
+      175.0304000000001,
+      147.44629999999984
+     ],
+     "warm": [
+      10.070500000000038,
+      9.606400000000122,
+      14.37779999999998,
+      13.835599999999886,
+      15.001099999999951
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "typ-mod-hash",
+     "cold": [
+      126.71260000000007,
+      141.19209999999998,
+      136.42089999999985
+     ],
+     "warm": [
+      9.737499999999955,
+      10.40359999999987,
+      9.523699999999963,
+      8.920500000000175,
+      21.495499999999993
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "typ-bit-ops",
+     "cold": [
+      318.90449999999987,
+      264.29619999999977,
+      272.93740000000025
+     ],
+     "warm": [
+      18.90480000000025,
+      22.22960000000012,
+      17.07129999999961,
+      44.625200000000405,
+      18.36259999999993
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "typ-min-max",
+     "cold": [
+      423.5444000000002,
+      284.0652,
+      214.27790000000005
+     ],
+     "warm": [
+      10.573300000000017,
+      11.064100000000053,
+      12.610400000000027,
+      12.35089999999991,
+      11.29780000000028
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "typ-swap",
+     "cold": [
+      211.23639999999978,
+      200.75990000000002,
+      366.8687
+     ],
+     "warm": [
+      17.59520000000066,
+      12.700600000000122,
+      15.909200000000055,
+      14.466800000000148,
+      11.72820000000047
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "typ-for-literal",
+     "cold": [
+      530.8720999999996,
+      210.63829999999962,
+      152.5625
+     ],
+     "warm": [
+      14.743399999999383,
+      25.029900000000453,
+      12.036299999999756,
+      12.508699999999408,
+      11.803899999999885
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "typ-while-embedded",
+     "cold": [
+      204.29829999999947,
+      223.41399999999976,
+      253.5716999999995
+     ],
+     "warm": [
+      10.452099999999518,
+      14.497000000000298,
+      17.39690000000064,
+      24.6216000000004,
+      35.410399999999754
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "typ-vector-literal",
+     "cold": [
+      267.7498999999998,
+      221.70510000000013,
+      189.0088999999998
+     ],
+     "warm": [
+      12.993999999999687,
+      18.188200000000506,
+      16.15570000000025,
+      32.5614000000005,
+      17.833599999999933
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "typ-vector-pop",
+     "cold": [
+      156.88320000000022,
+      164.4450999999999,
+      123.6193000000003
+     ],
+     "warm": [
+      10.665400000000773,
+      12.96810000000005,
+      10.487500000000182,
+      12.985200000000077,
+      15.529099999999744
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "typ-vector-push",
+     "cold": [
+      163.97279999999955,
+      152.41150000000016,
+      132.14710000000014
+     ],
+     "warm": [
+      11.024399999998423,
+      11.104100000000471,
+      11.111399999999776,
+      11.578099999998813,
+      11.21559999999954
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "typ-string-index",
+     "cold": [
+      131.66049999999996,
+      127.69869999999901,
+      173.20139999999992
+     ],
+     "warm": [
+      17.785900000000765,
+      17.608099999999467,
+      15.07129999999961,
+      11.029399999999441,
+      14.753200000001016
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    }
+   ],
+   "summary": {
+    "cases": 12,
+    "errors": 0,
+    "judged": 12,
+    "matched": 12,
+    "cold": {
+     "n": 36,
+     "min": 123.6193000000003,
+     "median": 199.35415,
+     "mean": 214.19033333333323,
+     "p95": 423.5444000000002,
+     "max": 530.8720999999996
+    },
+    "warm": {
+     "n": 60,
+     "min": 8.920500000000175,
+     "median": 14.422300000000064,
+     "mean": 15.513746666666673,
+     "p95": 32.5614000000005,
+     "max": 44.625200000000405
+    },
+    "coldTotalMs": 7710.851999999996,
+    "warmTotalMs": 930.8248000000004
+   }
+  },
+  {
+   "scenario": "boundary-one-liners",
+   "kind": "selection",
+   "dist": "C:\\Users\\j\\OneDrive\\Desktop\\Project-X\\benchmarks\\baseline-snapshot\\analyzer\\dist\\index.js",
+   "node": "v24.12.0",
+   "clang": "C:\\Program Files\\LLVM\\bin\\clang++.exe",
+   "coldRepeats": 3,
+   "warmRepeats": 5,
+   "maxRssKb": 79860,
+   "cases": [
+    {
+     "id": "bnd-int-zero",
+     "cold": [
+      180.33319999999998,
+      126.98489999999998,
+      123.05590000000001
+     ],
+     "warm": [
+      12.081999999999994,
+      10.168900000000008,
+      9.918299999999931,
+      9.239599999999996,
+      9.714400000000069
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "bnd-int-long",
+     "cold": [
+      146.22270000000003,
+      168.19330000000002,
+      157.94709999999998
+     ],
+     "warm": [
+      16.457100000000082,
+      16.14099999999985,
+      16.454299999999876,
+      12.937400000000025,
+      13.919300000000021
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "bnd-return-zero",
+     "cold": [
+      231.50900000000001,
+      164.94229999999993,
+      134.1343999999999
+     ],
+     "warm": [
+      8.571699999999964,
+      12.089200000000119,
+      12.05989999999997,
+      10.348700000000008,
+      9.467599999999948
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "bnd-bool",
+     "cold": [
+      173.18070000000012,
+      179.5247999999999,
+      185.98099999999977
+     ],
+     "warm": [
+      12.198799999999665,
+      10.433199999999943,
+      12.257000000000062,
+      12.08789999999999,
+      12.112499999999727
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "bnd-overflow-literals",
+     "cold": [
+      174.7140999999997,
+      210.29629999999997,
+      185.7276999999999
+     ],
+     "warm": [
+      12.561199999999644,
+      10.624099999999999,
+      12.577000000000226,
+      13.66339999999991,
+      10.408800000000156
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "bnd-array-literal",
+     "cold": [
+      173.29230000000007,
+      131.4128999999998,
+      131.0990999999999
+     ],
+     "warm": [
+      10.693499999999858,
+      11.725399999999809,
+      11.301699999999983,
+      10.683899999999994,
+      11.555100000000039
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "bnd-undeclared-increment",
+     "cold": [
+      166.12990000000036,
+      170.16789999999992,
+      159.0054
+     ],
+     "warm": [
+      12.750499999999647,
+      9.992999999999938,
+      13.153800000000047,
+      12.845600000000104,
+      10.077899999999772
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": null,
+     "matches": null,
+     "error": null
+    },
+    {
+     "id": "bnd-single-call",
+     "cold": [
+      181.26560000000018,
+      324.9346000000005,
+      442.0667999999996
+     ],
+     "warm": [
+      9.60859999999957,
+      10.69970000000012,
+      10.52980000000025,
+      10.447400000000016,
+      10.184799999999996
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    }
+   ],
+   "summary": {
+    "cases": 8,
+    "errors": 0,
+    "judged": 7,
+    "matched": 7,
+    "cold": {
+     "n": 24,
+     "min": 123.05590000000001,
+     "median": 171.67430000000002,
+     "mean": 184.25507916666663,
+     "p95": 324.9346000000005,
+     "max": 442.0667999999996
+    },
+    "warm": {
+     "n": 40,
+     "min": 8.571699999999964,
+     "median": 11.42840000000001,
+     "mean": 11.618599999999958,
+     "p95": 16.454299999999876,
+     "max": 16.457100000000082
+    },
+    "coldTotalMs": 4422.1219,
+    "warmTotalMs": 464.7439999999983
+   }
+  },
+  {
+   "scenario": "previously-failing",
+   "kind": "selection",
+   "dist": "C:\\Users\\j\\OneDrive\\Desktop\\Project-X\\benchmarks\\baseline-snapshot\\analyzer\\dist\\index.js",
+   "node": "v24.12.0",
+   "clang": "C:\\Program Files\\LLVM\\bin\\clang++.exe",
+   "coldRepeats": 3,
+   "warmRepeats": 5,
+   "maxRssKb": 102536,
+   "cases": [
+    {
+     "id": "pf-w4",
+     "cold": [
+      211.329,
+      149.91879999999998,
+      162.60630000000003
+     ],
+     "warm": [
+      15.858100000000036,
+      11.256899999999973,
+      11.624900000000025,
+      12.46930000000009,
+      9.791299999999978
+     ],
+     "observed": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "pf-w15",
+     "cold": [
+      147.50120000000004,
+      165.0743,
+      178.0440000000001
+     ],
+     "warm": [
+      12.894600000000082,
+      14.270700000000033,
+      12.407500000000027,
+      12.65059999999994,
+      15.752299999999877
+     ],
+     "observed": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "pf-w16",
+     "cold": [
+      162.74139999999989,
+      162.7621999999999,
+      184.21230000000014
+     ],
+     "warm": [
+      19.484500000000025,
+      15.69900000000007,
+      17.922599999999875,
+      18.36290000000008,
+      16.228400000000192
+     ],
+     "observed": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "pf-w17",
+     "cold": [
+      167.52589999999987,
+      145.11479999999983,
+      144.4342999999999
+     ],
+     "warm": [
+      9.634400000000369,
+      10.113200000000234,
+      10.204099999999926,
+      11.29300000000012,
+      9.326900000000023
+     ],
+     "observed": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "pf-w8",
+     "cold": [
+      154.6588999999999,
+      123.24400000000014,
+      129.95910000000003
+     ],
+     "warm": [
+      12.653200000000197,
+      14.858900000000176,
+      17.701500000000124,
+      15.81230000000005,
+      12.31959999999981
+     ],
+     "observed": {
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown"
+     },
+     "expect": {
+      "time": "Unknown",
+      "space": null,
+      "confidence": "unknown"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "pf-w9",
+     "cold": [
+      168.11070000000018,
+      163.5596999999998,
+      147.83550000000014
+     ],
+     "warm": [
+      9.268399999999929,
+      11.604600000000119,
+      9.488300000000436,
+      14.45219999999972,
+      14.805699999999888
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "pf-w19",
+     "cold": [
+      151.16039999999975,
+      236.55790000000025,
+      132.68870000000015
+     ],
+     "warm": [
+      16.45600000000013,
+      16.356000000000222,
+      13.123900000000049,
+      11.80600000000004,
+      19.83309999999983
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "pf-w20",
+     "cold": [
+      215.35849999999982,
+      130.46789999999964,
+      149.33309999999983
+     ],
+     "warm": [
+      13.13930000000073,
+      11.553200000000288,
+      13.809000000000196,
+      14.277100000000246,
+      12.323900000000322
+     ],
+     "observed": {
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown"
+     },
+     "expect": null,
+     "matches": null,
+     "error": null
+    },
+    {
+     "id": "pf-w21",
+     "cold": [
+      150.4376000000002,
+      184.85360000000037,
+      143.57650000000012
+     ],
+     "warm": [
+      9.51469999999972,
+      10.330500000000029,
+      9.70089999999982,
+      10.829200000000128,
+      9.639400000000023
+     ],
+     "observed": {
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown"
+     },
+     "expect": {
+      "time": "Unknown",
+      "space": null,
+      "confidence": "unknown"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "pf-w22",
+     "cold": [
+      125.65179999999964,
+      125.90790000000015,
+      170.8184000000001
+     ],
+     "warm": [
+      11.897500000000036,
+      11.738599999999678,
+      11.113400000000183,
+      10.044200000000274,
+      9.819900000000416
+     ],
+     "observed": {
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown"
+     },
+     "expect": {
+      "time": "Unknown",
+      "space": null,
+      "confidence": "unknown"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "pf-w23",
+     "cold": [
+      131.98380000000088,
+      437.22469999999976,
+      324.9847
+     ],
+     "warm": [
+      9.229100000000471,
+      8.386700000000019,
+      9.252300000000105,
+      8.688600000000406,
+      11.155999999999949
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "pf-t1",
+     "cold": [
+      148.85249999999996,
+      192.03740000000016,
+      163.9438
+     ],
+     "warm": [
+      26.490899999999783,
+      12.445200000000114,
+      11.18159999999989,
+      17.354700000000776,
+      16.991500000000087
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "pf-t3",
+     "cold": [
+      156.9385999999995,
+      187.33100000000013,
+      140.42070000000058
+     ],
+     "warm": [
+      10.279399999999441,
+      9.176300000000083,
+      10.491500000000087,
+      8.88000000000011,
+      10.445400000000518
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "pf-t7",
+     "cold": [
+      148.97170000000006,
+      130.45119999999952,
+      152.9303
+     ],
+     "warm": [
+      16.608299999999872,
+      12.405999999999949,
+      10.558100000000195,
+      9.59060000000045,
+      9.211199999999735
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "pf-t8",
+     "cold": [
+      164.64240000000063,
+      141.04470000000038,
+      142.78300000000127
+     ],
+     "warm": [
+      7.520300000000134,
+      7.304900000000998,
+      7.799300000000585,
+      9.673899999999776,
+      9.265999999999622
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    }
+   ],
+   "summary": {
+    "cases": 15,
+    "errors": 0,
+    "judged": 14,
+    "matched": 14,
+    "cold": {
+     "n": 45,
+     "min": 123.24400000000014,
+     "median": 152.9303,
+     "mean": 167.7774488888889,
+     "p95": 236.55790000000025,
+     "max": 437.22469999999976
+    },
+    "warm": {
+     "n": 75,
+     "min": 7.304900000000998,
+     "median": 11.604600000000119,
+     "mean": 12.37204666666676,
+     "p95": 18.36290000000008,
+     "max": 26.490899999999783
+    },
+    "coldTotalMs": 7549.985200000003,
+    "warmTotalMs": 927.9035000000069
+   }
+  },
+  {
+   "scenario": "adversarial-shapes",
+   "kind": "selection",
+   "dist": "C:\\Users\\j\\OneDrive\\Desktop\\Project-X\\benchmarks\\baseline-snapshot\\analyzer\\dist\\index.js",
+   "node": "v24.12.0",
+   "clang": "C:\\Program Files\\LLVM\\bin\\clang++.exe",
+   "coldRepeats": 3,
+   "warmRepeats": 5,
+   "maxRssKb": 125864,
+   "cases": [
+    {
+     "id": "adv-deep-nest",
+     "cold": [
+      172.3997,
+      182.20530000000002,
+      138.30029999999994
+     ],
+     "warm": [
+      17.733799999999974,
+      13.911000000000058,
+      13.896399999999971,
+      15.062299999999937,
+      14.690699999999993
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": null,
+     "matches": null,
+     "error": null
+    },
+    {
+     "id": "adv-long-chain",
+     "cold": [
+      149.6608,
+      134.43920000000003,
+      144.6558
+     ],
+     "warm": [
+      13.610200000000077,
+      15.039599999999837,
+      13.156999999999925,
+      16.212600000000066,
+      17.9692
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": null,
+     "matches": null,
+     "error": null
+    },
+    {
+     "id": "adv-wide-switch",
+     "cold": [
+      186.25589999999988,
+      206.15370000000007,
+      152.87980000000016
+     ],
+     "warm": [
+      19.30619999999999,
+      17.34199999999987,
+      17.836100000000215,
+      18.427400000000034,
+      19.72519999999986
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": null,
+     "matches": null,
+     "error": null
+    },
+    {
+     "id": "adv-many-vars",
+     "cold": [
+      194.68820000000005,
+      213.54809999999998,
+      214.98349999999982
+     ],
+     "warm": [
+      49.43820000000005,
+      44.26319999999987,
+      50.03890000000001,
+      44.11439999999993,
+      43.99559999999974
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": null,
+     "matches": null,
+     "error": null
+    },
+    {
+     "id": "adv-big-array",
+     "cold": [
+      126.40570000000025,
+      130.7186999999999,
+      143.89620000000014
+     ],
+     "warm": [
+      11.123399999999947,
+      10.695400000000063,
+      10.097800000000007,
+      12.154300000000148,
+      13.469000000000051
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": null,
+     "matches": null,
+     "error": null
+    },
+    {
+     "id": "adv-if-chain",
+     "cold": [
+      139.79330000000027,
+      159.18539999999985,
+      136.78560000000016
+     ],
+     "warm": [
+      16.8753999999999,
+      15.171399999999721,
+      14.848599999999806,
+      15.241199999999935,
+      17.648599999999988
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": null,
+     "matches": null,
+     "error": null
+    }
+   ],
+   "summary": {
+    "cases": 6,
+    "errors": 0,
+    "judged": 0,
+    "matched": 0,
+    "cold": {
+     "n": 18,
+     "min": 126.40570000000025,
+     "median": 151.27030000000008,
+     "mean": 162.60862222222227,
+     "p95": 214.98349999999982,
+     "max": 214.98349999999982
+    },
+    "warm": {
+     "n": 30,
+     "min": 10.097800000000007,
+     "median": 15.7269,
+     "mean": 20.4365033333333,
+     "p95": 49.43820000000005,
+     "max": 50.03890000000001
+    },
+    "coldTotalMs": 2926.9552000000003,
+    "warmTotalMs": 613.095099999999
+   }
+  },
+  {
+   "scenario": "invalid-inputs",
+   "kind": "selection",
+   "dist": "C:\\Users\\j\\OneDrive\\Desktop\\Project-X\\benchmarks\\baseline-snapshot\\analyzer\\dist\\index.js",
+   "node": "v24.12.0",
+   "clang": "C:\\Program Files\\LLVM\\bin\\clang++.exe",
+   "coldRepeats": 3,
+   "warmRepeats": 3,
+   "maxRssKb": 71444,
+   "cases": [
+    {
+     "id": "inv-empty",
+     "cold": [
+      0.3803000000000054,
+      0.06690000000000396,
+      0.009799999999998477
+     ],
+     "warm": [
+      0.004599999999996385,
+      0.00539999999999452,
+      0.003900000000001569
+     ],
+     "observed": {
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown"
+     },
+     "expect": null,
+     "matches": null,
+     "error": null
+    },
+    {
+     "id": "inv-whitespace",
+     "cold": [
+      0.040300000000002,
+      0.015299999999996317,
+      0.011999999999986244
+     ],
+     "warm": [
+      0.011899999999997135,
+      0.011600000000001387,
+      0.005700000000004479
+     ],
+     "observed": {
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown"
+     },
+     "expect": null,
+     "matches": null,
+     "error": null
+    },
+    {
+     "id": "inv-comment-only",
+     "cold": [
+      0.01279999999999859,
+      0.006700000000009254,
+      0.0066000000000059345
+     ],
+     "warm": [
+      0.0036000000000058208,
+      0.003299999999995862,
+      0.003299999999995862
+     ],
+     "observed": {
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown"
+     },
+     "expect": null,
+     "matches": null,
+     "error": null
+    },
+    {
+     "id": "inv-plain-text",
+     "cold": [
+      181.9801,
+      154.7373,
+      147.51870000000002
+     ],
+     "warm": [
+      19.269800000000032,
+      13.610500000000002,
+      10.080100000000016
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": null,
+     "matches": null,
+     "error": null
+    },
+    {
+     "id": "inv-truncated",
+     "cold": [
+      152.34000000000003,
+      139.42360000000008,
+      133.60940000000005
+     ],
+     "warm": [
+      13.760899999999992,
+      10.112499999999955,
+      9.209900000000061
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": null,
+     "matches": null,
+     "error": null
+    },
+    {
+     "id": "inv-bad-token",
+     "cold": [
+      141.3225,
+      160.48000000000002,
+      128.4937
+     ],
+     "warm": [
+      9.72810000000004,
+      13.877299999999877,
+      14.375900000000001
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": null,
+     "matches": null,
+     "error": null
+    },
+    {
+     "id": "inv-duplicate-decls",
+     "cold": [
+      172.9552000000001,
+      211.78300000000013,
+      126.06450000000018
+     ],
+     "warm": [
+      10.42049999999972,
+      8.628699999999753,
+      11.207000000000335
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": null,
+     "matches": null,
+     "error": null
+    },
+    {
+     "id": "inv-unicode-comment",
+     "cold": [
+      155.52109999999993,
+      158.52140000000009,
+      157.7192
+     ],
+     "warm": [
+      24.217599999999948,
+      16.178999999999633,
+      9.764200000000073
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": null,
+     "matches": null,
+     "error": null
+    }
+   ],
+   "summary": {
+    "cases": 8,
+    "errors": 0,
+    "judged": 0,
+    "matched": 0,
+    "cold": {
+     "n": 24,
+     "min": 0.0066000000000059345,
+     "median": 136.51650000000006,
+     "mean": 96.79251666666669,
+     "p95": 181.9801,
+     "max": 211.78300000000013
+    },
+    "warm": {
+     "n": 24,
+     "min": 0.003299999999995862,
+     "median": 9.746150000000057,
+     "mean": 8.103970833333308,
+     "p95": 19.269800000000032,
+     "max": 24.217599999999948
+    },
+    "coldTotalMs": 2323.020400000001,
+    "warmTotalMs": 194.49529999999942
+   }
+  },
+  {
+   "scenario": "large-document",
+   "kind": "document",
+   "dist": "C:\\Users\\j\\OneDrive\\Desktop\\Project-X\\benchmarks\\baseline-snapshot\\analyzer\\dist\\index.js",
+   "node": "v24.12.0",
+   "clang": "C:\\Program Files\\LLVM\\bin\\clang++.exe",
+   "coldRepeats": 2,
+   "warmRepeats": 3,
+   "maxRssKb": 144208,
+   "cases": [
+    {
+     "id": "doc-120",
+     "cold": [
+      342.9414,
+      297.90119999999996
+     ],
+     "warm": [
+      100.33950000000004,
+      130.88519999999994,
+      108.89009999999996
+     ],
+     "observed": {
+      "functions": [
+       {
+        "symbol": "doc120_f0",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f1",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f2",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f3",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f4",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f5",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f6",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f7",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f8",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f9",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f10",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f11",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f12",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f13",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f14",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f15",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f16",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f17",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f18",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f19",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f20",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f21",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f22",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f23",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f24",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f25",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f26",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f27",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f28",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f29",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f30",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f31",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f32",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f33",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f34",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f35",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f36",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f37",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f38",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f39",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f40",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f41",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f42",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f43",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f44",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f45",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f46",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f47",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f48",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f49",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f50",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f51",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f52",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f53",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f54",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f55",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f56",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f57",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f58",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f59",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f60",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f61",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f62",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f63",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f64",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f65",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f66",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f67",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f68",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f69",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f70",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f71",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f72",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f73",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f74",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f75",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f76",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f77",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f78",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f79",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f80",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f81",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f82",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f83",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f84",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f85",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f86",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f87",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f88",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f89",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f90",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f91",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f92",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f93",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f94",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f95",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f96",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f97",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f98",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f99",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f100",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f101",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f102",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f103",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f104",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f105",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f106",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f107",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f108",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f109",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f110",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f111",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f112",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f113",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f114",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f115",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f116",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f117",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f118",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc120_f119",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       }
+      ]
+     },
+     "expect": null,
+     "matches": null,
+     "error": null
+    },
+    {
+     "id": "doc-300",
+     "cold": [
+      391.1182000000001,
+      409.7084
+     ],
+     "warm": [
+      275.14779999999996,
+      355.8507999999997,
+      427.2539999999999
+     ],
+     "observed": {
+      "functions": [
+       {
+        "symbol": "doc300_f0",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f1",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f2",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f3",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f4",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f5",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f6",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f7",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f8",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f9",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f10",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f11",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f12",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f13",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f14",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f15",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f16",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f17",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f18",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f19",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f20",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f21",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f22",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f23",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f24",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f25",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f26",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f27",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f28",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f29",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f30",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f31",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f32",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f33",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f34",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f35",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f36",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f37",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f38",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f39",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f40",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f41",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f42",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f43",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f44",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f45",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f46",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f47",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f48",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f49",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f50",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f51",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f52",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f53",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f54",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f55",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f56",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f57",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f58",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f59",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f60",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f61",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f62",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f63",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f64",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f65",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f66",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f67",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f68",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f69",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f70",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f71",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f72",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f73",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f74",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f75",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f76",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f77",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f78",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f79",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f80",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f81",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f82",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f83",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f84",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f85",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f86",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f87",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f88",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f89",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f90",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f91",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f92",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f93",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f94",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f95",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f96",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f97",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f98",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f99",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f100",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f101",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f102",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f103",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f104",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f105",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f106",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f107",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f108",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f109",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f110",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f111",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f112",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f113",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f114",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f115",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f116",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f117",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f118",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f119",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f120",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f121",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f122",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f123",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f124",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f125",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f126",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f127",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f128",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f129",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f130",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f131",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f132",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f133",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f134",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f135",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f136",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f137",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f138",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f139",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f140",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f141",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f142",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f143",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f144",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f145",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f146",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f147",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f148",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f149",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f150",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f151",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f152",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f153",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f154",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f155",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f156",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f157",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f158",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f159",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f160",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f161",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f162",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f163",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f164",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f165",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f166",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f167",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f168",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f169",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f170",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f171",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f172",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f173",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f174",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f175",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f176",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f177",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f178",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f179",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f180",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f181",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f182",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f183",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f184",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f185",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f186",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f187",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f188",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f189",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f190",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f191",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f192",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f193",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f194",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f195",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f196",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f197",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f198",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f199",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f200",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f201",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f202",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f203",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f204",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f205",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f206",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f207",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f208",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f209",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f210",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f211",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f212",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f213",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f214",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f215",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f216",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f217",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f218",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f219",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f220",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f221",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f222",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f223",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f224",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f225",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f226",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f227",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f228",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f229",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f230",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f231",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f232",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f233",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f234",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f235",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f236",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f237",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f238",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f239",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f240",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f241",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f242",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f243",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f244",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f245",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f246",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f247",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f248",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f249",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f250",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f251",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f252",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f253",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f254",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f255",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f256",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f257",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f258",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f259",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f260",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f261",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f262",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f263",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f264",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f265",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f266",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f267",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f268",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f269",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f270",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f271",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f272",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f273",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f274",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f275",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f276",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f277",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f278",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f279",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f280",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f281",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f282",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f283",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f284",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f285",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f286",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f287",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f288",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f289",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f290",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f291",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f292",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f293",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f294",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f295",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f296",
+        "time": "O(n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f297",
+        "time": "O(log n)",
+        "space": "O(1)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f298",
+        "time": "O(n)",
+        "space": "O(n)",
+        "confidence": "exact"
+       },
+       {
+        "symbol": "doc300_f299",
+        "time": "O(1)",
+        "space": "O(1)",
+        "confidence": "exact"
+       }
+      ]
+     },
+     "expect": null,
+     "matches": null,
+     "error": null
+    }
+   ],
+   "summary": {
+    "cases": 2,
+    "errors": 0,
+    "judged": 0,
+    "matched": 0,
+    "cold": {
+     "n": 4,
+     "min": 297.90119999999996,
+     "median": 367.0298,
+     "mean": 360.4173,
+     "p95": 409.7084,
+     "max": 409.7084
+    },
+    "warm": {
+     "n": 6,
+     "min": 100.33950000000004,
+     "median": 203.01649999999995,
+     "mean": 233.06123333333326,
+     "p95": 427.2539999999999,
+     "max": 427.2539999999999
+    },
+    "coldTotalMs": 1441.6692,
+    "warmTotalMs": 1398.3673999999996
+   }
+  },
+  {
+   "scenario": "stress-throughput",
+   "kind": "selection",
+   "dist": "C:\\Users\\j\\OneDrive\\Desktop\\Project-X\\benchmarks\\baseline-snapshot\\analyzer\\dist\\index.js",
+   "node": "v24.12.0",
+   "clang": "C:\\Program Files\\LLVM\\bin\\clang++.exe",
+   "coldRepeats": 1,
+   "warmRepeats": 3,
+   "maxRssKb": 107456,
+   "cases": [
+    {
+     "id": "st-0-scalar",
+     "cold": [
+      164.7301
+     ],
+     "warm": [
+      11.803199999999975,
+      12.375900000000001,
+      9.960100000000011
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-1-for",
+     "cold": [
+      145.9993
+     ],
+     "warm": [
+      9.733599999999967,
+      10.850700000000018,
+      10.899100000000033
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-2-while",
+     "cold": [
+      130.67860000000002
+     ],
+     "warm": [
+      13.005800000000022,
+      12.0467000000001,
+      10.18119999999999
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-3-vector",
+     "cold": [
+      164.78380000000004
+     ],
+     "warm": [
+      13.455600000000004,
+      10.763000000000034,
+      11.85979999999995
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-4-symbolic",
+     "cold": [
+      151.50650000000007
+     ],
+     "warm": [
+      14.285399999999981,
+      9.563200000000052,
+      11.642100000000028
+     ],
+     "observed": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-5-scalar",
+     "cold": [
+      126.9728
+     ],
+     "warm": [
+      9.544700000000148,
+      10.510800000000017,
+      10.607899999999972
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-6-for",
+     "cold": [
+      132.9840999999999
+     ],
+     "warm": [
+      9.198599999999942,
+      10.292899999999918,
+      9.340599999999995
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-7-while",
+     "cold": [
+      138.88120000000004
+     ],
+     "warm": [
+      10.083699999999908,
+      12.569600000000037,
+      11.187099999999873
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-8-vector",
+     "cold": [
+      188.2874999999999
+     ],
+     "warm": [
+      13.332099999999855,
+      11.891099999999824,
+      9.855199999999968
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-9-symbolic",
+     "cold": [
+      123.47710000000006
+     ],
+     "warm": [
+      10.736200000000053,
+      10.792199999999866,
+      9.155599999999822
+     ],
+     "observed": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-10-scalar",
+     "cold": [
+      127.86159999999995
+     ],
+     "warm": [
+      9.15059999999994,
+      9.241899999999987,
+      9.109300000000076
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-11-for",
+     "cold": [
+      128.65840000000003
+     ],
+     "warm": [
+      8.929000000000087,
+      9.132900000000063,
+      9.797500000000127
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-12-while",
+     "cold": [
+      122.59349999999995
+     ],
+     "warm": [
+      8.695200000000114,
+      9.546299999999974,
+      9.06979999999976
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-13-vector",
+     "cold": [
+      142.89169999999967
+     ],
+     "warm": [
+      13.922299999999723,
+      11.570600000000013,
+      10.791999999999916
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-14-symbolic",
+     "cold": [
+      127.59349999999995
+     ],
+     "warm": [
+      10.382500000000164,
+      10.410100000000057,
+      12.35990000000038
+     ],
+     "observed": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-15-scalar",
+     "cold": [
+      121.68160000000034
+     ],
+     "warm": [
+      8.812200000000303,
+      8.294100000000071,
+      8.858600000000024
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-16-for",
+     "cold": [
+      128.56489999999985
+     ],
+     "warm": [
+      10.0945999999999,
+      16.853499999999713,
+      8.666499999999814
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-17-while",
+     "cold": [
+      144.71579999999994
+     ],
+     "warm": [
+      13.125800000000254,
+      10.185300000000097,
+      11.829000000000178
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-18-vector",
+     "cold": [
+      166.56780000000026
+     ],
+     "warm": [
+      12.837100000000191,
+      13.41339999999991,
+      14.035599999999704
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-19-symbolic",
+     "cold": [
+      186.35620000000017
+     ],
+     "warm": [
+      13.386400000000322,
+      24.69710000000032,
+      12.538099999999758
+     ],
+     "observed": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-20-scalar",
+     "cold": [
+      135.81889999999976
+     ],
+     "warm": [
+      9.222700000000259,
+      9.503600000000006,
+      8.541400000000067
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-21-for",
+     "cold": [
+      157.13740000000007
+     ],
+     "warm": [
+      14.817199999999957,
+      11.52430000000004,
+      9.371299999999792
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-22-while",
+     "cold": [
+      125.39519999999993
+     ],
+     "warm": [
+      14.846699999999146,
+      10.364000000000487,
+      9.369100000000799
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-23-vector",
+     "cold": [
+      133.32420000000002
+     ],
+     "warm": [
+      9.868899999999485,
+      10.594299999999748,
+      9.077299999999923
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-24-symbolic",
+     "cold": [
+      124.33920000000035
+     ],
+     "warm": [
+      8.778400000000147,
+      10.193900000000212,
+      9.817900000000009
+     ],
+     "observed": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-25-scalar",
+     "cold": [
+      120.1259
+     ],
+     "warm": [
+      8.750700000000506,
+      8.862999999999374,
+      8.950700000000325
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-26-for",
+     "cold": [
+      142.33300000000054
+     ],
+     "warm": [
+      9.55789999999979,
+      9.276699999999437,
+      8.818699999999808
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-27-while",
+     "cold": [
+      137.84650000000056
+     ],
+     "warm": [
+      15.6878999999999,
+      9.695099999999911,
+      10.478900000000067
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-28-vector",
+     "cold": [
+      132.23320000000058
+     ],
+     "warm": [
+      10.394499999999425,
+      10.534700000000157,
+      8.577900000000227
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-29-symbolic",
+     "cold": [
+      150.04350000000068
+     ],
+     "warm": [
+      9.373099999999795,
+      9.283900000000358,
+      11.987900000000081
+     ],
+     "observed": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-30-scalar",
+     "cold": [
+      146.0007999999998
+     ],
+     "warm": [
+      8.946200000000317,
+      9.6899999999996,
+      9.107199999999466
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-31-for",
+     "cold": [
+      155.89159999999993
+     ],
+     "warm": [
+      9.954600000000028,
+      9.450700000000325,
+      8.267499999999927
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-32-while",
+     "cold": [
+      129.72559999999976
+     ],
+     "warm": [
+      9.619400000000496,
+      7.975199999999859,
+      10.125999999999294
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-33-vector",
+     "cold": [
+      154.40460000000076
+     ],
+     "warm": [
+      9.858500000000276,
+      9.806300000000192,
+      11.141999999999825
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-34-symbolic",
+     "cold": [
+      129.43219999999928
+     ],
+     "warm": [
+      9.288700000000063,
+      9.601600000000872,
+      9.870200000000295
+     ],
+     "observed": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-35-scalar",
+     "cold": [
+      124.54939999999988
+     ],
+     "warm": [
+      8.532199999999648,
+      8.805699999999888,
+      9.75919999999951
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-36-for",
+     "cold": [
+      121.53039999999964
+     ],
+     "warm": [
+      9.053399999999783,
+      9.424299999999675,
+      9.95129999999972
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-37-while",
+     "cold": [
+      123.84029999999984
+     ],
+     "warm": [
+      9.465799999999945,
+      10.545099999999366,
+      12.774499999999534
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-38-vector",
+     "cold": [
+      135.4965999999995
+     ],
+     "warm": [
+      10.362299999999777,
+      10.27810000000045,
+      10.559699999999793
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-39-symbolic",
+     "cold": [
+      141.61470000000008
+     ],
+     "warm": [
+      20.798499999999876,
+      11.533699999999953,
+      10.177999999999884
+     ],
+     "observed": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-40-scalar",
+     "cold": [
+      126.20060000000012
+     ],
+     "warm": [
+      8.957800000000134,
+      9.006599999999708,
+      9.001299999999901
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-41-for",
+     "cold": [
+      125.17309999999998
+     ],
+     "warm": [
+      8.911399999999958,
+      11.936300000000301,
+      9.0632999999998
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-42-while",
+     "cold": [
+      142.34130000000005
+     ],
+     "warm": [
+      8.997600000000602,
+      9.567299999999705,
+      9.420900000000074
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-43-vector",
+     "cold": [
+      128.7505000000001
+     ],
+     "warm": [
+      10.284899999999652,
+      11.683500000000095,
+      13.150399999999536
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-44-symbolic",
+     "cold": [
+      144.02839999999924
+     ],
+     "warm": [
+      9.543899999999667,
+      9.01680000000033,
+      9.637299999999414
+     ],
+     "observed": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-45-scalar",
+     "cold": [
+      139.82720000000063
+     ],
+     "warm": [
+      11.937799999999697,
+      9.769199999999728,
+      10.690100000000712
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-46-for",
+     "cold": [
+      142.23769999999968
+     ],
+     "warm": [
+      9.110500000000684,
+      7.905399999999645,
+      8.872199999999793
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-47-while",
+     "cold": [
+      124.07560000000012
+     ],
+     "warm": [
+      7.939699999998993,
+      6.981999999999971,
+      8.263899999999921
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-48-vector",
+     "cold": [
+      144.67430000000058
+     ],
+     "warm": [
+      9.851800000000367,
+      10.091899999999441,
+      8.721099999998842
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-49-symbolic",
+     "cold": [
+      160.7588999999989
+     ],
+     "warm": [
+      10.999900000000707,
+      10.314699999998993,
+      9.782199999999648
+     ],
+     "observed": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-50-scalar",
+     "cold": [
+      137.37940000000162
+     ],
+     "warm": [
+      9.93499999999949,
+      9.36200000000099,
+      9.22269999999844
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-51-for",
+     "cold": [
+      151.83330000000024
+     ],
+     "warm": [
+      9.402799999999843,
+      8.107100000001083,
+      9.419400000000678
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-52-while",
+     "cold": [
+      142.06750000000102
+     ],
+     "warm": [
+      10.320300000001225,
+      8.081700000000637,
+      9.647299999998722
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-53-vector",
+     "cold": [
+      134.7446
+     ],
+     "warm": [
+      10.346300000001065,
+      10.691599999998289,
+      12.655399999999645
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-54-symbolic",
+     "cold": [
+      127.7528999999995
+     ],
+     "warm": [
+      9.492600000001403,
+      9.83599999999933,
+      9.553400000000693
+     ],
+     "observed": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-55-scalar",
+     "cold": [
+      139.57619999999952
+     ],
+     "warm": [
+      9.038500000000568,
+      8.936999999999898,
+      9.534900000000562
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-56-for",
+     "cold": [
+      137.4933000000001
+     ],
+     "warm": [
+      7.835500000001048,
+      7.528899999999339,
+      7.302100000000792
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-57-while",
+     "cold": [
+      133.4893000000011
+     ],
+     "warm": [
+      9.16820000000007,
+      9.059900000000198,
+      8.31880000000092
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-58-vector",
+     "cold": [
+      147.65389999999934
+     ],
+     "warm": [
+      10.864700000000084,
+      9.93630000000121,
+      8.524799999999232
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "st-59-symbolic",
+     "cold": [
+      127.4929000000011
+     ],
+     "warm": [
+      8.373899999998685,
+      9.496499999999287,
+      10.93289999999979
+     ],
+     "observed": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    }
+   ],
+   "summary": {
+    "cases": 60,
+    "errors": 0,
+    "judged": 60,
+    "matched": 60,
+    "cold": {
+     "n": 60,
+     "min": 120.1259,
+     "median": 136.5991500000007,
+     "mean": 139.07366833333344,
+     "p95": 166.56780000000026,
+     "max": 188.2874999999999
+    },
+    "warm": {
+     "n": 180,
+     "min": 6.981999999999971,
+     "median": 9.775699999999688,
+     "mean": 10.291375555555536,
+     "p95": 13.922299999999723,
+     "max": 24.69710000000032
+    },
+    "coldTotalMs": 8344.420100000003,
+    "warmTotalMs": 1852.4475999999963
+   }
+  }
+ ]
+}

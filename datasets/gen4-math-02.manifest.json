@@ -1,0 +1,412 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen4-math-02-isPerfectSquareBS_14",
+   "symbol": "isPerfectSquareBS_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-math-02-sumOfDivisorsSqrt_14",
+   "symbol": "sumOfDivisorsSqrt_14",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-countCoprimesTrial_14",
+   "symbol": "countCoprimesTrial_14",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-modularFactorial_14",
+   "symbol": "modularFactorial_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-isPrimeTrial_14",
+   "symbol": "isPrimeTrial_14",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-powerExpMod_15",
+   "symbol": "powerExpMod_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-fastMulMod_15",
+   "symbol": "fastMulMod_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-isPerfectSquareBS_15",
+   "symbol": "isPerfectSquareBS_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-math-02-sumOfDivisorsSqrt_15",
+   "symbol": "sumOfDivisorsSqrt_15",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-countCoprimesTrial_15",
+   "symbol": "countCoprimesTrial_15",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-modularFactorial_15",
+   "symbol": "modularFactorial_15",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-isPrimeTrial_15",
+   "symbol": "isPrimeTrial_15",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-powerExpMod_16",
+   "symbol": "powerExpMod_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-fastMulMod_16",
+   "symbol": "fastMulMod_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-isPerfectSquareBS_16",
+   "symbol": "isPerfectSquareBS_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-math-02-sumOfDivisorsSqrt_16",
+   "symbol": "sumOfDivisorsSqrt_16",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-countCoprimesTrial_16",
+   "symbol": "countCoprimesTrial_16",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-modularFactorial_16",
+   "symbol": "modularFactorial_16",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-isPrimeTrial_16",
+   "symbol": "isPrimeTrial_16",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-powerExpMod_17",
+   "symbol": "powerExpMod_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-fastMulMod_17",
+   "symbol": "fastMulMod_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-isPerfectSquareBS_17",
+   "symbol": "isPerfectSquareBS_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-math-02-sumOfDivisorsSqrt_17",
+   "symbol": "sumOfDivisorsSqrt_17",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-countCoprimesTrial_17",
+   "symbol": "countCoprimesTrial_17",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-modularFactorial_17",
+   "symbol": "modularFactorial_17",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-isPrimeTrial_17",
+   "symbol": "isPrimeTrial_17",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-powerExpMod_18",
+   "symbol": "powerExpMod_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-fastMulMod_18",
+   "symbol": "fastMulMod_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-isPerfectSquareBS_18",
+   "symbol": "isPerfectSquareBS_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-math-02-sumOfDivisorsSqrt_18",
+   "symbol": "sumOfDivisorsSqrt_18",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-countCoprimesTrial_18",
+   "symbol": "countCoprimesTrial_18",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-modularFactorial_18",
+   "symbol": "modularFactorial_18",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-isPrimeTrial_18",
+   "symbol": "isPrimeTrial_18",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-powerExpMod_19",
+   "symbol": "powerExpMod_19",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-fastMulMod_19",
+   "symbol": "fastMulMod_19",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-isPerfectSquareBS_19",
+   "symbol": "isPerfectSquareBS_19",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen4-math-02-sumOfDivisorsSqrt_19",
+   "symbol": "sumOfDivisorsSqrt_19",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-countCoprimesTrial_19",
+   "symbol": "countCoprimesTrial_19",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-modularFactorial_19",
+   "symbol": "modularFactorial_19",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen4-math-02-isPrimeTrial_19",
+   "symbol": "isPrimeTrial_19",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  }
+ ]
+}

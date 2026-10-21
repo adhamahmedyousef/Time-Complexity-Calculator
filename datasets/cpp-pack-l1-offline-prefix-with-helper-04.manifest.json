@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l1-prefix-range",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l1-offline-prefix-with-helper-04",
+      "symbol": "pack_l1_offlinePrefixWithHelper",
+      "time": "O(n + m)",
+      "space": "O(n + m)",
+      "confidence": "estimated",
+      "tags": [
+        "prefix-sum",
+        "helper-wrapper",
+        "level-1"
+      ],
+      "inputSymbols": [
+        "a",
+        "queries"
+      ],
+      "proof": "Helper builds prefix information once; caller performs an independent query sweep.",
+      "assumptions": "The helper is called with the full array and no hidden mutation.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l1-offline-prefix-with-helper"
+    }
+  ]
+}

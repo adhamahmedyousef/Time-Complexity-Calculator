@@ -1,0 +1,9 @@
+scenario,cases,cold_before_median_ms,cold_after_median_ms,cold_delta_pct,cold_before_mean_ms,cold_after_mean_ms,cold_before_p95_ms,cold_after_p95_ms,warm_before_median_ms,warm_after_median_ms,warm_delta_pct,rss_before_kb,rss_after_kb,rss_delta_pct,matched_before,judged_before,matched_after,judged_after,errors_before,errors_after
+typical-selection,12,138.62,141.61,-2.15,140.12,143.98,147.31,169.32,9.138,9.331,-2.10,104500,87880,15.90,12,12,12,12,0,0
+boundary-one-liners,8,142.07,140.57,1.06,141.61,139.41,145.03,143.27,8.437,8.459,-0.26,80600,80136,0.58,7,7,7,7,0,0
+previously-failing,15,140.89,141.62,-0.52,144.18,141.74,166.37,146.74,9.548,9.482,0.69,99596,99660,-0.06,14,14,14,14,0,0
+adversarial-shapes,6,146.32,150.71,-3.00,150.79,159.11,176.36,216.36,14.196,16.380,-15.38,129688,137276,-5.85,0,0,0,0,0,0
+invalid-inputs,8,139.00,137.18,1.31,88.65,87.31,145.14,144.62,7.931,8.377,-5.63,75560,74080,1.96,0,0,0,0,0,0
+large-document,2,365.29,400.27,-9.57,365.29,400.27,429.59,480.65,161.806,208.319,-28.75,146612,160572,-9.52,0,0,0,0,0,0
+stress-throughput,60,140.68,139.97,0.51,142.54,141.51,160.66,152.81,8.930,8.789,1.59,108308,110672,-2.18,60,60,60,60,0,0
+__overall__,111,141.19,140.57,0.44,143.01,143.37,161.89,162.15,9.022,8.937,0.94,n/a,n/a,n/a,93,93,93,93,0,0

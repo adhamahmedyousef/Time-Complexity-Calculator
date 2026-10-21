@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-dp-prefixdiff-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_prefixDifferenceQuery_pd1",
+      "time": "O(n + q)",
+      "space": "O(n + q)",
+      "confidence": "exact",
+      "tags": [
+        "prefix-sum",
+        "difference-array"
+      ],
+      "algorithmFamily": "prefix-and-difference",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n",
+        "q",
+        "values",
+        "queries"
+      ],
+      "proof": "One pass builds prefix state and one independent query pass answers each range in constant time.",
+      "assumptions": "Ranges are valid.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-dp-prefixdiff-01"
+    }
+  ]
+}

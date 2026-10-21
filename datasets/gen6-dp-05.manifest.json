@@ -1,0 +1,1056 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen6-dp-05-kadaneMaxSubarray_40",
+   "symbol": "kadaneMaxSubarray_40",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-maxSubarrayCircular_40",
+   "symbol": "maxSubarrayCircular_40",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-fibonacciOptimized_40",
+   "symbol": "fibonacciOptimized_40",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-tribonacciLinear_40",
+   "symbol": "tribonacciLinear_40",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-paintFenceLinear_40",
+   "symbol": "paintFenceLinear_40",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-rodCuttingQuadratic_40",
+   "symbol": "rodCuttingQuadratic_40",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-lisQuadraticDP_40",
+   "symbol": "lisQuadraticDP_40",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-minPathSumGrid_40",
+   "symbol": "minPathSumGrid_40",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-knapsack01DP_40",
+   "symbol": "knapsack01DP_40",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-unboundedKnapsackDP_40",
+   "symbol": "unboundedKnapsackDP_40",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-kadaneMaxSubarray_41",
+   "symbol": "kadaneMaxSubarray_41",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-maxSubarrayCircular_41",
+   "symbol": "maxSubarrayCircular_41",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-fibonacciOptimized_41",
+   "symbol": "fibonacciOptimized_41",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-tribonacciLinear_41",
+   "symbol": "tribonacciLinear_41",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-paintFenceLinear_41",
+   "symbol": "paintFenceLinear_41",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-rodCuttingQuadratic_41",
+   "symbol": "rodCuttingQuadratic_41",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-lisQuadraticDP_41",
+   "symbol": "lisQuadraticDP_41",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-minPathSumGrid_41",
+   "symbol": "minPathSumGrid_41",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-knapsack01DP_41",
+   "symbol": "knapsack01DP_41",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-unboundedKnapsackDP_41",
+   "symbol": "unboundedKnapsackDP_41",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-kadaneMaxSubarray_42",
+   "symbol": "kadaneMaxSubarray_42",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-maxSubarrayCircular_42",
+   "symbol": "maxSubarrayCircular_42",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-fibonacciOptimized_42",
+   "symbol": "fibonacciOptimized_42",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-tribonacciLinear_42",
+   "symbol": "tribonacciLinear_42",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-paintFenceLinear_42",
+   "symbol": "paintFenceLinear_42",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-rodCuttingQuadratic_42",
+   "symbol": "rodCuttingQuadratic_42",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-lisQuadraticDP_42",
+   "symbol": "lisQuadraticDP_42",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-minPathSumGrid_42",
+   "symbol": "minPathSumGrid_42",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-knapsack01DP_42",
+   "symbol": "knapsack01DP_42",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-unboundedKnapsackDP_42",
+   "symbol": "unboundedKnapsackDP_42",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-kadaneMaxSubarray_43",
+   "symbol": "kadaneMaxSubarray_43",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-maxSubarrayCircular_43",
+   "symbol": "maxSubarrayCircular_43",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-fibonacciOptimized_43",
+   "symbol": "fibonacciOptimized_43",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-tribonacciLinear_43",
+   "symbol": "tribonacciLinear_43",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-paintFenceLinear_43",
+   "symbol": "paintFenceLinear_43",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-rodCuttingQuadratic_43",
+   "symbol": "rodCuttingQuadratic_43",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-lisQuadraticDP_43",
+   "symbol": "lisQuadraticDP_43",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-minPathSumGrid_43",
+   "symbol": "minPathSumGrid_43",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-knapsack01DP_43",
+   "symbol": "knapsack01DP_43",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-unboundedKnapsackDP_43",
+   "symbol": "unboundedKnapsackDP_43",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-kadaneMaxSubarray_44",
+   "symbol": "kadaneMaxSubarray_44",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-maxSubarrayCircular_44",
+   "symbol": "maxSubarrayCircular_44",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-fibonacciOptimized_44",
+   "symbol": "fibonacciOptimized_44",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-tribonacciLinear_44",
+   "symbol": "tribonacciLinear_44",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-paintFenceLinear_44",
+   "symbol": "paintFenceLinear_44",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-rodCuttingQuadratic_44",
+   "symbol": "rodCuttingQuadratic_44",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-lisQuadraticDP_44",
+   "symbol": "lisQuadraticDP_44",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-minPathSumGrid_44",
+   "symbol": "minPathSumGrid_44",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-knapsack01DP_44",
+   "symbol": "knapsack01DP_44",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-unboundedKnapsackDP_44",
+   "symbol": "unboundedKnapsackDP_44",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-kadaneMaxSubarray_45",
+   "symbol": "kadaneMaxSubarray_45",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-maxSubarrayCircular_45",
+   "symbol": "maxSubarrayCircular_45",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-fibonacciOptimized_45",
+   "symbol": "fibonacciOptimized_45",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-tribonacciLinear_45",
+   "symbol": "tribonacciLinear_45",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-paintFenceLinear_45",
+   "symbol": "paintFenceLinear_45",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-rodCuttingQuadratic_45",
+   "symbol": "rodCuttingQuadratic_45",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-lisQuadraticDP_45",
+   "symbol": "lisQuadraticDP_45",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-minPathSumGrid_45",
+   "symbol": "minPathSumGrid_45",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-knapsack01DP_45",
+   "symbol": "knapsack01DP_45",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-unboundedKnapsackDP_45",
+   "symbol": "unboundedKnapsackDP_45",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-kadaneMaxSubarray_46",
+   "symbol": "kadaneMaxSubarray_46",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-maxSubarrayCircular_46",
+   "symbol": "maxSubarrayCircular_46",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-fibonacciOptimized_46",
+   "symbol": "fibonacciOptimized_46",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-tribonacciLinear_46",
+   "symbol": "tribonacciLinear_46",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-paintFenceLinear_46",
+   "symbol": "paintFenceLinear_46",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-rodCuttingQuadratic_46",
+   "symbol": "rodCuttingQuadratic_46",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-lisQuadraticDP_46",
+   "symbol": "lisQuadraticDP_46",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-minPathSumGrid_46",
+   "symbol": "minPathSumGrid_46",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-knapsack01DP_46",
+   "symbol": "knapsack01DP_46",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-unboundedKnapsackDP_46",
+   "symbol": "unboundedKnapsackDP_46",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-kadaneMaxSubarray_47",
+   "symbol": "kadaneMaxSubarray_47",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-maxSubarrayCircular_47",
+   "symbol": "maxSubarrayCircular_47",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-fibonacciOptimized_47",
+   "symbol": "fibonacciOptimized_47",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-tribonacciLinear_47",
+   "symbol": "tribonacciLinear_47",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-paintFenceLinear_47",
+   "symbol": "paintFenceLinear_47",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-rodCuttingQuadratic_47",
+   "symbol": "rodCuttingQuadratic_47",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-lisQuadraticDP_47",
+   "symbol": "lisQuadraticDP_47",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-minPathSumGrid_47",
+   "symbol": "minPathSumGrid_47",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-knapsack01DP_47",
+   "symbol": "knapsack01DP_47",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-unboundedKnapsackDP_47",
+   "symbol": "unboundedKnapsackDP_47",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-kadaneMaxSubarray_48",
+   "symbol": "kadaneMaxSubarray_48",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-maxSubarrayCircular_48",
+   "symbol": "maxSubarrayCircular_48",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-fibonacciOptimized_48",
+   "symbol": "fibonacciOptimized_48",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-tribonacciLinear_48",
+   "symbol": "tribonacciLinear_48",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-paintFenceLinear_48",
+   "symbol": "paintFenceLinear_48",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-rodCuttingQuadratic_48",
+   "symbol": "rodCuttingQuadratic_48",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-lisQuadraticDP_48",
+   "symbol": "lisQuadraticDP_48",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-minPathSumGrid_48",
+   "symbol": "minPathSumGrid_48",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-knapsack01DP_48",
+   "symbol": "knapsack01DP_48",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-unboundedKnapsackDP_48",
+   "symbol": "unboundedKnapsackDP_48",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-kadaneMaxSubarray_49",
+   "symbol": "kadaneMaxSubarray_49",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-maxSubarrayCircular_49",
+   "symbol": "maxSubarrayCircular_49",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-fibonacciOptimized_49",
+   "symbol": "fibonacciOptimized_49",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-tribonacciLinear_49",
+   "symbol": "tribonacciLinear_49",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-paintFenceLinear_49",
+   "symbol": "paintFenceLinear_49",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-rodCuttingQuadratic_49",
+   "symbol": "rodCuttingQuadratic_49",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-lisQuadraticDP_49",
+   "symbol": "lisQuadraticDP_49",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "lis"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-minPathSumGrid_49",
+   "symbol": "minPathSumGrid_49",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-knapsack01DP_49",
+   "symbol": "knapsack01DP_49",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  },
+  {
+   "id": "gen6-dp-05-unboundedKnapsackDP_49",
+   "symbol": "unboundedKnapsackDP_49",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "knapsack"
+   ]
+  }
+ ]
+}

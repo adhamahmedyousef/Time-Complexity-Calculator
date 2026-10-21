@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-p0-p1-pack-sparse-table",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-p0-p1-pack-sparse-table-06",
+      "symbol": "pack_project_x_p0_p1_pack_sparse_table_06",
+      "time": "O(n log n + q)",
+      "space": "O(n log n)",
+      "confidence": "exact",
+      "tags": [
+        "sparse-table",
+        "rmq"
+      ],
+      "inputSymbols": [
+        "n",
+        "q",
+        "a",
+        "qs"
+      ],
+      "proof": "Precompute logarithmic layers once and answer each query from two overlapping blocks.",
+      "assumptions": "Static queries.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-p0-p1-pack-sparse-table-06",
+      "familyRole": "canonical"
+    }
+  ]
+}

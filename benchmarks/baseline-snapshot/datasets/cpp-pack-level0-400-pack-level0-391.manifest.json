@@ -1,0 +1,30 @@
+{
+ "version": 2,
+ "language": "cpp",
+ "family": "pack-level0-400-pack-level0-391",
+ "reviewedBy": "imported-pack-representative",
+ "cases": [
+  {
+   "id": "pack-level0-400-pack-level0-391",
+   "symbol": "pack_level0_400_pack_main",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "adjudicated",
+    "unknown",
+    "greedy"
+   ],
+   "inputSymbols": [
+    "n"
+   ],
+   "proof": "The simulation state changes based on opaque conditions.",
+   "assumptions": "Intentionally ambiguous; safe analysis should abstain.",
+   "origin": {
+    "kind": "derived",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": "pack-level0-400-pack-greedy_simulation_bruteforce-base"
+  }
+ ]
+}

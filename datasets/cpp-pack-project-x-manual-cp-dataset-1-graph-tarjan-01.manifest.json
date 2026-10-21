@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-graph-tarjan-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_tarjanScc_ta1",
+      "time": "O(V + E)",
+      "space": "O(V + E)",
+      "confidence": "exact",
+      "tags": [
+        "graphs",
+        "scc",
+        "tarjan"
+      ],
+      "algorithmFamily": "tarjan-scc",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "V",
+        "E",
+        "adj"
+      ],
+      "proof": "A single DFS computes discovery and low-link values; each edge is processed a constant number of times.",
+      "assumptions": "Graph is directed.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-graph-tarjan-01"
+    }
+  ]
+}

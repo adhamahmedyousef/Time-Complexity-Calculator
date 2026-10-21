@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-trees-advanced",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-binary-lifting-lca-001",
+      "symbol": "pack_l2_binaryLiftingLca",
+      "time": "O(n log n + q log n)",
+      "space": "O(n log n)",
+      "confidence": "estimated",
+      "tags": [
+        "tree",
+        "lca",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "n",
+        "q",
+        "up"
+      ],
+      "proof": "Binary lifting precomputes ancestors and answers each query logarithmically.",
+      "assumptions": "Tree is rooted.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-binary-lifting-lca"
+    }
+  ]
+}

@@ -1,0 +1,1086 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen5-graphs-01-floydWarshall_0",
+   "symbol": "floydWarshall_0",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph",
+    "shortest-path"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsReachableNodes_0",
+   "symbol": "bfsReachableNodes_0",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsBipartiteTest_0",
+   "symbol": "bfsBipartiteTest_0",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-kahnTopological_0",
+   "symbol": "kahnTopological_0",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-outDegreeList_0",
+   "symbol": "outDegreeList_0",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-floydWarshall_1",
+   "symbol": "floydWarshall_1",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph",
+    "shortest-path"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsReachableNodes_1",
+   "symbol": "bfsReachableNodes_1",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsBipartiteTest_1",
+   "symbol": "bfsBipartiteTest_1",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-kahnTopological_1",
+   "symbol": "kahnTopological_1",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-outDegreeList_1",
+   "symbol": "outDegreeList_1",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-floydWarshall_2",
+   "symbol": "floydWarshall_2",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph",
+    "shortest-path"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsReachableNodes_2",
+   "symbol": "bfsReachableNodes_2",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsBipartiteTest_2",
+   "symbol": "bfsBipartiteTest_2",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-kahnTopological_2",
+   "symbol": "kahnTopological_2",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-outDegreeList_2",
+   "symbol": "outDegreeList_2",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-floydWarshall_3",
+   "symbol": "floydWarshall_3",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph",
+    "shortest-path"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsReachableNodes_3",
+   "symbol": "bfsReachableNodes_3",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsBipartiteTest_3",
+   "symbol": "bfsBipartiteTest_3",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-kahnTopological_3",
+   "symbol": "kahnTopological_3",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-outDegreeList_3",
+   "symbol": "outDegreeList_3",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-floydWarshall_4",
+   "symbol": "floydWarshall_4",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph",
+    "shortest-path"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsReachableNodes_4",
+   "symbol": "bfsReachableNodes_4",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsBipartiteTest_4",
+   "symbol": "bfsBipartiteTest_4",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-kahnTopological_4",
+   "symbol": "kahnTopological_4",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-outDegreeList_4",
+   "symbol": "outDegreeList_4",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-floydWarshall_5",
+   "symbol": "floydWarshall_5",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph",
+    "shortest-path"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsReachableNodes_5",
+   "symbol": "bfsReachableNodes_5",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsBipartiteTest_5",
+   "symbol": "bfsBipartiteTest_5",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-kahnTopological_5",
+   "symbol": "kahnTopological_5",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-outDegreeList_5",
+   "symbol": "outDegreeList_5",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-floydWarshall_6",
+   "symbol": "floydWarshall_6",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph",
+    "shortest-path"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsReachableNodes_6",
+   "symbol": "bfsReachableNodes_6",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsBipartiteTest_6",
+   "symbol": "bfsBipartiteTest_6",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-kahnTopological_6",
+   "symbol": "kahnTopological_6",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-outDegreeList_6",
+   "symbol": "outDegreeList_6",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-floydWarshall_7",
+   "symbol": "floydWarshall_7",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph",
+    "shortest-path"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsReachableNodes_7",
+   "symbol": "bfsReachableNodes_7",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsBipartiteTest_7",
+   "symbol": "bfsBipartiteTest_7",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-kahnTopological_7",
+   "symbol": "kahnTopological_7",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-outDegreeList_7",
+   "symbol": "outDegreeList_7",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-floydWarshall_8",
+   "symbol": "floydWarshall_8",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph",
+    "shortest-path"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsReachableNodes_8",
+   "symbol": "bfsReachableNodes_8",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsBipartiteTest_8",
+   "symbol": "bfsBipartiteTest_8",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-kahnTopological_8",
+   "symbol": "kahnTopological_8",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-outDegreeList_8",
+   "symbol": "outDegreeList_8",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-floydWarshall_9",
+   "symbol": "floydWarshall_9",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph",
+    "shortest-path"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsReachableNodes_9",
+   "symbol": "bfsReachableNodes_9",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsBipartiteTest_9",
+   "symbol": "bfsBipartiteTest_9",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-kahnTopological_9",
+   "symbol": "kahnTopological_9",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-outDegreeList_9",
+   "symbol": "outDegreeList_9",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-floydWarshall_10",
+   "symbol": "floydWarshall_10",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph",
+    "shortest-path"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsReachableNodes_10",
+   "symbol": "bfsReachableNodes_10",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsBipartiteTest_10",
+   "symbol": "bfsBipartiteTest_10",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-kahnTopological_10",
+   "symbol": "kahnTopological_10",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-outDegreeList_10",
+   "symbol": "outDegreeList_10",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-floydWarshall_11",
+   "symbol": "floydWarshall_11",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph",
+    "shortest-path"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsReachableNodes_11",
+   "symbol": "bfsReachableNodes_11",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsBipartiteTest_11",
+   "symbol": "bfsBipartiteTest_11",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-kahnTopological_11",
+   "symbol": "kahnTopological_11",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-outDegreeList_11",
+   "symbol": "outDegreeList_11",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-floydWarshall_12",
+   "symbol": "floydWarshall_12",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph",
+    "shortest-path"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsReachableNodes_12",
+   "symbol": "bfsReachableNodes_12",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsBipartiteTest_12",
+   "symbol": "bfsBipartiteTest_12",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-kahnTopological_12",
+   "symbol": "kahnTopological_12",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-outDegreeList_12",
+   "symbol": "outDegreeList_12",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-floydWarshall_13",
+   "symbol": "floydWarshall_13",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph",
+    "shortest-path"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsReachableNodes_13",
+   "symbol": "bfsReachableNodes_13",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsBipartiteTest_13",
+   "symbol": "bfsBipartiteTest_13",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-kahnTopological_13",
+   "symbol": "kahnTopological_13",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-outDegreeList_13",
+   "symbol": "outDegreeList_13",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-floydWarshall_14",
+   "symbol": "floydWarshall_14",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph",
+    "shortest-path"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsReachableNodes_14",
+   "symbol": "bfsReachableNodes_14",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsBipartiteTest_14",
+   "symbol": "bfsBipartiteTest_14",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-kahnTopological_14",
+   "symbol": "kahnTopological_14",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-outDegreeList_14",
+   "symbol": "outDegreeList_14",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-floydWarshall_15",
+   "symbol": "floydWarshall_15",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph",
+    "shortest-path"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsReachableNodes_15",
+   "symbol": "bfsReachableNodes_15",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsBipartiteTest_15",
+   "symbol": "bfsBipartiteTest_15",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-kahnTopological_15",
+   "symbol": "kahnTopological_15",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-outDegreeList_15",
+   "symbol": "outDegreeList_15",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-floydWarshall_16",
+   "symbol": "floydWarshall_16",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph",
+    "shortest-path"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsReachableNodes_16",
+   "symbol": "bfsReachableNodes_16",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsBipartiteTest_16",
+   "symbol": "bfsBipartiteTest_16",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-kahnTopological_16",
+   "symbol": "kahnTopological_16",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-outDegreeList_16",
+   "symbol": "outDegreeList_16",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-floydWarshall_17",
+   "symbol": "floydWarshall_17",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph",
+    "shortest-path"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsReachableNodes_17",
+   "symbol": "bfsReachableNodes_17",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsBipartiteTest_17",
+   "symbol": "bfsBipartiteTest_17",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-kahnTopological_17",
+   "symbol": "kahnTopological_17",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-outDegreeList_17",
+   "symbol": "outDegreeList_17",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-floydWarshall_18",
+   "symbol": "floydWarshall_18",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph",
+    "shortest-path"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsReachableNodes_18",
+   "symbol": "bfsReachableNodes_18",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsBipartiteTest_18",
+   "symbol": "bfsBipartiteTest_18",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-kahnTopological_18",
+   "symbol": "kahnTopological_18",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-outDegreeList_18",
+   "symbol": "outDegreeList_18",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-floydWarshall_19",
+   "symbol": "floydWarshall_19",
+   "time": "O(n^3)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph",
+    "shortest-path"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsReachableNodes_19",
+   "symbol": "bfsReachableNodes_19",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-bfsBipartiteTest_19",
+   "symbol": "bfsBipartiteTest_19",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "bfs"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-kahnTopological_19",
+   "symbol": "kahnTopological_19",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph",
+    "topo"
+   ]
+  },
+  {
+   "id": "gen5-graphs-01-outDegreeList_19",
+   "symbol": "outDegreeList_19",
+   "time": "O(V)",
+   "space": "O(V)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  }
+ ]
+}

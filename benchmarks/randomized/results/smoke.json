@@ -1,0 +1,93 @@
+{
+ "campaign": "loop-progress-sim",
+ "label": "smoke",
+ "seed": 1,
+ "caseCount": 4,
+ "dist": "C:\\Users\\j\\OneDrive\\Desktop\\Project-X\\benchmarks\\baseline-snapshot\\analyzer\\dist\\index.js",
+ "invariants": {
+  "INV1": "simulated termination => engine must not claim non-termination",
+  "INV2": "simulated non-termination => engine must not claim a finite bound",
+  "INV3": "literal-bound O(1) claim => simulated trip count <= 100"
+ },
+ "cap": 100000,
+ "violations": [],
+ "records": [
+  {
+   "id": "rnd_smoke_1_0",
+   "source": "int rnd_smoke_1_0(int n) { int i = 1; int s = 0; while (i < 3) { { ++i; --i; } if (i < 4) ++i; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 2,
+    "state": {
+     "i": 3,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "O(1)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_smoke_1_1",
+   "source": "int rnd_smoke_1_1(int n) { int i = 0; int s = 0; while (i >= 3) { i++; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": true,
+    "iterations": 0,
+    "state": {
+     "i": 0,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_smoke_1_2",
+   "source": "int rnd_smoke_1_2(int n) { int i = -3; int s = 0; while (i < 3) { i -= 1; } return s; }",
+   "symbolic": false,
+   "simulated": {
+    "terminates": false,
+    "iterations": 100000,
+    "state": {
+     "i": -100004,
+     "s": 0
+    }
+   },
+   "engine": {
+    "time": "Unknown",
+    "space": "Unknown",
+    "confidence": "unknown"
+   },
+   "violations": []
+  },
+  {
+   "id": "rnd_smoke_1_3",
+   "source": "int rnd_smoke_1_3(int n) { int i = 0; int s = 0; while (i < n) { s += i; ++i; } return s; }",
+   "symbolic": true,
+   "simulated": {
+    "terminates": true,
+    "iterations": 10,
+    "state": {
+     "i": 10,
+     "s": 45
+    }
+   },
+   "engine": {
+    "time": "O(n)",
+    "space": "O(1)",
+    "confidence": "exact"
+   },
+   "violations": []
+  }
+ ],
+ "startedForTask": "2026-10-17 analyzer bug hunt"
+}

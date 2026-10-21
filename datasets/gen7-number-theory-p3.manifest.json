@@ -1,0 +1,518 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "countDivisorsSqrt_12",
+   "symbol": "countDivisorsSqrt_12",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "sumDivisorsSqrt_12",
+   "symbol": "sumDivisorsSqrt_12",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "sieveOfEratosthenes_12",
+   "symbol": "sieveOfEratosthenes_12",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory",
+    "sieve"
+   ]
+  },
+  {
+   "id": "smallestPrimeFactorSieve_12",
+   "symbol": "smallestPrimeFactorSieve_12",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gcdEuclidModulo_13",
+   "symbol": "gcdEuclidModulo_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "lcmEuclid_13",
+   "symbol": "lcmEuclid_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "fastPowerMod_13",
+   "symbol": "fastPowerMod_13",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "isPrimeTrialDivision_13",
+   "symbol": "isPrimeTrialDivision_13",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "countDivisorsSqrt_13",
+   "symbol": "countDivisorsSqrt_13",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "sumDivisorsSqrt_13",
+   "symbol": "sumDivisorsSqrt_13",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "sieveOfEratosthenes_13",
+   "symbol": "sieveOfEratosthenes_13",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory",
+    "sieve"
+   ]
+  },
+  {
+   "id": "smallestPrimeFactorSieve_13",
+   "symbol": "smallestPrimeFactorSieve_13",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gcdEuclidModulo_14",
+   "symbol": "gcdEuclidModulo_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "lcmEuclid_14",
+   "symbol": "lcmEuclid_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "fastPowerMod_14",
+   "symbol": "fastPowerMod_14",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "isPrimeTrialDivision_14",
+   "symbol": "isPrimeTrialDivision_14",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "countDivisorsSqrt_14",
+   "symbol": "countDivisorsSqrt_14",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "sumDivisorsSqrt_14",
+   "symbol": "sumDivisorsSqrt_14",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "sieveOfEratosthenes_14",
+   "symbol": "sieveOfEratosthenes_14",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory",
+    "sieve"
+   ]
+  },
+  {
+   "id": "smallestPrimeFactorSieve_14",
+   "symbol": "smallestPrimeFactorSieve_14",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gcdEuclidModulo_15",
+   "symbol": "gcdEuclidModulo_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "lcmEuclid_15",
+   "symbol": "lcmEuclid_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "fastPowerMod_15",
+   "symbol": "fastPowerMod_15",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "isPrimeTrialDivision_15",
+   "symbol": "isPrimeTrialDivision_15",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "countDivisorsSqrt_15",
+   "symbol": "countDivisorsSqrt_15",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "sumDivisorsSqrt_15",
+   "symbol": "sumDivisorsSqrt_15",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "sieveOfEratosthenes_15",
+   "symbol": "sieveOfEratosthenes_15",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory",
+    "sieve"
+   ]
+  },
+  {
+   "id": "smallestPrimeFactorSieve_15",
+   "symbol": "smallestPrimeFactorSieve_15",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gcdEuclidModulo_16",
+   "symbol": "gcdEuclidModulo_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "lcmEuclid_16",
+   "symbol": "lcmEuclid_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "fastPowerMod_16",
+   "symbol": "fastPowerMod_16",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "isPrimeTrialDivision_16",
+   "symbol": "isPrimeTrialDivision_16",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "countDivisorsSqrt_16",
+   "symbol": "countDivisorsSqrt_16",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "sumDivisorsSqrt_16",
+   "symbol": "sumDivisorsSqrt_16",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "sieveOfEratosthenes_16",
+   "symbol": "sieveOfEratosthenes_16",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory",
+    "sieve"
+   ]
+  },
+  {
+   "id": "smallestPrimeFactorSieve_16",
+   "symbol": "smallestPrimeFactorSieve_16",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gcdEuclidModulo_17",
+   "symbol": "gcdEuclidModulo_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "lcmEuclid_17",
+   "symbol": "lcmEuclid_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "fastPowerMod_17",
+   "symbol": "fastPowerMod_17",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "isPrimeTrialDivision_17",
+   "symbol": "isPrimeTrialDivision_17",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "countDivisorsSqrt_17",
+   "symbol": "countDivisorsSqrt_17",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "sumDivisorsSqrt_17",
+   "symbol": "sumDivisorsSqrt_17",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "sieveOfEratosthenes_17",
+   "symbol": "sieveOfEratosthenes_17",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory",
+    "sieve"
+   ]
+  },
+  {
+   "id": "smallestPrimeFactorSieve_17",
+   "symbol": "smallestPrimeFactorSieve_17",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory",
+    "sieve"
+   ]
+  },
+  {
+   "id": "gcdEuclidModulo_18",
+   "symbol": "gcdEuclidModulo_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "lcmEuclid_18",
+   "symbol": "lcmEuclid_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "fastPowerMod_18",
+   "symbol": "fastPowerMod_18",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "isPrimeTrialDivision_18",
+   "symbol": "isPrimeTrialDivision_18",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "countDivisorsSqrt_18",
+   "symbol": "countDivisorsSqrt_18",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  },
+  {
+   "id": "sumDivisorsSqrt_18",
+   "symbol": "sumDivisorsSqrt_18",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "number-theory"
+   ]
+  }
+ ]
+}

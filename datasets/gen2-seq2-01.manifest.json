@@ -1,0 +1,126 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen2-seq2-01-threePhase_0",
+   "symbol": "threePhase_0",
+   "time": "O(n^2 + m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sequential"
+   ]
+  },
+  {
+   "id": "gen2-seq2-01-mixedLoops_0",
+   "symbol": "mixedLoops_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sequential"
+   ]
+  },
+  {
+   "id": "gen2-seq2-01-threePhase_1",
+   "symbol": "threePhase_1",
+   "time": "O(n^2 + m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sequential"
+   ]
+  },
+  {
+   "id": "gen2-seq2-01-mixedLoops_1",
+   "symbol": "mixedLoops_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sequential"
+   ]
+  },
+  {
+   "id": "gen2-seq2-01-threePhase_2",
+   "symbol": "threePhase_2",
+   "time": "O(n^2 + m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sequential"
+   ]
+  },
+  {
+   "id": "gen2-seq2-01-mixedLoops_2",
+   "symbol": "mixedLoops_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sequential"
+   ]
+  },
+  {
+   "id": "gen2-seq2-01-threePhase_3",
+   "symbol": "threePhase_3",
+   "time": "O(n^2 + m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sequential"
+   ]
+  },
+  {
+   "id": "gen2-seq2-01-mixedLoops_3",
+   "symbol": "mixedLoops_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sequential"
+   ]
+  },
+  {
+   "id": "gen2-seq2-01-threePhase_4",
+   "symbol": "threePhase_4",
+   "time": "O(n^2 + m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sequential"
+   ]
+  },
+  {
+   "id": "gen2-seq2-01-mixedLoops_4",
+   "symbol": "mixedLoops_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sequential"
+   ]
+  },
+  {
+   "id": "gen2-seq2-01-threePhase_5",
+   "symbol": "threePhase_5",
+   "time": "O(n^2 + m)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sequential"
+   ]
+  },
+  {
+   "id": "gen2-seq2-01-mixedLoops_5",
+   "symbol": "mixedLoops_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sequential"
+   ]
+  }
+ ]
+}

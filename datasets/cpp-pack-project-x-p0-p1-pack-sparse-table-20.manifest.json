@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-p0-p1-pack-sparse-table",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-p0-p1-pack-sparse-table-20",
+      "symbol": "pack_project_x_p0_p1_pack_sparse_table_unknown_20",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "sparse-table",
+        "unknown",
+        "unknown"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "No sparse-table invariant is proven.",
+      "assumptions": "Intentional ambiguity.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-p0-p1-pack-sparse-table-20",
+      "familyRole": "adversarial"
+    }
+  ]
+}

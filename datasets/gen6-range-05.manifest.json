@@ -1,0 +1,28 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen6-range-05-sumOfSquaresPrefix_66",
+   "symbol": "sumOfSquaresPrefix_66",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-05-prefixSum2DBuild_66",
+   "symbol": "prefixSum2DBuild_66",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  }
+ ]
+}

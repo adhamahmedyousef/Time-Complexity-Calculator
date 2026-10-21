@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-dp-advanced",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-knapsack-01-002",
+      "symbol": "pack_l2_knapsack01",
+      "time": "O(nW)",
+      "space": "O(W)",
+      "confidence": "estimated",
+      "tags": [
+        "dp",
+        "knapsack",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "items",
+        "W"
+      ],
+      "proof": "Each item updates a weight-indexed DP array in reverse.",
+      "assumptions": "Weights are bounded by W.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-knapsack-01"
+    }
+  ]
+}

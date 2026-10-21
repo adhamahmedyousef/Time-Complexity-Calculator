@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-graphs-advanced",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-zero-one-bfs-structural-006",
+      "symbol": "pack_l2_zeroOneBfsStructural",
+      "time": "O(n + m)",
+      "space": "O(n + m)",
+      "confidence": "estimated",
+      "tags": [
+        "graph",
+        "0-1-bfs",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "n",
+        "adj"
+      ],
+      "proof": "Deque-driven relaxation with 0-weight push_front and 1-weight push_back.",
+      "assumptions": "All edge weights are 0 or 1.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-zero-one-bfs-structural"
+    }
+  ]
+}

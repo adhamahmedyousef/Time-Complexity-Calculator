@@ -1,0 +1,66 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen2-amortized-01-dequeWin_0",
+   "symbol": "dequeWin_0",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "amortized"
+   ]
+  },
+  {
+   "id": "gen2-amortized-01-dequeWin_1",
+   "symbol": "dequeWin_1",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "amortized"
+   ]
+  },
+  {
+   "id": "gen2-amortized-01-dequeWin_2",
+   "symbol": "dequeWin_2",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "amortized"
+   ]
+  },
+  {
+   "id": "gen2-amortized-01-dequeWin_3",
+   "symbol": "dequeWin_3",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "amortized"
+   ]
+  },
+  {
+   "id": "gen2-amortized-01-dequeWin_4",
+   "symbol": "dequeWin_4",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "amortized"
+   ]
+  },
+  {
+   "id": "gen2-amortized-01-dequeWin_5",
+   "symbol": "dequeWin_5",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "amortized"
+   ]
+  }
+ ]
+}

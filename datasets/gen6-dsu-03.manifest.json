@@ -1,0 +1,16 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen6-dsu-03-dsuFindRoot_66",
+   "symbol": "dsuFindRoot_66",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  }
+ ]
+}

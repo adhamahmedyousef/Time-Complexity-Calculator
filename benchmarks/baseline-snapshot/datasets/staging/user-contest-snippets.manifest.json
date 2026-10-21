@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "status": "staging-unreviewed",
+  "source": "user-provided snippets, normalized into independent callable units",
+  "cases": [
+    {"id":"user-snippet-simulation","symbol":"simulation","time":"O(n)","space":"O(n)","confidence":"estimated","tags":["simulation","string"],"inputSymbols":["n"],"proof":"One bounded n-iteration state simulation constructs at most n output characters.","assumptions":"String append is amortized O(1)."},
+    {"id":"user-snippet-offline-dsu","symbol":"offline_dsu","time":"O(m log m + q log q)","space":"O(n + m + q)","confidence":"estimated","tags":["offline-queries","dsu","sorting"],"inputSymbols":["n","m","q"],"proof":"The edge and query collections are sorted, then every edge and query is advanced at most once through a path-compressing DSU.","assumptions":"Union-find uses path compression; inverse-Ackermann work is dominated by sorting."},
+    {"id":"user-snippet-grouped-priority","symbol":"grouped_priority","time":"O(n log n)","space":"O(n)","confidence":"estimated","tags":["priority-queue","hashing","greedy"],"inputSymbols":["n","k"],"proof":"All groups together contain n values; sorting and at most n heap transitions dominate.","assumptions":"Hash-table operations are expected O(1)."},
+    {"id":"user-snippet-bit-prefix","symbol":"bit_prefix_queries","time":"O(n + m)","space":"O(n)","confidence":"exact","tags":["prefix-sum","bitwise","queries"],"inputSymbols":["n","m"],"proof":"The 31-bit dimension is fixed: preprocessing has 31n work and every query executes 31 constant-time bit steps.","assumptions":"Integers have the fixed 31-bit domain used by the program."},
+    {"id":"user-snippet-constant","symbol":"constant_case","time":"O(1)","space":"O(1)","confidence":"exact","tags":["math","branches"],"inputSymbols":["a","b"],"proof":"A fixed number of comparisons and additions are performed.","assumptions":"Bounded integer arithmetic is constant time."}
+  ]
+}

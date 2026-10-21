@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-rec-tree-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_treeRecursionSize_tr1",
+      "time": "O(n)",
+      "space": "O(log n)",
+      "confidence": "exact",
+      "tags": [
+        "recursion",
+        "tree-dp"
+      ],
+      "algorithmFamily": "tree-recursion",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "The recurrence has linear total work, while every call halves its scalar state, so stack depth is logarithmic.",
+      "assumptions": "The tree is finite and rooted.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-rec-tree-01"
+    }
+  ]
+}

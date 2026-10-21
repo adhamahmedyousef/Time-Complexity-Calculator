@@ -1,0 +1,297 @@
+{
+ "label": "smoke",
+ "dist": "C:\\Users\\j\\OneDrive\\Desktop\\Project-X\\benchmarks\\baseline-snapshot\\analyzer\\dist\\index.js",
+ "workloadFile": "C:\\Users\\j\\OneDrive\\Desktop\\Project-X\\benchmarks\\workloads\\workloads.json",
+ "workloadSeed": 20261017,
+ "generator": "benchmarks/workloads/generate.mjs",
+ "startedAt": "2026-10-17T13:21:46.635Z",
+ "finishedAt": "2026-10-17T13:21:54.691Z",
+ "node": "v24.12.0",
+ "platform": "win32",
+ "clang": "C:\\Program Files\\LLVM\\bin\\clang++.exe",
+ "scenarios": [
+  {
+   "scenario": "boundary-one-liners",
+   "kind": "selection",
+   "dist": "C:\\Users\\j\\OneDrive\\Desktop\\Project-X\\benchmarks\\baseline-snapshot\\analyzer\\dist\\index.js",
+   "node": "v24.12.0",
+   "clang": "C:\\Program Files\\LLVM\\bin\\clang++.exe",
+   "coldRepeats": 3,
+   "warmRepeats": 5,
+   "maxRssKb": 79820,
+   "cases": [
+    {
+     "id": "bnd-int-zero",
+     "cold": [
+      436.62970000000007,
+      284.389,
+      291.18949999999995
+     ],
+     "warm": [
+      21.308499999999867,
+      25.211300000000165,
+      39.530899999999974,
+      25.342399999999998,
+      25.579999999999927
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "bnd-int-long",
+     "cold": [
+      283.4492,
+      251.8040000000001,
+      229.6504
+     ],
+     "warm": [
+      22.499499999999898,
+      20.880899999999656,
+      22.43459999999959,
+      20.750100000000202,
+      29.501600000000053
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "bnd-return-zero",
+     "cold": [
+      310.7172999999998,
+      281.1035999999999,
+      248.60960000000023
+     ],
+     "warm": [
+      17.1259,
+      17.59880000000021,
+      20.214699999999993,
+      27.023200000000088,
+      18.815099999999802
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "bnd-bool",
+     "cold": [
+      312.93899999999985,
+      266.2644,
+      269.43089999999984
+     ],
+     "warm": [
+      16.853900000000067,
+      20.03540000000021,
+      21.42529999999988,
+      17.625100000000202,
+      20.52480000000014
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "bnd-overflow-literals",
+     "cold": [
+      272.6385,
+      254.38360000000011,
+      258.5006999999996
+     ],
+     "warm": [
+      17.161399999999958,
+      16.623999999999796,
+      16.499799999999595,
+      33.13140000000021,
+      20.405799999999545
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "bnd-array-literal",
+     "cold": [
+      283.96820000000025,
+      280.7383,
+      263.3888999999999
+     ],
+     "warm": [
+      17.850899999999456,
+      16.486299999999574,
+      14.680900000000292,
+      17.724200000000565,
+      22.504899999999907
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    },
+    {
+     "id": "bnd-undeclared-increment",
+     "cold": [
+      318.23659999999927,
+      276.82970000000023,
+      265.22869999999966
+     ],
+     "warm": [
+      13.881000000000313,
+      18.42990000000009,
+      18.475900000000365,
+      20.497299999999996,
+      16.82470000000012
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": null,
+     "matches": null,
+     "error": null
+    },
+    {
+     "id": "bnd-single-call",
+     "cold": [
+      259.58679999999913,
+      247.45669999999973,
+      274.83569999999963
+     ],
+     "warm": [
+      20.043400000000474,
+      18.726599999999962,
+      18.73790000000008,
+      23.140300000000025,
+      21.95010000000002
+     ],
+     "observed": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     },
+     "matches": {
+      "time": true,
+      "space": true,
+      "confidence": true,
+      "all": true
+     },
+     "error": null
+    }
+   ],
+   "summary": {
+    "cases": 8,
+    "errors": 0,
+    "judged": 7,
+    "matched": 7,
+    "cold": {
+     "n": 24,
+     "min": 229.6504,
+     "median": 273.7370999999998,
+     "mean": 280.0820416666666,
+     "p95": 318.23659999999927,
+     "max": 436.62970000000007
+    },
+    "warm": {
+     "n": 40,
+     "min": 13.881000000000313,
+     "median": 20.129050000000234,
+     "mean": 20.851467500000005,
+     "p95": 33.13140000000021,
+     "max": 39.530899999999974
+    },
+    "coldTotalMs": 6721.968999999997,
+    "warmTotalMs": 834.0587000000003
+   }
+  }
+ ]
+}

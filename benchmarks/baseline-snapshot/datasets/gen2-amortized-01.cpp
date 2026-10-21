@@ -1,0 +1,10 @@
+// Generated family: gen2-amortized-01
+// Labels from first principles.
+using namespace std;
+
+vector<int> dequeWin_0(const vector<int>& a, int k) { deque<int> dq; vector<int> res; for (int i = 0; i < (int)a.size(); ++i) { while (!dq.empty() && dq.front() <= i - k) dq.pop_front(); while (!dq.empty() && a[dq.back()] <= a[i]) dq.pop_back(); dq.push_back(i); if (i >= k - 1) res.push_back(a[dq.front()]); } return res; }
+vector<int> dequeWin_1(const vector<int>& a, int k) { deque<int> dq; vector<int> res; for (int i = 0; i < (int)a.size(); ++i) { while (!dq.empty() && dq.front() <= i - k) dq.pop_front(); while (!dq.empty() && a[dq.back()] <= a[i]) dq.pop_back(); dq.push_back(i); if (i >= k - 1) res.push_back(a[dq.front()]); } return res; }
+vector<int> dequeWin_2(const vector<int>& a, int k) { deque<int> dq; vector<int> res; for (int i = 0; i < (int)a.size(); ++i) { while (!dq.empty() && dq.front() <= i - k) dq.pop_front(); while (!dq.empty() && a[dq.back()] <= a[i]) dq.pop_back(); dq.push_back(i); if (i >= k - 1) res.push_back(a[dq.front()]); } return res; }
+vector<int> dequeWin_3(const vector<int>& a, int k) { deque<int> dq; vector<int> res; for (int i = 0; i < (int)a.size(); ++i) { while (!dq.empty() && dq.front() <= i - k) dq.pop_front(); while (!dq.empty() && a[dq.back()] <= a[i]) dq.pop_back(); dq.push_back(i); if (i >= k - 1) res.push_back(a[dq.front()]); } return res; }
+vector<int> dequeWin_4(const vector<int>& a, int k) { deque<int> dq; vector<int> res; for (int i = 0; i < (int)a.size(); ++i) { while (!dq.empty() && dq.front() <= i - k) dq.pop_front(); while (!dq.empty() && a[dq.back()] <= a[i]) dq.pop_back(); dq.push_back(i); if (i >= k - 1) res.push_back(a[dq.front()]); } return res; }
+vector<int> dequeWin_5(const vector<int>& a, int k) { deque<int> dq; vector<int> res; for (int i = 0; i < (int)a.size(); ++i) { while (!dq.empty() && dq.front() <= i - k) dq.pop_front(); while (!dq.empty() && a[dq.back()] <= a[i]) dq.pop_back(); dq.push_back(i); if (i >= k - 1) res.push_back(a[dq.front()]); } return res; }

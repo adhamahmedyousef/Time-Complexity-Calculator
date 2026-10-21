@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-fenwick-sparse-table",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-fenwick-2d-01",
+      "symbol": "pack_cp_requested_dataset_pack_fenwick2DQueries_1",
+      "time": "O(q log^2 n)",
+      "space": "O(n^2)",
+      "confidence": "estimated",
+      "tags": [
+        "fenwick",
+        "2d",
+        "class-methods"
+      ],
+      "inputSymbols": [
+        "updates",
+        "q"
+      ],
+      "proof": "Two nested Fenwick walks compose multiplicatively over the grid dimensions.",
+      "assumptions": "The grid is an n x n board.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-fenwick-2d-01"
+    }
+  ]
+}

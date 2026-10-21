@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-tree-algorithms",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-hld-light-01",
+      "symbol": "pack_cp_requested_dataset_pack_heavyLightDecomposition_1",
+      "time": "O((n + q) log^2 n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "tree",
+        "hld",
+        "path-query"
+      ],
+      "inputSymbols": [
+        "adj",
+        "queries"
+      ],
+      "proof": "Path decomposition creates logarithmically many segments per query and each segment is range-queried.",
+      "assumptions": "The tree supports path queries.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-hld-light-01"
+    }
+  ]
+}

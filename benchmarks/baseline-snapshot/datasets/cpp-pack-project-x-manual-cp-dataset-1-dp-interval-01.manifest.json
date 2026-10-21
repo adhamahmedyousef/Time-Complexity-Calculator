@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-dp-interval-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_intervalDpScore_in1",
+      "time": "O(n^3)",
+      "space": "O(n^2)",
+      "confidence": "exact",
+      "tags": [
+        "dp",
+        "interval-dp"
+      ],
+      "algorithmFamily": "interval-dp",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n",
+        "a"
+      ],
+      "proof": "Interval DP enumerates all split points for each interval state.",
+      "assumptions": "State depends only on interval boundaries.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-dp-interval-01"
+    }
+  ]
+}

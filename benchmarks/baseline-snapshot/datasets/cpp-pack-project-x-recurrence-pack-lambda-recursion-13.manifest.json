@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-recurrence-pack-nested-recursion-unknown",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-recurrence-pack-lambda-recursion-13",
+      "symbol": "pack_project_x_recurrence_pack_lambdaRecursion_4_1",
+      "time": "O(n^log n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "recurrence",
+        "lambda",
+        "mixed-decrement"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "The direct calls are T(n-1) and T(n/2); this is a quasi-polynomial recurrence, n^(Theta(log n)), rather than ordinary linear or exponential recursion.",
+      "assumptions": "No memoization or input-dependent pruning is present.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-recurrence-pack-nested-recursion-01"
+    }
+  ]
+}

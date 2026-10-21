@@ -1,0 +1,906 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen5-dsu-01-dsuParentVector_0",
+   "symbol": "dsuParentVector_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_0",
+   "symbol": "dsuComponentCount_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_0",
+   "symbol": "dsuPathCompression_0",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_1",
+   "symbol": "dsuParentVector_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_1",
+   "symbol": "dsuComponentCount_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_1",
+   "symbol": "dsuPathCompression_1",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_2",
+   "symbol": "dsuParentVector_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_2",
+   "symbol": "dsuComponentCount_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_2",
+   "symbol": "dsuPathCompression_2",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_3",
+   "symbol": "dsuParentVector_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_3",
+   "symbol": "dsuComponentCount_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_3",
+   "symbol": "dsuPathCompression_3",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_4",
+   "symbol": "dsuParentVector_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_4",
+   "symbol": "dsuComponentCount_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_4",
+   "symbol": "dsuPathCompression_4",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_5",
+   "symbol": "dsuParentVector_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_5",
+   "symbol": "dsuComponentCount_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_5",
+   "symbol": "dsuPathCompression_5",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_6",
+   "symbol": "dsuParentVector_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_6",
+   "symbol": "dsuComponentCount_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_6",
+   "symbol": "dsuPathCompression_6",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_7",
+   "symbol": "dsuParentVector_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_7",
+   "symbol": "dsuComponentCount_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_7",
+   "symbol": "dsuPathCompression_7",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_8",
+   "symbol": "dsuParentVector_8",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_8",
+   "symbol": "dsuComponentCount_8",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_8",
+   "symbol": "dsuPathCompression_8",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_9",
+   "symbol": "dsuParentVector_9",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_9",
+   "symbol": "dsuComponentCount_9",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_9",
+   "symbol": "dsuPathCompression_9",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_10",
+   "symbol": "dsuParentVector_10",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_10",
+   "symbol": "dsuComponentCount_10",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_10",
+   "symbol": "dsuPathCompression_10",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_11",
+   "symbol": "dsuParentVector_11",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_11",
+   "symbol": "dsuComponentCount_11",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_11",
+   "symbol": "dsuPathCompression_11",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_12",
+   "symbol": "dsuParentVector_12",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_12",
+   "symbol": "dsuComponentCount_12",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_12",
+   "symbol": "dsuPathCompression_12",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_13",
+   "symbol": "dsuParentVector_13",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_13",
+   "symbol": "dsuComponentCount_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_13",
+   "symbol": "dsuPathCompression_13",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_14",
+   "symbol": "dsuParentVector_14",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_14",
+   "symbol": "dsuComponentCount_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_14",
+   "symbol": "dsuPathCompression_14",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_15",
+   "symbol": "dsuParentVector_15",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_15",
+   "symbol": "dsuComponentCount_15",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_15",
+   "symbol": "dsuPathCompression_15",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_16",
+   "symbol": "dsuParentVector_16",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_16",
+   "symbol": "dsuComponentCount_16",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_16",
+   "symbol": "dsuPathCompression_16",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_17",
+   "symbol": "dsuParentVector_17",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_17",
+   "symbol": "dsuComponentCount_17",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_17",
+   "symbol": "dsuPathCompression_17",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_18",
+   "symbol": "dsuParentVector_18",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_18",
+   "symbol": "dsuComponentCount_18",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_18",
+   "symbol": "dsuPathCompression_18",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_19",
+   "symbol": "dsuParentVector_19",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_19",
+   "symbol": "dsuComponentCount_19",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_19",
+   "symbol": "dsuPathCompression_19",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_20",
+   "symbol": "dsuParentVector_20",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_20",
+   "symbol": "dsuComponentCount_20",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_20",
+   "symbol": "dsuPathCompression_20",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_21",
+   "symbol": "dsuParentVector_21",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_21",
+   "symbol": "dsuComponentCount_21",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_21",
+   "symbol": "dsuPathCompression_21",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_22",
+   "symbol": "dsuParentVector_22",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_22",
+   "symbol": "dsuComponentCount_22",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_22",
+   "symbol": "dsuPathCompression_22",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_23",
+   "symbol": "dsuParentVector_23",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_23",
+   "symbol": "dsuComponentCount_23",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_23",
+   "symbol": "dsuPathCompression_23",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_24",
+   "symbol": "dsuParentVector_24",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_24",
+   "symbol": "dsuComponentCount_24",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_24",
+   "symbol": "dsuPathCompression_24",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_25",
+   "symbol": "dsuParentVector_25",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_25",
+   "symbol": "dsuComponentCount_25",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_25",
+   "symbol": "dsuPathCompression_25",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_26",
+   "symbol": "dsuParentVector_26",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_26",
+   "symbol": "dsuComponentCount_26",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_26",
+   "symbol": "dsuPathCompression_26",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_27",
+   "symbol": "dsuParentVector_27",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_27",
+   "symbol": "dsuComponentCount_27",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_27",
+   "symbol": "dsuPathCompression_27",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_28",
+   "symbol": "dsuParentVector_28",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_28",
+   "symbol": "dsuComponentCount_28",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_28",
+   "symbol": "dsuPathCompression_28",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuParentVector_29",
+   "symbol": "dsuParentVector_29",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuComponentCount_29",
+   "symbol": "dsuComponentCount_29",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dsu"
+   ]
+  },
+  {
+   "id": "gen5-dsu-01-dsuPathCompression_29",
+   "symbol": "dsuPathCompression_29",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "dsu"
+   ]
+  }
+ ]
+}

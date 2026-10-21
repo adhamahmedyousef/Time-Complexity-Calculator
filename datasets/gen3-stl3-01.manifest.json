@@ -1,0 +1,990 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen3-stl3-01-rangeForSum_0",
+   "symbol": "rangeForSum_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-rangeForMax_0",
+   "symbol": "rangeForMax_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-mapCountFreq_0",
+   "symbol": "mapCountFreq_0",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-setInsertLoop_0",
+   "symbol": "setInsertLoop_0",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-sortUniqueCount_0",
+   "symbol": "sortUniqueCount_0",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-balancedParens_0",
+   "symbol": "balancedParens_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-queueSimulation_0",
+   "symbol": "queueSimulation_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-pqPushAll_0",
+   "symbol": "pqPushAll_0",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-vecPushParam_0",
+   "symbol": "vecPushParam_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-dequeBackFront_0",
+   "symbol": "dequeBackFront_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-gridFill_0",
+   "symbol": "gridFill_0",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-stringBuilder_0",
+   "symbol": "stringBuilder_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-rangeForSum_1",
+   "symbol": "rangeForSum_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-rangeForMax_1",
+   "symbol": "rangeForMax_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-mapCountFreq_1",
+   "symbol": "mapCountFreq_1",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-setInsertLoop_1",
+   "symbol": "setInsertLoop_1",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-sortUniqueCount_1",
+   "symbol": "sortUniqueCount_1",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-balancedParens_1",
+   "symbol": "balancedParens_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-queueSimulation_1",
+   "symbol": "queueSimulation_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-pqPushAll_1",
+   "symbol": "pqPushAll_1",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-vecPushParam_1",
+   "symbol": "vecPushParam_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-dequeBackFront_1",
+   "symbol": "dequeBackFront_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-gridFill_1",
+   "symbol": "gridFill_1",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-stringBuilder_1",
+   "symbol": "stringBuilder_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-rangeForSum_2",
+   "symbol": "rangeForSum_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-rangeForMax_2",
+   "symbol": "rangeForMax_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-mapCountFreq_2",
+   "symbol": "mapCountFreq_2",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-setInsertLoop_2",
+   "symbol": "setInsertLoop_2",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-sortUniqueCount_2",
+   "symbol": "sortUniqueCount_2",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-balancedParens_2",
+   "symbol": "balancedParens_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-queueSimulation_2",
+   "symbol": "queueSimulation_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-pqPushAll_2",
+   "symbol": "pqPushAll_2",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-vecPushParam_2",
+   "symbol": "vecPushParam_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-dequeBackFront_2",
+   "symbol": "dequeBackFront_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-gridFill_2",
+   "symbol": "gridFill_2",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-stringBuilder_2",
+   "symbol": "stringBuilder_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-rangeForSum_3",
+   "symbol": "rangeForSum_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-rangeForMax_3",
+   "symbol": "rangeForMax_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-mapCountFreq_3",
+   "symbol": "mapCountFreq_3",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-setInsertLoop_3",
+   "symbol": "setInsertLoop_3",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-sortUniqueCount_3",
+   "symbol": "sortUniqueCount_3",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-balancedParens_3",
+   "symbol": "balancedParens_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-queueSimulation_3",
+   "symbol": "queueSimulation_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-pqPushAll_3",
+   "symbol": "pqPushAll_3",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-vecPushParam_3",
+   "symbol": "vecPushParam_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-dequeBackFront_3",
+   "symbol": "dequeBackFront_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-gridFill_3",
+   "symbol": "gridFill_3",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-stringBuilder_3",
+   "symbol": "stringBuilder_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-rangeForSum_4",
+   "symbol": "rangeForSum_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-rangeForMax_4",
+   "symbol": "rangeForMax_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-mapCountFreq_4",
+   "symbol": "mapCountFreq_4",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-setInsertLoop_4",
+   "symbol": "setInsertLoop_4",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-sortUniqueCount_4",
+   "symbol": "sortUniqueCount_4",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-balancedParens_4",
+   "symbol": "balancedParens_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-queueSimulation_4",
+   "symbol": "queueSimulation_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-pqPushAll_4",
+   "symbol": "pqPushAll_4",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-vecPushParam_4",
+   "symbol": "vecPushParam_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-dequeBackFront_4",
+   "symbol": "dequeBackFront_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-gridFill_4",
+   "symbol": "gridFill_4",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-stringBuilder_4",
+   "symbol": "stringBuilder_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-rangeForSum_5",
+   "symbol": "rangeForSum_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-rangeForMax_5",
+   "symbol": "rangeForMax_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-mapCountFreq_5",
+   "symbol": "mapCountFreq_5",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-setInsertLoop_5",
+   "symbol": "setInsertLoop_5",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-sortUniqueCount_5",
+   "symbol": "sortUniqueCount_5",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-balancedParens_5",
+   "symbol": "balancedParens_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-queueSimulation_5",
+   "symbol": "queueSimulation_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-pqPushAll_5",
+   "symbol": "pqPushAll_5",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-vecPushParam_5",
+   "symbol": "vecPushParam_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-dequeBackFront_5",
+   "symbol": "dequeBackFront_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-gridFill_5",
+   "symbol": "gridFill_5",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-stringBuilder_5",
+   "symbol": "stringBuilder_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-rangeForSum_6",
+   "symbol": "rangeForSum_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-rangeForMax_6",
+   "symbol": "rangeForMax_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-mapCountFreq_6",
+   "symbol": "mapCountFreq_6",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-setInsertLoop_6",
+   "symbol": "setInsertLoop_6",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-sortUniqueCount_6",
+   "symbol": "sortUniqueCount_6",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-balancedParens_6",
+   "symbol": "balancedParens_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-queueSimulation_6",
+   "symbol": "queueSimulation_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-pqPushAll_6",
+   "symbol": "pqPushAll_6",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-vecPushParam_6",
+   "symbol": "vecPushParam_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-dequeBackFront_6",
+   "symbol": "dequeBackFront_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-gridFill_6",
+   "symbol": "gridFill_6",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-stringBuilder_6",
+   "symbol": "stringBuilder_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "strings"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-rangeForSum_7",
+   "symbol": "rangeForSum_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-rangeForMax_7",
+   "symbol": "rangeForMax_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-mapCountFreq_7",
+   "symbol": "mapCountFreq_7",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-setInsertLoop_7",
+   "symbol": "setInsertLoop_7",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-sortUniqueCount_7",
+   "symbol": "sortUniqueCount_7",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-balancedParens_7",
+   "symbol": "balancedParens_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-queueSimulation_7",
+   "symbol": "queueSimulation_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-pqPushAll_7",
+   "symbol": "pqPushAll_7",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-vecPushParam_7",
+   "symbol": "vecPushParam_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-dequeBackFront_7",
+   "symbol": "dequeBackFront_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-gridFill_7",
+   "symbol": "gridFill_7",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-stl3-01-stringBuilder_7",
+   "symbol": "stringBuilder_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl",
+    "strings"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,245 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+// segment-tree-01
+struct Seg_01 {
+    int n; vector<long long> t;
+    Seg_01(const vector<int>& a): n((int)a.size()), t(4*max(1,(int)a.size()), 0) {
+        if (n) build(1,0,n-1,a);
+    }
+    void build(int p,int l,int r,const vector<int>& a) {
+        if (l==r) { t[p]=a[l]; return; }
+        int m=(l+r)/2; build(p<<1,l,m,a); build(p<<1|1,m+1,r,a);
+        t[p]=min(t[p<<1],t[p<<1|1]);
+    }
+    long long query(int p,int l,int r,int ql,int qr) const {
+        if (qr<l||r<ql) return (long long)4e18;
+        if (ql<=l&&r<=qr) return t[p];
+        int m=(l+r)/2;
+        return min(query(p<<1,l,m,ql,qr), query(p<<1|1,m+1,r,ql,qr));
+    }
+};
+long long segment_tree_01(const vector<int>& a, const vector<pair<int,int>>& qs) {
+    Seg_01 st(a); long long ans=0; for (auto [l,r]:qs) ans += st.query(1,0,(int)a.size()-1,l,r); return ans;
+}
+
+// segment-tree-02
+struct Seg_02 {
+    int n; vector<long long> t;
+    Seg_02(const vector<int>& a): n((int)a.size()), t(4*max(1,(int)a.size()), 0) {
+        if (n) build(1,0,n-1,a);
+    }
+    void build(int p,int l,int r,const vector<int>& a) {
+        if (l==r) { t[p]=a[l]; return; }
+        int m=(l+r)/2; build(p<<1,l,m,a); build(p<<1|1,m+1,r,a);
+        t[p]=min(t[p<<1],t[p<<1|1]);
+    }
+    long long query(int p,int l,int r,int ql,int qr) const {
+        if (qr<l||r<ql) return (long long)4e18;
+        if (ql<=l&&r<=qr) return t[p];
+        int m=(l+r)/2;
+        return min(query(p<<1,l,m,ql,qr), query(p<<1|1,m+1,r,ql,qr));
+    }
+};
+long long segment_tree_02(const vector<int>& a, const vector<pair<int,int>>& qs) {
+    Seg_02 st(a); long long ans=0; for (auto [l,r]:qs) ans += st.query(1,0,(int)a.size()-1,l,r); return ans;
+}
+
+// segment-tree-03
+struct Seg_03 {
+    int n; vector<long long> t;
+    Seg_03(const vector<int>& a): n((int)a.size()), t(4*max(1,(int)a.size()), 0) {
+        if (n) build(1,0,n-1,a);
+    }
+    void build(int p,int l,int r,const vector<int>& a) {
+        if (l==r) { t[p]=a[l]; return; }
+        int m=(l+r)/2; build(p<<1,l,m,a); build(p<<1|1,m+1,r,a);
+        t[p]=min(t[p<<1],t[p<<1|1]);
+    }
+    long long query(int p,int l,int r,int ql,int qr) const {
+        if (qr<l||r<ql) return (long long)4e18;
+        if (ql<=l&&r<=qr) return t[p];
+        int m=(l+r)/2;
+        return min(query(p<<1,l,m,ql,qr), query(p<<1|1,m+1,r,ql,qr));
+    }
+};
+long long segment_tree_03(const vector<int>& a, const vector<pair<int,int>>& qs) {
+    Seg_03 st(a); long long ans=0; for (auto [l,r]:qs) ans += st.query(1,0,(int)a.size()-1,l,r); return ans;
+}
+
+// segment-tree-04
+struct Seg_04 {
+    int n; vector<long long> t;
+    Seg_04(const vector<int>& a): n((int)a.size()), t(4*max(1,(int)a.size()), 0) {
+        if (n) build(1,0,n-1,a);
+    }
+    void build(int p,int l,int r,const vector<int>& a) {
+        if (l==r) { t[p]=a[l]; return; }
+        int m=(l+r)/2; build(p<<1,l,m,a); build(p<<1|1,m+1,r,a);
+        t[p]=min(t[p<<1],t[p<<1|1]);
+    }
+    long long query(int p,int l,int r,int ql,int qr) const {
+        if (qr<l||r<ql) return (long long)4e18;
+        if (ql<=l&&r<=qr) return t[p];
+        int m=(l+r)/2;
+        return min(query(p<<1,l,m,ql,qr), query(p<<1|1,m+1,r,ql,qr));
+    }
+};
+long long segment_tree_04(const vector<int>& a, const vector<pair<int,int>>& qs) {
+    Seg_04 st(a); long long ans=0; for (auto [l,r]:qs) ans += st.query(1,0,(int)a.size()-1,l,r); return ans;
+}
+
+// segment-tree-05
+struct Seg_05 {
+    int n; vector<long long> t;
+    Seg_05(const vector<int>& a): n((int)a.size()), t(4*max(1,(int)a.size()), 0) {
+        if (n) build(1,0,n-1,a);
+    }
+    void build(int p,int l,int r,const vector<int>& a) {
+        if (l==r) { t[p]=a[l]; return; }
+        int m=(l+r)/2; build(p<<1,l,m,a); build(p<<1|1,m+1,r,a);
+        t[p]=min(t[p<<1],t[p<<1|1]);
+    }
+    long long query(int p,int l,int r,int ql,int qr) const {
+        if (qr<l||r<ql) return (long long)4e18;
+        if (ql<=l&&r<=qr) return t[p];
+        int m=(l+r)/2;
+        return min(query(p<<1,l,m,ql,qr), query(p<<1|1,m+1,r,ql,qr));
+    }
+};
+long long segment_tree_05(const vector<int>& a, const vector<pair<int,int>>& qs) {
+    Seg_05 st(a); long long ans=0; for (auto [l,r]:qs) ans += st.query(1,0,(int)a.size()-1,l,r); return ans;
+}
+
+// segment-tree-06
+struct Seg_06 {
+    int n; vector<long long> t;
+    Seg_06(const vector<int>& a): n((int)a.size()), t(4*max(1,(int)a.size()), 0) {
+        if (n) build(1,0,n-1,a);
+    }
+    void build(int p,int l,int r,const vector<int>& a) {
+        if (l==r) { t[p]=a[l]; return; }
+        int m=(l+r)/2; build(p<<1,l,m,a); build(p<<1|1,m+1,r,a);
+        t[p]=min(t[p<<1],t[p<<1|1]);
+    }
+    long long query(int p,int l,int r,int ql,int qr) const {
+        if (qr<l||r<ql) return (long long)4e18;
+        if (ql<=l&&r<=qr) return t[p];
+        int m=(l+r)/2;
+        return min(query(p<<1,l,m,ql,qr), query(p<<1|1,m+1,r,ql,qr));
+    }
+};
+long long segment_tree_06(const vector<int>& a, const vector<pair<int,int>>& qs) {
+    Seg_06 st(a); long long ans=0; for (auto [l,r]:qs) ans += st.query(1,0,(int)a.size()-1,l,r); return ans;
+}
+
+// segment-tree-07
+struct Seg_07 {
+    int n; vector<long long> t;
+    Seg_07(const vector<int>& a): n((int)a.size()), t(4*max(1,(int)a.size()), 0) {
+        if (n) build(1,0,n-1,a);
+    }
+    void build(int p,int l,int r,const vector<int>& a) {
+        if (l==r) { t[p]=a[l]; return; }
+        int m=(l+r)/2; build(p<<1,l,m,a); build(p<<1|1,m+1,r,a);
+        t[p]=min(t[p<<1],t[p<<1|1]);
+    }
+    long long query(int p,int l,int r,int ql,int qr) const {
+        if (qr<l||r<ql) return (long long)4e18;
+        if (ql<=l&&r<=qr) return t[p];
+        int m=(l+r)/2;
+        return min(query(p<<1,l,m,ql,qr), query(p<<1|1,m+1,r,ql,qr));
+    }
+};
+long long segment_tree_07(const vector<int>& a, const vector<pair<int,int>>& qs) {
+    Seg_07 st(a); long long ans=0; for (auto [l,r]:qs) ans += st.query(1,0,(int)a.size()-1,l,r); return ans;
+}
+
+// segment-tree-08
+struct Seg_08 {
+    int n; vector<long long> t;
+    Seg_08(const vector<int>& a): n((int)a.size()), t(4*max(1,(int)a.size()), 0) {
+        if (n) build(1,0,n-1,a);
+    }
+    void build(int p,int l,int r,const vector<int>& a) {
+        if (l==r) { t[p]=a[l]; return; }
+        int m=(l+r)/2; build(p<<1,l,m,a); build(p<<1|1,m+1,r,a);
+        t[p]=min(t[p<<1],t[p<<1|1]);
+    }
+    long long query(int p,int l,int r,int ql,int qr) const {
+        if (qr<l||r<ql) return (long long)4e18;
+        if (ql<=l&&r<=qr) return t[p];
+        int m=(l+r)/2;
+        return min(query(p<<1,l,m,ql,qr), query(p<<1|1,m+1,r,ql,qr));
+    }
+};
+long long segment_tree_08(const vector<int>& a, const vector<pair<int,int>>& qs) {
+    Seg_08 st(a); long long ans=0; for (auto [l,r]:qs) ans += st.query(1,0,(int)a.size()-1,l,r); return ans;
+}
+
+// segment-tree-09
+struct Seg_09 {
+    int n; vector<long long> t;
+    Seg_09(const vector<int>& a): n((int)a.size()), t(4*max(1,(int)a.size()), 0) {
+        if (n) build(1,0,n-1,a);
+    }
+    void build(int p,int l,int r,const vector<int>& a) {
+        if (l==r) { t[p]=a[l]; return; }
+        int m=(l+r)/2; build(p<<1,l,m,a); build(p<<1|1,m+1,r,a);
+        t[p]=min(t[p<<1],t[p<<1|1]);
+    }
+    long long query(int p,int l,int r,int ql,int qr) const {
+        if (qr<l||r<ql) return (long long)4e18;
+        if (ql<=l&&r<=qr) return t[p];
+        int m=(l+r)/2;
+        return min(query(p<<1,l,m,ql,qr), query(p<<1|1,m+1,r,ql,qr));
+    }
+};
+long long segment_tree_09(const vector<int>& a, const vector<pair<int,int>>& qs) {
+    Seg_09 st(a); long long ans=0; for (auto [l,r]:qs) ans += st.query(1,0,(int)a.size()-1,l,r); return ans;
+}
+
+// segment-tree-10
+struct Seg_10 {
+    int n; vector<long long> t;
+    Seg_10(const vector<int>& a): n((int)a.size()), t(4*max(1,(int)a.size()), 0) {
+        if (n) build(1,0,n-1,a);
+    }
+    void build(int p,int l,int r,const vector<int>& a) {
+        if (l==r) { t[p]=a[l]; return; }
+        int m=(l+r)/2; build(p<<1,l,m,a); build(p<<1|1,m+1,r,a);
+        t[p]=min(t[p<<1],t[p<<1|1]);
+    }
+    long long query(int p,int l,int r,int ql,int qr) const {
+        if (qr<l||r<ql) return (long long)4e18;
+        if (ql<=l&&r<=qr) return t[p];
+        int m=(l+r)/2;
+        return min(query(p<<1,l,m,ql,qr), query(p<<1|1,m+1,r,ql,qr));
+    }
+};
+long long segment_tree_10(const vector<int>& a, const vector<pair<int,int>>& qs) {
+    Seg_10 st(a); long long ans=0; for (auto [l,r]:qs) ans += st.query(1,0,(int)a.size()-1,l,r); return ans;
+}
+
+// segment-tree-11
+struct Seg_11 {
+    int n; vector<long long> t;
+    Seg_11(const vector<int>& a): n((int)a.size()), t(4*max(1,(int)a.size()), 0) {
+        if (n) build(1,0,n-1,a);
+    }
+    void build(int p,int l,int r,const vector<int>& a) {
+        if (l==r) { t[p]=a[l]; return; }
+        int m=(l+r)/2; build(p<<1,l,m,a); build(p<<1|1,m+1,r,a);
+        t[p]=min(t[p<<1],t[p<<1|1]);
+    }
+    long long query(int p,int l,int r,int ql,int qr) const {
+        if (qr<l||r<ql) return (long long)4e18;
+        if (ql<=l&&r<=qr) return t[p];
+        int m=(l+r)/2;
+        return min(query(p<<1,l,m,ql,qr), query(p<<1|1,m+1,r,ql,qr));
+    }
+};
+long long pack_project_x_p0_p1_pack_segment_tree_11(const vector<int>& a, const vector<pair<int,int>>& qs) {
+    Seg_11 st(a); long long ans=0; for (auto [l,r]:qs) ans += st.query(1,0,(int)a.size()-1,l,r); return ans;
+}

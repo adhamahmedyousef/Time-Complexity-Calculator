@@ -1,0 +1,66 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen2-greedy-01-actSelect_0",
+   "symbol": "actSelect_0",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen2-greedy-01-actSelect_1",
+   "symbol": "actSelect_1",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen2-greedy-01-actSelect_2",
+   "symbol": "actSelect_2",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen2-greedy-01-actSelect_3",
+   "symbol": "actSelect_3",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen2-greedy-01-actSelect_4",
+   "symbol": "actSelect_4",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "greedy"
+   ]
+  },
+  {
+   "id": "gen2-greedy-01-actSelect_5",
+   "symbol": "actSelect_5",
+   "time": "O(n log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "greedy"
+   ]
+  }
+ ]
+}

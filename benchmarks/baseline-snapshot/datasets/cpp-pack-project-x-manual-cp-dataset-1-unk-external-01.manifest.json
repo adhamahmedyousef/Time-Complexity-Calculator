@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-unk-external-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_externalCallUnknown_ex1",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "adversarial",
+        "external-call",
+        "unknown"
+      ],
+      "algorithmFamily": "external-call",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "A call to unknown user code prevents a safe local complexity proof.",
+      "assumptions": "The helper may be superlinear or non-terminating.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-unk-external-01"
+    }
+  ]
+}

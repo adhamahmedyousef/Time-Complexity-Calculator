@@ -1,0 +1,186 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen2-sort-01-bubbleSort_0",
+   "symbol": "bubbleSort_0",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen2-sort-01-selectSort_0",
+   "symbol": "selectSort_0",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen2-sort-01-insertSort_0",
+   "symbol": "insertSort_0",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen2-sort-01-bubbleSort_1",
+   "symbol": "bubbleSort_1",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen2-sort-01-selectSort_1",
+   "symbol": "selectSort_1",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen2-sort-01-insertSort_1",
+   "symbol": "insertSort_1",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen2-sort-01-bubbleSort_2",
+   "symbol": "bubbleSort_2",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen2-sort-01-selectSort_2",
+   "symbol": "selectSort_2",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen2-sort-01-insertSort_2",
+   "symbol": "insertSort_2",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen2-sort-01-bubbleSort_3",
+   "symbol": "bubbleSort_3",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen2-sort-01-selectSort_3",
+   "symbol": "selectSort_3",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen2-sort-01-insertSort_3",
+   "symbol": "insertSort_3",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen2-sort-01-bubbleSort_4",
+   "symbol": "bubbleSort_4",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen2-sort-01-selectSort_4",
+   "symbol": "selectSort_4",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen2-sort-01-insertSort_4",
+   "symbol": "insertSort_4",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen2-sort-01-bubbleSort_5",
+   "symbol": "bubbleSort_5",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen2-sort-01-selectSort_5",
+   "symbol": "selectSort_5",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  },
+  {
+   "id": "gen2-sort-01-insertSort_5",
+   "symbol": "insertSort_5",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sorting"
+   ]
+  }
+ ]
+}

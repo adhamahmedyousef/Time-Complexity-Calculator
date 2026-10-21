@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l1-adversarial-unknown",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l1-mutual-recursion-unknown-03",
+      "symbol": "pack_l1_mutualRecursionUnknown",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "adversarial",
+        "mutual-recursion",
+        "level-1"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "No closed-form recurrence is provided for the mutual recursion cycle.",
+      "assumptions": "The recursion is not memoized.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l1-mutual-recursion-unknown"
+    }
+  ]
+}

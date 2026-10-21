@@ -1,0 +1,93 @@
+{
+  "name": "project-x-extension",
+  "displayName": "Time Complexity Calculator",
+  "version": "1.0.0",
+  "description": "Offline C++ Time & Space Complexity Static Analyzer with first-principles proofs",
+  "publisher": "adhamahmedyousef",
+  "license": "MIT",
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Programming Languages", "Education", "Linters"],
+  "keywords": ["c++", "complexity", "big-o", "time-complexity", "algorithms"],
+  "activationEvents": [
+    "onLanguage:cpp",
+    "onCommand:projectX.calculateTimeComplexity",
+    "onCommand:projectX.calculateFunctionComplexity"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "projectX.calculateTimeComplexity",
+        "title": "Calculate Time Complexity",
+        "category": "Complexity"
+      },
+      {
+        "command": "projectX.calculateFunctionComplexity",
+        "title": "Calculate Function Complexity",
+        "category": "Complexity"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "projectX.calculateTimeComplexity",
+        "key": "ctrl+alt+c",
+        "mac": "cmd+alt+c",
+        "when": "editorLangId == cpp"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "projectX.calculateTimeComplexity",
+          "when": "editorLangId == cpp && editorHasSelection",
+          "group": "navigation@10"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Time Complexity Calculator",
+      "properties": {
+        "projectX.enableCodeLens": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable 'Calculate Complexity' CodeLens button above C++ functions."
+        },
+        "projectX.enableHover": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show estimated Big-O complexity when hovering over function names."
+        },
+        "projectX.analyzerPath": {
+          "type": "string",
+          "default": "",
+          "description": "Optional path to the analyzer CLI."
+        },
+        "projectX.clangPath": {
+          "type": "string",
+          "default": "",
+          "description": "Optional absolute path to clang++.exe. If unset, automatically detects Windows LLVM, Homebrew, or /usr/bin/clang++."
+        },
+        "projectX.nativeAnalyzerPath": {
+          "type": "string",
+          "default": "",
+          "description": "Optional absolute path to the locally built LibTooling executable."
+        },
+        "projectX.minimumConfidence": {
+          "type": "number",
+          "default": 80,
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Minimum rule-derived confidence percentage required before the analyzer displays a complexity result."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node ../tools/bundle_extension.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.0.0"
+  }
+}

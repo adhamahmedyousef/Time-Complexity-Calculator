@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-p0-p1-pack-segment-tree",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-p0-p1-pack-segment-tree-17",
+      "symbol": "pack_project_x_p0_p1_pack_segment_tree_17",
+      "time": "O((n + q) log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "segment-tree",
+        "range-query"
+      ],
+      "inputSymbols": [
+        "n",
+        "q",
+        "a",
+        "qs"
+      ],
+      "proof": "Recursive build and range query each descend one path per tree level.",
+      "assumptions": "Tree is built over a contiguous array.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-p0-p1-pack-segment-tree-17",
+      "familyRole": "canonical"
+    }
+  ]
+}

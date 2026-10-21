@@ -1,0 +1,30 @@
+{
+ "version": 2,
+ "language": "cpp",
+ "family": "pack-level0-400-pack-level0-081",
+ "reviewedBy": "imported-pack-representative",
+ "cases": [
+  {
+   "id": "pack-level0-400-pack-level0-081",
+   "symbol": "pack_level0_400_pack_main",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "adjudicated",
+    "scan",
+    "strings"
+   ],
+   "inputSymbols": [
+    "s"
+   ],
+   "proof": "Scans characters once.",
+   "assumptions": "Primitive operations are constant time.",
+   "origin": {
+    "kind": "derived",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": "pack-level0-400-pack-level0-081"
+  }
+ ]
+}

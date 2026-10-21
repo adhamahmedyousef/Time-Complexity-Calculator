@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-p0-p1-pack-trie-binary-trie",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-p0-p1-pack-trie-binary-trie-08",
+      "symbol": "pack_project_x_p0_p1_pack_trie_binary_trie_08",
+      "time": "O(sum)",
+      "space": "O(sum)",
+      "confidence": "exact",
+      "tags": [
+        "trie",
+        "binary-trie"
+      ],
+      "inputSymbols": [
+        "sum",
+        "words"
+      ],
+      "proof": "Trie operations scale with total key length.",
+      "assumptions": "Alphabet bounded.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-p0-p1-pack-trie-binary-trie-08",
+      "familyRole": "canonical"
+    }
+  ]
+}

@@ -1,0 +1,1021 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen3-dp3-01-fibDP_0",
+   "symbol": "fibDP_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-fibTwoVars_0",
+   "symbol": "fibTwoVars_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-climbStairs_0",
+   "symbol": "climbStairs_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-houseRobber_0",
+   "symbol": "houseRobber_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-kadaneMax_0",
+   "symbol": "kadaneMax_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-lisNLogN_0",
+   "symbol": "lisNLogN_0",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-knapsack01_0",
+   "symbol": "knapsack01_0",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-coinChangeMin_0",
+   "symbol": "coinChangeMin_0",
+   "time": "O(|coins| \u00b7 amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-coinChangeWays_0",
+   "symbol": "coinChangeWays_0",
+   "time": "O(|coins| \u00b7 amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-lcsStrings_0",
+   "symbol": "lcsStrings_0",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-editDistance_0",
+   "symbol": "editDistance_0",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-minPathSum_0",
+   "symbol": "minPathSum_0",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-uniquePaths_0",
+   "symbol": "uniquePaths_0",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-fibDP_1",
+   "symbol": "fibDP_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-fibTwoVars_1",
+   "symbol": "fibTwoVars_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-climbStairs_1",
+   "symbol": "climbStairs_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-houseRobber_1",
+   "symbol": "houseRobber_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-kadaneMax_1",
+   "symbol": "kadaneMax_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-lisNLogN_1",
+   "symbol": "lisNLogN_1",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-knapsack01_1",
+   "symbol": "knapsack01_1",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-coinChangeMin_1",
+   "symbol": "coinChangeMin_1",
+   "time": "O(|coins| \u00b7 amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-coinChangeWays_1",
+   "symbol": "coinChangeWays_1",
+   "time": "O(|coins| \u00b7 amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-lcsStrings_1",
+   "symbol": "lcsStrings_1",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-editDistance_1",
+   "symbol": "editDistance_1",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-minPathSum_1",
+   "symbol": "minPathSum_1",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-uniquePaths_1",
+   "symbol": "uniquePaths_1",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-fibDP_2",
+   "symbol": "fibDP_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-fibTwoVars_2",
+   "symbol": "fibTwoVars_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-climbStairs_2",
+   "symbol": "climbStairs_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-houseRobber_2",
+   "symbol": "houseRobber_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-kadaneMax_2",
+   "symbol": "kadaneMax_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-lisNLogN_2",
+   "symbol": "lisNLogN_2",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-knapsack01_2",
+   "symbol": "knapsack01_2",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-coinChangeMin_2",
+   "symbol": "coinChangeMin_2",
+   "time": "O(|coins| \u00b7 amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-coinChangeWays_2",
+   "symbol": "coinChangeWays_2",
+   "time": "O(|coins| \u00b7 amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-lcsStrings_2",
+   "symbol": "lcsStrings_2",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-editDistance_2",
+   "symbol": "editDistance_2",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-minPathSum_2",
+   "symbol": "minPathSum_2",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-uniquePaths_2",
+   "symbol": "uniquePaths_2",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-fibDP_3",
+   "symbol": "fibDP_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-fibTwoVars_3",
+   "symbol": "fibTwoVars_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-climbStairs_3",
+   "symbol": "climbStairs_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-houseRobber_3",
+   "symbol": "houseRobber_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-kadaneMax_3",
+   "symbol": "kadaneMax_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-lisNLogN_3",
+   "symbol": "lisNLogN_3",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-knapsack01_3",
+   "symbol": "knapsack01_3",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-coinChangeMin_3",
+   "symbol": "coinChangeMin_3",
+   "time": "O(|coins| \u00b7 amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-coinChangeWays_3",
+   "symbol": "coinChangeWays_3",
+   "time": "O(|coins| \u00b7 amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-lcsStrings_3",
+   "symbol": "lcsStrings_3",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-editDistance_3",
+   "symbol": "editDistance_3",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-minPathSum_3",
+   "symbol": "minPathSum_3",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-uniquePaths_3",
+   "symbol": "uniquePaths_3",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-fibDP_4",
+   "symbol": "fibDP_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-fibTwoVars_4",
+   "symbol": "fibTwoVars_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-climbStairs_4",
+   "symbol": "climbStairs_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-houseRobber_4",
+   "symbol": "houseRobber_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-kadaneMax_4",
+   "symbol": "kadaneMax_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-lisNLogN_4",
+   "symbol": "lisNLogN_4",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-knapsack01_4",
+   "symbol": "knapsack01_4",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-coinChangeMin_4",
+   "symbol": "coinChangeMin_4",
+   "time": "O(|coins| \u00b7 amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-coinChangeWays_4",
+   "symbol": "coinChangeWays_4",
+   "time": "O(|coins| \u00b7 amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-lcsStrings_4",
+   "symbol": "lcsStrings_4",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-editDistance_4",
+   "symbol": "editDistance_4",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-minPathSum_4",
+   "symbol": "minPathSum_4",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-uniquePaths_4",
+   "symbol": "uniquePaths_4",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-fibDP_5",
+   "symbol": "fibDP_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-fibTwoVars_5",
+   "symbol": "fibTwoVars_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-climbStairs_5",
+   "symbol": "climbStairs_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-houseRobber_5",
+   "symbol": "houseRobber_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-kadaneMax_5",
+   "symbol": "kadaneMax_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-lisNLogN_5",
+   "symbol": "lisNLogN_5",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-knapsack01_5",
+   "symbol": "knapsack01_5",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-coinChangeMin_5",
+   "symbol": "coinChangeMin_5",
+   "time": "O(|coins| \u00b7 amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-coinChangeWays_5",
+   "symbol": "coinChangeWays_5",
+   "time": "O(|coins| \u00b7 amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-lcsStrings_5",
+   "symbol": "lcsStrings_5",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-editDistance_5",
+   "symbol": "editDistance_5",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-minPathSum_5",
+   "symbol": "minPathSum_5",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-uniquePaths_5",
+   "symbol": "uniquePaths_5",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-fibDP_6",
+   "symbol": "fibDP_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-fibTwoVars_6",
+   "symbol": "fibTwoVars_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-climbStairs_6",
+   "symbol": "climbStairs_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-houseRobber_6",
+   "symbol": "houseRobber_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-kadaneMax_6",
+   "symbol": "kadaneMax_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-lisNLogN_6",
+   "symbol": "lisNLogN_6",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-knapsack01_6",
+   "symbol": "knapsack01_6",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-coinChangeMin_6",
+   "symbol": "coinChangeMin_6",
+   "time": "O(|coins| \u00b7 amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-coinChangeWays_6",
+   "symbol": "coinChangeWays_6",
+   "time": "O(|coins| \u00b7 amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-lcsStrings_6",
+   "symbol": "lcsStrings_6",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-editDistance_6",
+   "symbol": "editDistance_6",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-minPathSum_6",
+   "symbol": "minPathSum_6",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "grid"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-uniquePaths_6",
+   "symbol": "uniquePaths_6",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-fibDP_7",
+   "symbol": "fibDP_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-fibTwoVars_7",
+   "symbol": "fibTwoVars_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-climbStairs_7",
+   "symbol": "climbStairs_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-houseRobber_7",
+   "symbol": "houseRobber_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-kadaneMax_7",
+   "symbol": "kadaneMax_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-lisNLogN_7",
+   "symbol": "lisNLogN_7",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp",
+    "binary-search"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-knapsack01_7",
+   "symbol": "knapsack01_7",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-coinChangeMin_7",
+   "symbol": "coinChangeMin_7",
+   "time": "O(|coins| \u00b7 amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen3-dp3-01-coinChangeWays_7",
+   "symbol": "coinChangeWays_7",
+   "time": "O(|coins| \u00b7 amount)",
+   "space": "O(amount)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  }
+ ]
+}

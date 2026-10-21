@@ -1,0 +1,8 @@
+{"version":1,"language":"cpp","cases":[
+{"id":"trees-segtree-constructor","symbol":"SegTree","time":"O(n)","space":"O(n)","confidence":"estimated","tags":["trees","segment-tree","build"]},
+{"id":"trees-segtree-query","symbol":"query","time":"O(log n)","space":"O(log n)","confidence":"exact","tags":["trees","segment-tree","query"]},
+{"id":"trees-segtree-update","symbol":"update","time":"O(log n)","space":"O(log n)","confidence":"exact","tags":["trees","segment-tree","update"]},
+{"id":"trees-lca-build","symbol":"sampleBuildLCA","time":"O(n log n)","space":"O(n log n)","confidence":"exact","tags":["trees","lca","binary-lifting"]},
+{"id":"trees-fenwick-prefix","symbol":"sampleFenwickPrefix","time":"O(n log n)","space":"O(n)","confidence":"exact","tags":["trees","fenwick"]},
+{"id":"trees-merge-sort-tree-build","symbol":"sampleMergeSortTreeBuild","time":"O(n log n)","space":"O(n)","confidence":"estimated","tags":["trees","merge-sort-tree","sorting"]}
+]}

@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-recurrence-pack-mutual-alias-recursion",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-recurrence-pack-alias-to-free-helper-13",
+      "symbol": "pack_project_x_recurrence_pack_aliasToFreeHelperRec_4_1",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "recurrence",
+        "alias",
+        "helper"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "The helper alias is just another name for the same recursively decreasing function.",
+      "assumptions": "The alias remains bound to the same function.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-recurrence-pack-mutual-recursion-01"
+    }
+  ]
+}

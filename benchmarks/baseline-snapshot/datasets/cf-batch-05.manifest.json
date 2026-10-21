@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "cf-batch-05",
+      "symbol": "solve",
+      "time": "O(n^2 + q)",
+      "space": "O(n^2)",
+      "confidence": "exact",
+      "tags": [
+        "dp",
+        "palindrome",
+        "substring-query"
+      ],
+      "inputSymbols": [
+        "n",
+        "q"
+      ],
+      "proof": "Palindromic centers are expanded in O(n^2), and memoized range counts amortize across queries.",
+      "assumptions": "n is the string length; q is query count.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

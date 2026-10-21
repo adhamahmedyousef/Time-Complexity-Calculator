@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l1-mixed-level1",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l1-mask-plus-dp-hybrid-04",
+      "symbol": "pack_l1_maskDPHybrid",
+      "time": "O(n 2^n)",
+      "space": "O(2^n)",
+      "confidence": "estimated",
+      "tags": [
+        "bitmask",
+        "dp",
+        "level-1"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Mask states are updated with a recurrence over subset transitions.",
+      "assumptions": "State table size is proportional to the mask domain.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l1-mask-plus-dp-hybrid"
+    }
+  ]
+}

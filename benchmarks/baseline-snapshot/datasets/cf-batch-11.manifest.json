@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "cf-batch-11",
+      "symbol": "solve",
+      "time": "O(nm log n + mk)",
+      "space": "O(n^2 + m + k)",
+      "confidence": "exact",
+      "tags": [
+        "graphs",
+        "shortest-path",
+        "state-graph"
+      ],
+      "inputSymbols": [
+        "n",
+        "m",
+        "k",
+        "q"
+      ],
+      "proof": "It runs Dijkstra from every source node and then evaluates each edge against every query pair.",
+      "assumptions": "n, m, k are graph/query sizes.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-recurrence-pack-divide-conquer-recurrences",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-recurrence-pack-divide-conquer-balanced-linear-13",
+      "symbol": "pack_project_x_recurrence_pack_balancedLinearRec_4_1",
+      "time": "O(n)",
+      "space": "O(log n)",
+      "confidence": "exact",
+      "tags": [
+        "recurrence",
+        "divide-and-conquer"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "T(n)=2T(n/2)+O(1) is linear by the master theorem.",
+      "assumptions": "The combine step is constant work.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-recurrence-pack-divide-conquer-halves-plus-linear-01"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-segment-tree-methods",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-segment-tree-merge-function-01",
+      "symbol": "pack_cp_requested_dataset_pack_segmentTreeMergeFunction_1",
+      "time": "O((n + q) log n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "segment-tree",
+        "merge-function",
+        "range-query"
+      ],
+      "inputSymbols": [
+        "a",
+        "queries"
+      ],
+      "proof": "Every node stores a merged summary; queries combine O(log n) summaries.",
+      "assumptions": "Merge is associative over the stored summary type.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-segment-tree-merge-function-01"
+    }
+  ]
+}

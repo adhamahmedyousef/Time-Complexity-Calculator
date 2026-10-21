@@ -1,0 +1,719 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "cpp-advanced-graphs",
+  "reviewedBy": "authored-batch",
+  "cases": [
+    {
+      "id": "adv-graph-kruskal-m-s-t",
+      "symbol": "advGraphKruskalMST",
+      "time": "O(m log m)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "mst",
+        "kruskal",
+        "dsu"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges"
+      ],
+      "proof": "Sorting the edges costs O(m log m), and each edge performs at most one DSU union with amortized inverse-Ackermann overhead, which is dominated by sorting.",
+      "assumptions": "Edges are weighted and undirected; the graph may be disconnected, in which case the selected forest is returned.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-kruskal-m-s-t-stable",
+      "symbol": "advGraphKruskalMSTStable",
+      "time": "O(m log m)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "mst",
+        "kruskal",
+        "stable-sort"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges"
+      ],
+      "proof": "This is the same Kruskal scan with a deterministic tie-break rule, so sorting still dominates the runtime.",
+      "assumptions": "Edges are weighted and undirected.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "advGraphKruskalMST"
+    },
+    {
+      "id": "adv-graph-prim-dense-m-s-t",
+      "symbol": "advGraphPrimDenseMST",
+      "time": "O(n^2 + m)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "mst",
+        "prim",
+        "dense"
+      ],
+      "inputSymbols": [
+        "n",
+        "g"
+      ],
+      "proof": "Each of the n rounds scans all vertices to choose the next frontier vertex, then relaxes incident edges, giving O(n^2 + m).",
+      "assumptions": "The graph is connected and undirected.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-prim-heap-m-s-t",
+      "symbol": "advGraphPrimHeapMST",
+      "time": "O(m log n)",
+      "space": "O(n + m)",
+      "confidence": "exact",
+      "tags": [
+        "mst",
+        "prim",
+        "heap"
+      ],
+      "inputSymbols": [
+        "n",
+        "g"
+      ],
+      "proof": "Each successful frontier expansion extracts one heap minimum, and each edge insertion costs logarithmic time, so the total is O(m log n).",
+      "assumptions": "The graph is connected and undirected.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "advGraphPrimDenseMST"
+    },
+    {
+      "id": "adv-graph-tarjan-s-c-c",
+      "symbol": "advGraphTarjanSCC",
+      "time": "O(n + m)",
+      "space": "O(n + m)",
+      "confidence": "exact",
+      "tags": [
+        "scc",
+        "tarjan",
+        "dfs"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges"
+      ],
+      "proof": "Each directed edge is examined a constant number of times during DFS, and each vertex enters and leaves the stack once.",
+      "assumptions": "The graph is directed and may contain self-loops and multi-edges.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-kosaraju-s-c-c",
+      "symbol": "advGraphKosarajuSCC",
+      "time": "O(n + m)",
+      "space": "O(n + m)",
+      "confidence": "exact",
+      "tags": [
+        "scc",
+        "kosaraju",
+        "reverse-graph"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges"
+      ],
+      "proof": "Both DFS passes together touch each vertex and edge O(1) times.",
+      "assumptions": "The graph is directed and may contain self-loops and multi-edges.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "advGraphTarjanSCC"
+    },
+    {
+      "id": "adv-graph-kahn-topo-queue",
+      "symbol": "advGraphKahnTopoQueue",
+      "time": "O(n + m)",
+      "space": "O(n)",
+      "confidence": "exact",
+
+      "tags": [
+        "toposort",
+        "kahn",
+        "queue"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges"
+      ],
+      "proof": "Every vertex is enqueued and dequeued once, and every edge decrements indegree once.",
+      "assumptions": "The graph is a DAG.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-kahn-topo-priority",
+      "symbol": "advGraphKahnTopoPriority",
+      "time": "O((n + m) log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "toposort",
+        "kahn",
+        "priority-queue"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges"
+      ],
+      "proof": "The priority queue adds a logarithmic factor to each push/pop, while each edge still contributes only one indegree decrement.",
+      "assumptions": "The graph is a DAG.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "advGraphKahnTopoQueue"
+    },
+    {
+      "id": "adv-graph-bellman-ford",
+      "symbol": "advGraphBellmanFord",
+      "time": "O(nm)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "shortest-path",
+        "bellman-ford",
+        "negative-weights"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges",
+        "src"
+      ],
+      "proof": "The algorithm performs at most n-1 relaxation passes over all m edges, so the worst case is O(nm).",
+      "assumptions": "Edges may be negative, but no reachable negative cycle invalidates the result.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-bellman-ford-detect-neg-cycle",
+      "symbol": "advGraphBellmanFordDetectNegCycle",
+      "time": "O(nm)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "shortest-path",
+        "bellman-ford",
+        "negative-cycle"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges",
+        "src"
+      ],
+      "proof": "The extra negative-cycle check is one more linear scan over the edges, which does not change the O(nm) bound.",
+      "assumptions": "Edges may be negative and a reachable negative cycle is reported by the sentinel vector.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "advGraphBellmanFord"
+    },
+    {
+      "id": "adv-graph-zero-one-b-f-s",
+      "symbol": "advGraphZeroOneBFS",
+      "time": "O(n + m)",
+      "space": "O(n + m)",
+      "confidence": "exact",
+      "tags": [
+        "shortest-path",
+        "0-1-bfs",
+        "deque"
+      ],
+      "inputSymbols": [
+        "n",
+        "g",
+        "src"
+      ],
+      "proof": "Each edge relaxation is processed with deque push/pop in constant amortized time, so the scan is linear in the graph size.",
+      "assumptions": "All edge weights are either 0 or 1.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-dijkstra-heap",
+      "symbol": "advGraphDijkstraHeap",
+      "time": "O((n + m) log n)",
+      "space": "O(n + m)",
+      "confidence": "exact",
+      "tags": [
+        "shortest-path",
+        "dijkstra",
+        "binary-heap"
+      ],
+      "inputSymbols": [
+        "n",
+        "g",
+        "src"
+      ],
+      "proof": "Every successful distance improvement inserts one heap entry, and each pop costs logarithmic time.",
+      "assumptions": "All edge weights are non-negative.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-dijkstra-set",
+      "symbol": "advGraphDijkstraSet",
+      "time": "O((n + m) log n)",
+      "space": "O(n + m)",
+      "confidence": "exact",
+      "tags": [
+        "shortest-path",
+        "dijkstra",
+        "set"
+      ],
+      "inputSymbols": [
+        "n",
+        "g",
+
+        "src"
+      ],
+      "proof": "The ordered set emulates decrease-key with logarithmic updates, so the asymptotic bound matches the heap version.",
+      "assumptions": "All edge weights are non-negative.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "advGraphDijkstraHeap"
+    },
+    {
+      "id": "adv-graph-dag-shortest-path",
+      "symbol": "advGraphDagShortestPath",
+      "time": "O(n + m)",
+      "space": "O(n + m)",
+      "confidence": "exact",
+      "tags": [
+        "dag",
+        "shortest-path",
+        "toposort"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges",
+        "src"
+      ],
+      "proof": "A topological order visits each vertex once and relaxes each DAG edge once.",
+      "assumptions": "The directed graph is acyclic and every edge has unit weight.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-dag-longest-path",
+      "symbol": "advGraphDagLongestPath",
+      "time": "O(n + m)",
+      "space": "O(n + m)",
+      "confidence": "exact",
+      "tags": [
+        "dag",
+        "longest-path",
+        "toposort"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges",
+        "src"
+      ],
+      "proof": "The DP runs over a topological order and processes each edge once.",
+      "assumptions": "The directed graph is acyclic and every edge has unit weight.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-floyd-warshall-all-pairs",
+      "symbol": "advGraphFloydWarshallAllPairs",
+      "time": "O(n^3)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "all-pairs",
+        "floyd-warshall",
+        "dense"
+      ],
+      "inputSymbols": [
+        "n",
+        "d"
+      ],
+      "proof": "The triple loop enumerates all k, i, j combinations, which is cubic in n. The caller moves the matrix into the helper, which updates that owned buffer in place.",
+      "assumptions": "Missing edges use INFLL and no negative cycle is assumed; returned/output storage is excluded from auxiliary space.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-hopcroft-karp-matching",
+      "symbol": "advGraphHopcroftKarpMatching",
+      "time": "O(E sqrt(V))",
+      "space": "O(V + E)",
+      "confidence": "exact",
+      "tags": [
+        "matching",
+        "bipartite",
+        "hopcroft-karp"
+      ],
+      "inputSymbols": [
+        "nLeft",
+        "nRight",
+        "edges"
+      ],
+      "proof": "Hopcroft-Karp performs O(sqrt(V)) phases, each scanning the bipartite edges once.",
+      "assumptions": "Left vertices are numbered [0, nLeft) and right vertices [0, nRight).",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-dinic-max-flow",
+      "symbol": "advGraphDinicMaxFlow",
+      "time": "O(V^2 E)",
+      "space": "O(V + E)",
+      "confidence": "exact",
+      "tags": [
+        "max-flow",
+        "dinic",
+        "level-graph"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges",
+        "s",
+        "t"
+      ],
+      "proof": "Dinic runs blocking-flow phases on layered networks, and the classic upper bound is O(V^2E).",
+      "assumptions": "Capacities are non-negative.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-edmonds-karp-max-flow",
+      "symbol": "advGraphEdmondsKarpMaxFlow",
+      "time": "O(VE^2)",
+      "space": "O(V + E)",
+      "confidence": "exact",
+      "tags": [
+        "max-flow",
+        "edmonds-karp",
+        "bfs-augment"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges",
+        "s",
+        "t"
+      ],
+      "proof": "Each augmentation follows a shortest augmenting path, and there are O(VE) augmentations, each found by BFS over E edges.",
+      "assumptions": "Capacities are non-negative.",
+      "origin": {
+
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "advGraphDinicMaxFlow"
+    },
+    {
+      "id": "adv-graph-bridge-finder",
+      "symbol": "advGraphBridgeFinder",
+      "time": "O(n + m)",
+      "space": "O(n + m)",
+      "confidence": "exact",
+      "tags": [
+        "bridges",
+        "tarjan",
+        "lowlink"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges"
+      ],
+      "proof": "Tarjan lowlink DFS touches each vertex and edge a constant number of times.",
+      "assumptions": "The graph is undirected and may have parallel edges; bridge endpoints are encoded as u * n + v.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-articulation-points",
+      "symbol": "advGraphArticulationPoints",
+      "time": "O(n + m)",
+      "space": "O(n + m)",
+      "confidence": "exact",
+      "tags": [
+        "articulation",
+        "tarjan",
+        "lowlink"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges"
+      ],
+      "proof": "The DFS computes lowlink values in one pass over the graph.",
+      "assumptions": "The graph is undirected and may have parallel edges.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-biconnected-components-count",
+      "symbol": "advGraphBiconnectedComponentsCount",
+      "time": "O(n + m)",
+      "space": "O(n + m)",
+      "confidence": "exact",
+      "tags": [
+        "biconnected",
+        "lowlink",
+        "components"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges"
+      ],
+      "proof": "The DFS visits every vertex and edge once, and the component count is derived from lowlink events.",
+      "assumptions": "The graph is undirected.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-lca-batch-queries",
+      "symbol": "advGraphLcaBatchQueries",
+      "time": "O(n log n + q log n)",
+      "space": "O(n log n)",
+      "confidence": "exact",
+      "tags": [
+        "lca",
+        "binary-lifting",
+        "tree"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges",
+        "queries"
+      ],
+      "proof": "Preprocessing builds the binary-lifting table in O(n log n), and each query climbs O(log n) ancestors.",
+      "assumptions": "The input graph is a rooted tree with root 0.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-euler-subtree-sum",
+      "symbol": "advGraphEulerSubtreeSum",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "euler-tour",
+        "tree",
+        "subtree-sum"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges",
+        "val"
+      ],
+      "proof": "The DFS and prefix pass each touch every vertex exactly once.",
+      "assumptions": "The input graph is a tree rooted at 0 and val has one entry per vertex.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-functional-jump",
+      "symbol": "advGraphFunctionalJump",
+      "time": "O(n log k)",
+      "space": "O(n log k)",
+      "confidence": "exact",
+      "tags": [
+        "functional-graph",
+        "binary-lifting",
+        "jump"
+      ],
+      "inputSymbols": [
+        "nxt",
+        "start",
+        "k"
+      ],
+      "proof": "Building the jump table costs O(n log k) and applying the bits of k to all starting points costs the same order.",
+      "assumptions": "nxt is a total function and k is non-negative.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-bridge-tree-diameter-summary",
+      "symbol": "advGraphBridgeTreeDiameterSummary",
+      "time": "O(n + m)",
+
+      "space": "O(n + m)",
+      "confidence": "exact",
+      "tags": [
+        "bridges",
+        "articulation",
+        "summary"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges"
+      ],
+      "proof": "Both bridge and articulation DFS passes are linear, so their summaries remain linear.",
+      "assumptions": "The graph is undirected.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-scc-condensation-longest-path",
+      "symbol": "advGraphSccCondensationLongestPath",
+      "time": "O(n + m)",
+      "space": "O(n + m)",
+      "confidence": "exact",
+      "tags": [
+        "scc",
+        "condensation",
+        "dag-dp"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges"
+      ],
+      "proof": "Tarjan condensation is linear, and the DAG DP scans the condensed edges once.",
+      "assumptions": "The graph is directed and may contain cycles.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-dag-shortest-path-count-ways",
+      "symbol": "advGraphDagShortestPathCountWays",
+      "time": "O(n + m)",
+      "space": "O(n + m)",
+      "confidence": "exact",
+      "tags": [
+        "dag",
+        "count-paths",
+        "toposort"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges",
+        "src"
+      ],
+      "proof": "The DAG DP uses a topological order and processes each edge once.",
+      "assumptions": "The directed graph is acyclic and unit-weighted.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-multi-source-zero-one-b-f-s",
+      "symbol": "advGraphMultiSourceZeroOneBFS",
+      "time": "O(n + m)",
+      "space": "O(n + m)",
+      "confidence": "exact",
+      "tags": [
+        "0-1-bfs",
+        "multi-source",
+        "deque"
+      ],
+      "inputSymbols": [
+        "n",
+        "g",
+        "sources"
+      ],
+      "proof": "The deque-based relaxation is linear in the number of processed edges and vertices.",
+      "assumptions": "All edge weights are 0 or 1 and the source list may contain duplicates.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    },
+    {
+      "id": "adv-graph-topological-levels",
+      "symbol": "advGraphTopologicalLevels",
+      "time": "O(n + m)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "toposort",
+        "levels",
+        "dag"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges"
+      ],
+      "proof": "Kahn's algorithm touches each vertex and edge once while propagating the longest level from sources.",
+      "assumptions": "The directed graph is acyclic.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

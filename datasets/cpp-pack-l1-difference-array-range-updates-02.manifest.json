@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l1-prefix-range",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l1-difference-array-range-updates-02",
+      "symbol": "pack_l1_differenceArrayRangeUpdates",
+      "time": "O(n + m)",
+      "space": "O(n + m)",
+      "confidence": "estimated",
+      "tags": [
+        "difference-array",
+        "offline-queries",
+        "level-1"
+      ],
+      "inputSymbols": [
+        "arr",
+        "updates"
+      ],
+      "proof": "One pass accumulates range deltas; one pass reconstructs the final array.",
+      "assumptions": "Updates are valid inclusive ranges.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l1-difference-array-range-updates"
+    }
+  ]
+}

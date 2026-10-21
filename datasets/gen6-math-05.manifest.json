@@ -1,0 +1,27 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen6-math-05-countCoprimesTrial_66",
+   "symbol": "countCoprimesTrial_66",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen6-math-05-sievePrimeCount_66",
+   "symbol": "sievePrimeCount_66",
+   "time": "O(n log log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "math",
+    "sieve"
+   ]
+  }
+ ]
+}

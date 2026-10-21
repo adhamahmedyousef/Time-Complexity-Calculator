@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-p0-p1-pack-mos-algorithm",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-p0-p1-pack-mos-algorithm-09",
+      "symbol": "pack_project_x_p0_p1_pack_mos_algorithm_09",
+      "time": "O((n + q) sqrt n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "mo",
+        "offline-queries"
+      ],
+      "inputSymbols": [
+        "n",
+        "q",
+        "a",
+        "qs"
+      ],
+      "proof": "Offline query ordering and pointer movement are the structural signature.",
+      "assumptions": "Queries are offline.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-p0-p1-pack-mos-algorithm-09",
+      "familyRole": "canonical"
+    }
+  ]
+}

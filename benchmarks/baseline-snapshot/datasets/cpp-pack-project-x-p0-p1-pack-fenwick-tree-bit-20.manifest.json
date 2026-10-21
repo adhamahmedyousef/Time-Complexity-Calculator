@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-p0-p1-pack-fenwick-tree-bit",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-p0-p1-pack-fenwick-tree-bit-20",
+      "symbol": "pack_project_x_p0_p1_pack_fenwick_tree_bit_20",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "fenwick",
+        "helper"
+      ],
+      "inputSymbols": [
+        "n",
+        "xs"
+      ],
+      "proof": "A helper performs the tree walk and the caller composes one pass over the input.",
+      "assumptions": "The helper is a Fenwick update.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-p0-p1-pack-fenwick-tree-bit-20",
+      "familyRole": "composed"
+    }
+  ]
+}

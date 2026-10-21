@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l1-fenwick-segment-sparse",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l1-segment-tree-range-min-02",
+      "symbol": "pack_l1_segmentTreeRangeMin",
+      "time": "O((n + q) log n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "segment-tree",
+        "range-query",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "a",
+        "queries"
+      ],
+      "proof": "Tree build is linear and each query descends logarithmically.",
+      "assumptions": "Indices form a contiguous segment domain.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l1-segment-tree-range-min"
+    }
+  ]
+}

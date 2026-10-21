@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-unk-pointer-chasing-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_pointerChasingUnknown_pc1",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "adversarial",
+        "pointer-chasing",
+        "unknown"
+      ],
+      "algorithmFamily": "pointer-chasing",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "next"
+      ],
+      "proof": "Progress depends on a hidden chain length and aliasing through the pointer graph.",
+      "assumptions": "The chain may be cyclic or externally mutated.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-unk-pointer-chasing-01"
+    }
+  ]
+}

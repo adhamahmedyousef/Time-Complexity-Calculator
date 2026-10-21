@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-strings-structures",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-string-unknown-01",
+      "symbol": "pack_cp_requested_dataset_pack_stringUnknown_1",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "strings",
+        "adversarial",
+        "unknown"
+      ],
+      "inputSymbols": [
+        "s"
+      ],
+      "proof": "The loop termination depends on a hidden callback and mutable external state.",
+      "assumptions": "The external helper may mutate the string or indices.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-string-unknown-01"
+    }
+  ]
+}

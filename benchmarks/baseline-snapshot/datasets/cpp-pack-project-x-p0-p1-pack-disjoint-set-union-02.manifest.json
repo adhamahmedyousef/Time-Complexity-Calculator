@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-p0-p1-pack-disjoint-set-union",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-p0-p1-pack-disjoint-set-union-02",
+      "symbol": "pack_project_x_p0_p1_pack_disjoint_set_union_02",
+      "time": "O((n + m) \u03b1(n))",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "dsu",
+        "union-find"
+      ],
+      "inputSymbols": [
+        "n",
+        "m",
+        "edges"
+      ],
+      "proof": "Union-find operations are amortized nearly constant.",
+      "assumptions": "Finite edge list.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-p0-p1-pack-disjoint-set-union-02",
+      "familyRole": "canonical"
+    }
+  ]
+}

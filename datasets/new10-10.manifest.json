@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "new10-10",
+      "symbol": "solve",
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "math",
+        "division",
+        "clamp"
+      ],
+      "inputSymbols": [
+        "k",
+        "n"
+      ],
+      "proof": "The program performs one comparison and one integer division/multiplication sequence.",
+      "assumptions": "Division is constant-time for bounded integers.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

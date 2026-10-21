@@ -1,0 +1,1422 @@
+{
+ "version": 1,
+ "seed": 20261017,
+ "generator": "benchmarks/workloads/generate.mjs",
+ "generatedFor": "Project-X analyzer before/after benchmark (task run)",
+ "scenarios": [
+  {
+   "id": "typical-selection",
+   "kind": "selection",
+   "description": "Typical micro one-liner selections (editor highlight-one-line flow)",
+   "coldRepeats": 3,
+   "warmRepeats": 5,
+   "cases": [
+    {
+     "id": "typ-const-int",
+     "source": "int x = 10;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "typ-arith-fold",
+     "source": "int x = 10; int y = x * 2 + 7;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "typ-mod-hash",
+     "source": "long long h = 123; h = (h * 31 + 7) % 1000000007;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "typ-bit-ops",
+     "source": "int x = 123; x = (x << 3) | (x >> 1);",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "typ-min-max",
+     "source": "int a = 3, b = 8; cout << max(a, b) - min(a, b);",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "typ-swap",
+     "source": "int x = 1, y = 2; swap(x, y);",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "typ-for-literal",
+     "source": "int s = 0; for (int i = 0; i < 10; ++i) s += i;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "typ-while-embedded",
+     "source": "int s = 0, i = 0; while (i < 5) { s += i++; }",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "typ-vector-literal",
+     "source": "vector<int> v = {1, 2, 3}; int x = v[1];",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "typ-vector-pop",
+     "source": "vector<int> v = {1, 2, 3}; v.pop_back();",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "typ-vector-push",
+     "source": "vector<int> v; v.push_back(7); cout << v[0];",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "typ-string-index",
+     "source": "string s = \"hello\"; cout << s[2];",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    }
+   ]
+  },
+  {
+   "id": "boundary-one-liners",
+   "kind": "selection",
+   "description": "Minimal and boundary one-liner inputs, including degenerate selections",
+   "coldRepeats": 3,
+   "warmRepeats": 5,
+   "cases": [
+    {
+     "id": "bnd-int-zero",
+     "source": "int x = 0;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "bnd-int-long",
+     "source": "long long x = 10;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "bnd-return-zero",
+     "source": "return 0;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "bnd-bool",
+     "source": "bool b = true; return b;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "bnd-overflow-literals",
+     "source": "int x = 2147483647; x += 1;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "bnd-array-literal",
+     "source": "int arr[3] = {1, 2, 3}; return arr[0];",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "bnd-undeclared-increment",
+     "source": "x++;",
+     "expect": null
+    },
+    {
+     "id": "bnd-single-call",
+     "source": "cout << 42;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    }
+   ]
+  },
+  {
+   "id": "previously-failing",
+   "kind": "selection",
+   "description": "Regression shapes: accumulator-as-driver, away-directions, embedded steps, initializer lists",
+   "coldRepeats": 3,
+   "warmRepeats": 5,
+   "cases": [
+    {
+     "id": "pf-w4",
+     "source": "int n; cin >> n; int i = 0, s = 0; while (i < n) { s += i; ++i; }",
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "pf-w15",
+     "source": "int n; cin >> n; int i = 0, s = 0; while (i < n) { s += i; i++; }",
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "pf-w16",
+     "source": "int n; cin >> n; int i = 0, s = 0; while (i < n) { s += i; i += 1; }",
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "pf-w17",
+     "source": "int n; cin >> n; int i = 0, s = 0; while (i <= n) { s += i; ++i; }",
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "pf-w8",
+     "source": "int i = 0; while (i < 5) { --i; }",
+     "expect": {
+      "time": "Unknown",
+      "space": null,
+      "confidence": "unknown"
+     }
+    },
+    {
+     "id": "pf-w9",
+     "source": "int i = 0, x = 1; while (i < 5) { if (x) ++i; }",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "pf-w19",
+     "source": "int s = 0, i = 0; while (i < 5) { s += i++; }",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "pf-w20",
+     "source": "int n; cin >> n; int i = 0, s = 0; while (i < n) { s += a19(i) + i++; }",
+     "expect": null
+    },
+    {
+     "id": "pf-w21",
+     "source": "int n; cin >> n; int i = 0, s = 0; while (i < n) { s += i; --i; }",
+     "expect": {
+      "time": "Unknown",
+      "space": null,
+      "confidence": "unknown"
+     }
+    },
+    {
+     "id": "pf-w22",
+     "source": "int n; cin >> n; int i = 0, s = 0; while (i > n) { s += i; ++i; }",
+     "expect": {
+      "time": "Unknown",
+      "space": null,
+      "confidence": "unknown"
+     }
+    },
+    {
+     "id": "pf-w23",
+     "source": "int s = 0, i = 0; while (i < 5) { s += (i++); }",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "pf-t1",
+     "source": "vector<int> v = {1, 2, 3}; return (int)v.size();",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "pf-t3",
+     "source": "vector<int> v(3, 1); v.pop_back(); return (int)v.size();",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "pf-t7",
+     "source": "vector<int> v = {1, 2, 3}; v.pop_back(); return (int)v.size();",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "pf-t8",
+     "source": "int a[3] = {1, 2, 3}; return a[0];",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    }
+   ]
+  },
+  {
+   "id": "adversarial-shapes",
+   "kind": "selection",
+   "description": "Pathological but valid shapes: deep nesting, long chains, wide switch, many locals",
+   "coldRepeats": 3,
+   "warmRepeats": 5,
+   "cases": [
+    {
+     "id": "adv-deep-nest",
+     "source": "int advDeepNest() {\n  int s = 0;\n  for (int i0 = 0; i0 < 3; ++i0) {\n    for (int i1 = 0; i1 < 3; ++i1) {\n      for (int i2 = 0; i2 < 3; ++i2) {\n        for (int i3 = 0; i3 < 3; ++i3) {\n          for (int i4 = 0; i4 < 3; ++i4) {\n            for (int i5 = 0; i5 < 3; ++i5) {\n              for (int i6 = 0; i6 < 3; ++i6) {\n                for (int i7 = 0; i7 < 3; ++i7) {\n                  for (int i8 = 0; i8 < 3; ++i8) {\n                    for (int i9 = 0; i9 < 3; ++i9) {\n                      for (int i10 = 0; i10 < 3; ++i10) {\n                        for (int i11 = 0; i11 < 3; ++i11) {\n                          s += i11 + i0;\n                        }\n                      }\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n  return s;\n}",
+     "expect": null
+    },
+    {
+     "id": "adv-long-chain",
+     "source": "int advLongChain() {\n  int s = 0;\n  s += 1;\n  s += 2;\n  s += 3;\n  s += 4;\n  s += 5;\n  s += 6;\n  s += 7;\n  s += 8;\n  s += 9;\n  s += 10;\n  s += 11;\n  s += 12;\n  s += 13;\n  s += 14;\n  s += 15;\n  s += 16;\n  s += 17;\n  s += 18;\n  s += 19;\n  s += 20;\n  s += 21;\n  s += 22;\n  s += 23;\n  s += 24;\n  s += 25;\n  s += 26;\n  s += 27;\n  s += 28;\n  s += 29;\n  s += 30;\n  s += 31;\n  s += 32;\n  s += 33;\n  s += 34;\n  s += 35;\n  s += 36;\n  s += 37;\n  s += 38;\n  s += 39;\n  s += 40;\n  s += 41;\n  s += 42;\n  s += 43;\n  s += 44;\n  s += 45;\n  s += 46;\n  s += 47;\n  s += 48;\n  s += 49;\n  s += 50;\n  s += 51;\n  s += 52;\n  s += 53;\n  s += 54;\n  s += 55;\n  s += 56;\n  s += 57;\n  s += 58;\n  s += 59;\n  s += 60;\n  s += 61;\n  s += 62;\n  s += 63;\n  s += 64;\n  s += 65;\n  s += 66;\n  s += 67;\n  s += 68;\n  s += 69;\n  s += 70;\n  s += 71;\n  s += 72;\n  s += 73;\n  s += 74;\n  s += 75;\n  s += 76;\n  s += 77;\n  s += 78;\n  s += 79;\n  s += 80;\n  s += 81;\n  s += 82;\n  s += 83;\n  s += 84;\n  s += 85;\n  s += 86;\n  s += 87;\n  s += 88;\n  s += 89;\n  s += 90;\n  return s;\n}",
+     "expect": null
+    },
+    {
+     "id": "adv-wide-switch",
+     "source": "int advWideSwitch() {\n  int x = 3;\n  int r = 0;\n  switch (x) {\n  case 0: r = 0; break;\n  case 1: r = 7; break;\n  case 2: r = 14; break;\n  case 3: r = 21; break;\n  case 4: r = 28; break;\n  case 5: r = 35; break;\n  case 6: r = 42; break;\n  case 7: r = 49; break;\n  case 8: r = 56; break;\n  case 9: r = 63; break;\n  case 10: r = 70; break;\n  case 11: r = 77; break;\n  case 12: r = 84; break;\n  case 13: r = 91; break;\n  case 14: r = 98; break;\n  case 15: r = 105; break;\n  case 16: r = 112; break;\n  case 17: r = 119; break;\n  case 18: r = 126; break;\n  case 19: r = 133; break;\n  case 20: r = 140; break;\n  case 21: r = 147; break;\n  case 22: r = 154; break;\n  case 23: r = 161; break;\n  case 24: r = 168; break;\n  case 25: r = 175; break;\n  case 26: r = 182; break;\n  case 27: r = 189; break;\n  case 28: r = 196; break;\n  case 29: r = 203; break;\n  case 30: r = 210; break;\n  case 31: r = 217; break;\n  case 32: r = 224; break;\n  case 33: r = 231; break;\n  case 34: r = 238; break;\n  case 35: r = 245; break;\n  case 36: r = 252; break;\n  case 37: r = 259; break;\n  case 38: r = 266; break;\n  case 39: r = 273; break;\n  case 40: r = 280; break;\n  case 41: r = 287; break;\n  case 42: r = 294; break;\n  case 43: r = 301; break;\n  case 44: r = 308; break;\n  case 45: r = 315; break;\n  case 46: r = 322; break;\n  case 47: r = 329; break;\n  case 48: r = 336; break;\n  case 49: r = 343; break;\n  default: r = -1; break;\n  }\n  return r;\n}",
+     "expect": null
+    },
+    {
+     "id": "adv-many-vars",
+     "source": "int advManyVars() {\n  int s = 0;\n  int v0 = 0;\n  int v1 = 1;\n  int v2 = 2;\n  int v3 = 3;\n  int v4 = 4;\n  int v5 = 5;\n  int v6 = 6;\n  int v7 = 7;\n  int v8 = 8;\n  int v9 = 9;\n  int v10 = 10;\n  int v11 = 11;\n  int v12 = 12;\n  int v13 = 13;\n  int v14 = 14;\n  int v15 = 15;\n  int v16 = 16;\n  int v17 = 17;\n  int v18 = 18;\n  int v19 = 19;\n  int v20 = 20;\n  int v21 = 21;\n  int v22 = 22;\n  int v23 = 23;\n  int v24 = 24;\n  int v25 = 25;\n  int v26 = 26;\n  int v27 = 27;\n  int v28 = 28;\n  int v29 = 29;\n  int v30 = 30;\n  int v31 = 31;\n  int v32 = 32;\n  int v33 = 33;\n  int v34 = 34;\n  int v35 = 35;\n  int v36 = 36;\n  int v37 = 37;\n  int v38 = 38;\n  int v39 = 39;\n  int v40 = 40;\n  int v41 = 41;\n  int v42 = 42;\n  int v43 = 43;\n  int v44 = 44;\n  int v45 = 45;\n  int v46 = 46;\n  int v47 = 47;\n  int v48 = 48;\n  int v49 = 49;\n  int v50 = 50;\n  int v51 = 51;\n  int v52 = 52;\n  int v53 = 53;\n  int v54 = 54;\n  int v55 = 55;\n  int v56 = 56;\n  int v57 = 57;\n  int v58 = 58;\n  int v59 = 59;\n  int v60 = 60;\n  int v61 = 61;\n  int v62 = 62;\n  int v63 = 63;\n  int v64 = 64;\n  int v65 = 65;\n  int v66 = 66;\n  int v67 = 67;\n  int v68 = 68;\n  int v69 = 69;\n  int v70 = 70;\n  int v71 = 71;\n  int v72 = 72;\n  int v73 = 73;\n  int v74 = 74;\n  int v75 = 75;\n  int v76 = 76;\n  int v77 = 77;\n  int v78 = 78;\n  int v79 = 79;\n  int v80 = 80;\n  int v81 = 81;\n  int v82 = 82;\n  int v83 = 83;\n  int v84 = 84;\n  int v85 = 85;\n  int v86 = 86;\n  int v87 = 87;\n  int v88 = 88;\n  int v89 = 89;\n  int v90 = 90;\n  int v91 = 91;\n  int v92 = 92;\n  int v93 = 93;\n  int v94 = 94;\n  int v95 = 95;\n  int v96 = 96;\n  int v97 = 97;\n  int v98 = 98;\n  int v99 = 99;\n  int v100 = 100;\n  int v101 = 101;\n  int v102 = 102;\n  int v103 = 103;\n  int v104 = 104;\n  int v105 = 105;\n  int v106 = 106;\n  int v107 = 107;\n  int v108 = 108;\n  int v109 = 109;\n  int v110 = 110;\n  int v111 = 111;\n  int v112 = 112;\n  int v113 = 113;\n  int v114 = 114;\n  int v115 = 115;\n  int v116 = 116;\n  int v117 = 117;\n  int v118 = 118;\n  int v119 = 119;\n  int v120 = 120;\n  int v121 = 121;\n  int v122 = 122;\n  int v123 = 123;\n  int v124 = 124;\n  int v125 = 125;\n  int v126 = 126;\n  int v127 = 127;\n  int v128 = 128;\n  int v129 = 129;\n  int v130 = 130;\n  int v131 = 131;\n  int v132 = 132;\n  int v133 = 133;\n  int v134 = 134;\n  int v135 = 135;\n  int v136 = 136;\n  int v137 = 137;\n  int v138 = 138;\n  int v139 = 139;\n  int v140 = 140;\n  int v141 = 141;\n  int v142 = 142;\n  int v143 = 143;\n  int v144 = 144;\n  int v145 = 145;\n  int v146 = 146;\n  int v147 = 147;\n  int v148 = 148;\n  int v149 = 149;\n  int v150 = 150;\n  int v151 = 151;\n  int v152 = 152;\n  int v153 = 153;\n  int v154 = 154;\n  int v155 = 155;\n  int v156 = 156;\n  int v157 = 157;\n  int v158 = 158;\n  int v159 = 159;\n  int v160 = 160;\n  int v161 = 161;\n  int v162 = 162;\n  int v163 = 163;\n  int v164 = 164;\n  int v165 = 165;\n  int v166 = 166;\n  int v167 = 167;\n  int v168 = 168;\n  int v169 = 169;\n  int v170 = 170;\n  int v171 = 171;\n  int v172 = 172;\n  int v173 = 173;\n  int v174 = 174;\n  int v175 = 175;\n  int v176 = 176;\n  int v177 = 177;\n  int v178 = 178;\n  int v179 = 179;\n  int v180 = 180;\n  int v181 = 181;\n  int v182 = 182;\n  int v183 = 183;\n  int v184 = 184;\n  int v185 = 185;\n  int v186 = 186;\n  int v187 = 187;\n  int v188 = 188;\n  int v189 = 189;\n  int v190 = 190;\n  int v191 = 191;\n  int v192 = 192;\n  int v193 = 193;\n  int v194 = 194;\n  int v195 = 195;\n  int v196 = 196;\n  int v197 = 197;\n  int v198 = 198;\n  int v199 = 199;\n  s += v0;\n  s += v5;\n  s += v10;\n  s += v15;\n  s += v20;\n  s += v25;\n  s += v30;\n  s += v35;\n  s += v40;\n  s += v45;\n  s += v50;\n  s += v55;\n  s += v60;\n  s += v65;\n  s += v70;\n  s += v75;\n  s += v80;\n  s += v85;\n  s += v90;\n  s += v95;\n  s += v100;\n  s += v105;\n  s += v110;\n  s += v115;\n  s += v120;\n  s += v125;\n  s += v130;\n  s += v135;\n  s += v140;\n  s += v145;\n  s += v150;\n  s += v155;\n  s += v160;\n  s += v165;\n  s += v170;\n  s += v175;\n  s += v180;\n  s += v185;\n  s += v190;\n  s += v195;\n  return s;\n}",
+     "expect": null
+    },
+    {
+     "id": "adv-big-array",
+     "source": "int advBigArray() {\n  int a[300];\n  for (int i = 0; i < 300; ++i) a[i] = i;\n  int s = 0;\n  for (int i = 0; i < 300; ++i) s += a[i];\n  return s;\n}",
+     "expect": null
+    },
+    {
+     "id": "adv-if-chain",
+     "source": "int advIfChain() {\n  int x = 40;\n  int s = 0;\n  if (x > 0) s += 0;\n  if (x > 1) s += 1;\n  if (x > 2) s += 2;\n  if (x > 3) s += 3;\n  if (x > 4) s += 4;\n  if (x > 5) s += 5;\n  if (x > 6) s += 6;\n  if (x > 7) s += 7;\n  if (x > 8) s += 8;\n  if (x > 9) s += 9;\n  if (x > 10) s += 10;\n  if (x > 11) s += 11;\n  if (x > 12) s += 12;\n  if (x > 13) s += 13;\n  if (x > 14) s += 14;\n  if (x > 15) s += 15;\n  if (x > 16) s += 16;\n  if (x > 17) s += 17;\n  if (x > 18) s += 18;\n  if (x > 19) s += 19;\n  if (x > 20) s += 20;\n  if (x > 21) s += 21;\n  if (x > 22) s += 22;\n  if (x > 23) s += 23;\n  if (x > 24) s += 24;\n  if (x > 25) s += 25;\n  if (x > 26) s += 26;\n  if (x > 27) s += 27;\n  if (x > 28) s += 28;\n  if (x > 29) s += 29;\n  if (x > 30) s += 30;\n  if (x > 31) s += 31;\n  if (x > 32) s += 32;\n  if (x > 33) s += 33;\n  if (x > 34) s += 34;\n  if (x > 35) s += 35;\n  if (x > 36) s += 36;\n  if (x > 37) s += 37;\n  if (x > 38) s += 38;\n  if (x > 39) s += 39;\n  if (x > 40) s += 40;\n  if (x > 41) s += 41;\n  if (x > 42) s += 42;\n  if (x > 43) s += 43;\n  if (x > 44) s += 44;\n  if (x > 45) s += 45;\n  if (x > 46) s += 46;\n  if (x > 47) s += 47;\n  if (x > 48) s += 48;\n  if (x > 49) s += 49;\n  if (x > 50) s += 50;\n  if (x > 51) s += 51;\n  if (x > 52) s += 52;\n  if (x > 53) s += 53;\n  if (x > 54) s += 54;\n  if (x > 55) s += 55;\n  if (x > 56) s += 56;\n  if (x > 57) s += 57;\n  if (x > 58) s += 58;\n  if (x > 59) s += 59;\n  if (x > 60) s += 60;\n  if (x > 61) s += 61;\n  if (x > 62) s += 62;\n  if (x > 63) s += 63;\n  if (x > 64) s += 64;\n  if (x > 65) s += 65;\n  if (x > 66) s += 66;\n  if (x > 67) s += 67;\n  if (x > 68) s += 68;\n  if (x > 69) s += 69;\n  if (x > 70) s += 70;\n  if (x > 71) s += 71;\n  if (x > 72) s += 72;\n  if (x > 73) s += 73;\n  if (x > 74) s += 74;\n  if (x > 75) s += 75;\n  if (x > 76) s += 76;\n  if (x > 77) s += 77;\n  if (x > 78) s += 78;\n  if (x > 79) s += 79;\n  return s;\n}",
+     "expect": null
+    }
+   ]
+  },
+  {
+   "id": "invalid-inputs",
+   "kind": "selection",
+   "description": "Malformed and degenerate inputs — required to fail gracefully, never crash",
+   "coldRepeats": 3,
+   "warmRepeats": 3,
+   "cases": [
+    {
+     "id": "inv-empty",
+     "source": "",
+     "expect": null
+    },
+    {
+     "id": "inv-whitespace",
+     "source": "   \n\t  ",
+     "expect": null
+    },
+    {
+     "id": "inv-comment-only",
+     "source": "// just a comment\n",
+     "expect": null
+    },
+    {
+     "id": "inv-plain-text",
+     "source": "hello world",
+     "expect": null
+    },
+    {
+     "id": "inv-truncated",
+     "source": "int f(int n) { for (int i = 0; i < n; i++",
+     "expect": null
+    },
+    {
+     "id": "inv-bad-token",
+     "source": "int f() { return @; }",
+     "expect": null
+    },
+    {
+     "id": "inv-duplicate-decls",
+     "source": "int f() { return 1; } int f() { return 2; }",
+     "expect": null
+    },
+    {
+     "id": "inv-unicode-comment",
+     "source": "// 你好\nint f() { return 0; }",
+     "expect": null
+    }
+   ]
+  },
+  {
+   "id": "large-document",
+   "kind": "document",
+   "description": "Whole-document analysis: one Clang parse, 120/300 functions per document",
+   "coldRepeats": 2,
+   "warmRepeats": 3,
+   "cases": [
+    {
+     "id": "doc-120",
+     "source": "#include <bits/stdc++.h>\nusing namespace std;\nint doc120_f0() { int x = 0; return x * 3; }\nint doc120_f1(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc120_f2(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc120_f3(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc120_f4(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc120_f5(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc120_f6() { int x = 6; return x * 3; }\nint doc120_f7(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc120_f8(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc120_f9(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc120_f10(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc120_f11(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc120_f12() { int x = 12; return x * 3; }\nint doc120_f13(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc120_f14(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc120_f15(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc120_f16(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc120_f17(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc120_f18() { int x = 18; return x * 3; }\nint doc120_f19(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc120_f20(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc120_f21(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc120_f22(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc120_f23(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc120_f24() { int x = 24; return x * 3; }\nint doc120_f25(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc120_f26(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc120_f27(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc120_f28(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc120_f29(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc120_f30() { int x = 30; return x * 3; }\nint doc120_f31(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc120_f32(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc120_f33(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc120_f34(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc120_f35(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc120_f36() { int x = 36; return x * 3; }\nint doc120_f37(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc120_f38(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc120_f39(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc120_f40(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc120_f41(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc120_f42() { int x = 42; return x * 3; }\nint doc120_f43(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc120_f44(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc120_f45(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc120_f46(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc120_f47(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc120_f48() { int x = 48; return x * 3; }\nint doc120_f49(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc120_f50(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc120_f51(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc120_f52(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc120_f53(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc120_f54() { int x = 54; return x * 3; }\nint doc120_f55(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc120_f56(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc120_f57(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc120_f58(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc120_f59(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc120_f60() { int x = 60; return x * 3; }\nint doc120_f61(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc120_f62(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc120_f63(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc120_f64(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc120_f65(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc120_f66() { int x = 66; return x * 3; }\nint doc120_f67(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc120_f68(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc120_f69(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc120_f70(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc120_f71(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc120_f72() { int x = 72; return x * 3; }\nint doc120_f73(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc120_f74(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc120_f75(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc120_f76(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc120_f77(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc120_f78() { int x = 78; return x * 3; }\nint doc120_f79(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc120_f80(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc120_f81(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc120_f82(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc120_f83(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc120_f84() { int x = 84; return x * 3; }\nint doc120_f85(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc120_f86(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc120_f87(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc120_f88(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc120_f89(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc120_f90() { int x = 90; return x * 3; }\nint doc120_f91(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc120_f92(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc120_f93(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc120_f94(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc120_f95(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc120_f96() { int x = 96; return x * 3; }\nint doc120_f97(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc120_f98(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc120_f99(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc120_f100(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc120_f101(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc120_f102() { int x = 102; return x * 3; }\nint doc120_f103(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc120_f104(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc120_f105(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc120_f106(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc120_f107(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc120_f108() { int x = 108; return x * 3; }\nint doc120_f109(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc120_f110(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc120_f111(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc120_f112(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc120_f113(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc120_f114() { int x = 114; return x * 3; }\nint doc120_f115(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc120_f116(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc120_f117(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc120_f118(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc120_f119(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }",
+     "symbols": [
+      "doc120_f0",
+      "doc120_f1",
+      "doc120_f2",
+      "doc120_f3",
+      "doc120_f4",
+      "doc120_f5",
+      "doc120_f6",
+      "doc120_f7",
+      "doc120_f8",
+      "doc120_f9",
+      "doc120_f10",
+      "doc120_f11",
+      "doc120_f12",
+      "doc120_f13",
+      "doc120_f14",
+      "doc120_f15",
+      "doc120_f16",
+      "doc120_f17",
+      "doc120_f18",
+      "doc120_f19",
+      "doc120_f20",
+      "doc120_f21",
+      "doc120_f22",
+      "doc120_f23",
+      "doc120_f24",
+      "doc120_f25",
+      "doc120_f26",
+      "doc120_f27",
+      "doc120_f28",
+      "doc120_f29",
+      "doc120_f30",
+      "doc120_f31",
+      "doc120_f32",
+      "doc120_f33",
+      "doc120_f34",
+      "doc120_f35",
+      "doc120_f36",
+      "doc120_f37",
+      "doc120_f38",
+      "doc120_f39",
+      "doc120_f40",
+      "doc120_f41",
+      "doc120_f42",
+      "doc120_f43",
+      "doc120_f44",
+      "doc120_f45",
+      "doc120_f46",
+      "doc120_f47",
+      "doc120_f48",
+      "doc120_f49",
+      "doc120_f50",
+      "doc120_f51",
+      "doc120_f52",
+      "doc120_f53",
+      "doc120_f54",
+      "doc120_f55",
+      "doc120_f56",
+      "doc120_f57",
+      "doc120_f58",
+      "doc120_f59",
+      "doc120_f60",
+      "doc120_f61",
+      "doc120_f62",
+      "doc120_f63",
+      "doc120_f64",
+      "doc120_f65",
+      "doc120_f66",
+      "doc120_f67",
+      "doc120_f68",
+      "doc120_f69",
+      "doc120_f70",
+      "doc120_f71",
+      "doc120_f72",
+      "doc120_f73",
+      "doc120_f74",
+      "doc120_f75",
+      "doc120_f76",
+      "doc120_f77",
+      "doc120_f78",
+      "doc120_f79",
+      "doc120_f80",
+      "doc120_f81",
+      "doc120_f82",
+      "doc120_f83",
+      "doc120_f84",
+      "doc120_f85",
+      "doc120_f86",
+      "doc120_f87",
+      "doc120_f88",
+      "doc120_f89",
+      "doc120_f90",
+      "doc120_f91",
+      "doc120_f92",
+      "doc120_f93",
+      "doc120_f94",
+      "doc120_f95",
+      "doc120_f96",
+      "doc120_f97",
+      "doc120_f98",
+      "doc120_f99",
+      "doc120_f100",
+      "doc120_f101",
+      "doc120_f102",
+      "doc120_f103",
+      "doc120_f104",
+      "doc120_f105",
+      "doc120_f106",
+      "doc120_f107",
+      "doc120_f108",
+      "doc120_f109",
+      "doc120_f110",
+      "doc120_f111",
+      "doc120_f112",
+      "doc120_f113",
+      "doc120_f114",
+      "doc120_f115",
+      "doc120_f116",
+      "doc120_f117",
+      "doc120_f118",
+      "doc120_f119"
+     ],
+     "expect": null
+    },
+    {
+     "id": "doc-300",
+     "source": "#include <bits/stdc++.h>\nusing namespace std;\nint doc300_f0() { int x = 0; return x * 3; }\nint doc300_f1(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f2(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f3(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f4(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f5(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f6() { int x = 6; return x * 3; }\nint doc300_f7(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f8(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f9(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f10(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f11(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f12() { int x = 12; return x * 3; }\nint doc300_f13(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f14(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f15(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f16(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f17(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f18() { int x = 18; return x * 3; }\nint doc300_f19(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f20(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f21(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f22(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f23(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f24() { int x = 24; return x * 3; }\nint doc300_f25(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f26(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f27(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f28(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f29(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f30() { int x = 30; return x * 3; }\nint doc300_f31(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f32(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f33(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f34(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f35(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f36() { int x = 36; return x * 3; }\nint doc300_f37(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f38(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f39(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f40(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f41(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f42() { int x = 42; return x * 3; }\nint doc300_f43(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f44(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f45(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f46(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f47(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f48() { int x = 48; return x * 3; }\nint doc300_f49(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f50(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f51(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f52(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f53(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f54() { int x = 54; return x * 3; }\nint doc300_f55(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f56(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f57(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f58(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f59(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f60() { int x = 60; return x * 3; }\nint doc300_f61(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f62(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f63(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f64(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f65(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f66() { int x = 66; return x * 3; }\nint doc300_f67(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f68(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f69(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f70(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f71(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f72() { int x = 72; return x * 3; }\nint doc300_f73(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f74(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f75(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f76(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f77(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f78() { int x = 78; return x * 3; }\nint doc300_f79(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f80(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f81(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f82(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f83(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f84() { int x = 84; return x * 3; }\nint doc300_f85(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f86(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f87(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f88(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f89(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f90() { int x = 90; return x * 3; }\nint doc300_f91(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f92(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f93(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f94(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f95(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f96() { int x = 96; return x * 3; }\nint doc300_f97(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f98(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f99(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f100(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f101(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f102() { int x = 102; return x * 3; }\nint doc300_f103(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f104(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f105(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f106(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f107(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f108() { int x = 108; return x * 3; }\nint doc300_f109(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f110(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f111(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f112(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f113(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f114() { int x = 114; return x * 3; }\nint doc300_f115(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f116(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f117(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f118(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f119(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f120() { int x = 120; return x * 3; }\nint doc300_f121(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f122(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f123(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f124(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f125(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f126() { int x = 126; return x * 3; }\nint doc300_f127(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f128(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f129(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f130(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f131(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f132() { int x = 132; return x * 3; }\nint doc300_f133(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f134(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f135(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f136(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f137(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f138() { int x = 138; return x * 3; }\nint doc300_f139(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f140(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f141(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f142(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f143(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f144() { int x = 144; return x * 3; }\nint doc300_f145(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f146(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f147(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f148(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f149(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f150() { int x = 150; return x * 3; }\nint doc300_f151(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f152(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f153(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f154(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f155(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f156() { int x = 156; return x * 3; }\nint doc300_f157(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f158(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f159(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f160(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f161(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f162() { int x = 162; return x * 3; }\nint doc300_f163(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f164(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f165(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f166(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f167(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f168() { int x = 168; return x * 3; }\nint doc300_f169(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f170(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f171(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f172(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f173(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f174() { int x = 174; return x * 3; }\nint doc300_f175(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f176(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f177(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f178(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f179(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f180() { int x = 180; return x * 3; }\nint doc300_f181(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f182(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f183(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f184(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f185(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f186() { int x = 186; return x * 3; }\nint doc300_f187(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f188(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f189(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f190(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f191(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f192() { int x = 192; return x * 3; }\nint doc300_f193(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f194(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f195(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f196(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f197(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f198() { int x = 198; return x * 3; }\nint doc300_f199(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f200(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f201(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f202(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f203(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f204() { int x = 204; return x * 3; }\nint doc300_f205(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f206(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f207(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f208(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f209(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f210() { int x = 210; return x * 3; }\nint doc300_f211(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f212(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f213(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f214(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f215(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f216() { int x = 216; return x * 3; }\nint doc300_f217(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f218(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f219(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f220(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f221(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f222() { int x = 222; return x * 3; }\nint doc300_f223(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f224(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f225(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f226(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f227(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f228() { int x = 228; return x * 3; }\nint doc300_f229(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f230(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f231(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f232(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f233(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f234() { int x = 234; return x * 3; }\nint doc300_f235(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f236(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f237(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f238(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f239(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f240() { int x = 240; return x * 3; }\nint doc300_f241(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f242(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f243(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f244(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f245(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f246() { int x = 246; return x * 3; }\nint doc300_f247(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f248(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f249(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f250(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f251(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f252() { int x = 252; return x * 3; }\nint doc300_f253(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f254(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f255(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f256(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f257(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f258() { int x = 258; return x * 3; }\nint doc300_f259(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f260(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f261(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f262(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f263(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f264() { int x = 264; return x * 3; }\nint doc300_f265(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f266(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f267(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f268(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f269(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f270() { int x = 270; return x * 3; }\nint doc300_f271(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f272(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f273(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f274(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f275(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f276() { int x = 276; return x * 3; }\nint doc300_f277(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f278(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f279(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f280(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f281(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f282() { int x = 282; return x * 3; }\nint doc300_f283(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f284(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f285(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f286(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f287(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f288() { int x = 288; return x * 3; }\nint doc300_f289(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f290(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f291(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f292(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f293(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }\nint doc300_f294() { int x = 294; return x * 3; }\nint doc300_f295(int n) { int s = 0; for (int j = 0; j < n; ++j) s += j; return s; }\nint doc300_f296(int n) { int j = 0, s = 0; while (j < n) { s += j; ++j; } return s; }\nlong long doc300_f297(long long x) { long long r = 1; while (x > 0) { r *= x % 10; x /= 10; } return r; }\nint doc300_f298(int n) { vector<int> v; for (int j = 0; j < n; ++j) v.push_back(j); return (int)v.size(); }\nint doc300_f299(int n) { int s = 0; for (int j = 0; j < 5; ++j) s += j + n % (j + 1); return s; }",
+     "symbols": [
+      "doc300_f0",
+      "doc300_f1",
+      "doc300_f2",
+      "doc300_f3",
+      "doc300_f4",
+      "doc300_f5",
+      "doc300_f6",
+      "doc300_f7",
+      "doc300_f8",
+      "doc300_f9",
+      "doc300_f10",
+      "doc300_f11",
+      "doc300_f12",
+      "doc300_f13",
+      "doc300_f14",
+      "doc300_f15",
+      "doc300_f16",
+      "doc300_f17",
+      "doc300_f18",
+      "doc300_f19",
+      "doc300_f20",
+      "doc300_f21",
+      "doc300_f22",
+      "doc300_f23",
+      "doc300_f24",
+      "doc300_f25",
+      "doc300_f26",
+      "doc300_f27",
+      "doc300_f28",
+      "doc300_f29",
+      "doc300_f30",
+      "doc300_f31",
+      "doc300_f32",
+      "doc300_f33",
+      "doc300_f34",
+      "doc300_f35",
+      "doc300_f36",
+      "doc300_f37",
+      "doc300_f38",
+      "doc300_f39",
+      "doc300_f40",
+      "doc300_f41",
+      "doc300_f42",
+      "doc300_f43",
+      "doc300_f44",
+      "doc300_f45",
+      "doc300_f46",
+      "doc300_f47",
+      "doc300_f48",
+      "doc300_f49",
+      "doc300_f50",
+      "doc300_f51",
+      "doc300_f52",
+      "doc300_f53",
+      "doc300_f54",
+      "doc300_f55",
+      "doc300_f56",
+      "doc300_f57",
+      "doc300_f58",
+      "doc300_f59",
+      "doc300_f60",
+      "doc300_f61",
+      "doc300_f62",
+      "doc300_f63",
+      "doc300_f64",
+      "doc300_f65",
+      "doc300_f66",
+      "doc300_f67",
+      "doc300_f68",
+      "doc300_f69",
+      "doc300_f70",
+      "doc300_f71",
+      "doc300_f72",
+      "doc300_f73",
+      "doc300_f74",
+      "doc300_f75",
+      "doc300_f76",
+      "doc300_f77",
+      "doc300_f78",
+      "doc300_f79",
+      "doc300_f80",
+      "doc300_f81",
+      "doc300_f82",
+      "doc300_f83",
+      "doc300_f84",
+      "doc300_f85",
+      "doc300_f86",
+      "doc300_f87",
+      "doc300_f88",
+      "doc300_f89",
+      "doc300_f90",
+      "doc300_f91",
+      "doc300_f92",
+      "doc300_f93",
+      "doc300_f94",
+      "doc300_f95",
+      "doc300_f96",
+      "doc300_f97",
+      "doc300_f98",
+      "doc300_f99",
+      "doc300_f100",
+      "doc300_f101",
+      "doc300_f102",
+      "doc300_f103",
+      "doc300_f104",
+      "doc300_f105",
+      "doc300_f106",
+      "doc300_f107",
+      "doc300_f108",
+      "doc300_f109",
+      "doc300_f110",
+      "doc300_f111",
+      "doc300_f112",
+      "doc300_f113",
+      "doc300_f114",
+      "doc300_f115",
+      "doc300_f116",
+      "doc300_f117",
+      "doc300_f118",
+      "doc300_f119",
+      "doc300_f120",
+      "doc300_f121",
+      "doc300_f122",
+      "doc300_f123",
+      "doc300_f124",
+      "doc300_f125",
+      "doc300_f126",
+      "doc300_f127",
+      "doc300_f128",
+      "doc300_f129",
+      "doc300_f130",
+      "doc300_f131",
+      "doc300_f132",
+      "doc300_f133",
+      "doc300_f134",
+      "doc300_f135",
+      "doc300_f136",
+      "doc300_f137",
+      "doc300_f138",
+      "doc300_f139",
+      "doc300_f140",
+      "doc300_f141",
+      "doc300_f142",
+      "doc300_f143",
+      "doc300_f144",
+      "doc300_f145",
+      "doc300_f146",
+      "doc300_f147",
+      "doc300_f148",
+      "doc300_f149",
+      "doc300_f150",
+      "doc300_f151",
+      "doc300_f152",
+      "doc300_f153",
+      "doc300_f154",
+      "doc300_f155",
+      "doc300_f156",
+      "doc300_f157",
+      "doc300_f158",
+      "doc300_f159",
+      "doc300_f160",
+      "doc300_f161",
+      "doc300_f162",
+      "doc300_f163",
+      "doc300_f164",
+      "doc300_f165",
+      "doc300_f166",
+      "doc300_f167",
+      "doc300_f168",
+      "doc300_f169",
+      "doc300_f170",
+      "doc300_f171",
+      "doc300_f172",
+      "doc300_f173",
+      "doc300_f174",
+      "doc300_f175",
+      "doc300_f176",
+      "doc300_f177",
+      "doc300_f178",
+      "doc300_f179",
+      "doc300_f180",
+      "doc300_f181",
+      "doc300_f182",
+      "doc300_f183",
+      "doc300_f184",
+      "doc300_f185",
+      "doc300_f186",
+      "doc300_f187",
+      "doc300_f188",
+      "doc300_f189",
+      "doc300_f190",
+      "doc300_f191",
+      "doc300_f192",
+      "doc300_f193",
+      "doc300_f194",
+      "doc300_f195",
+      "doc300_f196",
+      "doc300_f197",
+      "doc300_f198",
+      "doc300_f199",
+      "doc300_f200",
+      "doc300_f201",
+      "doc300_f202",
+      "doc300_f203",
+      "doc300_f204",
+      "doc300_f205",
+      "doc300_f206",
+      "doc300_f207",
+      "doc300_f208",
+      "doc300_f209",
+      "doc300_f210",
+      "doc300_f211",
+      "doc300_f212",
+      "doc300_f213",
+      "doc300_f214",
+      "doc300_f215",
+      "doc300_f216",
+      "doc300_f217",
+      "doc300_f218",
+      "doc300_f219",
+      "doc300_f220",
+      "doc300_f221",
+      "doc300_f222",
+      "doc300_f223",
+      "doc300_f224",
+      "doc300_f225",
+      "doc300_f226",
+      "doc300_f227",
+      "doc300_f228",
+      "doc300_f229",
+      "doc300_f230",
+      "doc300_f231",
+      "doc300_f232",
+      "doc300_f233",
+      "doc300_f234",
+      "doc300_f235",
+      "doc300_f236",
+      "doc300_f237",
+      "doc300_f238",
+      "doc300_f239",
+      "doc300_f240",
+      "doc300_f241",
+      "doc300_f242",
+      "doc300_f243",
+      "doc300_f244",
+      "doc300_f245",
+      "doc300_f246",
+      "doc300_f247",
+      "doc300_f248",
+      "doc300_f249",
+      "doc300_f250",
+      "doc300_f251",
+      "doc300_f252",
+      "doc300_f253",
+      "doc300_f254",
+      "doc300_f255",
+      "doc300_f256",
+      "doc300_f257",
+      "doc300_f258",
+      "doc300_f259",
+      "doc300_f260",
+      "doc300_f261",
+      "doc300_f262",
+      "doc300_f263",
+      "doc300_f264",
+      "doc300_f265",
+      "doc300_f266",
+      "doc300_f267",
+      "doc300_f268",
+      "doc300_f269",
+      "doc300_f270",
+      "doc300_f271",
+      "doc300_f272",
+      "doc300_f273",
+      "doc300_f274",
+      "doc300_f275",
+      "doc300_f276",
+      "doc300_f277",
+      "doc300_f278",
+      "doc300_f279",
+      "doc300_f280",
+      "doc300_f281",
+      "doc300_f282",
+      "doc300_f283",
+      "doc300_f284",
+      "doc300_f285",
+      "doc300_f286",
+      "doc300_f287",
+      "doc300_f288",
+      "doc300_f289",
+      "doc300_f290",
+      "doc300_f291",
+      "doc300_f292",
+      "doc300_f293",
+      "doc300_f294",
+      "doc300_f295",
+      "doc300_f296",
+      "doc300_f297",
+      "doc300_f298",
+      "doc300_f299"
+     ],
+     "expect": null
+    }
+   ]
+  },
+  {
+   "id": "stress-throughput",
+   "kind": "selection",
+   "description": "Sustained throughput: 60 distinct selections, one cold + three warm analyses each",
+   "coldRepeats": 1,
+   "warmRepeats": 3,
+   "cases": [
+    {
+     "id": "st-0-scalar",
+     "source": "int x = 1; int y = x * 1 + 1;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-1-for",
+     "source": "int s = 0; for (int i = 0; i < 12; ++i) s += i;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-2-while",
+     "source": "int s = 0, i = 0; while (i < 8) { s += i++; }",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-3-vector",
+     "source": "vector<int> v = {4, 2, 3}; return (int)v.size();",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-4-symbolic",
+     "source": "int n; cin >> n; int i = 0, s = 0; while (i < n) { s += i; ++i; }",
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-5-scalar",
+     "source": "int x = 6; int y = x * 6 + 1;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-6-for",
+     "source": "int s = 0; for (int i = 0; i < 17; ++i) s += i;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-7-while",
+     "source": "int s = 0, i = 0; while (i < 13) { s += i++; }",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-8-vector",
+     "source": "vector<int> v = {9, 2, 3}; return (int)v.size();",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-9-symbolic",
+     "source": "int n; cin >> n; int i = 0, s = 0; while (i < n) { s += i; ++i; }",
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-10-scalar",
+     "source": "int x = 1; int y = x * 1 + 1;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-11-for",
+     "source": "int s = 0; for (int i = 0; i < 12; ++i) s += i;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-12-while",
+     "source": "int s = 0, i = 0; while (i < 8) { s += i++; }",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-13-vector",
+     "source": "vector<int> v = {4, 2, 3}; return (int)v.size();",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-14-symbolic",
+     "source": "int n; cin >> n; int i = 0, s = 0; while (i < n) { s += i; ++i; }",
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-15-scalar",
+     "source": "int x = 6; int y = x * 6 + 1;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-16-for",
+     "source": "int s = 0; for (int i = 0; i < 17; ++i) s += i;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-17-while",
+     "source": "int s = 0, i = 0; while (i < 13) { s += i++; }",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-18-vector",
+     "source": "vector<int> v = {9, 2, 3}; return (int)v.size();",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-19-symbolic",
+     "source": "int n; cin >> n; int i = 0, s = 0; while (i < n) { s += i; ++i; }",
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-20-scalar",
+     "source": "int x = 1; int y = x * 1 + 1;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-21-for",
+     "source": "int s = 0; for (int i = 0; i < 12; ++i) s += i;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-22-while",
+     "source": "int s = 0, i = 0; while (i < 8) { s += i++; }",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-23-vector",
+     "source": "vector<int> v = {4, 2, 3}; return (int)v.size();",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-24-symbolic",
+     "source": "int n; cin >> n; int i = 0, s = 0; while (i < n) { s += i; ++i; }",
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-25-scalar",
+     "source": "int x = 6; int y = x * 6 + 1;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-26-for",
+     "source": "int s = 0; for (int i = 0; i < 17; ++i) s += i;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-27-while",
+     "source": "int s = 0, i = 0; while (i < 13) { s += i++; }",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-28-vector",
+     "source": "vector<int> v = {9, 2, 3}; return (int)v.size();",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-29-symbolic",
+     "source": "int n; cin >> n; int i = 0, s = 0; while (i < n) { s += i; ++i; }",
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-30-scalar",
+     "source": "int x = 1; int y = x * 1 + 1;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-31-for",
+     "source": "int s = 0; for (int i = 0; i < 12; ++i) s += i;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-32-while",
+     "source": "int s = 0, i = 0; while (i < 8) { s += i++; }",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-33-vector",
+     "source": "vector<int> v = {4, 2, 3}; return (int)v.size();",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-34-symbolic",
+     "source": "int n; cin >> n; int i = 0, s = 0; while (i < n) { s += i; ++i; }",
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-35-scalar",
+     "source": "int x = 6; int y = x * 6 + 1;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-36-for",
+     "source": "int s = 0; for (int i = 0; i < 17; ++i) s += i;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-37-while",
+     "source": "int s = 0, i = 0; while (i < 13) { s += i++; }",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-38-vector",
+     "source": "vector<int> v = {9, 2, 3}; return (int)v.size();",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-39-symbolic",
+     "source": "int n; cin >> n; int i = 0, s = 0; while (i < n) { s += i; ++i; }",
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-40-scalar",
+     "source": "int x = 1; int y = x * 1 + 1;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-41-for",
+     "source": "int s = 0; for (int i = 0; i < 12; ++i) s += i;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-42-while",
+     "source": "int s = 0, i = 0; while (i < 8) { s += i++; }",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-43-vector",
+     "source": "vector<int> v = {4, 2, 3}; return (int)v.size();",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-44-symbolic",
+     "source": "int n; cin >> n; int i = 0, s = 0; while (i < n) { s += i; ++i; }",
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-45-scalar",
+     "source": "int x = 6; int y = x * 6 + 1;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-46-for",
+     "source": "int s = 0; for (int i = 0; i < 17; ++i) s += i;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-47-while",
+     "source": "int s = 0, i = 0; while (i < 13) { s += i++; }",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-48-vector",
+     "source": "vector<int> v = {9, 2, 3}; return (int)v.size();",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-49-symbolic",
+     "source": "int n; cin >> n; int i = 0, s = 0; while (i < n) { s += i; ++i; }",
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-50-scalar",
+     "source": "int x = 1; int y = x * 1 + 1;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-51-for",
+     "source": "int s = 0; for (int i = 0; i < 12; ++i) s += i;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-52-while",
+     "source": "int s = 0, i = 0; while (i < 8) { s += i++; }",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-53-vector",
+     "source": "vector<int> v = {4, 2, 3}; return (int)v.size();",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-54-symbolic",
+     "source": "int n; cin >> n; int i = 0, s = 0; while (i < n) { s += i; ++i; }",
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-55-scalar",
+     "source": "int x = 6; int y = x * 6 + 1;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-56-for",
+     "source": "int s = 0; for (int i = 0; i < 17; ++i) s += i;",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-57-while",
+     "source": "int s = 0, i = 0; while (i < 13) { s += i++; }",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-58-vector",
+     "source": "vector<int> v = {9, 2, 3}; return (int)v.size();",
+     "expect": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    },
+    {
+     "id": "st-59-symbolic",
+     "source": "int n; cin >> n; int i = 0, s = 0; while (i < n) { s += i; ++i; }",
+     "expect": {
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact"
+     }
+    }
+   ]
+  }
+ ]
+}

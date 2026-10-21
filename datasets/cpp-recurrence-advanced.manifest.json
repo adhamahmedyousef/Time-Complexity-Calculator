@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "advanced-recurrence",
+  "reviewedBy": "authored-batch",
+  "cases": [
+    {"id":"partition-recurrence-worst-case","symbol":"partitionRecurrenceWorstCase","time":"O(n^2)","space":"O(n)","confidence":"estimated","tags":["recursion","partition","quicksort"],"inputSymbols":["n"],"proof":"An unbalanced partition gives T(n)=T(n-1)+O(n).","assumptions":"In-place partition recursion.","origin":{"kind":"authored","license":"CC0-1.0-or-authored"},"variantOf":null},
+    {"id":"binary-tree-recursion","symbol":"countDatasetTree","time":"O(n)","space":"O(n)","confidence":"estimated","tags":["recursion","tree"],"inputSymbols":["n"],"proof":"Each tree node is visited once; a skewed tree has linear stack depth.","assumptions":"n is reachable node count.","origin":{"kind":"authored","license":"CC0-1.0-or-authored"},"variantOf":null},
+    {"id":"backtracking-linear-prune","symbol":"placeDatasetQueens","time":"O(n n!)","space":"O(n)","confidence":"estimated","tags":["recursion","backtracking","n-queens"],"inputSymbols":["n"],"proof":"The factorial candidate tree invokes a linear safety check per candidate.","assumptions":"Worst-case pruning behavior.","origin":{"kind":"authored","license":"CC0-1.0-or-authored"},"variantOf":null},
+    {"id":"mixed-ratio-akra-bazzi","symbol":"mixedRatioDataset","time":"O(n^0.79)","space":"O(log n)","confidence":"estimated","tags":["recursion","akra-bazzi","mixed-ratio"],"inputSymbols":["n"],"proof":"p solves 2^-p + 3^-p = 1, so p is approximately 0.79.","assumptions":"Constant work per activation.","origin":{"kind":"authored","license":"CC0-1.0-or-authored"},"variantOf":null},
+    {"id":"opaque-mixed-recurrence","symbol":"opaqueMixedDataset","time":"Unknown","space":"Unknown","confidence":"unknown","tags":["recursion","unknown","adversarial"],"inputSymbols":["n","step"],"proof":"The n-step branch has no proven decreasing constant ratio.","assumptions":"None.","origin":{"kind":"authored","license":"CC0-1.0-or-authored"},"variantOf":null}
+  ]
+}

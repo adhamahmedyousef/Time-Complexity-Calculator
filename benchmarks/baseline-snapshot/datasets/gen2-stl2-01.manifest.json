@@ -1,0 +1,126 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen2-stl2-01-vecSum_0",
+   "symbol": "vecSum_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stl2-01-mapWord_0",
+   "symbol": "mapWord_0",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stl2-01-vecSum_1",
+   "symbol": "vecSum_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stl2-01-mapWord_1",
+   "symbol": "mapWord_1",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stl2-01-vecSum_2",
+   "symbol": "vecSum_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stl2-01-mapWord_2",
+   "symbol": "mapWord_2",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stl2-01-vecSum_3",
+   "symbol": "vecSum_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stl2-01-mapWord_3",
+   "symbol": "mapWord_3",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stl2-01-vecSum_4",
+   "symbol": "vecSum_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stl2-01-mapWord_4",
+   "symbol": "mapWord_4",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stl2-01-vecSum_5",
+   "symbol": "vecSum_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  },
+  {
+   "id": "gen2-stl2-01-mapWord_5",
+   "symbol": "mapWord_5",
+   "time": "O(n log n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "stl"
+   ]
+  }
+ ]
+}

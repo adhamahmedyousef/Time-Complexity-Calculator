@@ -1,0 +1,6 @@
+{"version":1,"language":"cpp","cases":[
+{"id":"local-linear-helper","symbol":"localMaximum","time":"O(n)","space":"O(1)","confidence":"exact","tags":["calls","same-file","linear"]},
+{"id":"local-helper-inside-loops","symbol":"localCallInsideLoops","time":"O(n^3)","space":"O(1)","confidence":"exact","tags":["calls","same-file","composition"]},
+{"id":"max-element-inside-loops","symbol":"maxElementInsideLoops","time":"O(n^3)","space":"O(1)","confidence":"exact","tags":["stl","algorithm","composition"]},
+{"id":"external-call-unknown","symbol":"externalCallMustBeUnknown","time":"Unknown","space":"Unknown","confidence":"unknown","tags":["calls","external","unknown"]}
+]}

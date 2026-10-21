@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-400-pack-level0-294",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-400-pack-level0-294",
+      "symbol": "pack_level0_400_pack_main",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "sorting",
+        "unknown"
+      ],
+      "inputSymbols": [
+        "n",
+        "a"
+      ],
+      "proof": "The comparator depends on mutable state and the search path is not static.",
+      "assumptions": "Intentionally ambiguous; safe analysis should abstain.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-400-pack-sorting_binary_search-base"
+    }
+  ]
+}

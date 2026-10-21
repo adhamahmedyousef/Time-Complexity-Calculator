@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {"id":"std-sort","symbol":"sortValues","time":"O(n log n)","space":"Unknown","confidence":"exact","tags":["stl","algorithm","sort"]},
+    {"id":"std-lower-bound","symbol":"findLowerBound","time":"O(log n)","space":"O(1)","confidence":"exact","tags":["stl","algorithm","binary-search"]},
+    {"id":"std-gcd","symbol":"standardGcd","time":"O(log n)","space":"O(1)","confidence":"exact","tags":["stl","numeric","gcd"]},
+    {"id":"vector-append","symbol":"appendValues","time":"O(n)","space":"O(n)","confidence":"exact","tags":["stl","vector","amortized"]},
+    {"id":"set-insertions-reviewed","symbol":"orderedInsertions","time":"O(n log n)","space":"O(n)","confidence":"exact","tags":["stl","set"]},
+    {"id":"priority-queue-reviewed","symbol":"priorityQueueWork","time":"O(n log n)","space":"O(n)","confidence":"exact","tags":["stl","priority-queue"]},
+    {"id":"unordered-frequency-worst-case","symbol":"unorderedFrequency","time":"O(n^2)","space":"O(n)","confidence":"exact","tags":["stl","unordered-map","worst-case"]}
+  ]
+}

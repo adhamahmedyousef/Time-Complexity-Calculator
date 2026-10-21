@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l1-adversarial-unknown",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l1-alias-heavy-field-mutation-04",
+      "symbol": "pack_l1_aliasHeavyFieldMutation",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "adversarial",
+        "alias-heavy",
+        "level-1"
+      ],
+      "inputSymbols": [
+        "obj"
+      ],
+      "proof": "Heap/object-field effects escape the local reasoning boundary.",
+      "assumptions": "The field updates may alias through helper calls.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l1-alias-heavy-field-mutation"
+    }
+  ]
+}

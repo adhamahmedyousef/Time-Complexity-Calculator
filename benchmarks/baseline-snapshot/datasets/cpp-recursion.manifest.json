@@ -1,0 +1,8 @@
+{"version":1,"language":"cpp","cases":[
+{"id":"recursion-sum","symbol":"sampleRecursiveSum","time":"O(n)","space":"O(n)","confidence":"exact","tags":["recursion","linear"]},
+{"id":"recursion-divide-conquer-max","symbol":"sampleDivideConquerMax","time":"O(n)","space":"O(log n)","confidence":"exact","tags":["recursion","divide-and-conquer"]},
+{"id":"recursion-subsets","symbol":"sampleGenerateSubsets","time":"O(2^n)","space":"O(n)","confidence":"exact","tags":["recursion","backtracking","subsets"]},
+{"id":"recursion-permutations","symbol":"samplePermutations","time":"O(n!)","space":"O(n)","confidence":"exact","tags":["recursion","backtracking","permutations"]},
+{"id":"recursion-binary-search","symbol":"sampleRecursiveBinarySearch","time":"O(log n)","space":"O(log n)","confidence":"exact","tags":["recursion","binary-search"]},
+{"id":"recursion-tail-chain","symbol":"sampleTailRecChain","time":"O(n)","space":"O(n)","confidence":"exact","tags":["recursion","tail-recursion"]}
+]}

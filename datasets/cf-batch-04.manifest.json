@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "cf-batch-04",
+      "symbol": "f",
+      "time": "O(nk)",
+      "space": "O(nk)",
+      "confidence": "exact",
+      "tags": [
+        "dp",
+        "prefix-sum",
+        "interval-selection"
+      ],
+      "inputSymbols": [
+        "n",
+        "m",
+        "k",
+        "q"
+      ],
+      "proof": "States are indexed by position and remaining picks; each state branches in O(1).",
+      "assumptions": "m and k are input dimensions.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l1-adversarial-unknown",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l1-pointer-chasing-loop-02",
+      "symbol": "pack_l1_pointerChasingLoop",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "adversarial",
+        "pointer-chasing",
+        "level-1"
+      ],
+      "inputSymbols": [
+        "next"
+      ],
+      "proof": "Progress depends on the unknown structure of a linked chain.",
+      "assumptions": "The chain length is not statically known.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l1-pointer-chasing-loop"
+    }
+  ]
+}

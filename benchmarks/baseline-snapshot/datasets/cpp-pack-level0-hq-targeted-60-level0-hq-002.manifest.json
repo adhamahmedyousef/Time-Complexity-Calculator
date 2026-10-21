@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-hq-targeted-60-level0-hq-002",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-hq-targeted-60-level0-hq-002",
+      "symbol": "pack_level0_hq_targeted_60_solve",
+      "time": "O(n log n + q log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "composition",
+        "sorting",
+        "queries"
+      ],
+      "inputSymbols": [
+        "n",
+        "q"
+      ],
+      "proof": "Sorting once and answering q queries leads to n log n plus q log n.",
+      "assumptions": "Primitive operations are constant time.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-hq-targeted-60-composition-base"
+    }
+  ]
+}

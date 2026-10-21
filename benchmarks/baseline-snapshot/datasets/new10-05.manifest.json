@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "new10-05",
+      "symbol": "solve",
+      "time": "O(log x * log log x)",
+      "space": "O(1)",
+      "confidence": "estimated",
+      "tags": [
+        "bit-manipulation",
+        "powers-of-two",
+        "binary-scan"
+      ],
+      "inputSymbols": [
+        "x"
+      ],
+      "proof": "The loop iterates once per bit of x and performs modular exponentiation for some zero bits; each exponentiation costs logarithmic time in the bit index.",
+      "assumptions": "x is a non-negative integer and multiplication modulo MOD is constant-time.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

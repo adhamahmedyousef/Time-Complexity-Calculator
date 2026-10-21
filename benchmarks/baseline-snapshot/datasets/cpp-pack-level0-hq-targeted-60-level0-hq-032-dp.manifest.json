@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-hq-targeted-60-level0-hq-032",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-hq-targeted-60-level0-hq-032-dp",
+      "symbol": "pack_level0_hq_targeted_60_solve",
+      "time": "O(n^2)",
+      "space": "O(n^2)",
+      "confidence": "exact",
+      "tags": [
+        "dp",
+        "interval"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Interval DP fills a triangular table.",
+      "assumptions": "Primitive operations are constant time.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-hq-targeted-60-dp-base"
+    }
+  ]
+}

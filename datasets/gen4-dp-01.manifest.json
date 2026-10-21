@@ -1,0 +1,1006 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen4-dp-01-rodCuttingDP_0",
+   "symbol": "rodCuttingDP_0",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-paintFenceDP_0",
+   "symbol": "paintFenceDP_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-maxSubarraySumCircular_0",
+   "symbol": "maxSubarraySumCircular_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-targetSumSubsetWays_0",
+   "symbol": "targetSumSubsetWays_0",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-tribonacciLinear_0",
+   "symbol": "tribonacciLinear_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-fibonacciSpaceOptimized_0",
+   "symbol": "fibonacciSpaceOptimized_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-rodCuttingDP_1",
+   "symbol": "rodCuttingDP_1",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-paintFenceDP_1",
+   "symbol": "paintFenceDP_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-maxSubarraySumCircular_1",
+   "symbol": "maxSubarraySumCircular_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-targetSumSubsetWays_1",
+   "symbol": "targetSumSubsetWays_1",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-tribonacciLinear_1",
+   "symbol": "tribonacciLinear_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-fibonacciSpaceOptimized_1",
+   "symbol": "fibonacciSpaceOptimized_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-rodCuttingDP_2",
+   "symbol": "rodCuttingDP_2",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-paintFenceDP_2",
+   "symbol": "paintFenceDP_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-maxSubarraySumCircular_2",
+   "symbol": "maxSubarraySumCircular_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-targetSumSubsetWays_2",
+   "symbol": "targetSumSubsetWays_2",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-tribonacciLinear_2",
+   "symbol": "tribonacciLinear_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-fibonacciSpaceOptimized_2",
+   "symbol": "fibonacciSpaceOptimized_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-rodCuttingDP_3",
+   "symbol": "rodCuttingDP_3",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-paintFenceDP_3",
+   "symbol": "paintFenceDP_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-maxSubarraySumCircular_3",
+   "symbol": "maxSubarraySumCircular_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-targetSumSubsetWays_3",
+   "symbol": "targetSumSubsetWays_3",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-tribonacciLinear_3",
+   "symbol": "tribonacciLinear_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-fibonacciSpaceOptimized_3",
+   "symbol": "fibonacciSpaceOptimized_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-rodCuttingDP_4",
+   "symbol": "rodCuttingDP_4",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-paintFenceDP_4",
+   "symbol": "paintFenceDP_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-maxSubarraySumCircular_4",
+   "symbol": "maxSubarraySumCircular_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-targetSumSubsetWays_4",
+   "symbol": "targetSumSubsetWays_4",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-tribonacciLinear_4",
+   "symbol": "tribonacciLinear_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-fibonacciSpaceOptimized_4",
+   "symbol": "fibonacciSpaceOptimized_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-rodCuttingDP_5",
+   "symbol": "rodCuttingDP_5",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-paintFenceDP_5",
+   "symbol": "paintFenceDP_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-maxSubarraySumCircular_5",
+   "symbol": "maxSubarraySumCircular_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-targetSumSubsetWays_5",
+   "symbol": "targetSumSubsetWays_5",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-tribonacciLinear_5",
+   "symbol": "tribonacciLinear_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-fibonacciSpaceOptimized_5",
+   "symbol": "fibonacciSpaceOptimized_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-rodCuttingDP_6",
+   "symbol": "rodCuttingDP_6",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-paintFenceDP_6",
+   "symbol": "paintFenceDP_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-maxSubarraySumCircular_6",
+   "symbol": "maxSubarraySumCircular_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-targetSumSubsetWays_6",
+   "symbol": "targetSumSubsetWays_6",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-tribonacciLinear_6",
+   "symbol": "tribonacciLinear_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-fibonacciSpaceOptimized_6",
+   "symbol": "fibonacciSpaceOptimized_6",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-rodCuttingDP_7",
+   "symbol": "rodCuttingDP_7",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-paintFenceDP_7",
+   "symbol": "paintFenceDP_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-maxSubarraySumCircular_7",
+   "symbol": "maxSubarraySumCircular_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-targetSumSubsetWays_7",
+   "symbol": "targetSumSubsetWays_7",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-tribonacciLinear_7",
+   "symbol": "tribonacciLinear_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-fibonacciSpaceOptimized_7",
+   "symbol": "fibonacciSpaceOptimized_7",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-rodCuttingDP_8",
+   "symbol": "rodCuttingDP_8",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-paintFenceDP_8",
+   "symbol": "paintFenceDP_8",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-maxSubarraySumCircular_8",
+   "symbol": "maxSubarraySumCircular_8",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-targetSumSubsetWays_8",
+   "symbol": "targetSumSubsetWays_8",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-tribonacciLinear_8",
+   "symbol": "tribonacciLinear_8",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-fibonacciSpaceOptimized_8",
+   "symbol": "fibonacciSpaceOptimized_8",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-rodCuttingDP_9",
+   "symbol": "rodCuttingDP_9",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-paintFenceDP_9",
+   "symbol": "paintFenceDP_9",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-maxSubarraySumCircular_9",
+   "symbol": "maxSubarraySumCircular_9",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-targetSumSubsetWays_9",
+   "symbol": "targetSumSubsetWays_9",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-tribonacciLinear_9",
+   "symbol": "tribonacciLinear_9",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-fibonacciSpaceOptimized_9",
+   "symbol": "fibonacciSpaceOptimized_9",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-rodCuttingDP_10",
+   "symbol": "rodCuttingDP_10",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-paintFenceDP_10",
+   "symbol": "paintFenceDP_10",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-maxSubarraySumCircular_10",
+   "symbol": "maxSubarraySumCircular_10",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-targetSumSubsetWays_10",
+   "symbol": "targetSumSubsetWays_10",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-tribonacciLinear_10",
+   "symbol": "tribonacciLinear_10",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-fibonacciSpaceOptimized_10",
+   "symbol": "fibonacciSpaceOptimized_10",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-rodCuttingDP_11",
+   "symbol": "rodCuttingDP_11",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-paintFenceDP_11",
+   "symbol": "paintFenceDP_11",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-maxSubarraySumCircular_11",
+   "symbol": "maxSubarraySumCircular_11",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-targetSumSubsetWays_11",
+   "symbol": "targetSumSubsetWays_11",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-tribonacciLinear_11",
+   "symbol": "tribonacciLinear_11",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-fibonacciSpaceOptimized_11",
+   "symbol": "fibonacciSpaceOptimized_11",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-rodCuttingDP_12",
+   "symbol": "rodCuttingDP_12",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-paintFenceDP_12",
+   "symbol": "paintFenceDP_12",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-maxSubarraySumCircular_12",
+   "symbol": "maxSubarraySumCircular_12",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-targetSumSubsetWays_12",
+   "symbol": "targetSumSubsetWays_12",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-tribonacciLinear_12",
+   "symbol": "tribonacciLinear_12",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-fibonacciSpaceOptimized_12",
+   "symbol": "fibonacciSpaceOptimized_12",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-rodCuttingDP_13",
+   "symbol": "rodCuttingDP_13",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-paintFenceDP_13",
+   "symbol": "paintFenceDP_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-maxSubarraySumCircular_13",
+   "symbol": "maxSubarraySumCircular_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-targetSumSubsetWays_13",
+   "symbol": "targetSumSubsetWays_13",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-tribonacciLinear_13",
+   "symbol": "tribonacciLinear_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-fibonacciSpaceOptimized_13",
+   "symbol": "fibonacciSpaceOptimized_13",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-rodCuttingDP_14",
+   "symbol": "rodCuttingDP_14",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-paintFenceDP_14",
+   "symbol": "paintFenceDP_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-maxSubarraySumCircular_14",
+   "symbol": "maxSubarraySumCircular_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-targetSumSubsetWays_14",
+   "symbol": "targetSumSubsetWays_14",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-tribonacciLinear_14",
+   "symbol": "tribonacciLinear_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-fibonacciSpaceOptimized_14",
+   "symbol": "fibonacciSpaceOptimized_14",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-rodCuttingDP_15",
+   "symbol": "rodCuttingDP_15",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-paintFenceDP_15",
+   "symbol": "paintFenceDP_15",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-maxSubarraySumCircular_15",
+   "symbol": "maxSubarraySumCircular_15",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-targetSumSubsetWays_15",
+   "symbol": "targetSumSubsetWays_15",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-tribonacciLinear_15",
+   "symbol": "tribonacciLinear_15",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-fibonacciSpaceOptimized_15",
+   "symbol": "fibonacciSpaceOptimized_15",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-rodCuttingDP_16",
+   "symbol": "rodCuttingDP_16",
+   "time": "O(n^2)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-paintFenceDP_16",
+   "symbol": "paintFenceDP_16",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-maxSubarraySumCircular_16",
+   "symbol": "maxSubarraySumCircular_16",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "dp"
+   ]
+  },
+  {
+   "id": "gen4-dp-01-targetSumSubsetWays_16",
+   "symbol": "targetSumSubsetWays_16",
+   "time": "O(n W)",
+   "space": "O(W)",
+   "confidence": "estimated",
+   "tags": [
+    "dp"
+   ]
+  }
+ ]
+}

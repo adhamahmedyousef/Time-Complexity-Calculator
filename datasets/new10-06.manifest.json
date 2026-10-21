@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "new10-06",
+      "symbol": "main",
+      "time": "O(n t)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "test-cases",
+        "string-construction",
+        "patterns"
+      ],
+      "inputSymbols": [
+        "t",
+        "n"
+      ],
+      "proof": "Each test case prints a string of length proportional to n, so the total work is linear in the total printed length across t cases.",
+      "assumptions": "Output length is counted as part of the work.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

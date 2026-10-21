@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-dp-advanced",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-bitmask-dp-hamiltonish-004",
+      "symbol": "pack_l2_bitmaskDpHamiltonish",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "estimated",
+      "tags": [
+        "dp",
+        "bitmask",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "n",
+        "dp"
+      ],
+      "proof": "Transition considers every endpoint for every subset state.",
+      "assumptions": "Subset state count is 2^n.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-bitmask-dp-hamiltonish"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-rec-prune-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_prunedSearch_pn1",
+      "time": "O(2^n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "recursion",
+        "backtracking",
+        "pruning"
+      ],
+      "algorithmFamily": "backtracking-prune",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Pruning reduces the explored tree but does not change the exponential worst case.",
+      "assumptions": "The pruning condition is optional in the worst case.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-rec-prune-01"
+    }
+  ]
+}

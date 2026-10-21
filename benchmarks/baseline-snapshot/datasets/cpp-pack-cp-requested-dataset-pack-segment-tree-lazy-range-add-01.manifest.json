@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-segment-tree-methods",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-segment-tree-lazy-range-add-01",
+      "symbol": "pack_cp_requested_dataset_pack_segmentTreeLazyRangeAdd_1",
+      "time": "O((n + q) log n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "segment-tree",
+        "lazy-propagation",
+        "range-update"
+      ],
+      "inputSymbols": [
+        "a",
+        "ops"
+      ],
+      "proof": "Lazy tags postpone uniform range updates and each operation visits logarithmically many nodes.",
+      "assumptions": "Updates are range additions and queries are range minimum queries.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-segment-tree-lazy-range-add-01"
+    }
+  ]
+}

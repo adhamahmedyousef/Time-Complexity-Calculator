@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-graphs-advanced",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-kruskal-structural-003",
+      "symbol": "pack_l2_kruskalStructural",
+      "time": "O(m log m)",
+      "space": "O(m)",
+      "confidence": "estimated",
+      "tags": [
+        "graph",
+        "mst",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "edges"
+      ],
+      "proof": "Sorting edges once and DSU merges determine the MST cost.",
+      "assumptions": "Edges are given as weighted endpoints.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-kruskal-structural"
+    }
+  ]
+}

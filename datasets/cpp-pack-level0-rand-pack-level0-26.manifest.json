@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-rand-pack-level0-26",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-rand-pack-level0-26",
+      "symbol": "pack_level0_rand_pack_main",
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "arithmetic",
+        "circular-distance"
+      ],
+      "inputSymbols": [
+        "t",
+        "n",
+        "x1",
+        "x2",
+        "k"
+      ],
+      "proof": "The code performs a constant number of arithmetic operations and one min-distance adjustment.",
+      "assumptions": "Arithmetic is constant-time.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-rand-pack-level0-26"
+    }
+  ]
+}

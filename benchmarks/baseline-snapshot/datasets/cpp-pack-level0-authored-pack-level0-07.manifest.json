@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-authored-pack-level0-07",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-authored-pack-level0-07",
+      "symbol": "pack_level0_authored_pack_main",
+      "time": "O(|s|+|t|)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "strings",
+        "two-strings"
+      ],
+      "inputSymbols": [
+        "s",
+        "t"
+      ],
+      "proof": "Scans two strings from left to right.",
+      "assumptions": "Primitive operations are constant time.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-authored-pack-level0-07"
+    }
+  ]
+}

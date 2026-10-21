@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-recurrence-pack-loop-recursion-composition",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-recurrence-pack-loop-recursion-decrement-13",
+      "symbol": "pack_project_x_recurrence_pack_loopCallsDecrementRec_4_1",
+      "time": "O(n^(n/2))",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "recurrence",
+        "loop-recursion",
+        "exponential"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Each level makes 2n calls on a problem smaller by two: T(n)=2n·T(n-2)+O(n). The product over levels is super-exponential, bounded by n^(n/2).",
+      "assumptions": "The loop executes n times at every recursive level and no memoization is present.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-recurrence-pack-loop-recursion-n-times-01"
+    }
+  ]
+}

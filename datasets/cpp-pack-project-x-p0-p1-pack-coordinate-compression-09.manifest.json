@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-p0-p1-pack-coordinate-compression",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-p0-p1-pack-coordinate-compression-09",
+      "symbol": "pack_project_x_p0_p1_pack_coordinate_compression_09",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "coordinate-compression"
+      ],
+      "inputSymbols": [
+        "n",
+        "a"
+      ],
+      "proof": "Sort + unique compresses values.",
+      "assumptions": "Finite values.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-p0-p1-pack-coordinate-compression-09",
+      "familyRole": "canonical"
+    }
+  ]
+}

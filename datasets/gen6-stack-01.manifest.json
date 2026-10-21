@@ -1,0 +1,1006 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen6-stack-01-nextGreaterElement_0",
+   "symbol": "nextGreaterElement_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_0",
+   "symbol": "prevSmallerElement_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_0",
+   "symbol": "prevGreaterElement_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_0",
+   "symbol": "dailyTemperaturesSpan_0",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_1",
+   "symbol": "nextGreaterElement_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_1",
+   "symbol": "prevSmallerElement_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_1",
+   "symbol": "prevGreaterElement_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_1",
+   "symbol": "dailyTemperaturesSpan_1",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_2",
+   "symbol": "nextGreaterElement_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_2",
+   "symbol": "prevSmallerElement_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_2",
+   "symbol": "prevGreaterElement_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_2",
+   "symbol": "dailyTemperaturesSpan_2",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_3",
+   "symbol": "nextGreaterElement_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_3",
+   "symbol": "prevSmallerElement_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_3",
+   "symbol": "prevGreaterElement_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_3",
+   "symbol": "dailyTemperaturesSpan_3",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_4",
+   "symbol": "nextGreaterElement_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_4",
+   "symbol": "prevSmallerElement_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_4",
+   "symbol": "prevGreaterElement_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_4",
+   "symbol": "dailyTemperaturesSpan_4",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_5",
+   "symbol": "nextGreaterElement_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_5",
+   "symbol": "prevSmallerElement_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_5",
+   "symbol": "prevGreaterElement_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_5",
+   "symbol": "dailyTemperaturesSpan_5",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_6",
+   "symbol": "nextGreaterElement_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_6",
+   "symbol": "prevSmallerElement_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_6",
+   "symbol": "prevGreaterElement_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_6",
+   "symbol": "dailyTemperaturesSpan_6",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_7",
+   "symbol": "nextGreaterElement_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_7",
+   "symbol": "prevSmallerElement_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_7",
+   "symbol": "prevGreaterElement_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_7",
+   "symbol": "dailyTemperaturesSpan_7",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_8",
+   "symbol": "nextGreaterElement_8",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_8",
+   "symbol": "prevSmallerElement_8",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_8",
+   "symbol": "prevGreaterElement_8",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_8",
+   "symbol": "dailyTemperaturesSpan_8",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_9",
+   "symbol": "nextGreaterElement_9",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_9",
+   "symbol": "prevSmallerElement_9",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_9",
+   "symbol": "prevGreaterElement_9",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_9",
+   "symbol": "dailyTemperaturesSpan_9",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_10",
+   "symbol": "nextGreaterElement_10",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_10",
+   "symbol": "prevSmallerElement_10",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_10",
+   "symbol": "prevGreaterElement_10",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_10",
+   "symbol": "dailyTemperaturesSpan_10",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_11",
+   "symbol": "nextGreaterElement_11",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_11",
+   "symbol": "prevSmallerElement_11",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_11",
+   "symbol": "prevGreaterElement_11",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_11",
+   "symbol": "dailyTemperaturesSpan_11",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_12",
+   "symbol": "nextGreaterElement_12",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_12",
+   "symbol": "prevSmallerElement_12",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_12",
+   "symbol": "prevGreaterElement_12",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_12",
+   "symbol": "dailyTemperaturesSpan_12",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_13",
+   "symbol": "nextGreaterElement_13",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_13",
+   "symbol": "prevSmallerElement_13",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_13",
+   "symbol": "prevGreaterElement_13",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_13",
+   "symbol": "dailyTemperaturesSpan_13",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_14",
+   "symbol": "nextGreaterElement_14",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_14",
+   "symbol": "prevSmallerElement_14",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_14",
+   "symbol": "prevGreaterElement_14",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_14",
+   "symbol": "dailyTemperaturesSpan_14",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_15",
+   "symbol": "nextGreaterElement_15",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_15",
+   "symbol": "prevSmallerElement_15",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_15",
+   "symbol": "prevGreaterElement_15",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_15",
+   "symbol": "dailyTemperaturesSpan_15",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_16",
+   "symbol": "nextGreaterElement_16",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_16",
+   "symbol": "prevSmallerElement_16",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_16",
+   "symbol": "prevGreaterElement_16",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_16",
+   "symbol": "dailyTemperaturesSpan_16",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_17",
+   "symbol": "nextGreaterElement_17",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_17",
+   "symbol": "prevSmallerElement_17",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_17",
+   "symbol": "prevGreaterElement_17",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_17",
+   "symbol": "dailyTemperaturesSpan_17",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_18",
+   "symbol": "nextGreaterElement_18",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_18",
+   "symbol": "prevSmallerElement_18",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_18",
+   "symbol": "prevGreaterElement_18",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_18",
+   "symbol": "dailyTemperaturesSpan_18",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_19",
+   "symbol": "nextGreaterElement_19",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_19",
+   "symbol": "prevSmallerElement_19",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_19",
+   "symbol": "prevGreaterElement_19",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_19",
+   "symbol": "dailyTemperaturesSpan_19",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_20",
+   "symbol": "nextGreaterElement_20",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_20",
+   "symbol": "prevSmallerElement_20",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_20",
+   "symbol": "prevGreaterElement_20",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_20",
+   "symbol": "dailyTemperaturesSpan_20",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_21",
+   "symbol": "nextGreaterElement_21",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_21",
+   "symbol": "prevSmallerElement_21",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_21",
+   "symbol": "prevGreaterElement_21",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_21",
+   "symbol": "dailyTemperaturesSpan_21",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_22",
+   "symbol": "nextGreaterElement_22",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_22",
+   "symbol": "prevSmallerElement_22",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_22",
+   "symbol": "prevGreaterElement_22",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_22",
+   "symbol": "dailyTemperaturesSpan_22",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_23",
+   "symbol": "nextGreaterElement_23",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_23",
+   "symbol": "prevSmallerElement_23",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_23",
+   "symbol": "prevGreaterElement_23",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_23",
+   "symbol": "dailyTemperaturesSpan_23",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-nextGreaterElement_24",
+   "symbol": "nextGreaterElement_24",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevSmallerElement_24",
+   "symbol": "prevSmallerElement_24",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-prevGreaterElement_24",
+   "symbol": "prevGreaterElement_24",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  },
+  {
+   "id": "gen6-stack-01-dailyTemperaturesSpan_24",
+   "symbol": "dailyTemperaturesSpan_24",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "estimated",
+   "tags": [
+    "stack"
+   ]
+  }
+ ]
+}

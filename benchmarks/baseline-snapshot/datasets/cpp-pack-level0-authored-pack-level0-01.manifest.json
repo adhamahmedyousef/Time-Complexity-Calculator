@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-authored-pack-level0-01",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-authored-pack-level0-01",
+      "symbol": "pack_level0_authored_pack_main",
+      "time": "O(1)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "math",
+        "constant-time"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Reads one integer and prints a fixed expression.",
+      "assumptions": "Primitive operations are constant time.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-authored-pack-level0-01"
+    }
+  ]
+}

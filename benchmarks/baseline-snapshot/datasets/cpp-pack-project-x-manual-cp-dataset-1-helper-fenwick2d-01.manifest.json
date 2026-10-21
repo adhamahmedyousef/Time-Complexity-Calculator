@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-helper-fenwick2d-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_fenwick2DQuery_f2d1",
+      "time": "O(q log^2 n)",
+      "space": "O(n^2)",
+      "confidence": "estimated",
+      "tags": [
+        "fenwick",
+        "2d",
+        "class-methods"
+      ],
+      "algorithmFamily": "fenwick-tree-2d",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n",
+        "q",
+        "ops"
+      ],
+      "proof": "Two nested lowbit walks multiply the logarithmic factor across both dimensions.",
+      "assumptions": "The grid is n by n and operations are valid.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-helper-fenwick2d-01"
+    }
+  ]
+}

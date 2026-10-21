@@ -1,0 +1,206 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen5-sort-02-selectionSort_25",
+   "symbol": "selectionSort_25",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen5-sort-02-insertionSort_25",
+   "symbol": "insertionSort_25",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen5-sort-02-countSortFreq_25",
+   "symbol": "countSortFreq_25",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen5-sort-02-dutchFlagPartition_25",
+   "symbol": "dutchFlagPartition_25",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen5-sort-02-selectionSort_26",
+   "symbol": "selectionSort_26",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen5-sort-02-insertionSort_26",
+   "symbol": "insertionSort_26",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen5-sort-02-countSortFreq_26",
+   "symbol": "countSortFreq_26",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen5-sort-02-dutchFlagPartition_26",
+   "symbol": "dutchFlagPartition_26",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen5-sort-02-selectionSort_27",
+   "symbol": "selectionSort_27",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen5-sort-02-insertionSort_27",
+   "symbol": "insertionSort_27",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen5-sort-02-countSortFreq_27",
+   "symbol": "countSortFreq_27",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen5-sort-02-dutchFlagPartition_27",
+   "symbol": "dutchFlagPartition_27",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen5-sort-02-selectionSort_28",
+   "symbol": "selectionSort_28",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen5-sort-02-insertionSort_28",
+   "symbol": "insertionSort_28",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen5-sort-02-countSortFreq_28",
+   "symbol": "countSortFreq_28",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen5-sort-02-dutchFlagPartition_28",
+   "symbol": "dutchFlagPartition_28",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen5-sort-02-selectionSort_29",
+   "symbol": "selectionSort_29",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen5-sort-02-insertionSort_29",
+   "symbol": "insertionSort_29",
+   "time": "O(n^2)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen5-sort-02-countSortFreq_29",
+   "symbol": "countSortFreq_29",
+   "time": "O(n)",
+   "space": "O(k)",
+   "confidence": "exact",
+   "tags": [
+    "sort"
+   ]
+  },
+  {
+   "id": "gen5-sort-02-dutchFlagPartition_29",
+   "symbol": "dutchFlagPartition_29",
+   "time": "Unknown",
+   "space": "Unknown",
+   "confidence": "unknown",
+   "tags": [
+    "sort"
+   ]
+  }
+ ]
+}

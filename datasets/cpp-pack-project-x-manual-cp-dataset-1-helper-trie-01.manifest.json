@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-helper-trie-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_trieOperations_tr1",
+      "time": "O(totalChars)",
+      "space": "O(totalChars)",
+      "confidence": "estimated",
+      "tags": [
+        "trie",
+        "strings",
+        "class-methods"
+      ],
+      "algorithmFamily": "trie",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "totalChars",
+        "words"
+      ],
+      "proof": "Each character follows one trie edge and may create at most one new node.",
+      "assumptions": "The alphabet is fixed and small.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-helper-trie-01"
+    }
+  ]
+}

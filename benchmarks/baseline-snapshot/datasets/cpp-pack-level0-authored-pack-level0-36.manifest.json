@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-authored-pack-level0-36",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-authored-pack-level0-36",
+      "symbol": "pack_level0_authored_pack_main",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "unknown",
+        "variant"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Early break depends on input content and hidden invariants.",
+      "assumptions": "Intentionally ambiguous; safe analysis should abstain.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-authored-pack-level0-36"
+    }
+  ]
+}

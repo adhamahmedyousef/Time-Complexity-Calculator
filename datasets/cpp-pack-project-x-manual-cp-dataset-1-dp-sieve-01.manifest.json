@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-dp-sieve-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_sieveCount_sv1",
+      "time": "O(n log log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "number-theory",
+        "sieve"
+      ],
+      "algorithmFamily": "number-theory-sieve",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "The sieve marks each composite a bounded number of times across prime factors.",
+      "assumptions": "The table is indexed from 0 to n.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-dp-sieve-01"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-dp-reroot-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_rerootDpScore_rr1",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "dp",
+        "tree-dp",
+        "rerooting"
+      ],
+      "algorithmFamily": "tree-dp-rerooting",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "n",
+        "adj"
+      ],
+      "proof": "Two traversals propagate subtree information and then reroot it across edges.",
+      "assumptions": "Tree is rooted and connected.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-dp-reroot-01"
+    }
+  ]
+}

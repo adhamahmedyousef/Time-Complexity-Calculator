@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l1-prefix-range",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l1-frequency-table-range-answers-03",
+      "symbol": "pack_l1_frequencyTableRangeAnswers",
+      "time": "O(n + m)",
+      "space": "O(n + m)",
+      "confidence": "estimated",
+      "tags": [
+        "frequency-table",
+        "range-query",
+        "level-1"
+      ],
+      "inputSymbols": [
+        "values",
+        "queries"
+      ],
+      "proof": "One counting pass builds frequencies; one query pass reads aggregated counts.",
+      "assumptions": "Values are bounded by the given alphabet size.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l1-frequency-table-range-answers"
+    }
+  ]
+}

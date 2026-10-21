@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-tree-algorithms",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-euler-tour-subtree-01",
+      "symbol": "pack_cp_requested_dataset_pack_eulerTourSubtree_1",
+      "time": "O(n + q)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "tree",
+        "euler-tour",
+        "subtree"
+      ],
+      "inputSymbols": [
+        "adj",
+        "nodes"
+      ],
+      "proof": "Euler order is built once and subtree sizes come from entry/exit ranges.",
+      "assumptions": "Tree is connected.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-euler-tour-subtree-01"
+    }
+  ]
+}

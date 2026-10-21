@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "new10-04",
+      "symbol": "main",
+      "time": "O(n)",
+      "space": "O(1)",
+      "confidence": "exact",
+      "tags": [
+        "arrays",
+        "scan",
+        "min-max"
+      ],
+      "inputSymbols": [
+        "n",
+        "x"
+      ],
+      "proof": "A single pass tracks the minimum and maximum and then prints their difference.",
+      "assumptions": "The input array has n elements.",
+      "origin": {
+        "kind": "authored",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": null
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-p0-p1-pack-sqrt-decomposition",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-p0-p1-pack-sqrt-decomposition-05",
+      "symbol": "pack_project_x_p0_p1_pack_sqrt_decomposition_05",
+      "time": "O((n + q) sqrt n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "sqrt-decomposition"
+      ],
+      "inputSymbols": [
+        "n",
+        "q",
+        "a",
+        "qs"
+      ],
+      "proof": "Block decomposition gives sqrt-sized work per operation.",
+      "assumptions": "Blocks are static.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-p0-p1-pack-sqrt-decomposition-05",
+      "familyRole": "canonical"
+    }
+  ]
+}

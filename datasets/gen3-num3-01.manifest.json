@@ -1,0 +1,966 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen3-num3-01-gcdEuclid_0",
+   "symbol": "gcdEuclid_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-lcmEuclid_0",
+   "symbol": "lcmEuclid_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-isPrimeTrial_0",
+   "symbol": "isPrimeTrial_0",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-divisorCount_0",
+   "symbol": "divisorCount_0",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-divisorSum_0",
+   "symbol": "divisorSum_0",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-modPow_0",
+   "symbol": "modPow_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-modInverse_0",
+   "symbol": "modInverse_0",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitSumX_0",
+   "symbol": "digitSumX_0",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitCountX_0",
+   "symbol": "digitCountX_0",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-reverseNumberX_0",
+   "symbol": "reverseNumberX_0",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-binaryDigitCount_0",
+   "symbol": "binaryDigitCount_0",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitSquareSum_0",
+   "symbol": "digitSquareSum_0",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-gcdEuclid_1",
+   "symbol": "gcdEuclid_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-lcmEuclid_1",
+   "symbol": "lcmEuclid_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-isPrimeTrial_1",
+   "symbol": "isPrimeTrial_1",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-divisorCount_1",
+   "symbol": "divisorCount_1",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-divisorSum_1",
+   "symbol": "divisorSum_1",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-modPow_1",
+   "symbol": "modPow_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-modInverse_1",
+   "symbol": "modInverse_1",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitSumX_1",
+   "symbol": "digitSumX_1",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitCountX_1",
+   "symbol": "digitCountX_1",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-reverseNumberX_1",
+   "symbol": "reverseNumberX_1",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-binaryDigitCount_1",
+   "symbol": "binaryDigitCount_1",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitSquareSum_1",
+   "symbol": "digitSquareSum_1",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-gcdEuclid_2",
+   "symbol": "gcdEuclid_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-lcmEuclid_2",
+   "symbol": "lcmEuclid_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-isPrimeTrial_2",
+   "symbol": "isPrimeTrial_2",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-divisorCount_2",
+   "symbol": "divisorCount_2",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-divisorSum_2",
+   "symbol": "divisorSum_2",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-modPow_2",
+   "symbol": "modPow_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-modInverse_2",
+   "symbol": "modInverse_2",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitSumX_2",
+   "symbol": "digitSumX_2",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitCountX_2",
+   "symbol": "digitCountX_2",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-reverseNumberX_2",
+   "symbol": "reverseNumberX_2",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-binaryDigitCount_2",
+   "symbol": "binaryDigitCount_2",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitSquareSum_2",
+   "symbol": "digitSquareSum_2",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-gcdEuclid_3",
+   "symbol": "gcdEuclid_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-lcmEuclid_3",
+   "symbol": "lcmEuclid_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-isPrimeTrial_3",
+   "symbol": "isPrimeTrial_3",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-divisorCount_3",
+   "symbol": "divisorCount_3",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-divisorSum_3",
+   "symbol": "divisorSum_3",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-modPow_3",
+   "symbol": "modPow_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-modInverse_3",
+   "symbol": "modInverse_3",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitSumX_3",
+   "symbol": "digitSumX_3",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitCountX_3",
+   "symbol": "digitCountX_3",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-reverseNumberX_3",
+   "symbol": "reverseNumberX_3",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-binaryDigitCount_3",
+   "symbol": "binaryDigitCount_3",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitSquareSum_3",
+   "symbol": "digitSquareSum_3",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-gcdEuclid_4",
+   "symbol": "gcdEuclid_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-lcmEuclid_4",
+   "symbol": "lcmEuclid_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-isPrimeTrial_4",
+   "symbol": "isPrimeTrial_4",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-divisorCount_4",
+   "symbol": "divisorCount_4",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-divisorSum_4",
+   "symbol": "divisorSum_4",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-modPow_4",
+   "symbol": "modPow_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-modInverse_4",
+   "symbol": "modInverse_4",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitSumX_4",
+   "symbol": "digitSumX_4",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitCountX_4",
+   "symbol": "digitCountX_4",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-reverseNumberX_4",
+   "symbol": "reverseNumberX_4",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-binaryDigitCount_4",
+   "symbol": "binaryDigitCount_4",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitSquareSum_4",
+   "symbol": "digitSquareSum_4",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-gcdEuclid_5",
+   "symbol": "gcdEuclid_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-lcmEuclid_5",
+   "symbol": "lcmEuclid_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-isPrimeTrial_5",
+   "symbol": "isPrimeTrial_5",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-divisorCount_5",
+   "symbol": "divisorCount_5",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-divisorSum_5",
+   "symbol": "divisorSum_5",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-modPow_5",
+   "symbol": "modPow_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-modInverse_5",
+   "symbol": "modInverse_5",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitSumX_5",
+   "symbol": "digitSumX_5",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitCountX_5",
+   "symbol": "digitCountX_5",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-reverseNumberX_5",
+   "symbol": "reverseNumberX_5",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-binaryDigitCount_5",
+   "symbol": "binaryDigitCount_5",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitSquareSum_5",
+   "symbol": "digitSquareSum_5",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-gcdEuclid_6",
+   "symbol": "gcdEuclid_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-lcmEuclid_6",
+   "symbol": "lcmEuclid_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-isPrimeTrial_6",
+   "symbol": "isPrimeTrial_6",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-divisorCount_6",
+   "symbol": "divisorCount_6",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-divisorSum_6",
+   "symbol": "divisorSum_6",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-modPow_6",
+   "symbol": "modPow_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-modInverse_6",
+   "symbol": "modInverse_6",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitSumX_6",
+   "symbol": "digitSumX_6",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitCountX_6",
+   "symbol": "digitCountX_6",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-reverseNumberX_6",
+   "symbol": "reverseNumberX_6",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-binaryDigitCount_6",
+   "symbol": "binaryDigitCount_6",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitSquareSum_6",
+   "symbol": "digitSquareSum_6",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-gcdEuclid_7",
+   "symbol": "gcdEuclid_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-lcmEuclid_7",
+   "symbol": "lcmEuclid_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-isPrimeTrial_7",
+   "symbol": "isPrimeTrial_7",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-divisorCount_7",
+   "symbol": "divisorCount_7",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-divisorSum_7",
+   "symbol": "divisorSum_7",
+   "time": "O(sqrt n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-modPow_7",
+   "symbol": "modPow_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-modInverse_7",
+   "symbol": "modInverse_7",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "math"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitSumX_7",
+   "symbol": "digitSumX_7",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitCountX_7",
+   "symbol": "digitCountX_7",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-reverseNumberX_7",
+   "symbol": "reverseNumberX_7",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-binaryDigitCount_7",
+   "symbol": "binaryDigitCount_7",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  },
+  {
+   "id": "gen3-num3-01-digitSquareSum_7",
+   "symbol": "digitSquareSum_7",
+   "time": "O(log x)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "digits"
+   ]
+  }
+ ]
+}

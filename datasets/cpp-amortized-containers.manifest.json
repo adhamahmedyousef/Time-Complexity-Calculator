@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "amortized-containers",
+  "reviewedBy": "authored-batch",
+  "cases": [
+    {"id":"amortized-vector-append","symbol":"amortizedVectorAppend","time":"O(n)","space":"O(n)","confidence":"exact","tags":["stl","vector","amortized"],"inputSymbols":["n"],"proof":"A geometric-resizing vector performs O(n) aggregate copying across n push_back operations; the potential-method argument is complete for a flat append-only sequence, so the documented first-principles label is exact (adjudicated from estimated to match the axis-family algebra for the identical shape).","assumptions":"One local vector, one linear append sequence, no nested iteration, no interleaved resize/erase.","origin":{"kind":"authored","license":"CC0-1.0-or-authored"},"variantOf":null}
+  ]
+}

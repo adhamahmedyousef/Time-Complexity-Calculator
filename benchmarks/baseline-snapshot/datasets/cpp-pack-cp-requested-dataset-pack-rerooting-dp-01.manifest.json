@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-tree-algorithms",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-rerooting-dp-01",
+      "symbol": "pack_cp_requested_dataset_pack_rerootingDp_1",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "tree",
+        "rerooting-dp",
+        "tree-dp"
+      ],
+      "inputSymbols": [
+        "adj"
+      ],
+      "proof": "Two tree traversals propagate subtree aggregates and then reroot them.",
+      "assumptions": "Tree is rooted at node 0.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-rerooting-dp-01"
+    }
+  ]
+}

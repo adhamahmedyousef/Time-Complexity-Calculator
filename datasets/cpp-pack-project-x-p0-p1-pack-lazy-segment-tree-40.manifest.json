@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-p0-p1-pack-lazy-segment-tree",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-p0-p1-pack-lazy-segment-tree-40",
+      "symbol": "pack_project_x_p0_p1_pack_lazy_segment_tree_unknown_40",
+      "time": "Unknown",
+      "space": "Unknown",
+      "confidence": "unknown",
+      "tags": [
+        "lazy-segment-tree",
+        "unknown",
+        "unknown"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "Direct mutation without a proven lazy invariant is unsafe.",
+      "assumptions": "This is deliberately ambiguous.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-p0-p1-pack-lazy-segment-tree-40",
+      "familyRole": "adversarial"
+    }
+  ]
+}

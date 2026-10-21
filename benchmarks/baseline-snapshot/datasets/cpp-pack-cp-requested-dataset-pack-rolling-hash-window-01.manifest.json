@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-strings-structures",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-rolling-hash-window-01",
+      "symbol": "pack_cp_requested_dataset_pack_rollingHashWindow_1",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "strings",
+        "rolling-hash",
+        "window"
+      ],
+      "inputSymbols": [
+        "s"
+      ],
+      "proof": "A fixed-size rolling update scans the string once.",
+      "assumptions": "Window size is constant or provided externally.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-rolling-hash-window-01"
+    }
+  ]
+}

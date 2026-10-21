@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-strings-advanced",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-trie-insert-lookup-003",
+      "symbol": "pack_l2_trieInsertLookup",
+      "time": "O(totalChars)",
+      "space": "O(totalChars)",
+      "confidence": "estimated",
+      "tags": [
+        "strings",
+        "trie",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "words"
+      ],
+      "proof": "Each character follows one trie edge and may allocate one new node.",
+      "assumptions": "Words are inserted one by one.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-trie-insert-lookup"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-manual-cp-dataset-1-project-x-manual-cp-dataset",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-manual-cp-dataset-1-graph-bellman-01",
+      "symbol": "pack_project_x_manual_cp_dataset_1_bellmanFord_be1",
+      "time": "O(VE)",
+      "space": "O(V)",
+      "confidence": "exact",
+      "tags": [
+        "graphs",
+        "shortest-path",
+        "relaxation"
+      ],
+      "algorithmFamily": "bellman-ford",
+      "familyRole": "base-family",
+      "inputSymbols": [
+        "V",
+        "E",
+        "edges"
+      ],
+      "proof": "The edge list is relaxed for exactly V-1 rounds in the worst case.",
+      "assumptions": "No negative-cycle proof is needed for the shortest-path bound itself.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-manual-cp-dataset-1-graph-bellman-01"
+    }
+  ]
+}

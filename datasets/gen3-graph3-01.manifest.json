@@ -1,0 +1,646 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen3-graph3-01-bfsDistance_0",
+   "symbol": "bfsDistance_0",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-reachableCount_0",
+   "symbol": "reachableCount_0",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-hasPathBfs_0",
+   "symbol": "hasPathBfs_0",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-countComponents_0",
+   "symbol": "countComponents_0",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-sumDistancesBfs_0",
+   "symbol": "sumDistancesBfs_0",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-farthestNodeBfs_0",
+   "symbol": "farthestNodeBfs_0",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-degreeSum_0",
+   "symbol": "degreeSum_0",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-topoKahn_0",
+   "symbol": "topoKahn_0",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-bfsDistance_1",
+   "symbol": "bfsDistance_1",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-reachableCount_1",
+   "symbol": "reachableCount_1",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-hasPathBfs_1",
+   "symbol": "hasPathBfs_1",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-countComponents_1",
+   "symbol": "countComponents_1",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-sumDistancesBfs_1",
+   "symbol": "sumDistancesBfs_1",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-farthestNodeBfs_1",
+   "symbol": "farthestNodeBfs_1",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-degreeSum_1",
+   "symbol": "degreeSum_1",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-topoKahn_1",
+   "symbol": "topoKahn_1",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-bfsDistance_2",
+   "symbol": "bfsDistance_2",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-reachableCount_2",
+   "symbol": "reachableCount_2",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-hasPathBfs_2",
+   "symbol": "hasPathBfs_2",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-countComponents_2",
+   "symbol": "countComponents_2",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-sumDistancesBfs_2",
+   "symbol": "sumDistancesBfs_2",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-farthestNodeBfs_2",
+   "symbol": "farthestNodeBfs_2",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-degreeSum_2",
+   "symbol": "degreeSum_2",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-topoKahn_2",
+   "symbol": "topoKahn_2",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-bfsDistance_3",
+   "symbol": "bfsDistance_3",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-reachableCount_3",
+   "symbol": "reachableCount_3",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-hasPathBfs_3",
+   "symbol": "hasPathBfs_3",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-countComponents_3",
+   "symbol": "countComponents_3",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-sumDistancesBfs_3",
+   "symbol": "sumDistancesBfs_3",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-farthestNodeBfs_3",
+   "symbol": "farthestNodeBfs_3",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-degreeSum_3",
+   "symbol": "degreeSum_3",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-topoKahn_3",
+   "symbol": "topoKahn_3",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-bfsDistance_4",
+   "symbol": "bfsDistance_4",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-reachableCount_4",
+   "symbol": "reachableCount_4",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-hasPathBfs_4",
+   "symbol": "hasPathBfs_4",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-countComponents_4",
+   "symbol": "countComponents_4",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-sumDistancesBfs_4",
+   "symbol": "sumDistancesBfs_4",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-farthestNodeBfs_4",
+   "symbol": "farthestNodeBfs_4",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-degreeSum_4",
+   "symbol": "degreeSum_4",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-topoKahn_4",
+   "symbol": "topoKahn_4",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-bfsDistance_5",
+   "symbol": "bfsDistance_5",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-reachableCount_5",
+   "symbol": "reachableCount_5",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-hasPathBfs_5",
+   "symbol": "hasPathBfs_5",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-countComponents_5",
+   "symbol": "countComponents_5",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-sumDistancesBfs_5",
+   "symbol": "sumDistancesBfs_5",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-farthestNodeBfs_5",
+   "symbol": "farthestNodeBfs_5",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-degreeSum_5",
+   "symbol": "degreeSum_5",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-topoKahn_5",
+   "symbol": "topoKahn_5",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-bfsDistance_6",
+   "symbol": "bfsDistance_6",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-reachableCount_6",
+   "symbol": "reachableCount_6",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-hasPathBfs_6",
+   "symbol": "hasPathBfs_6",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-countComponents_6",
+   "symbol": "countComponents_6",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-sumDistancesBfs_6",
+   "symbol": "sumDistancesBfs_6",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-farthestNodeBfs_6",
+   "symbol": "farthestNodeBfs_6",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-degreeSum_6",
+   "symbol": "degreeSum_6",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-topoKahn_6",
+   "symbol": "topoKahn_6",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-bfsDistance_7",
+   "symbol": "bfsDistance_7",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-reachableCount_7",
+   "symbol": "reachableCount_7",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-hasPathBfs_7",
+   "symbol": "hasPathBfs_7",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-countComponents_7",
+   "symbol": "countComponents_7",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-sumDistancesBfs_7",
+   "symbol": "sumDistancesBfs_7",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-farthestNodeBfs_7",
+   "symbol": "farthestNodeBfs_7",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-degreeSum_7",
+   "symbol": "degreeSum_7",
+   "time": "O(V)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "graph"
+   ]
+  },
+  {
+   "id": "gen3-graph3-01-topoKahn_7",
+   "symbol": "topoKahn_7",
+   "time": "O(V + E)",
+   "space": "O(V)",
+   "confidence": "estimated",
+   "tags": [
+    "graph"
+   ]
+  }
+ ]
+}

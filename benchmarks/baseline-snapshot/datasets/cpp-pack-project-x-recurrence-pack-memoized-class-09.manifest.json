@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-recurrence-pack-memoization-dp",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-recurrence-pack-memoized-class-09",
+      "symbol": "pack_project_x_recurrence_pack_memoClassRec_3_1",
+      "time": "O(n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "recurrence",
+        "memoization",
+        "class"
+      ],
+      "inputSymbols": [
+        "n"
+      ],
+      "proof": "Class-owned memo storage caches one value per state, preventing exponential recomputation.",
+      "assumptions": "The class instance persists across recursive calls.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-recurrence-pack-memoized-fib-01"
+    }
+  ]
+}

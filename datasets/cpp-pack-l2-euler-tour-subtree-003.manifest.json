@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-trees-advanced",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-euler-tour-subtree-003",
+      "symbol": "pack_l2_eulerTourSubtree",
+      "time": "O(n + q)",
+      "space": "O(n)",
+      "confidence": "estimated",
+      "tags": [
+        "tree",
+        "euler-tour",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "n",
+        "queries"
+      ],
+      "proof": "Euler order is built once and subtree queries are answered from entry/exit ranges.",
+      "assumptions": "Tree is connected.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-euler-tour-subtree"
+    }
+  ]
+}

@@ -1,0 +1,1089 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen6-range-04-prefixXorTable_50",
+   "symbol": "prefixXorTable_50",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorQueries_50",
+   "symbol": "prefixXorQueries_50",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-diffArrayRangeUpdates_50",
+   "symbol": "diffArrayRangeUpdates_50",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen6-range-04-productExceptSelf_50",
+   "symbol": "productExceptSelf_50",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range"
+   ]
+  },
+  {
+   "id": "gen6-range-04-sumOfSquaresPrefix_50",
+   "symbol": "sumOfSquaresPrefix_50",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixSum2DBuild_50",
+   "symbol": "prefixSum2DBuild_50",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorTable_51",
+   "symbol": "prefixXorTable_51",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorQueries_51",
+   "symbol": "prefixXorQueries_51",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-diffArrayRangeUpdates_51",
+   "symbol": "diffArrayRangeUpdates_51",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen6-range-04-productExceptSelf_51",
+   "symbol": "productExceptSelf_51",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range"
+   ]
+  },
+  {
+   "id": "gen6-range-04-sumOfSquaresPrefix_51",
+   "symbol": "sumOfSquaresPrefix_51",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixSum2DBuild_51",
+   "symbol": "prefixSum2DBuild_51",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorTable_52",
+   "symbol": "prefixXorTable_52",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorQueries_52",
+   "symbol": "prefixXorQueries_52",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-diffArrayRangeUpdates_52",
+   "symbol": "diffArrayRangeUpdates_52",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen6-range-04-productExceptSelf_52",
+   "symbol": "productExceptSelf_52",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range"
+   ]
+  },
+  {
+   "id": "gen6-range-04-sumOfSquaresPrefix_52",
+   "symbol": "sumOfSquaresPrefix_52",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixSum2DBuild_52",
+   "symbol": "prefixSum2DBuild_52",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorTable_53",
+   "symbol": "prefixXorTable_53",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorQueries_53",
+   "symbol": "prefixXorQueries_53",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-diffArrayRangeUpdates_53",
+   "symbol": "diffArrayRangeUpdates_53",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen6-range-04-productExceptSelf_53",
+   "symbol": "productExceptSelf_53",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range"
+   ]
+  },
+  {
+   "id": "gen6-range-04-sumOfSquaresPrefix_53",
+   "symbol": "sumOfSquaresPrefix_53",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixSum2DBuild_53",
+   "symbol": "prefixSum2DBuild_53",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorTable_54",
+   "symbol": "prefixXorTable_54",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorQueries_54",
+   "symbol": "prefixXorQueries_54",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-diffArrayRangeUpdates_54",
+   "symbol": "diffArrayRangeUpdates_54",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen6-range-04-productExceptSelf_54",
+   "symbol": "productExceptSelf_54",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range"
+   ]
+  },
+  {
+   "id": "gen6-range-04-sumOfSquaresPrefix_54",
+   "symbol": "sumOfSquaresPrefix_54",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixSum2DBuild_54",
+   "symbol": "prefixSum2DBuild_54",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorTable_55",
+   "symbol": "prefixXorTable_55",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorQueries_55",
+   "symbol": "prefixXorQueries_55",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-diffArrayRangeUpdates_55",
+   "symbol": "diffArrayRangeUpdates_55",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen6-range-04-productExceptSelf_55",
+   "symbol": "productExceptSelf_55",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range"
+   ]
+  },
+  {
+   "id": "gen6-range-04-sumOfSquaresPrefix_55",
+   "symbol": "sumOfSquaresPrefix_55",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixSum2DBuild_55",
+   "symbol": "prefixSum2DBuild_55",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorTable_56",
+   "symbol": "prefixXorTable_56",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorQueries_56",
+   "symbol": "prefixXorQueries_56",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-diffArrayRangeUpdates_56",
+   "symbol": "diffArrayRangeUpdates_56",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen6-range-04-productExceptSelf_56",
+   "symbol": "productExceptSelf_56",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range"
+   ]
+  },
+  {
+   "id": "gen6-range-04-sumOfSquaresPrefix_56",
+   "symbol": "sumOfSquaresPrefix_56",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixSum2DBuild_56",
+   "symbol": "prefixSum2DBuild_56",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorTable_57",
+   "symbol": "prefixXorTable_57",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorQueries_57",
+   "symbol": "prefixXorQueries_57",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-diffArrayRangeUpdates_57",
+   "symbol": "diffArrayRangeUpdates_57",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen6-range-04-productExceptSelf_57",
+   "symbol": "productExceptSelf_57",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range"
+   ]
+  },
+  {
+   "id": "gen6-range-04-sumOfSquaresPrefix_57",
+   "symbol": "sumOfSquaresPrefix_57",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixSum2DBuild_57",
+   "symbol": "prefixSum2DBuild_57",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorTable_58",
+   "symbol": "prefixXorTable_58",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorQueries_58",
+   "symbol": "prefixXorQueries_58",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-diffArrayRangeUpdates_58",
+   "symbol": "diffArrayRangeUpdates_58",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen6-range-04-productExceptSelf_58",
+   "symbol": "productExceptSelf_58",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range"
+   ]
+  },
+  {
+   "id": "gen6-range-04-sumOfSquaresPrefix_58",
+   "symbol": "sumOfSquaresPrefix_58",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixSum2DBuild_58",
+   "symbol": "prefixSum2DBuild_58",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorTable_59",
+   "symbol": "prefixXorTable_59",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorQueries_59",
+   "symbol": "prefixXorQueries_59",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-diffArrayRangeUpdates_59",
+   "symbol": "diffArrayRangeUpdates_59",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen6-range-04-productExceptSelf_59",
+   "symbol": "productExceptSelf_59",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range"
+   ]
+  },
+  {
+   "id": "gen6-range-04-sumOfSquaresPrefix_59",
+   "symbol": "sumOfSquaresPrefix_59",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixSum2DBuild_59",
+   "symbol": "prefixSum2DBuild_59",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorTable_60",
+   "symbol": "prefixXorTable_60",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorQueries_60",
+   "symbol": "prefixXorQueries_60",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-diffArrayRangeUpdates_60",
+   "symbol": "diffArrayRangeUpdates_60",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen6-range-04-productExceptSelf_60",
+   "symbol": "productExceptSelf_60",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range"
+   ]
+  },
+  {
+   "id": "gen6-range-04-sumOfSquaresPrefix_60",
+   "symbol": "sumOfSquaresPrefix_60",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixSum2DBuild_60",
+   "symbol": "prefixSum2DBuild_60",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorTable_61",
+   "symbol": "prefixXorTable_61",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorQueries_61",
+   "symbol": "prefixXorQueries_61",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-diffArrayRangeUpdates_61",
+   "symbol": "diffArrayRangeUpdates_61",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen6-range-04-productExceptSelf_61",
+   "symbol": "productExceptSelf_61",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range"
+   ]
+  },
+  {
+   "id": "gen6-range-04-sumOfSquaresPrefix_61",
+   "symbol": "sumOfSquaresPrefix_61",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixSum2DBuild_61",
+   "symbol": "prefixSum2DBuild_61",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorTable_62",
+   "symbol": "prefixXorTable_62",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorQueries_62",
+   "symbol": "prefixXorQueries_62",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-diffArrayRangeUpdates_62",
+   "symbol": "diffArrayRangeUpdates_62",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen6-range-04-productExceptSelf_62",
+   "symbol": "productExceptSelf_62",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range"
+   ]
+  },
+  {
+   "id": "gen6-range-04-sumOfSquaresPrefix_62",
+   "symbol": "sumOfSquaresPrefix_62",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixSum2DBuild_62",
+   "symbol": "prefixSum2DBuild_62",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorTable_63",
+   "symbol": "prefixXorTable_63",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorQueries_63",
+   "symbol": "prefixXorQueries_63",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-diffArrayRangeUpdates_63",
+   "symbol": "diffArrayRangeUpdates_63",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen6-range-04-productExceptSelf_63",
+   "symbol": "productExceptSelf_63",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range"
+   ]
+  },
+  {
+   "id": "gen6-range-04-sumOfSquaresPrefix_63",
+   "symbol": "sumOfSquaresPrefix_63",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixSum2DBuild_63",
+   "symbol": "prefixSum2DBuild_63",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorTable_64",
+   "symbol": "prefixXorTable_64",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorQueries_64",
+   "symbol": "prefixXorQueries_64",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-diffArrayRangeUpdates_64",
+   "symbol": "diffArrayRangeUpdates_64",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen6-range-04-productExceptSelf_64",
+   "symbol": "productExceptSelf_64",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range"
+   ]
+  },
+  {
+   "id": "gen6-range-04-sumOfSquaresPrefix_64",
+   "symbol": "sumOfSquaresPrefix_64",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixSum2DBuild_64",
+   "symbol": "prefixSum2DBuild_64",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorTable_65",
+   "symbol": "prefixXorTable_65",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorQueries_65",
+   "symbol": "prefixXorQueries_65",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-diffArrayRangeUpdates_65",
+   "symbol": "diffArrayRangeUpdates_65",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen6-range-04-productExceptSelf_65",
+   "symbol": "productExceptSelf_65",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range"
+   ]
+  },
+  {
+   "id": "gen6-range-04-sumOfSquaresPrefix_65",
+   "symbol": "sumOfSquaresPrefix_65",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixSum2DBuild_65",
+   "symbol": "prefixSum2DBuild_65",
+   "time": "O(n m)",
+   "space": "O(n m)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix-2d"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorTable_66",
+   "symbol": "prefixXorTable_66",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-prefixXorQueries_66",
+   "symbol": "prefixXorQueries_66",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "prefix"
+   ]
+  },
+  {
+   "id": "gen6-range-04-diffArrayRangeUpdates_66",
+   "symbol": "diffArrayRangeUpdates_66",
+   "time": "O(n + q)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range",
+    "difference-array"
+   ]
+  },
+  {
+   "id": "gen6-range-04-productExceptSelf_66",
+   "symbol": "productExceptSelf_66",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "range"
+   ]
+  }
+ ]
+}

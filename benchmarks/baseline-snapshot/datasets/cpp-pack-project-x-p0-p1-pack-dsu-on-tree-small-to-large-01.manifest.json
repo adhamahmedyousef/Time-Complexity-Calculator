@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-project-x-p0-p1-pack-dsu-on-tree-small-to-large",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-project-x-p0-p1-pack-dsu-on-tree-small-to-large-01",
+      "symbol": "pack_project_x_p0_p1_pack_dsu_on_tree_small_to_large_01",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "dsu-on-tree",
+        "small-to-large"
+      ],
+      "inputSymbols": [
+        "n",
+        "adj"
+      ],
+      "proof": "Small-to-large merging moves each element logarithmically often.",
+      "assumptions": "Tree rooted.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-project-x-p0-p1-pack-dsu-on-tree-small-to-large-01",
+      "familyRole": "canonical"
+    }
+  ]
+}

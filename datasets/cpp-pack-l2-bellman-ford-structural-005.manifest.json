@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-graphs-advanced",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-bellman-ford-structural-005",
+      "symbol": "pack_l2_bellmanFordStructural",
+      "time": "O(nm)",
+      "space": "O(n + m)",
+      "confidence": "estimated",
+      "tags": [
+        "graph",
+        "shortest-path",
+        "level-2"
+      ],
+      "inputSymbols": [
+        "n",
+        "edges"
+      ],
+      "proof": "Edge relaxation repeated for a fixed number of rounds over all edges.",
+      "assumptions": "May contain negative weights but no negative cycle is assumed for the proven result.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-bellman-ford-structural"
+    }
+  ]
+}

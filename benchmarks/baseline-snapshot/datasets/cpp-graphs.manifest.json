@@ -1,0 +1,8 @@
+{"version":1,"language":"cpp","cases":[
+{"id":"graphs-bfs","symbol":"sampleBFS","time":"O(V+E)","space":"O(V)","confidence":"exact","tags":["graphs","bfs"]},
+{"id":"graphs-dfs","symbol":"sampleDFS","time":"O(V+E)","space":"O(V)","confidence":"exact","tags":["graphs","dfs","recursion"]},
+{"id":"graphs-dijkstra","symbol":"sampleDijkstra","time":"O((V+E) log V)","space":"O(V+E)","confidence":"exact","tags":["graphs","shortest-path","heap"]},
+{"id":"graphs-topo-kahn","symbol":"sampleTopoKahn","time":"O(V+E)","space":"O(V)","confidence":"exact","tags":["graphs","dag","toposort"]},
+{"id":"graphs-floyd-warshall","symbol":"sampleFloydWarshall","time":"O(V^3)","space":"O(1)","confidence":"exact","tags":["graphs","all-pairs"]},
+{"id":"graphs-prim","symbol":"samplePrimMST","time":"O(E log V)","space":"O(V+E)","confidence":"exact","tags":["graphs","mst","heap"]}
+]}

@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-tree-algorithms",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-binary-lifting-lca-01",
+      "symbol": "pack_cp_requested_dataset_pack_binaryLiftingLca_1",
+      "time": "O(n log n + q log n)",
+      "space": "O(n log n)",
+      "confidence": "estimated",
+      "tags": [
+        "tree",
+        "binary-lifting",
+        "lca"
+      ],
+      "inputSymbols": [
+        "adj",
+        "queries"
+      ],
+      "proof": "Ancestor doubling is precomputed once; each query climbs powers of two.",
+      "assumptions": "Tree is rooted and connected.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-binary-lifting-lca-01"
+    }
+  ]
+}

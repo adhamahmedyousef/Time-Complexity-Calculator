@@ -1,0 +1,1006 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_33",
+   "symbol": "fenwickPrefixSum_33",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_33",
+   "symbol": "fenwickScale_33",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_34",
+   "symbol": "fenwickPointUpdate_34",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_34",
+   "symbol": "fenwickPrefixSum_34",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_34",
+   "symbol": "fenwickScale_34",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_35",
+   "symbol": "fenwickPointUpdate_35",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_35",
+   "symbol": "fenwickPrefixSum_35",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_35",
+   "symbol": "fenwickScale_35",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_36",
+   "symbol": "fenwickPointUpdate_36",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_36",
+   "symbol": "fenwickPrefixSum_36",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_36",
+   "symbol": "fenwickScale_36",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_37",
+   "symbol": "fenwickPointUpdate_37",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_37",
+   "symbol": "fenwickPrefixSum_37",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_37",
+   "symbol": "fenwickScale_37",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_38",
+   "symbol": "fenwickPointUpdate_38",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_38",
+   "symbol": "fenwickPrefixSum_38",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_38",
+   "symbol": "fenwickScale_38",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_39",
+   "symbol": "fenwickPointUpdate_39",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_39",
+   "symbol": "fenwickPrefixSum_39",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_39",
+   "symbol": "fenwickScale_39",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_40",
+   "symbol": "fenwickPointUpdate_40",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_40",
+   "symbol": "fenwickPrefixSum_40",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_40",
+   "symbol": "fenwickScale_40",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_41",
+   "symbol": "fenwickPointUpdate_41",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_41",
+   "symbol": "fenwickPrefixSum_41",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_41",
+   "symbol": "fenwickScale_41",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_42",
+   "symbol": "fenwickPointUpdate_42",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_42",
+   "symbol": "fenwickPrefixSum_42",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_42",
+   "symbol": "fenwickScale_42",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_43",
+   "symbol": "fenwickPointUpdate_43",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_43",
+   "symbol": "fenwickPrefixSum_43",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_43",
+   "symbol": "fenwickScale_43",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_44",
+   "symbol": "fenwickPointUpdate_44",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_44",
+   "symbol": "fenwickPrefixSum_44",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_44",
+   "symbol": "fenwickScale_44",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_45",
+   "symbol": "fenwickPointUpdate_45",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_45",
+   "symbol": "fenwickPrefixSum_45",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_45",
+   "symbol": "fenwickScale_45",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_46",
+   "symbol": "fenwickPointUpdate_46",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_46",
+   "symbol": "fenwickPrefixSum_46",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_46",
+   "symbol": "fenwickScale_46",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_47",
+   "symbol": "fenwickPointUpdate_47",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_47",
+   "symbol": "fenwickPrefixSum_47",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_47",
+   "symbol": "fenwickScale_47",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_48",
+   "symbol": "fenwickPointUpdate_48",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_48",
+   "symbol": "fenwickPrefixSum_48",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_48",
+   "symbol": "fenwickScale_48",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_49",
+   "symbol": "fenwickPointUpdate_49",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_49",
+   "symbol": "fenwickPrefixSum_49",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_49",
+   "symbol": "fenwickScale_49",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_50",
+   "symbol": "fenwickPointUpdate_50",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_50",
+   "symbol": "fenwickPrefixSum_50",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_50",
+   "symbol": "fenwickScale_50",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_51",
+   "symbol": "fenwickPointUpdate_51",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_51",
+   "symbol": "fenwickPrefixSum_51",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_51",
+   "symbol": "fenwickScale_51",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_52",
+   "symbol": "fenwickPointUpdate_52",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_52",
+   "symbol": "fenwickPrefixSum_52",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_52",
+   "symbol": "fenwickScale_52",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_53",
+   "symbol": "fenwickPointUpdate_53",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_53",
+   "symbol": "fenwickPrefixSum_53",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_53",
+   "symbol": "fenwickScale_53",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_54",
+   "symbol": "fenwickPointUpdate_54",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_54",
+   "symbol": "fenwickPrefixSum_54",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_54",
+   "symbol": "fenwickScale_54",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_55",
+   "symbol": "fenwickPointUpdate_55",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_55",
+   "symbol": "fenwickPrefixSum_55",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_55",
+   "symbol": "fenwickScale_55",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_56",
+   "symbol": "fenwickPointUpdate_56",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_56",
+   "symbol": "fenwickPrefixSum_56",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_56",
+   "symbol": "fenwickScale_56",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_57",
+   "symbol": "fenwickPointUpdate_57",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_57",
+   "symbol": "fenwickPrefixSum_57",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_57",
+   "symbol": "fenwickScale_57",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_58",
+   "symbol": "fenwickPointUpdate_58",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_58",
+   "symbol": "fenwickPrefixSum_58",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_58",
+   "symbol": "fenwickScale_58",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_59",
+   "symbol": "fenwickPointUpdate_59",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_59",
+   "symbol": "fenwickPrefixSum_59",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_59",
+   "symbol": "fenwickScale_59",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_60",
+   "symbol": "fenwickPointUpdate_60",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_60",
+   "symbol": "fenwickPrefixSum_60",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_60",
+   "symbol": "fenwickScale_60",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_61",
+   "symbol": "fenwickPointUpdate_61",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_61",
+   "symbol": "fenwickPrefixSum_61",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_61",
+   "symbol": "fenwickScale_61",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_62",
+   "symbol": "fenwickPointUpdate_62",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_62",
+   "symbol": "fenwickPrefixSum_62",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_62",
+   "symbol": "fenwickScale_62",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_63",
+   "symbol": "fenwickPointUpdate_63",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_63",
+   "symbol": "fenwickPrefixSum_63",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_63",
+   "symbol": "fenwickScale_63",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_64",
+   "symbol": "fenwickPointUpdate_64",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_64",
+   "symbol": "fenwickPrefixSum_64",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_64",
+   "symbol": "fenwickScale_64",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_65",
+   "symbol": "fenwickPointUpdate_65",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_65",
+   "symbol": "fenwickPrefixSum_65",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickScale_65",
+   "symbol": "fenwickScale_65",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPointUpdate_66",
+   "symbol": "fenwickPointUpdate_66",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  },
+  {
+   "id": "gen6-fenwick-02-fenwickPrefixSum_66",
+   "symbol": "fenwickPrefixSum_66",
+   "time": "O(log n)",
+   "space": "O(1)",
+   "confidence": "estimated",
+   "tags": [
+    "fenwick"
+   ]
+  }
+ ]
+}

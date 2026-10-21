@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l1-masks-subsets",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l1-submask-enumeration-3powN-03",
+      "symbol": "pack_l1_submaskEnumeration",
+      "time": "O(3^n)",
+      "space": "O(1)",
+      "confidence": "estimated",
+      "tags": [
+        "bitmask",
+        "submask",
+        "level-1"
+      ],
+      "inputSymbols": [
+        "mask"
+      ],
+      "proof": "All submasks of every mask are enumerated through the canonical recurrence.",
+      "assumptions": "Mask has n bits.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l1-submask-enumeration-3powN"
+    }
+  ]
+}

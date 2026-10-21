@@ -1,0 +1,66 @@
+{
+ "version": 1,
+ "language": "cpp",
+ "cases": [
+  {
+   "id": "gen2-cond2-01-branchLoop_0",
+   "symbol": "branchLoop_0",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "conditional"
+   ]
+  },
+  {
+   "id": "gen2-cond2-01-branchLoop_1",
+   "symbol": "branchLoop_1",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "conditional"
+   ]
+  },
+  {
+   "id": "gen2-cond2-01-branchLoop_2",
+   "symbol": "branchLoop_2",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "conditional"
+   ]
+  },
+  {
+   "id": "gen2-cond2-01-branchLoop_3",
+   "symbol": "branchLoop_3",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "conditional"
+   ]
+  },
+  {
+   "id": "gen2-cond2-01-branchLoop_4",
+   "symbol": "branchLoop_4",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "conditional"
+   ]
+  },
+  {
+   "id": "gen2-cond2-01-branchLoop_5",
+   "symbol": "branchLoop_5",
+   "time": "O(n)",
+   "space": "O(1)",
+   "confidence": "exact",
+   "tags": [
+    "conditional"
+   ]
+  }
+ ]
+}

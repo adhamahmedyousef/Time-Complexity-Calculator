@@ -1,0 +1,69 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+// disjoint-set-union-01
+struct D_01 { vector<int> p,r; D_01(int n):p(n),r(n){ iota(p.begin(),p.end(),0); } int f(int x){ return p[x]==x?x:p[x]=f(p[x]); } bool u(int a,int b){ a=f(a); b=f(b); if (a==b) return false; if (r[a]<r[b]) swap(a,b); p[b]=a; if (r[a]==r[b]) ++r[a]; return true; } };
+long long disjoint_set_union_01(int n, const vector<pair<int,int>>& edges) { D_01 d(n); long long c=0; for (auto [u,v]:edges) c += d.u(u,v); return c; }
+
+// disjoint-set-union-02
+struct D_02 { vector<int> p,r; D_02(int n):p(n),r(n){ iota(p.begin(),p.end(),0); } int f(int x){ return p[x]==x?x:p[x]=f(p[x]); } bool u(int a,int b){ a=f(a); b=f(b); if (a==b) return false; if (r[a]<r[b]) swap(a,b); p[b]=a; if (r[a]==r[b]) ++r[a]; return true; } };
+long long disjoint_set_union_02(int n, const vector<pair<int,int>>& edges) { D_02 d(n); long long c=0; for (auto [u,v]:edges) c += d.u(u,v); return c; }
+
+// disjoint-set-union-03
+struct D_03 { vector<int> p,r; D_03(int n):p(n),r(n){ iota(p.begin(),p.end(),0); } int f(int x){ return p[x]==x?x:p[x]=f(p[x]); } bool u(int a,int b){ a=f(a); b=f(b); if (a==b) return false; if (r[a]<r[b]) swap(a,b); p[b]=a; if (r[a]==r[b]) ++r[a]; return true; } };
+long long disjoint_set_union_03(int n, const vector<pair<int,int>>& edges) { D_03 d(n); long long c=0; for (auto [u,v]:edges) c += d.u(u,v); return c; }
+
+// disjoint-set-union-04
+struct D_04 { vector<int> p,r; D_04(int n):p(n),r(n){ iota(p.begin(),p.end(),0); } int f(int x){ return p[x]==x?x:p[x]=f(p[x]); } bool u(int a,int b){ a=f(a); b=f(b); if (a==b) return false; if (r[a]<r[b]) swap(a,b); p[b]=a; if (r[a]==r[b]) ++r[a]; return true; } };
+long long disjoint_set_union_04(int n, const vector<pair<int,int>>& edges) { D_04 d(n); long long c=0; for (auto [u,v]:edges) c += d.u(u,v); return c; }
+
+// disjoint-set-union-05
+struct D_05 { vector<int> p,r; D_05(int n):p(n),r(n){ iota(p.begin(),p.end(),0); } int f(int x){ return p[x]==x?x:p[x]=f(p[x]); } bool u(int a,int b){ a=f(a); b=f(b); if (a==b) return false; if (r[a]<r[b]) swap(a,b); p[b]=a; if (r[a]==r[b]) ++r[a]; return true; } };
+long long disjoint_set_union_05(int n, const vector<pair<int,int>>& edges) { D_05 d(n); long long c=0; for (auto [u,v]:edges) c += d.u(u,v); return c; }
+
+// disjoint-set-union-06
+struct D_06 { vector<int> p,r; D_06(int n):p(n),r(n){ iota(p.begin(),p.end(),0); } int f(int x){ return p[x]==x?x:p[x]=f(p[x]); } bool u(int a,int b){ a=f(a); b=f(b); if (a==b) return false; if (r[a]<r[b]) swap(a,b); p[b]=a; if (r[a]==r[b]) ++r[a]; return true; } };
+long long disjoint_set_union_06(int n, const vector<pair<int,int>>& edges) { D_06 d(n); long long c=0; for (auto [u,v]:edges) c += d.u(u,v); return c; }
+
+// disjoint-set-union-07
+struct D_07 { vector<int> p,r; D_07(int n):p(n),r(n){ iota(p.begin(),p.end(),0); } int f(int x){ return p[x]==x?x:p[x]=f(p[x]); } bool u(int a,int b){ a=f(a); b=f(b); if (a==b) return false; if (r[a]<r[b]) swap(a,b); p[b]=a; if (r[a]==r[b]) ++r[a]; return true; } };
+long long disjoint_set_union_07(int n, const vector<pair<int,int>>& edges) { D_07 d(n); long long c=0; for (auto [u,v]:edges) c += d.u(u,v); return c; }
+
+// disjoint-set-union-08
+struct D_08 { vector<int> p,r; D_08(int n):p(n),r(n){ iota(p.begin(),p.end(),0); } int f(int x){ return p[x]==x?x:p[x]=f(p[x]); } bool u(int a,int b){ a=f(a); b=f(b); if (a==b) return false; if (r[a]<r[b]) swap(a,b); p[b]=a; if (r[a]==r[b]) ++r[a]; return true; } };
+long long disjoint_set_union_08(int n, const vector<pair<int,int>>& edges) { D_08 d(n); long long c=0; for (auto [u,v]:edges) c += d.u(u,v); return c; }
+
+// disjoint-set-union-09
+struct D_09 { vector<int> p,r; D_09(int n):p(n),r(n){ iota(p.begin(),p.end(),0); } int f(int x){ return p[x]==x?x:p[x]=f(p[x]); } bool u(int a,int b){ a=f(a); b=f(b); if (a==b) return false; if (r[a]<r[b]) swap(a,b); p[b]=a; if (r[a]==r[b]) ++r[a]; return true; } };
+long long disjoint_set_union_09(int n, const vector<pair<int,int>>& edges) { D_09 d(n); long long c=0; for (auto [u,v]:edges) c += d.u(u,v); return c; }
+
+// disjoint-set-union-10
+struct D_10 { vector<int> p,r; D_10(int n):p(n),r(n){ iota(p.begin(),p.end(),0); } int f(int x){ return p[x]==x?x:p[x]=f(p[x]); } bool u(int a,int b){ a=f(a); b=f(b); if (a==b) return false; if (r[a]<r[b]) swap(a,b); p[b]=a; if (r[a]==r[b]) ++r[a]; return true; } };
+long long disjoint_set_union_10(int n, const vector<pair<int,int>>& edges) { D_10 d(n); long long c=0; for (auto [u,v]:edges) c += d.u(u,v); return c; }
+
+// disjoint-set-union-11
+struct D_11 { vector<int> p,r; D_11(int n):p(n),r(n){ iota(p.begin(),p.end(),0); } int f(int x){ return p[x]==x?x:p[x]=f(p[x]); } bool u(int a,int b){ a=f(a); b=f(b); if (a==b) return false; if (r[a]<r[b]) swap(a,b); p[b]=a; if (r[a]==r[b]) ++r[a]; return true; } };
+long long disjoint_set_union_11(int n, const vector<pair<int,int>>& edges) { D_11 d(n); long long c=0; for (auto [u,v]:edges) c += d.u(u,v); return c; }
+
+// disjoint-set-union-12
+struct D_12 { vector<int> p,r; D_12(int n):p(n),r(n){ iota(p.begin(),p.end(),0); } int f(int x){ return p[x]==x?x:p[x]=f(p[x]); } bool u(int a,int b){ a=f(a); b=f(b); if (a==b) return false; if (r[a]<r[b]) swap(a,b); p[b]=a; if (r[a]==r[b]) ++r[a]; return true; } };
+long long disjoint_set_union_12(int n, const vector<pair<int,int>>& edges) { D_12 d(n); long long c=0; for (auto [u,v]:edges) c += d.u(u,v); return c; }
+
+// disjoint-set-union-13
+long long disjoint_set_union_13(int n) { while (n > 0) { if (n & 1) n -= 3; else n += 1; if (n > 1000000) break; } return n; }
+
+// disjoint-set-union-14
+long long disjoint_set_union_14(int n) { while (n > 0) { if (n & 1) n -= 3; else n += 1; if (n > 1000000) break; } return n; }
+
+// disjoint-set-union-15
+long long disjoint_set_union_15(int n) { while (n > 0) { if (n & 1) n -= 3; else n += 1; if (n > 1000000) break; } return n; }
+
+// disjoint-set-union-16
+long long disjoint_set_union_16(int n) { while (n > 0) { if (n & 1) n -= 3; else n += 1; if (n > 1000000) break; } return n; }
+
+// disjoint-set-union-17
+long long disjoint_set_union_17(int n) { while (n > 0) { if (n & 1) n -= 3; else n += 1; if (n > 1000000) break; } return n; }
+
+// disjoint-set-union-18
+long long pack_project_x_p0_p1_pack_disjoint_set_union_unknown_18(int n) { while (n > 0) { if (n & 1) n -= 3; else n += 1; if (n > 1000000) break; } return n; }

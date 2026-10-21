@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-level0-hq-targeted-60-level0-hq-023",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-level0-hq-targeted-60-level0-hq-023",
+      "symbol": "pack_level0_hq_targeted_60_solve",
+      "time": "O(n+q)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "prefix-sum"
+      ],
+      "inputSymbols": [
+        "n",
+        "q"
+      ],
+      "proof": "Prefix sums are built once and queried in O(1).",
+      "assumptions": "Primitive operations are constant time.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-level0-hq-targeted-60-level0-hq-023"
+    }
+  ]
+}

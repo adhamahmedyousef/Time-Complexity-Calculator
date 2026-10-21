@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-cp-requested-dataset-pack-dp-patterns",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-cp-requested-dataset-pack-interval-dp-01",
+      "symbol": "pack_cp_requested_dataset_pack_intervalDp_1",
+      "time": "O(n^3)",
+      "space": "O(n^2)",
+      "confidence": "estimated",
+      "tags": [
+        "dp",
+        "interval-dp",
+        "range"
+      ],
+      "inputSymbols": [
+        "a"
+      ],
+      "proof": "Interval DP enumerates all split points for each interval state.",
+      "assumptions": "State depends only on interval boundaries.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-cp-requested-dataset-pack-interval-dp-01"
+    }
+  ]
+}

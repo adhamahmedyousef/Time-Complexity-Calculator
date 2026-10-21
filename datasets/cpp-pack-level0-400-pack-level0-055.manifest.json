@@ -1,0 +1,30 @@
+{
+ "version": 2,
+ "language": "cpp",
+ "family": "pack-level0-400-pack-level0-055",
+ "reviewedBy": "imported-pack-representative",
+ "cases": [
+  {
+   "id": "pack-level0-400-pack-level0-055",
+   "symbol": "pack_level0_400_pack_main",
+   "time": "O(n)",
+   "space": "O(n)",
+   "confidence": "exact",
+   "tags": [
+    "adjudicated",
+    "unknown",
+    "arrays"
+   ],
+   "inputSymbols": [
+    "n"
+   ],
+   "proof": "The loop index changes based on array values.",
+   "assumptions": "Intentionally ambiguous; safe analysis should abstain.",
+   "origin": {
+    "kind": "derived",
+    "license": "CC0-1.0-or-authored"
+   },
+   "variantOf": "pack-level0-400-pack-arrays_iteration-base"
+  }
+ ]
+}

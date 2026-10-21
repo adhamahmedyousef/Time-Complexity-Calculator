@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "language": "cpp",
+  "family": "pack-l2-strings-advanced",
+  "reviewedBy": "imported-pack-representative",
+  "cases": [
+    {
+      "id": "pack-l2-suffix-prefix-frequency-005",
+      "symbol": "pack_l2_suffixPrefixFrequency",
+      "time": "O(n + sigma)",
+      "space": "O(sigma)",
+      "confidence": "estimated",
+      "tags": [
+        "strings",
+        "frequency",
+        "level-1"
+      ],
+      "inputSymbols": [
+        "s"
+      ],
+      "proof": "One frequency scan over the alphabet and one scan over the string.",
+      "assumptions": "Alphabet size is bounded.",
+      "origin": {
+        "kind": "derived",
+        "license": "CC0-1.0-or-authored"
+      },
+      "variantOf": "pack-l2-suffix-prefix-frequency"
+    }
+  ]
+}
