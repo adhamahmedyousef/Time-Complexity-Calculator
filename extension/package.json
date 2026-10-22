@@ -1,5 +1,5 @@
 {
-  "name": "time-complexity-calculator",
+  "name": "voidhub-time-complexity-calculator",
   "displayName": "Time Complexity Calculator by VoidHub",
   "version": "1.0.0",
   "description": "Offline C++ Time & Space Complexity Static Analyzer with first-principles proofs - By VoidHub",
