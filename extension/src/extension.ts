@@ -1,7 +1,7 @@
 import * as vscode from "vscode";
 import { spawn } from "node:child_process";
 import { existsSync } from "node:fs";
-import { resolve } from "node:path";
+import { join, resolve } from "node:path";
 
 interface AnalysisResult {
   worstCaseTime: string;
@@ -338,27 +338,75 @@ function runAnalyzer(executable: string, args: string[], source: string, clangPa
 }
 
 function resolveClangPath(configuredPath: string | undefined): string | undefined {
-  if (configuredPath?.trim()) return configuredPath.trim();
+  if (configuredPath?.trim() && existsSync(configuredPath.trim())) return configuredPath.trim();
   if (process.env.PROJECT_X_CLANG && existsSync(process.env.PROJECT_X_CLANG)) return process.env.PROJECT_X_CLANG;
-  const candidates = process.platform === "win32"
-    ? [
-        "C:\\Program Files\\LLVM\\bin\\clang++.exe",
-        "C:\\LLVM\\bin\\clang++.exe",
-        "C:\\msys64\\mingw64\\bin\\clang++.exe"
-      ]
-    : process.platform === "darwin"
-    ? [
-        "/opt/homebrew/bin/clang++",
-        "/usr/local/bin/clang++",
-        "/usr/bin/clang++"
-      ]
-    : [
-        "/usr/bin/clang++",
-        "/usr/local/bin/clang++"
-      ];
+
+  // 1. Search PATH directories
+  const envPath = process.env.PATH || "";
+  const pathDirs = envPath.split(process.platform === "win32" ? ";" : ":");
+  const binNames = process.platform === "win32"
+    ? ["clang++.exe", "clang.exe"]
+    : ["clang++", "clang"];
+
+  for (const dir of pathDirs) {
+    if (!dir) continue;
+    for (const bin of binNames) {
+      const full = join(dir, bin);
+      if (existsSync(full)) return full;
+    }
+  }
+
+  // 2. Search common compiler installation directories
+  const candidates: string[] = [];
+  if (process.platform === "win32") {
+    candidates.push(
+      "C:\\Program Files\\LLVM\\bin\\clang++.exe",
+      "C:\\Program Files (x86)\\LLVM\\bin\\clang++.exe",
+      "C:\\LLVM\\bin\\clang++.exe",
+      "C:\\msys64\\ucrt64\\bin\\clang++.exe",
+      "C:\\msys64\\clang64\\bin\\clang++.exe",
+      "C:\\msys64\\mingw64\\bin\\clang++.exe",
+      "C:\\msys64\\mingw32\\bin\\clang++.exe",
+      "C:\\msys64\\usr\\bin\\clang++.exe",
+      "C:\\winlibs\\bin\\clang++.exe",
+      "C:\\Strawberry\\c\\bin\\clang++.exe",
+      "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\Llvm\\bin\\clang++.exe",
+      "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\Llvm\\bin\\clang++.exe",
+      "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\Llvm\\bin\\clang++.exe",
+      "C:\\Program Files\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\Llvm\\bin\\clang++.exe",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\Llvm\\bin\\clang++.exe",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\Llvm\\bin\\clang++.exe",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\Llvm\\bin\\clang++.exe",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\Llvm\\bin\\clang++.exe",
+      join(process.env.USERPROFILE || "", "scoop", "shims", "clang++.exe"),
+      join(process.env.USERPROFILE || "", "scoop", "apps", "llvm", "current", "bin", "clang++.exe"),
+      "C:\\ProgramData\\chocolatey\\bin\\clang++.exe",
+      join(process.env.LOCALAPPDATA || "", "Programs", "LLVM", "bin", "clang++.exe")
+    );
+  } else if (process.platform === "darwin") {
+    candidates.push(
+      "/opt/homebrew/bin/clang++",
+      "/usr/local/bin/clang++",
+      "/usr/bin/clang++",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+      join(process.env.HOME || "", ".brew", "bin", "clang++")
+    );
+  } else {
+    candidates.push(
+      "/usr/bin/clang++",
+      "/usr/local/bin/clang++",
+      "/usr/lib/llvm-18/bin/clang++",
+      "/usr/lib/llvm-17/bin/clang++",
+      "/usr/lib/llvm-16/bin/clang++",
+      "/usr/lib/llvm-15/bin/clang++",
+      join(process.env.HOME || "", ".local", "bin", "clang++")
+    );
+  }
+
   for (const candidate of candidates) {
     if (existsSync(candidate)) return candidate;
   }
+
   return undefined;
 }
 
@@ -467,20 +515,6 @@ export function activate(context: vscode.ExtensionContext): void {
     const configuredNativeAnalyzerPath = vscode.workspace.getConfiguration().get<string>("projectX.nativeAnalyzerPath");
     const minimumConfidence = vscode.workspace.getConfiguration().get<number>("projectX.minimumConfidence", 80);
     const clangPath = resolveClangPath(configuredClangPath);
-
-    if (!clangPath) {
-      const choice = await vscode.window.showErrorMessage(
-        "Clang++ was not found. Time Complexity Calculator requires Clang++ to parse C++ AST.",
-        "Installation Guide",
-        "Configure Path"
-      );
-      if (choice === "Installation Guide") {
-        void vscode.env.openExternal(vscode.Uri.parse("https://releases.llvm.org/"));
-      } else if (choice === "Configure Path") {
-        void vscode.commands.executeCommand("workbench.action.openSettings", "projectX.clangPath");
-      }
-      return;
-    }
 
     const packagedMjs = resolve(context.extensionPath, "dist", "analyzer-cli.mjs");
     const packagedDirect = resolve(context.extensionPath, "dist", "analyzer", "cli.js");

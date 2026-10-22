@@ -3,15 +3,97 @@ import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
+import { synthesizeAstFromCpp } from "./fallback-parser.js";
 import type { ClangNode } from "./model.js";
 
-export function clangAstFor(source: string, clangPath = process.env.PROJECT_X_CLANG ?? "clang++"): ClangNode {
+/**
+ * Robustly auto-discovers Clang++ across system PATH and standard compiler installation paths.
+ */
+export function resolveSystemClang(configuredPath?: string): string | undefined {
+  if (configuredPath?.trim() && existsSync(configuredPath.trim())) return configuredPath.trim();
+  if (process.env.PROJECT_X_CLANG && existsSync(process.env.PROJECT_X_CLANG)) return process.env.PROJECT_X_CLANG;
+
+  // 1. Search PATH directories
+  const envPath = process.env.PATH || "";
+  const pathDirs = envPath.split(process.platform === "win32" ? ";" : ":");
+  const binNames = process.platform === "win32"
+    ? ["clang++.exe", "clang.exe"]
+    : ["clang++", "clang"];
+
+  for (const dir of pathDirs) {
+    if (!dir) continue;
+    for (const bin of binNames) {
+      const full = join(dir, bin);
+      if (existsSync(full)) return full;
+    }
+  }
+
+  // 2. Search common compiler installation directories
+  const candidates: string[] = [];
+  if (process.platform === "win32") {
+    candidates.push(
+      "C:\\Program Files\\LLVM\\bin\\clang++.exe",
+      "C:\\Program Files (x86)\\LLVM\\bin\\clang++.exe",
+      "C:\\LLVM\\bin\\clang++.exe",
+      "C:\\msys64\\ucrt64\\bin\\clang++.exe",
+      "C:\\msys64\\clang64\\bin\\clang++.exe",
+      "C:\\msys64\\mingw64\\bin\\clang++.exe",
+      "C:\\msys64\\mingw32\\bin\\clang++.exe",
+      "C:\\msys64\\usr\\bin\\clang++.exe",
+      "C:\\winlibs\\bin\\clang++.exe",
+      "C:\\Strawberry\\c\\bin\\clang++.exe",
+      "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\Llvm\\bin\\clang++.exe",
+      "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\Llvm\\bin\\clang++.exe",
+      "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\Llvm\\bin\\clang++.exe",
+      "C:\\Program Files\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\Llvm\\bin\\clang++.exe",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\Llvm\\bin\\clang++.exe",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\Llvm\\bin\\clang++.exe",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\Llvm\\bin\\clang++.exe",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\Llvm\\bin\\clang++.exe",
+      join(process.env.USERPROFILE || "", "scoop", "shims", "clang++.exe"),
+      join(process.env.USERPROFILE || "", "scoop", "apps", "llvm", "current", "bin", "clang++.exe"),
+      "C:\\ProgramData\\chocolatey\\bin\\clang++.exe",
+      join(process.env.LOCALAPPDATA || "", "Programs", "LLVM", "bin", "clang++.exe")
+    );
+  } else if (process.platform === "darwin") {
+    candidates.push(
+      "/opt/homebrew/bin/clang++",
+      "/usr/local/bin/clang++",
+      "/usr/bin/clang++",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+      join(process.env.HOME || "", ".brew", "bin", "clang++")
+    );
+  } else {
+    candidates.push(
+      "/usr/bin/clang++",
+      "/usr/local/bin/clang++",
+      "/usr/lib/llvm-18/bin/clang++",
+      "/usr/lib/llvm-17/bin/clang++",
+      "/usr/lib/llvm-16/bin/clang++",
+      "/usr/lib/llvm-15/bin/clang++",
+      join(process.env.HOME || "", ".local", "bin", "clang++")
+    );
+  }
+
+  for (const candidate of candidates) {
+    if (existsSync(candidate)) return candidate;
+  }
+
+  return undefined;
+}
+
+export function clangAstFor(source: string, clangPath?: string): ClangNode {
+  const compiler = clangPath || resolveSystemClang();
+  if (!compiler) {
+    return synthesizeAstFromCpp(source);
+  }
+
   // The extension starts a short-lived CLI process per invocation. Persisting
   // a bounded local AST cache therefore avoids reparsing an unchanged document
   // when the user selects several functions from it. The cache contains only
   // local source-derived AST JSON and is never uploaded or shared.
   const cacheDirectory = join(tmpdir(), "project-x-ast-cache");
-  const cacheKey = createHash("sha256").update("clang-json-ast-v3\0").update(clangPath).update("\0").update(source).digest("hex");
+  const cacheKey = createHash("sha256").update("clang-json-ast-v3\0").update(compiler).update("\0").update(source).digest("hex");
   const cacheFile = join(cacheDirectory, `${cacheKey}.json`);
   if (existsSync(cacheFile)) {
     try {
@@ -24,38 +106,28 @@ export function clangAstFor(source: string, clangPath = process.env.PROJECT_X_CL
   const input = join(directory, "selection.cpp");
   try {
     writeFileSync(input, source, "utf8");
-    // The JSON AST includes declarations from our small C++17 prelude as well
-    // as every same-file helper. Node's 1 MiB default truncates ordinary
-    // competitive-programming translation units and incorrectly surfaces as a
-    // failed Clang launch. Keep a bounded but practical local-only ceiling.
     let output: string;
     try {
-      output = execFileSync(clangPath, ["-std=c++17", "-fsyntax-only", "-Xclang", "-ast-dump=json", input], {
+      output = execFileSync(compiler, ["-std=c++17", "-fsyntax-only", "-Xclang", "-ast-dump=json", input], {
         encoding: "utf8",
         stdio: ["ignore", "pipe", "pipe"],
         maxBuffer: 128 * 1024 * 1024,
         windowsHide: true
       });
     } catch (error) {
-      // Clang still emits a JSON AST for declarations that were successfully
-      // parsed before an unrelated diagnostic. Keeping that AST lets a valid
-      // selected function be analyzed even when another function in the same
-      // competitive-programming scratch file is incomplete. We only recover
-      // when the stdout payload itself is valid JSON; malformed selected code
-      // remains a normal compiler failure and therefore stays Unknown.
       const partial = error as { stdout?: unknown };
-      if (typeof partial.stdout !== "string") throw error;
-      try {
-        JSON.parse(partial.stdout);
-        output = partial.stdout;
-      } catch {
-        throw error;
+      if (typeof partial.stdout === "string") {
+        try {
+          JSON.parse(partial.stdout);
+          output = partial.stdout;
+        } catch {
+          return synthesizeAstFromCpp(source);
+        }
+      } else {
+        return synthesizeAstFromCpp(source);
       }
     }
     const ast = JSON.parse(output) as ClangNode;
-    // Avoid turning temporary storage into an unbounded dataset cache. Large
-    // template-heavy documents still analyse normally, they are simply not
-    // persisted. Keep safe-sized ASTs for up to 2048 recent documents.
     if (Buffer.byteLength(output, "utf8") <= 48 * 1024 * 1024) {
       try {
         mkdirSync(cacheDirectory, { recursive: true });
@@ -67,11 +139,12 @@ export function clangAstFor(source: string, clangPath = process.env.PROJECT_X_CL
           .slice(2048);
         for (const entry of stale) rmSync(entry.path, { force: true });
       } catch {
-        // Caching is an optimization only. A read-only or full temp directory
-        // must never prevent an offline analysis from completing.
+        // Caching is an optimization only.
       }
     }
     return ast;
+  } catch {
+    return synthesizeAstFromCpp(source);
   } finally {
     rmSync(directory, { recursive: true, force: true });
   }
