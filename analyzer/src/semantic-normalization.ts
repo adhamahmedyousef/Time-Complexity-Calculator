@@ -52,6 +52,37 @@ export function normalizeFunctionSyntax(fn: ClangNode): ClangNode {
       const key = symbolIdentity(node.inner?.[0]);
       if (key) written.add(key);
     }
+    if (node.kind === "CXXOperatorCallExpr") {
+      let isExtraction = false;
+      const checkOp = (c: ClangNode): void => {
+        if (c.referencedDecl?.name === "operator>>") isExtraction = true;
+        for (const sub of c.inner ?? []) checkOp(sub);
+      };
+      if (node.inner?.[0]) checkOp(node.inner[0]);
+      if (isExtraction && (node.inner?.length ?? 0) >= 3) {
+        const collect = (c: ClangNode): void => {
+          const k = c.referencedDecl?.id ?? c.referencedDecl?.name;
+          if (k && k !== "operator>>" && k !== "cin") written.add(k);
+          if (c.kind !== "ArraySubscriptExpr") {
+            for (const sub of c.inner ?? []) collect(sub);
+          }
+        };
+        collect(node.inner![2]);
+      }
+    }
+    if (node.kind === "CallExpr") {
+      const callee = node.inner?.[0];
+      const isScanf = callee?.referencedDecl?.name === "scanf"
+        || callee?.inner?.[0]?.referencedDecl?.name === "scanf";
+      if (isScanf && (node.inner?.length ?? 0) >= 2) {
+        for (const arg of node.inner!.slice(1)) {
+          const target = unwrapExpression(arg);
+          const operand = target?.kind === "UnaryOperator" && target.opcode === "&" ? target.inner?.[0] : target;
+          const k = symbolIdentity(operand);
+          if (k) written.add(k);
+        }
+      }
+    }
     for (const child of node.inner ?? []) scan(child);
   };
   scan(fn);

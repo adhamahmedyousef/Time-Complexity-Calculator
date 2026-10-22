@@ -129,3 +129,92 @@ test("indexed string scans remain linear when operator[] is lowered as a generic
   assert.equal(result.worstCaseTime, "O(n)", result.proof.join(" "));
   assert.equal(result.auxiliarySpace, "O(1)");
 });
+
+test("initialized testcase variable read from cin evaluates to O(n t)", { skip: !existsSync(clangPath) }, () => {
+  process.env.PROJECT_X_CLANG = clangPath;
+  const result = analyseCppSelection(`
+    void solve() {
+      int n; cin >> n;
+      for (int i = 0; i < n; ++i) {}
+    }
+    int main() {
+      int t = 1;
+      cin >> t;
+      while (t--)
+        solve();
+    }`);
+  assert.equal(result.worstCaseTime, "O(n t)", result.proof.join(" "));
+});
+
+test("initialized testcase variable with fast I/O macro evaluates to O(n t)", { skip: !existsSync(clangPath) }, () => {
+  process.env.PROJECT_X_CLANG = clangPath;
+  const result = analyseCppSelection(`
+    void fast() {}
+    void solve() {
+      int n; cin >> n;
+      for (int i = 0; i < n; ++i) {}
+    }
+    int main() {
+      fast();
+      int t = 1;
+      cin >> t;
+      while (t--)
+        solve();
+    }`);
+  assert.equal(result.worstCaseTime, "O(n t)", result.proof.join(" "));
+});
+
+test("chained stream extraction cin >> t >> n bounds nested loops as O(n t)", { skip: !existsSync(clangPath) }, () => {
+  process.env.PROJECT_X_CLANG = clangPath;
+  const result = analyseCppSelection(`
+    int main() {
+      int t = 1, n = 0;
+      cin >> t >> n;
+      while (t--) {
+        for (int i = 0; i < n; ++i) {}
+      }
+    }`);
+  assert.equal(result.worstCaseTime, "O(n t)", result.proof.join(" "));
+});
+
+test("initialized dimension variable n = 0 updated by cin >> n establishes O(n)", { skip: !existsSync(clangPath) }, () => {
+  process.env.PROJECT_X_CLANG = clangPath;
+  const result = analyseCppSelection(`
+    int main() {
+      int n = 0;
+      cin >> n;
+      for (int i = 0; i < n; ++i) {}
+    }`);
+  assert.equal(result.worstCaseTime, "O(n)", result.proof.join(" "));
+});
+
+test("initialized testcase variable read with scanf evaluates to O(n t)", { skip: !existsSync(clangPath) }, () => {
+  process.env.PROJECT_X_CLANG = clangPath;
+  const result = analyseCppSelection(`
+    void solve() {
+      int n; cin >> n;
+      for (int i = 0; i < n; ++i) {}
+    }
+    int main() {
+      int t = 1;
+      scanf("%d", &t);
+      while (t--)
+        solve();
+    }`);
+  assert.equal(result.worstCaseTime, "O(n t)", result.proof.join(" "));
+});
+
+test("initialized testcase variable without stream extraction runs as constant O(n)", { skip: !existsSync(clangPath) }, () => {
+  process.env.PROJECT_X_CLANG = clangPath;
+  const result = analyseCppSelection(`
+    void solve() {
+      int n; cin >> n;
+      for (int i = 0; i < n; ++i) {}
+    }
+    int main() {
+      int t = 1;
+      while (t--)
+        solve();
+    }`);
+  assert.equal(result.worstCaseTime, "O(n)", result.proof.join(" "));
+});

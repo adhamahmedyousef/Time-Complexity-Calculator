@@ -3555,6 +3555,61 @@ type ControlFlowBounds = {
   branchEntries: Map<ClangNode, BranchEntry>;
 };
 
+type StreamExtractionTarget = Readonly<{
+  key: string;
+  name: string;
+  isSequence: boolean;
+}>;
+
+function streamExtractionTargets(node: ClangNode | undefined): StreamExtractionTarget[] {
+  if (!node) return [];
+  const targets: StreamExtractionTarget[] = [];
+  const seenKeys = new Set<string>();
+
+  const considerDeclRef = (declRef: ClangNode | undefined): void => {
+    let current = declRef;
+    while (current && ["ImplicitCastExpr", "ParenExpr", "ExprWithCleanups", "MaterializeTemporaryExpr"].includes(current.kind ?? "")) {
+      current = current.inner?.at(-1);
+    }
+    if (current?.kind === "UnaryOperator" && current.opcode === "&") {
+      current = current.inner?.at(-1);
+      while (current && ["ImplicitCastExpr", "ParenExpr", "ExprWithCleanups"].includes(current.kind ?? "")) {
+        current = current.inner?.at(-1);
+      }
+    }
+    if (current?.kind !== "DeclRefExpr") return;
+    const name = current.referencedDecl?.name;
+    const key = referenceKey(current);
+    if (!name || !key || name === "cin" || name === "operator>>" || name === "scanf") return;
+    if (seenKeys.has(key)) return;
+    seenKeys.add(key);
+    const type = current.type?.desugaredQualType ?? current.type?.qualType
+      ?? current.referencedDecl?.type?.desugaredQualType ?? current.referencedDecl?.type?.qualType ?? "";
+    const isSequence = /\b(?:vector|deque|array|map|set)\s*</.test(type) || /\b(?:string|basic_string)\b/.test(type);
+    targets.push({ key, name, isSequence });
+  };
+
+  walk(node, (current) => {
+    if (current.kind === "CXXOperatorCallExpr") {
+      const operatorDecl = current.inner?.[0];
+      const isShift = operatorDecl && nodesOfKind(operatorDecl, "DeclRefExpr").some((ref) => ref.referencedDecl?.name === "operator>>");
+      if (isShift && (current.inner?.length ?? 0) >= 3 && references(current, "cin")) {
+        considerDeclRef(current.inner?.[2]);
+      }
+    } else if (current.kind === "CallExpr") {
+      const callee = current.inner?.[0];
+      const isScanf = callee && references(callee, "scanf");
+      if (isScanf && (current.inner?.length ?? 0) >= 2) {
+        for (const arg of current.inner!.slice(1)) {
+          considerDeclRef(arg);
+        }
+      }
+    }
+  });
+
+  return targets;
+}
+
 function initialSymbolicBounds(functionDecl: ClangNode): Map<string, Complexity> {
   const bounds = new Map<string, Complexity>();
   const parameters = (functionDecl.inner ?? []).filter((node) => node.kind === "ParmVarDecl");
@@ -3635,30 +3690,18 @@ function initialSymbolicBounds(functionDecl: ClangNode): Map<string, Complexity>
   }
   // Do not require contest authors to call every dimension `n` or `t`.
   // A scalar that appears as an operand of a real `cin >> value` expression
-  // is a proven input dimension, so it can safely seed a symbolic bound under
-  // its own name. This uses declaration identity and deliberately excludes
-  // containers/strings; ordinary locals not extracted from input are never
-  // promoted to symbolic dimensions.
+  // or `scanf` call is a proven input dimension, so it safely seeds a symbolic
+  // bound under its own name. This uses declaration identity and deliberately
+  // excludes containers/strings; ordinary locals not extracted from input are
+  // never promoted to symbolic dimensions.
   let streamedSequenceIndex = 0;
-  for (const extraction of directCalls(body).filter((call) =>
-    references(call, "cin") && nodesOfKind(call, "DeclRefExpr")
-      .some((reference) => reference.referencedDecl?.name === "operator>>"))) {
-    for (const reference of nodesOfKind(extraction, "DeclRefExpr")) {
-      const name = reference.referencedDecl?.name;
-      const type = reference.type?.desugaredQualType ?? reference.type?.qualType
-        ?? reference.referencedDecl?.type?.desugaredQualType ?? reference.referencedDecl?.type?.qualType ?? "";
-      const key = referenceKey(reference);
-      if (!name || !key || name === "cin" || name === "operator>>") continue;
-      const isSequence = /\b(?:vector|deque|array|map|set)\s*</.test(type) || /\b(?:string|basic_string)\b/.test(type);
-      // `cin >> text` proves that text is an input sequence. Give its length
-      // the same independent n/m convention as container parameters; this
-      // lets text.size() bound a loop without relying on the identifier text.
-      const value = isSequence
-        ? (`O(${streamedSequenceIndex++ === 0 ? "n" : "m"})` as Complexity)
-        : (`O(${name})` as Complexity);
-      if (!bounds.has(key)) bounds.set(key, value);
-      if (!bounds.has(name)) bounds.set(name, value);
-    }
+  for (const target of streamExtractionTargets(body)) {
+    const dimension = target.name === "N" ? "n" : target.name === "M" ? "m" : target.name === "Q" ? "q" : target.name === "T" ? "t" : target.name;
+    const value = target.isSequence
+      ? (`O(${streamedSequenceIndex++ === 0 ? "n" : "m"})` as Complexity)
+      : (`O(${dimension})` as Complexity);
+    bounds.set(target.key, value);
+    bounds.set(target.name, value);
   }
   return bounds;
 }
@@ -3748,6 +3791,9 @@ function controlFlowBounds(functionDecl: ClangNode, constantSymbols?: ReadonlySe
       if (value) state.set(key, value);
       else state.delete(key);
     };
+    if (["ExprWithCleanups", "ParenExpr"].includes(node.kind ?? "")) {
+      return apply(node.inner?.at(-1), state);
+    }
     if (node.kind === "CompoundStmt") {
       let current = state;
       for (const statement of node.inner ?? []) current = apply(statement, current);
@@ -3764,6 +3810,15 @@ function controlFlowBounds(functionDecl: ClangNode, constantSymbols?: ReadonlySe
     if (node.kind === "IfStmt") {
       const branches = (node.inner ?? []).slice(1);
       const condition = node.inner?.[0];
+      const conditionExtractions = streamExtractionTargets(condition);
+      for (const target of conditionExtractions) {
+        if (!target.isSequence) {
+          const dimension = target.name === "N" ? "n" : target.name === "M" ? "m" : target.name === "Q" ? "q" : target.name === "T" ? "t" : target.name;
+          const bound = (`O(${dimension})`) as Complexity;
+          state.set(target.key, bound);
+          state.set(target.name, bound);
+        }
+      }
       const thenIncoming = constrainBranchState(state, condition, true);
       const elseIncoming = constrainBranchState(state, condition, false);
       branchEntries.set(node, { thenState: new Map(thenIncoming), elseState: new Map(elseIncoming) });
@@ -3780,6 +3835,16 @@ function controlFlowBounds(functionDecl: ClangNode, constantSymbols?: ReadonlySe
         for (const part of node.inner ?? []) {
           if (part.kind === "DeclStmt") for (const declaration of part.inner ?? []) if (declaration.kind === "VarDecl") declare(declaration);
           if (part.kind === "CompoundStmt") break;
+        }
+      }
+      const condition = node.inner?.[0];
+      const conditionExtractions = streamExtractionTargets(condition);
+      for (const target of conditionExtractions) {
+        if (!target.isSequence) {
+          const dimension = target.name === "N" ? "n" : target.name === "M" ? "m" : target.name === "Q" ? "q" : target.name === "T" ? "t" : target.name;
+          const bound = (`O(${dimension})`) as Complexity;
+          state.set(target.key, bound);
+          state.set(target.name, bound);
         }
       }
       // The index magnitude INSIDE the body is capped by the loop's own trip
@@ -3810,6 +3875,20 @@ function controlFlowBounds(functionDecl: ClangNode, constantSymbols?: ReadonlySe
       if (value) state.set(key, value);
       else state.delete(key);
       return state;
+    }
+    if (["CXXOperatorCallExpr", "CallExpr"].includes(node.kind ?? "")) {
+      const extractions = streamExtractionTargets(node);
+      if (extractions.length > 0) {
+        for (const target of extractions) {
+          if (!target.isSequence) {
+            const dimension = target.name === "N" ? "n" : target.name === "M" ? "m" : target.name === "Q" ? "q" : target.name === "T" ? "t" : target.name;
+            const bound = (`O(${dimension})`) as Complexity;
+            state.set(target.key, bound);
+            state.set(target.name, bound);
+          }
+        }
+        return state;
+      }
     }
     return state;
   };

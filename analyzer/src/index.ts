@@ -52,7 +52,7 @@ const standardPrelude = [
   "}",
   "class __project_x_stream { public: __project_x_stream* tie(__project_x_stream*); __project_x_stream* tie(); __project_x_stream* flush(); long long precision() const; long long precision(long long); }; extern __project_x_stream cin; extern __project_x_stream cout; extern __project_x_stream cerr; extern __project_x_stream clog; __project_x_stream& endl(__project_x_stream&);",
   "template<class T> __project_x_stream& operator<<(__project_x_stream&, const T&); __project_x_stream& operator<<(__project_x_stream&, __project_x_stream& (*)(__project_x_stream&)); template<class T> __project_x_stream& operator>>(__project_x_stream&, T&);",
-  "int system(const char*);",
+  "int system(const char*); int scanf(const char*, ...); int printf(const char*, ...);",
   "using namespace std;",
   "constexpr int INT_MAX = 2147483647; constexpr int INT_MIN = (-2147483647 - 1);"
 ].join("\n");
