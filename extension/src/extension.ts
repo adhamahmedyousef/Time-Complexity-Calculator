@@ -482,9 +482,10 @@ export function activate(context: vscode.ExtensionContext): void {
       return;
     }
 
-    const packagedAnalyzer = resolve(context.extensionPath, "dist", "analyzer-cli.js");
+    const packagedMjs = resolve(context.extensionPath, "dist", "analyzer-cli.mjs");
+    const packagedDirect = resolve(context.extensionPath, "dist", "analyzer", "cli.js");
     const developmentAnalyzer = resolve(context.extensionPath, "..", "analyzer", "dist", "cli.js");
-    const bundledCli = existsSync(packagedAnalyzer) ? packagedAnalyzer : existsSync(developmentAnalyzer) ? developmentAnalyzer : undefined;
+    const bundledCli = existsSync(packagedMjs) ? packagedMjs : existsSync(packagedDirect) ? packagedDirect : existsSync(developmentAnalyzer) ? developmentAnalyzer : undefined;
     const useBundledAnalyzer = !configuredPath && Boolean(bundledCli);
     const analyzer = useBundledAnalyzer && bundledCli ? process.execPath : (configuredPath || "project-x-analyzer");
     const analyzerArgs = useBundledAnalyzer && bundledCli ? [bundledCli] : [];
