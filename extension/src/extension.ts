@@ -297,6 +297,7 @@ function runAnalyzer(executable: string, args: string[], source: string, clangPa
       stdio: ["pipe", "pipe", "pipe"],
       env: {
         ...process.env,
+        ELECTRON_RUN_AS_NODE: "1",
         ...(clangPath ? { PROJECT_X_CLANG: clangPath } : {}),
         ...(nativeAnalyzerPath?.trim() ? { PROJECT_X_NATIVE_ANALYZER: nativeAnalyzerPath.trim() } : {})
       }
@@ -377,12 +378,14 @@ function extractFunctionBody(documentText: string, startIndex: number): string |
   return undefined;
 }
 
+const analysisCache = new Map<string, AnalysisResult>();
+
 class ComplexityCodeLensProvider implements vscode.CodeLensProvider {
   provideCodeLenses(document: vscode.TextDocument): vscode.CodeLens[] {
     const codeLenses: vscode.CodeLens[] = [];
     if (document.languageId !== "cpp") return codeLenses;
     const text = document.getText();
-    const regex = /^[ \t]*(?:(?:inline|static|constexpr|virtual|explicit|friend)\s+)*(?:[\w:<>&*~]+\s+)+([a-zA-Z_]\w*)\s*\([^;)]*\)\s*(?:const\s*)?(?:noexcept\s*)?\{/gm;
+    const regex = /^[ \t]*(?:(?:inline|static|constexpr|virtual|explicit|friend)\s+)*(?:[\w:<>&*~]+\s+)+([a-zA-Z_]\w*)\s*\([^;)]*\)\s*(?:const\s*)?(?:noexcept\s*)?\s*\{/gm;
     let match: RegExpExecArray | null;
     while ((match = regex.exec(text)) !== null) {
       const functionName = match[1];
@@ -396,6 +399,27 @@ class ComplexityCodeLensProvider implements vscode.CodeLensProvider {
       }));
     }
     return codeLenses;
+  }
+}
+
+class ComplexityHoverProvider implements vscode.HoverProvider {
+  provideHover(document: vscode.TextDocument, position: vscode.Position): vscode.ProviderResult<vscode.Hover> {
+    const wordRange = document.getWordRangeAtPosition(position);
+    if (!wordRange) return undefined;
+    const word = document.getText(wordRange);
+    const cached = analysisCache.get(word);
+    if (!cached) return undefined;
+
+    const md = new vscode.MarkdownString();
+    md.isTrusted = true;
+    md.appendMarkdown(`### ⏱ Complexity: \`${word}\` (By [VoidHub](https://voidhub.co))\n\n`);
+    md.appendMarkdown(`- **Worst-Case Time:** \`${cached.worstCaseTime}\`\n`);
+    md.appendMarkdown(`- **Auxiliary Space:** \`${cached.auxiliarySpace}\`\n`);
+    md.appendMarkdown(`- **Confidence:** \`${confidencePercent(cached)}% ${cached.confidence}\`\n\n`);
+    if (cached.proof.length > 0) {
+      md.appendMarkdown(`> **Proof:** ${cached.proof[0]}\n`);
+    }
+    return new vscode.Hover(md, wordRange);
   }
 }
 
@@ -436,7 +460,7 @@ export function activate(context: vscode.ExtensionContext): void {
     });
   };
 
-  const executeAnalysis = async (source: string, fullDocument: string): Promise<void> => {
+  const executeAnalysis = async (source: string, fullDocument: string, funcName?: string): Promise<void> => {
     const analyzerRequest = JSON.stringify({ selection: source, document: fullDocument });
     const configuredPath = vscode.workspace.getConfiguration().get<string>("projectX.analyzerPath");
     const configuredClangPath = vscode.workspace.getConfiguration().get<string>("projectX.clangPath");
@@ -467,6 +491,9 @@ export function activate(context: vscode.ExtensionContext): void {
     try {
       const stdout = await runAnalyzer(analyzer, analyzerArgs, analyzerRequest, clangPath, configuredNativeAnalyzerPath);
       const result = JSON.parse(stdout) as AnalysisResult;
+      if (funcName) {
+        analysisCache.set(funcName, result);
+      }
       showResultNotification(result, minimumConfidence);
     } catch (error) {
       const detail = error instanceof Error ? error.message : String(error);
@@ -491,13 +518,20 @@ export function activate(context: vscode.ExtensionContext): void {
       void vscode.window.showWarningMessage(`Could not extract full body for function '${funcName}'.`);
       return;
     }
-    await executeAnalysis(funcBody, text);
+    await executeAnalysis(funcBody, text, funcName);
   }));
 
   const enableCodeLens = vscode.workspace.getConfiguration().get<boolean>("projectX.enableCodeLens", true);
   if (enableCodeLens) {
     context.subscriptions.push(
       vscode.languages.registerCodeLensProvider({ language: "cpp" }, new ComplexityCodeLensProvider())
+    );
+  }
+
+  const enableHover = vscode.workspace.getConfiguration().get<boolean>("projectX.enableHover", true);
+  if (enableHover) {
+    context.subscriptions.push(
+      vscode.languages.registerHoverProvider({ language: "cpp" }, new ComplexityHoverProvider())
     );
   }
 }

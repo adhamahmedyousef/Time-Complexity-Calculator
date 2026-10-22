@@ -15,6 +15,7 @@
     "validate:dataset": "python tools/validate_dataset.py",
     "benchmark:dataset": "node tools/benchmark_dataset.mjs",
     "benchmark:diagnose": "node tools/diagnose_dataset.mjs",
-    "holdout:generate": "python tools/holdout_split.py"
+    "holdout:generate": "python tools/holdout_split.py",
+    "install:local": "node tools/deploy_local_extension.mjs"
   }
 }
