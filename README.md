@@ -92,11 +92,11 @@ Time-Complexity-Calculator/
 │   │   ├── clang.ts          # Clang AST spawner & disk-backed cache (2,048 entries)
 │   │   ├── cli.ts            # Standalone multi-platform CLI runner
 │   │   └── prelude.ts        # Synthetic C++17 STL mock definitions for Clang AST
-│   └── test/                 # 92 test suites covering 6,950 unit & integration tests
+│   └── test/                 # 92 test suites covering 6,962 unit & integration tests
 ├── extension/                # VS Code / Kiro editor extension (By VoidHub)
-│   ├── src/extension.ts      # CodeLens, status bar, and VoidHub.co integration
+│   ├── src/extension.ts      # CodeLens, status bar, and Built By @VoidHub integration
 │   └── package.json          # Extension metadata and commands
-├── datasets/                 # 26,710 reviewed C++ cases across 1,420 manifests
+├── datasets/                 # 28,760 reviewed C++ cases across 1,461 manifests
 │   ├── gen2/                 # Generation 2 algorithmic expansion (36 files)
 │   ├── gen3/                 # Generation 3 algorithmic expansion (28 files)
 │   ├── gen4/                 # Generation 4 algorithmic expansion (40 files)
@@ -105,7 +105,7 @@ Time-Complexity-Calculator/
 │   ├── gen7/                 # Generation 7 algorithmic expansion (144 files)
 │   ├── gen8/                 # Generation 8 algorithmic expansion (256 files, 5,120 cases)
 │   ├── level0/               # Core competitive programming packs (726 files)
-│   └── packs/                # Domain-specific suites (p0_a, p0_b, requested, manual, recurrence)
+│   └── packs/                # Domain-specific suites (round12, p0_a, p0_b, requested, manual, recurrence)
 ├── tools/                    # Benchmarking, diagnosis, validation, and generator tools
 └── .github/workflows/        # Automated multi-OS GitHub Actions CI/CD
 ```
@@ -119,8 +119,8 @@ The extension integrates directly into your editor workflow:
 1. **CodeLens Trigger**: Displays a `⏱ Calculate Complexity` button directly above C++ function declarations.
 2. **Keyboard Shortcut**: Press `Ctrl+Alt+C` (macOS: `Cmd+Alt+C`) on any highlighted function or statement block.
 3. **Context Menu**: Right-click any C++ selection and choose **Calculate Time Complexity**.
-4. **Status Bar Item**: Persistent `$(watch) Complexity (By VoidHub)` status bar widget that opens [VoidHub.co](https://voidhub.co) with a single click.
-5. **Interactive Result Notifications**: Each analysis popup includes a direct link to explore more developer tools at [VoidHub.co](https://voidhub.co).
+4. **Status Bar Item**: Persistent `$(watch) Built By @VoidHub` status bar widget that opens [VoidHub.co](https://voidhub.co) with a single click.
+5. **Interactive Result Notifications**: Each analysis popup includes a direct link to Built By @VoidHub at [VoidHub.co](https://voidhub.co).
 
 ### Configuration Settings
 | Setting | Default | Description |

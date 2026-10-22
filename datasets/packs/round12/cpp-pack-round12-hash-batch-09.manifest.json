@@ -1,0 +1,566 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "r12-hash-400",
+      "symbol": "cf_r12_hash_400",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "duplicate-check",
+        "hashing"
+      ]
+    },
+    {
+      "id": "r12-hash-401",
+      "symbol": "cf_r12_hash_401",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "duplicate-check",
+        "ordered"
+      ]
+    },
+    {
+      "id": "r12-hash-402",
+      "symbol": "cf_r12_hash_402",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "distinct-count"
+      ]
+    },
+    {
+      "id": "r12-hash-403",
+      "symbol": "cf_r12_hash_403",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "distinct-count"
+      ]
+    },
+    {
+      "id": "r12-hash-404",
+      "symbol": "cf_r12_hash_404",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_map",
+        "frequency"
+      ]
+    },
+    {
+      "id": "r12-hash-405",
+      "symbol": "cf_r12_hash_405",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "contains"
+      ]
+    },
+    {
+      "id": "r12-hash-406",
+      "symbol": "cf_r12_hash_406",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "contains"
+      ]
+    },
+    {
+      "id": "r12-hash-407",
+      "symbol": "cf_r12_hash_407",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "first-duplicate"
+      ]
+    },
+    {
+      "id": "r12-hash-408",
+      "symbol": "cf_r12_hash_408",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "two-sum"
+      ]
+    },
+    {
+      "id": "r12-hash-409",
+      "symbol": "cf_r12_hash_409",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "two-sum"
+      ]
+    },
+    {
+      "id": "r12-hash-410",
+      "symbol": "cf_r12_hash_410",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "duplicate-check",
+        "hashing"
+      ]
+    },
+    {
+      "id": "r12-hash-411",
+      "symbol": "cf_r12_hash_411",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "duplicate-check",
+        "ordered"
+      ]
+    },
+    {
+      "id": "r12-hash-412",
+      "symbol": "cf_r12_hash_412",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "distinct-count"
+      ]
+    },
+    {
+      "id": "r12-hash-413",
+      "symbol": "cf_r12_hash_413",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "distinct-count"
+      ]
+    },
+    {
+      "id": "r12-hash-414",
+      "symbol": "cf_r12_hash_414",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_map",
+        "frequency"
+      ]
+    },
+    {
+      "id": "r12-hash-415",
+      "symbol": "cf_r12_hash_415",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "contains"
+      ]
+    },
+    {
+      "id": "r12-hash-416",
+      "symbol": "cf_r12_hash_416",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "contains"
+      ]
+    },
+    {
+      "id": "r12-hash-417",
+      "symbol": "cf_r12_hash_417",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "first-duplicate"
+      ]
+    },
+    {
+      "id": "r12-hash-418",
+      "symbol": "cf_r12_hash_418",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "two-sum"
+      ]
+    },
+    {
+      "id": "r12-hash-419",
+      "symbol": "cf_r12_hash_419",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "two-sum"
+      ]
+    },
+    {
+      "id": "r12-hash-420",
+      "symbol": "cf_r12_hash_420",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "duplicate-check",
+        "hashing"
+      ]
+    },
+    {
+      "id": "r12-hash-421",
+      "symbol": "cf_r12_hash_421",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "duplicate-check",
+        "ordered"
+      ]
+    },
+    {
+      "id": "r12-hash-422",
+      "symbol": "cf_r12_hash_422",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "distinct-count"
+      ]
+    },
+    {
+      "id": "r12-hash-423",
+      "symbol": "cf_r12_hash_423",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "distinct-count"
+      ]
+    },
+    {
+      "id": "r12-hash-424",
+      "symbol": "cf_r12_hash_424",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_map",
+        "frequency"
+      ]
+    },
+    {
+      "id": "r12-hash-425",
+      "symbol": "cf_r12_hash_425",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "contains"
+      ]
+    },
+    {
+      "id": "r12-hash-426",
+      "symbol": "cf_r12_hash_426",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "contains"
+      ]
+    },
+    {
+      "id": "r12-hash-427",
+      "symbol": "cf_r12_hash_427",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "first-duplicate"
+      ]
+    },
+    {
+      "id": "r12-hash-428",
+      "symbol": "cf_r12_hash_428",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "two-sum"
+      ]
+    },
+    {
+      "id": "r12-hash-429",
+      "symbol": "cf_r12_hash_429",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "two-sum"
+      ]
+    },
+    {
+      "id": "r12-hash-430",
+      "symbol": "cf_r12_hash_430",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "duplicate-check",
+        "hashing"
+      ]
+    },
+    {
+      "id": "r12-hash-431",
+      "symbol": "cf_r12_hash_431",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "duplicate-check",
+        "ordered"
+      ]
+    },
+    {
+      "id": "r12-hash-432",
+      "symbol": "cf_r12_hash_432",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "distinct-count"
+      ]
+    },
+    {
+      "id": "r12-hash-433",
+      "symbol": "cf_r12_hash_433",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "distinct-count"
+      ]
+    },
+    {
+      "id": "r12-hash-434",
+      "symbol": "cf_r12_hash_434",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_map",
+        "frequency"
+      ]
+    },
+    {
+      "id": "r12-hash-435",
+      "symbol": "cf_r12_hash_435",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "contains"
+      ]
+    },
+    {
+      "id": "r12-hash-436",
+      "symbol": "cf_r12_hash_436",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "contains"
+      ]
+    },
+    {
+      "id": "r12-hash-437",
+      "symbol": "cf_r12_hash_437",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "first-duplicate"
+      ]
+    },
+    {
+      "id": "r12-hash-438",
+      "symbol": "cf_r12_hash_438",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "two-sum"
+      ]
+    },
+    {
+      "id": "r12-hash-439",
+      "symbol": "cf_r12_hash_439",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "two-sum"
+      ]
+    },
+    {
+      "id": "r12-hash-440",
+      "symbol": "cf_r12_hash_440",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "duplicate-check",
+        "hashing"
+      ]
+    },
+    {
+      "id": "r12-hash-441",
+      "symbol": "cf_r12_hash_441",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "duplicate-check",
+        "ordered"
+      ]
+    },
+    {
+      "id": "r12-hash-442",
+      "symbol": "cf_r12_hash_442",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "distinct-count"
+      ]
+    },
+    {
+      "id": "r12-hash-443",
+      "symbol": "cf_r12_hash_443",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "distinct-count"
+      ]
+    },
+    {
+      "id": "r12-hash-444",
+      "symbol": "cf_r12_hash_444",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_map",
+        "frequency"
+      ]
+    },
+    {
+      "id": "r12-hash-445",
+      "symbol": "cf_r12_hash_445",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "contains"
+      ]
+    },
+    {
+      "id": "r12-hash-446",
+      "symbol": "cf_r12_hash_446",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "contains"
+      ]
+    },
+    {
+      "id": "r12-hash-447",
+      "symbol": "cf_r12_hash_447",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "first-duplicate"
+      ]
+    },
+    {
+      "id": "r12-hash-448",
+      "symbol": "cf_r12_hash_448",
+      "time": "O(n^2)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "unordered_set",
+        "two-sum"
+      ]
+    },
+    {
+      "id": "r12-hash-449",
+      "symbol": "cf_r12_hash_449",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "set",
+        "two-sum"
+      ]
+    }
+  ]
+}

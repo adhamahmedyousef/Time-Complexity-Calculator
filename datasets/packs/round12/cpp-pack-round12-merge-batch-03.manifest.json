@@ -1,0 +1,556 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "r12-mergesort-100",
+      "symbol": "cf_r12_mergesort_100",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-101",
+      "symbol": "cf_r12_mergesort_101",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-102",
+      "symbol": "cf_r12_mergesort_102",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-103",
+      "symbol": "cf_r12_mergesort_103",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-104",
+      "symbol": "cf_r12_mergesort_104",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-105",
+      "symbol": "cf_r12_mergesort_105",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-106",
+      "symbol": "cf_r12_mergesort_106",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-107",
+      "symbol": "cf_r12_mergesort_107",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-108",
+      "symbol": "cf_r12_mergesort_108",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-109",
+      "symbol": "cf_r12_mergesort_109",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-110",
+      "symbol": "cf_r12_mergesort_110",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-111",
+      "symbol": "cf_r12_mergesort_111",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-112",
+      "symbol": "cf_r12_mergesort_112",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-113",
+      "symbol": "cf_r12_mergesort_113",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-114",
+      "symbol": "cf_r12_mergesort_114",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-115",
+      "symbol": "cf_r12_mergesort_115",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-116",
+      "symbol": "cf_r12_mergesort_116",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-117",
+      "symbol": "cf_r12_mergesort_117",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-118",
+      "symbol": "cf_r12_mergesort_118",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-119",
+      "symbol": "cf_r12_mergesort_119",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-120",
+      "symbol": "cf_r12_mergesort_120",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-121",
+      "symbol": "cf_r12_mergesort_121",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-122",
+      "symbol": "cf_r12_mergesort_122",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-123",
+      "symbol": "cf_r12_mergesort_123",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-124",
+      "symbol": "cf_r12_mergesort_124",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-125",
+      "symbol": "cf_r12_mergesort_125",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-126",
+      "symbol": "cf_r12_mergesort_126",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-127",
+      "symbol": "cf_r12_mergesort_127",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-128",
+      "symbol": "cf_r12_mergesort_128",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-129",
+      "symbol": "cf_r12_mergesort_129",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-130",
+      "symbol": "cf_r12_mergesort_130",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-131",
+      "symbol": "cf_r12_mergesort_131",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-132",
+      "symbol": "cf_r12_mergesort_132",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-133",
+      "symbol": "cf_r12_mergesort_133",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-134",
+      "symbol": "cf_r12_mergesort_134",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-135",
+      "symbol": "cf_r12_mergesort_135",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-136",
+      "symbol": "cf_r12_mergesort_136",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-137",
+      "symbol": "cf_r12_mergesort_137",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-138",
+      "symbol": "cf_r12_mergesort_138",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-139",
+      "symbol": "cf_r12_mergesort_139",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-140",
+      "symbol": "cf_r12_mergesort_140",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-141",
+      "symbol": "cf_r12_mergesort_141",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-142",
+      "symbol": "cf_r12_mergesort_142",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-143",
+      "symbol": "cf_r12_mergesort_143",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-144",
+      "symbol": "cf_r12_mergesort_144",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-145",
+      "symbol": "cf_r12_mergesort_145",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-146",
+      "symbol": "cf_r12_mergesort_146",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-147",
+      "symbol": "cf_r12_mergesort_147",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-148",
+      "symbol": "cf_r12_mergesort_148",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "r12-mergesort-149",
+      "symbol": "cf_r12_mergesort_149",
+      "time": "O(n log n)",
+      "space": "O(n)",
+      "confidence": "exact",
+      "tags": [
+        "divide-and-conquer",
+        "merge-sort"
+      ]
+    }
+  ]
+}

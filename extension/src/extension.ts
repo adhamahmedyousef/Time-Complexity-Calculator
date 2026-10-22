@@ -412,7 +412,7 @@ class ComplexityHoverProvider implements vscode.HoverProvider {
 
     const md = new vscode.MarkdownString();
     md.isTrusted = true;
-    md.appendMarkdown(`### ⏱ Complexity: \`${word}\` (By [VoidHub](https://voidhub.co))\n\n`);
+    md.appendMarkdown(`### ⏱ Complexity: \`${word}\` (Built By [@VoidHub](https://voidhub.co))\n\n`);
     md.appendMarkdown(`- **Worst-Case Time:** \`${cached.worstCaseTime}\`\n`);
     md.appendMarkdown(`- **Auxiliary Space:** \`${cached.auxiliarySpace}\`\n`);
     md.appendMarkdown(`- **Confidence:** \`${confidencePercent(cached)}% ${cached.confidence}\`\n\n`);
@@ -429,8 +429,8 @@ export function activate(context: vscode.ExtensionContext): void {
   }));
 
   const voidHubStatus = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
-  voidHubStatus.text = "$(watch) Complexity (By VoidHub)";
-  voidHubStatus.tooltip = "Time Complexity Calculator - Click to visit VoidHub (https://voidhub.co)";
+  voidHubStatus.text = "$(watch) Built By @VoidHub";
+  voidHubStatus.tooltip = "Time Complexity Calculator - Built By @VoidHub (https://voidhub.co)";
   voidHubStatus.command = "projectX.openVoidHub";
   voidHubStatus.show();
   context.subscriptions.push(voidHubStatus);
@@ -439,21 +439,21 @@ export function activate(context: vscode.ExtensionContext): void {
     const message = resultNotificationText(result, minimumConfidence);
     const withheld = result.confidence === "unknown" || confidencePercent(result) < minimumConfidence;
     const notification = withheld
-      ? vscode.window.showWarningMessage(message, "Details", "VoidHub.co")
-      : vscode.window.showInformationMessage(message, "Details", "VoidHub.co");
+      ? vscode.window.showWarningMessage(message, "Details", "Built By @VoidHub")
+      : vscode.window.showInformationMessage(message, "Details", "Built By @VoidHub");
     void notification.then((action) => {
-      if (action === "VoidHub.co") {
+      if (action === "Built By @VoidHub") {
         void vscode.env.openExternal(vscode.Uri.parse("https://voidhub.co"));
         return;
       }
       if (action !== "Details") return;
-      const details = vscode.window.showInformationMessage(resultDetailsNotificationText(result, minimumConfidence), "Open explanation", "VoidHub.co");
+      const details = vscode.window.showInformationMessage(resultDetailsNotificationText(result, minimumConfidence), "Open explanation", "Built By @VoidHub");
       void details.then((detailAction) => {
-        if (detailAction === "VoidHub.co") {
+        if (detailAction === "Built By @VoidHub") {
           void vscode.env.openExternal(vscode.Uri.parse("https://voidhub.co"));
         } else if (detailAction === "Open explanation") {
-          void vscode.window.showInformationMessage(fullExplanationNotificationText(result, minimumConfidence), "Visit VoidHub.co").then((expAction) => {
-            if (expAction === "Visit VoidHub.co") void vscode.env.openExternal(vscode.Uri.parse("https://voidhub.co"));
+          void vscode.window.showInformationMessage(fullExplanationNotificationText(result, minimumConfidence), "Built By @VoidHub").then((expAction) => {
+            if (expAction === "Built By @VoidHub") void vscode.env.openExternal(vscode.Uri.parse("https://voidhub.co"));
           });
         }
       });

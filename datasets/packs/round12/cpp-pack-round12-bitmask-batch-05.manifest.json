@@ -1,0 +1,606 @@
+{
+  "version": 1,
+  "language": "cpp",
+  "cases": [
+    {
+      "id": "r12-bitmask-200",
+      "symbol": "cf_r12_bitmask_200",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-201",
+      "symbol": "cf_r12_bitmask_201",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-202",
+      "symbol": "cf_r12_bitmask_202",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-203",
+      "symbol": "cf_r12_bitmask_203",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-204",
+      "symbol": "cf_r12_bitmask_204",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-205",
+      "symbol": "cf_r12_bitmask_205",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-206",
+      "symbol": "cf_r12_bitmask_206",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-207",
+      "symbol": "cf_r12_bitmask_207",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-208",
+      "symbol": "cf_r12_bitmask_208",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-209",
+      "symbol": "cf_r12_bitmask_209",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-210",
+      "symbol": "cf_r12_bitmask_210",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-211",
+      "symbol": "cf_r12_bitmask_211",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-212",
+      "symbol": "cf_r12_bitmask_212",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-213",
+      "symbol": "cf_r12_bitmask_213",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-214",
+      "symbol": "cf_r12_bitmask_214",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-215",
+      "symbol": "cf_r12_bitmask_215",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-216",
+      "symbol": "cf_r12_bitmask_216",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-217",
+      "symbol": "cf_r12_bitmask_217",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-218",
+      "symbol": "cf_r12_bitmask_218",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-219",
+      "symbol": "cf_r12_bitmask_219",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-220",
+      "symbol": "cf_r12_bitmask_220",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-221",
+      "symbol": "cf_r12_bitmask_221",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-222",
+      "symbol": "cf_r12_bitmask_222",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-223",
+      "symbol": "cf_r12_bitmask_223",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-224",
+      "symbol": "cf_r12_bitmask_224",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-225",
+      "symbol": "cf_r12_bitmask_225",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-226",
+      "symbol": "cf_r12_bitmask_226",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-227",
+      "symbol": "cf_r12_bitmask_227",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-228",
+      "symbol": "cf_r12_bitmask_228",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-229",
+      "symbol": "cf_r12_bitmask_229",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-230",
+      "symbol": "cf_r12_bitmask_230",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-231",
+      "symbol": "cf_r12_bitmask_231",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-232",
+      "symbol": "cf_r12_bitmask_232",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-233",
+      "symbol": "cf_r12_bitmask_233",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-234",
+      "symbol": "cf_r12_bitmask_234",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-235",
+      "symbol": "cf_r12_bitmask_235",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-236",
+      "symbol": "cf_r12_bitmask_236",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-237",
+      "symbol": "cf_r12_bitmask_237",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-238",
+      "symbol": "cf_r12_bitmask_238",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-239",
+      "symbol": "cf_r12_bitmask_239",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-240",
+      "symbol": "cf_r12_bitmask_240",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-241",
+      "symbol": "cf_r12_bitmask_241",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-242",
+      "symbol": "cf_r12_bitmask_242",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-243",
+      "symbol": "cf_r12_bitmask_243",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-244",
+      "symbol": "cf_r12_bitmask_244",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-245",
+      "symbol": "cf_r12_bitmask_245",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-246",
+      "symbol": "cf_r12_bitmask_246",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-247",
+      "symbol": "cf_r12_bitmask_247",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-248",
+      "symbol": "cf_r12_bitmask_248",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    },
+    {
+      "id": "r12-bitmask-249",
+      "symbol": "cf_r12_bitmask_249",
+      "time": "O(n^2 2^n)",
+      "space": "O(n 2^n)",
+      "confidence": "exact",
+      "tags": [
+        "bitmask-dp",
+        "tsp",
+        "memoization"
+      ]
+    }
+  ]
+}

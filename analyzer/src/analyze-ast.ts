@@ -1300,8 +1300,8 @@ function knownMemberCallCost(call: ClangNode): Complexity | undefined {
   if (/__project_x_stream/.test(type)) return "O(1)";
   if (/priority_queue/.test(type)) return ["push", "emplace", "pop"].includes(name) ? "O(log n)" : undefined;
   if (/\b(?:queue|stack)</.test(type)) return ["push", "emplace", "pop"].includes(name) ? "O(1)" : undefined;
-  if (/\b(?:map|set|multimap|multiset)</.test(type)) return ["find", "count", "lower_bound", "upper_bound", "equal_range", "insert", "emplace", "erase"].includes(name) ? "O(log n)" : undefined;
-  if (/unordered_(?:map|set|multimap|multiset)/.test(type)) return ["find", "count", "insert", "emplace", "erase", "rehash", "reserve"].includes(name) ? "O(n)" : undefined;
+  if (/\b(?:map|set|multimap|multiset)</.test(type)) return ["find", "count", "contains", "lower_bound", "upper_bound", "equal_range", "insert", "emplace", "erase"].includes(name) ? "O(log n)" : undefined;
+  if (/unordered_(?:map|set|multimap|multiset)/.test(type)) return ["find", "count", "contains", "insert", "emplace", "erase", "rehash", "reserve"].includes(name) ? "O(n)" : undefined;
   if (/\bvector</.test(type)) {
     if (["insert", "erase", "reserve", "resize", "assign"].includes(name)) return "O(n)";
     // push_back/emplace_back charge O(1) amortized: the potential method
@@ -3022,6 +3022,129 @@ function memoizedRecursiveStateResult(functionDecl: ClangNode, body: ClangNode, 
   };
 }
 
+/**
+ * Recognizes memoized bitmask dynamic programming:
+ * Top-down recursive functions with a bitmask state parameter (updated via `mask | (1 << v)` or `mask ^ (1 << v)`),
+ * an early-return memo cache check (direct or via reference alias `int& ans = memo[mask][u];`),
+ * a full-mask / bitmask base case, and an optional transition loop over candidate elements.
+ */
+function memoizedBitmaskRecursionResult(functionDecl: ClangNode, body: ClangNode, bounds: SymbolicBounds): AnalysisResult | undefined {
+  const functionName = functionDecl.name;
+  if (!functionName) return undefined;
+
+  const isSelfCall = (call: ClangNode): boolean => {
+    if (references(call, functionName)) return true;
+    return nodesOfKind(call, "MemberExpr").some((member) => member.name === functionName
+      && (member.referencedMemberDecl === functionDecl.id
+        || (typeof member.referencedMemberDecl === "object" && member.referencedMemberDecl?.id === functionDecl.id)));
+  };
+
+  const recursiveCalls = directCalls(body).filter(isSelfCall);
+  if (recursiveCalls.length === 0) return undefined;
+
+  // Detect bitwise mask progression in recursive calls: `mask | (1 << v)` or `mask ^ (1 << v)` or `mask + (1 << v)`.
+  const hasBitmaskProgress = recursiveCalls.some((call) => {
+    return nodesOfKind(call, "BinaryOperator").some((op) =>
+      ["|", "^", "+"].includes(op.opcode ?? "") &&
+      nodesOfKind(op, "BinaryOperator").some((inner) => ["<<", ">>"].includes(inner.opcode ?? ""))
+    );
+  });
+  if (!hasBitmaskProgress) return undefined;
+
+  // Scalar parameters to the function.
+  const scalarParameters = (functionDecl.inner ?? []).filter((node) => node.kind === "ParmVarDecl")
+    .filter((node) => !/\b(?:vector|deque|array|string|map|unordered_map|set|unordered_set)\s*</.test(node.type?.desugaredQualType ?? node.type?.qualType ?? ""))
+    .map((node) => node.name).filter((name): name is string => Boolean(name));
+  if (scalarParameters.length === 0 || scalarParameters.length > 3) return undefined;
+
+  // Check base case: an IfStmt returning when mask reaches fullMask, 0, or is compared with a shift/scalar.
+  const hasBaseCase = nodesOfKind(body, "IfStmt").some((branch) => {
+    const condition = branch.inner?.[0];
+    return Boolean(condition && scalarParameters.some((name) => references(condition, name))
+      && nodesOfKind(branch, "ReturnStmt").length > 0);
+  });
+  if (!hasBaseCase) return undefined;
+
+  // Check memo cache guard (either direct indexed lookup or reference alias `int& ans = memo[mask][u]; if (ans != -1) return ans;`).
+  const indexedAccess = (node: ClangNode): boolean =>
+    nodesOfKind(node, "ArraySubscriptExpr").length > 0
+    || nodesOfKind(node, "CXXOperatorCallExpr").length > 0;
+
+  const referenceAliases = new Set(
+    nodesOfKind(body, "VarDecl")
+      .filter((node) => Boolean(node.name) && indexedAccess(node))
+      .map((node) => node.name!)
+  );
+
+  const hasCacheGuard = nodesOfKind(body, "IfStmt").some((branch) => {
+    const condition = branch.inner?.[0];
+    const hasReturn = nodesOfKind(branch, "ReturnStmt").length > 0;
+    if (!condition || !hasReturn) return false;
+    return indexedAccess(condition)
+      || [...referenceAliases].some((alias) => references(condition, alias));
+  });
+  if (!hasCacheGuard) return undefined;
+
+  // Determine dimension symbol (e.g. 'n').
+  let dimSymbol = "n";
+  const sizeDecl = nodesOfKind(body, "VarDecl").find((node) => {
+    const init = node.inner?.at(-1);
+    return init && directCalls(init).some((c) => {
+      const info = memberCallInfo(c);
+      return info?.name === "size";
+    });
+  });
+  if (sizeDecl?.name) dimSymbol = sizeDecl.name;
+  else {
+    const firstParam = scalarParameters[0];
+    const bound = bounds.get(firstParam);
+    if (bound && bound !== "O(1)") {
+      const match = /^O\(([A-Za-z_][A-Za-z0-9_]*)\)$/.exec(bound);
+      if (match) dimSymbol = match[1];
+    }
+  }
+
+  // State space: 2^dimSymbol for mask, times other non-mask scalar parameters if present.
+  const hasSecondaryParam = scalarParameters.length >= 2;
+  const maskBound = parseBound(`O(2^${dimSymbol})`);
+  if (!maskBound) return undefined;
+  const secondaryBound = hasSecondaryParam ? parseBound(`O(${dimSymbol})`) : undefined;
+  if (hasSecondaryParam && !secondaryBound) return undefined;
+  const stateSpaceTerms = secondaryBound ? multiplyBounds(maskBound, secondaryBound) : maskBound;
+  if (!stateSpaceTerms) return undefined;
+  const stateSpaceComplexity = formatBound(stateSpaceTerms);
+
+  // Per-state transition work: check if recursive calls are nested inside a loop.
+  const transitionLoop = nodesOfKind(body, "ForStmt").find((loop) => directCalls(loop).some(isSelfCall))
+    ?? nodesOfKind(body, "WhileStmt").find((loop) => directCalls(loop).some(isSelfCall));
+
+  let totalTimeComplexity: Complexity;
+  let workPerStateProof: string;
+  if (transitionLoop) {
+    const loopWork = parseBound(`O(${dimSymbol})`);
+    if (!loopWork) return undefined;
+    const totalTimeTerms = multiplyBounds(stateSpaceTerms, loopWork);
+    if (!totalTimeTerms) return undefined;
+    totalTimeComplexity = formatBound(totalTimeTerms);
+    workPerStateProof = `A loop over ${dimSymbol} candidate transitions performs O(${dimSymbol}) work per state.`;
+  } else {
+    totalTimeComplexity = stateSpaceComplexity;
+    workPerStateProof = "Per-state transition work is constant O(1).";
+  }
+
+  return {
+    worstCaseTime: totalTimeComplexity,
+    auxiliarySpace: stateSpaceComplexity as AuxiliarySpace,
+    confidence: "exact",
+    proof: [
+      `Top-down bitmask dynamic programming over a state space of 2^${dimSymbol} subsets${hasSecondaryParam ? ` and ${dimSymbol} elements` : ""}.`,
+      `The memoization cache ensures each reachable state in ${stateSpaceComplexity} is evaluated at most once.`,
+      workPerStateProof,
+      `Total worst-case time is ${totalTimeComplexity} with ${stateSpaceComplexity} auxiliary memoization space.`
+    ]
+  };
+}
+
 function selfHalvingRecursion(functionDecl: ClangNode, body: ClangNode, parameters: SymbolicBounds, localCosts?: LocalFunctionCosts): AnalysisResult | undefined {
   const calls = directCalls(body);
   const functionName = functionDecl.name;
@@ -3334,7 +3457,13 @@ function indexedBalancedMergeRecursion(functionDecl: ClangNode, body: ClangNode)
   // at most both, which keeps the balanced-split bound valid.
   const owningReturns = new Set(recursiveCalls.map((call) => returnOwner.get(call)).filter((owner): owner is ClangNode => Boolean(owner)));
   if (owningReturns.size === 2) return undefined;
-  if ((body.inner ?? []).some((node) => node.kind === "ForStmt" || node.kind === "WhileStmt")) return undefined;
+  // Disallow nested loops in the combine phase (which would indicate quadratic per-frame work).
+  const bodyDirect = body.inner ?? [];
+  const bodyLoops = bodyDirect.filter((node) => node.kind === "ForStmt" || node.kind === "WhileStmt");
+  const hasNestedLoops = bodyLoops.some((loop) =>
+    nodesOfKind(bodyOf(loop) ?? {}, "ForStmt").length > 0 || nodesOfKind(bodyOf(loop) ?? {}, "WhileStmt").length > 0
+  );
+  if (hasNestedLoops) return undefined;
   const parameterNames = new Set((functionDecl.inner ?? [])
     .filter((node) => node.kind === "ParmVarDecl")
     .map((node) => node.name)
@@ -3353,9 +3482,10 @@ function indexedBalancedMergeRecursion(functionDecl: ClangNode, body: ClangNode)
       && nodesOfKind(branch, "ReturnStmt").length > 0);
   });
   if (!hasBaseCase) return undefined;
-  // Constant combine work (no combine call): 2T(n/2) + O(1) => linear time
-  // with a logarithmic stack. Any resolved combine call keeps n log n.
-  if (combineCalls.length === 0) {
+  // Constant combine work (no combine call and no combine loop): 2T(n/2) + O(1) => linear time
+  // with a logarithmic stack. Any combine call or linear combine loop yields n log n.
+  const hasCombineWork = combineCalls.length > 0 || bodyLoops.length > 0;
+  if (!hasCombineWork) {
     return {
       worstCaseTime: "O(n)",
       auxiliarySpace: "O(log n)",
@@ -3366,8 +3496,12 @@ function indexedBalancedMergeRecursion(functionDecl: ClangNode, body: ClangNode)
   return {
     worstCaseTime: "O(n log n)",
     auxiliarySpace: "O(n)",
-    confidence: "estimated",
-    proof: ["Two recursive calls split an index range around a midpoint, followed by one combine call per recursion node; this is a balanced split-and-merge recurrence."]
+    confidence: bodyLoops.length > 0 ? "exact" : "estimated",
+    proof: [
+      "Two recursive calls split an index range around a midpoint, followed by a linear combine pass across the two halves.",
+      "By the Master Theorem, T(n) = 2T(n/2) + O(n) solves to exact O(n log n) worst-case time.",
+      "Auxiliary buffer space and recursion stack compose to O(n) space."
+    ]
   };
 }
 
@@ -6125,6 +6259,8 @@ export function analyseFunctionAst(functionDecl: ClangNode, localCosts?: LocalFu
   if (forwardedAlias) return forwardedAlias;
   const recursiveLambda = recursiveLambdaResult(body);
   if (recursiveLambda) return recursiveLambda;
+  const memoizedBitmask = memoizedBitmaskRecursionResult(functionDecl, body, parameters);
+  if (memoizedBitmask) return memoizedBitmask;
   const memoizedRecursiveState = memoizedRecursiveStateResult(functionDecl, body, parameters);
   if (memoizedRecursiveState) return memoizedRecursiveState;
   const partitioned = partitionRecursion(functionDecl, body);
