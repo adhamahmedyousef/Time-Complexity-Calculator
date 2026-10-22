@@ -1,0 +1,15 @@
+../**
+.git/**
+.github/**
+.scratch/**
+analyzer/**
+benchmarks/**
+datasets/**
+docs/**
+examples/**
+native-analyzer/**
+node_modules/**
+tools/**
+src/**
+tsconfig.json
+**/*.map

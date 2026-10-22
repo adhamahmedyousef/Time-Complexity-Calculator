@@ -17,5 +17,8 @@
     "benchmark:diagnose": "node tools/diagnose_dataset.mjs",
     "holdout:generate": "python tools/holdout_split.py",
     "install:local": "node tools/deploy_local_extension.mjs"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^4.0.0"
   }
 }
